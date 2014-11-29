@@ -12,33 +12,55 @@ $data =  new SimpleXMLElement($raw_data);
 $data = $data->body->center;
 $super_data = array();
 foreach ($data->table as $course) {
-    if ($course->tbody->tr[0]->td[0]->b !== null) { // course
-        $course_code = $course->tbody->tr[0]->td[0]->b->font[0];
-        $course_name = $course->tbody->tr[0]->td[1]->b->font[0];
-        $course_au   = $course->tbody->tr[0]->td[2]->b->font[0];
+    if ($course->tbody->tr[0]->td[0] !== null) { // course
+        $course_code = (string) $course->tbody->tr[0]->td[0]->b->font[0];
+        $course_name = (string) $course->tbody->tr[0]->td[1]->b->font[0];
+        $course_au   = (string) $course->tbody->tr[0]->td[2]->b->font[0];
     } else { // index of the course
-        $i = 0;
+        
+        $index_members = array();
         foreach ($course->tbody->tr as $index) {
-            if ($i == 0) {
-                $i++;
-                continue; // skip 
+            if ($index->td[0] == null) continue; // skip
+            
+            if (!empty($index->td[0]->b )) {
+                if (isset($index_member)) { array_push($index_members,array(
+                    "index_number" => $index_number,
+                    "details" => $index_member)); }
+                $index_number = (string) $index->td[0]->b;
+                $index_member = array();
             }
 
-            $index_number = $index->td[0]->b;
+            $member_type = (string) $index->td[1]->b;
+            $member_group = (string) $index->td[2]->b;
+            $member_day = (string) $index->td[3]->b;
+            $member_time = (string) $index->td[4]->b;
+            $member_location = (string) $index->td[5]->b;
+            $member_remarks = (empty($index->td[6]->b)) ? "" : (string) $index->td[6]->b; // start on what week?
+            array_push ($index_member, array(
+                "type" => $member_type,
+                "group" => $member_group,
+                "day" => $member_day,
+                "time" => $member_time,
+                "location" => $member_location,
+                "remarks" => $member_remarks));
+
+            //$index_number = $index->td[0]->b;
             // this will be very dirty
             // 1 course only got 1 table for all index
             // 1 index consists of multiple rows, for different types
             // index starts with td[0] as number, otherwise empty
             // see 2014_2_data_1006_index.txt
-            $index_number = $index->td[0]->b;
+            //$index_number = $index->td[0]->b;
 
-            $i++;
         }
-        $course_index   = $course->tbody->tr;
+        if (isset($index_member)) { array_push($index_members,array(
+            "index_number" => $index_number,
+            "details" => $index_member)); }
+        //$course_index   = $course->tbody->tr;
         array_push($super_data, array("code" => $course_code,
             "name" => $course_name,
             "au" => $course_au,
-            "index" => $course_index));
+            "index" => $index_members));
     }
 
 
