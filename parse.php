@@ -1,5 +1,5 @@
 <?php
-# TODO clean data
+# DONE clean the data
 $raw_data = file_get_contents("2014_2.html");
 
 $raw_data = str_replace("<hr size=\"2\">", "", $raw_data);

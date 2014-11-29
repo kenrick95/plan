@@ -7,3 +7,5 @@ Select some child,
 brute force
 
 Prioritize lecture
+
+NOTE: Incorporate exam timetable
