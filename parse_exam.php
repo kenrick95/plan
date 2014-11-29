@@ -48,5 +48,6 @@ $data =  new SimpleXMLElement($raw_data);
 # 
 
 file_put_contents('2014_2_exam_data.txt', print_r($data, true));
+file_put_contents('2014_2_exam_data.json', json_encode($data));
 
 ?>
