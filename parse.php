@@ -6,6 +6,7 @@ $raw_data = str_replace("<hr size=\"2\">", "", $raw_data);
 $raw_data = str_replace("<hr>", "", $raw_data);
 $raw_data = str_replace("<br>", "", $raw_data);
 $raw_data = str_replace("&nbsp;", "", $raw_data);
+$raw_data = preg_replace("/ +/", " ", $raw_data);
 # print_r($raw_data);
 
 $data =  new SimpleXMLElement($raw_data);
