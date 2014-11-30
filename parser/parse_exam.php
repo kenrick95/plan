@@ -45,6 +45,7 @@ $data =  new SimpleXMLElement($raw_data);
 
 # whew, finished cleaning data, now parse it!
 $super_data = array();
+$course_list = array();
 foreach ($data->table[2]->TR->TR as $entry) {
     $exam_date = trim((string) $entry->td[0]);
     $exam_day = trim((string) $entry->td[1]);
@@ -59,10 +60,17 @@ foreach ($data->table[2]->TR->TR as $entry) {
             "code" => $exam_code,
             "name" => $exam_name,
             "duration" => $exam_duration);
+
+        array_push($course_list, array(
+            "code" => $exam_code,
+            "name" => $exam_name));
     }
 }
 
 file_put_contents('../parsed_data_text/2014_2_exam_data.txt', print_r($super_data, true));
 file_put_contents('../parsed_data_json/2014_2_exam_data.json', json_encode($super_data));
+
+file_put_contents('../parsed_data_text/2014_2_course_list.txt', print_r($course_list, true));
+file_put_contents('../parsed_data_json/2014_2_course_list.json', json_encode($course_list));
 
 ?>

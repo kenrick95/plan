@@ -2,13 +2,15 @@
 <html>
     <head>
         <title>NTU Course Planner</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <nav class="navbar navbar-default" role="navigation">
-              <div class="container">
+                <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>
@@ -18,7 +20,13 @@
                         </button>
                         <a class="navbar-brand" href="#">NTU Course Planner</a>
                     </div>
-              </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                </div>
         </nav>
         <div id="main" class="container">
             <div class="jumbotron">
@@ -36,7 +44,7 @@
         
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/jquery-migrate-1.2.1.min.js"></script>
-        <script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/engine.js"></script>
     </body>
