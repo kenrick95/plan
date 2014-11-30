@@ -50,7 +50,7 @@ function check_exam_schedule ($input_courses) {
     global $database_exam, $exam_schedule;
     
     foreach ($input_courses as $course) {
-        $exam = getExamDetails($course, $database_exam);
+        $exam = get_exam_details($course, $database_exam);
         $exam_date = $exam["date"];
         $exam_time = $exam["time"];
         
