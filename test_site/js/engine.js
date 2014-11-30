@@ -66,8 +66,17 @@ $(document).ready(function ($) {
             url: "../scheduler/scheduler.php",
             data: {courses: data},
             success: function (d) {
-                console.log("SENT!!");
-                console.log(d);
+                var res = JSON.parse(d);
+                console.log(res);
+                $("#target").html(
+                    "validation: <span class=\"text-info\">"
+                        + res.validation_result
+                        + "</span>"
+                        + "<br>"
+                        + "exam_schedule_validation: <span class=\"text-info\">"
+                        + res.exam_schedule_validation
+                        + "</span>"
+                );
             }
         });
     });
