@@ -17,7 +17,8 @@ $timetable = array(
 /* ---------------------------------------------------------------------------------------------- */
 
 # Get the string of courses from the form and split it to an array
-$input_courses = explode(" ", $_POST["courses"]);
+$input_courses = explode(",", preg_replace("/\s+/", "", $_POST["courses"]));
+if ($input_courses[count($input_courses) - 1] === "") { array_pop($input_courses); }
 
 # Check sent data
 if (isset($input_courses)) {
