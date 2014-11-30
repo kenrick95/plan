@@ -24,9 +24,9 @@ if (isset($input_courses)) {
     echo "DATA IS RECEIVED!! ";
     var_dump($input_courses);
 
-    $result = array("validation_result" => validateInput($input_courses, $database_exam));
+    $result = array("validation_result" => validate_input($input_courses, $database_exam));
     if ($result["validation_result"]) {
-        $result["exam_schedule_validation"] = checkExamSchedule($input_courses);
+        $result["exam_schedule_validation"] = check_exam_schedule($input_courses);
     }
 
     var_dump($result);
@@ -34,7 +34,7 @@ if (isset($input_courses)) {
 
 
 # Check whether it is a valid course code
-function validateInput ($input_courses, $database_exam) {
+function validate_input ($input_courses, $database_exam) {
     foreach ($input_courses as $course) {
         if (!array_key_exists($course, $database_exam)) {
             return false;
@@ -46,7 +46,7 @@ function validateInput ($input_courses, $database_exam) {
 
 
 # If there is a clash, stop it there
-function checkExamSchedule ($input_courses) {
+function check_exam_schedule ($input_courses) {
     global $database_exam, $exam_schedule;
     
     foreach ($input_courses as $course) {
@@ -66,7 +66,7 @@ function checkExamSchedule ($input_courses) {
 
 
 # Get exam details based on the course ID
-function getExamDetails ($course_id, $database_exam) {
+function get_exam_details ($course_id, $database_exam) {
     return $database_exam[$course_id];
 }
 ?>
