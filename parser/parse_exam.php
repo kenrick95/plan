@@ -44,10 +44,24 @@ $raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);
 $data =  new SimpleXMLElement($raw_data);
 
 # whew, finished cleaning data, now parse it!
-# 
-# 
+$super_data = array();
+foreach ($data->table[2]->TR->TR as $entry) {
+    $exam_date = trim((string) $entry->td[0]);
+    $exam_day = trim((string) $entry->td[1]);
+    $exam_time = trim((string) $entry->td[2]);
+    $exam_code = trim((string) $entry->td[3]);
+    $exam_name = trim((string) $entry->td[4]);
+    $exam_duration = trim((string) $entry->td[5]);
 
-file_put_contents('../parsed_data_text/2014_2_exam_data.txt', print_r($data, true));
-file_put_contents('../parsed_data_json/2014_2_exam_data.json', json_encode($data));
+    $super_data[$exam_code] = array("date" => $exam_date,
+        "day" => $exam_day,
+        "time" => $exam_time,
+        "code" => $exam_code,
+        "name" => $exam_name,
+        "duration" => $exam_duration);
+}
+
+file_put_contents('../parsed_data_text/2014_2_exam_data.txt', print_r($super_data, true));
+file_put_contents('../parsed_data_json/2014_2_exam_data.json', json_encode($super_data));
 
 ?>
