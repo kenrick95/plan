@@ -35,13 +35,21 @@ foreach ($data->table as $course) {
             $member_group = (string) $index->td[2]->b;
             $member_day = (string) $index->td[3]->b;
             $member_time = (string) $index->td[4]->b;
+            if (empty($member_time)) {
+                $member_time_start = "";
+                $member_time_end = "";
+            } else {
+                $member_time_start = explode("-", $member_time)[0];
+                $member_time_end = explode("-", $member_time)[1];
+            }
+
             $member_location = (string) $index->td[5]->b;
             $member_remarks = (empty($index->td[6]->b)) ? "" : (string) $index->td[6]->b; // start on what week?
             array_push ($index_member, array(
                 "type" => $member_type,
                 "group" => $member_group,
                 "day" => $member_day,
-                "time" => $member_time,
+                "time" => array("full" => $member_time, "start" => $member_time_start, "end" => $member_time_end),
                 "location" => $member_location,
                 "remarks" => $member_remarks));
 

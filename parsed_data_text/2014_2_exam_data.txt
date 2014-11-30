@@ -8100,14 +8100,4 @@ Array
             [duration] => 2.5
         )
 
-    [] => Array
-        (
-            [date] => 
-            [day] => 
-            [time] => 
-            [code] => 
-            [name] => 
-            [duration] => 
-        )
-
 )

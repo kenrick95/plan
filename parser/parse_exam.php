@@ -52,13 +52,14 @@ foreach ($data->table[2]->TR->TR as $entry) {
     $exam_code = trim((string) $entry->td[3]);
     $exam_name = trim((string) $entry->td[4]);
     $exam_duration = trim((string) $entry->td[5]);
-
-    $super_data[$exam_code] = array("date" => $exam_date,
-        "day" => $exam_day,
-        "time" => $exam_time,
-        "code" => $exam_code,
-        "name" => $exam_name,
-        "duration" => $exam_duration);
+    if (!empty($exam_code)) {
+        $super_data[$exam_code] = array("date" => $exam_date,
+            "day" => $exam_day,
+            "time" => $exam_time,
+            "code" => $exam_code,
+            "name" => $exam_name,
+            "duration" => $exam_duration);
+    }
 }
 
 file_put_contents('../parsed_data_text/2014_2_exam_data.txt', print_r($super_data, true));
