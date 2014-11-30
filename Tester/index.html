@@ -1,19 +1,43 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>NTU Course Planner</title>
-		<!-- INPUT CSS HERE -->
-	</head>
-	<body>
-		<div>
-			Enter courses (separated by space e.g. AA0001 AA0002):
-		</div>
-		<form style="margin-top: 15px;" id="course_form">
-			<input type="text" name="courses" id="input_courses">
-			<button type="submit" id="submit">SUBMIT</button>
-		</form>
+    <head>
+        <title>NTU Course Planner</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+              <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">NTU Course Planner</a>
+                    </div>
+              </div>
+        </nav>
+        <div id="main" class="container">
+            <div class="jumbotron">
+                <h1>NTU Course Planner</h1>
+                
+            <form role="form" id="course_form">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Enter course codes (separated by space, e.g. CZ0001, CSC183):</label>
+                    <input type="text" name="courses" id="input_courses" placeholder="Enter course code" class="form-control">
+                </div>
+                <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
+        </div>
         
         <script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/engine.js"></script>
-	</body>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/engine.js"></script>
+    </body>
 </html>
