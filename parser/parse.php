@@ -1,6 +1,6 @@
 <?php
 # DONE clean the data
-$raw_data = file_get_contents("2014_2.html");
+$raw_data = file_get_contents("../raw_data/2014_2.html");
 
 $raw_data = str_replace("<hr size=\"2\">", "", $raw_data);
 $raw_data = str_replace("<hr>", "", $raw_data);
@@ -67,7 +67,7 @@ foreach ($data->table as $course) {
 
 }
 
-file_put_contents('2014_2_data.txt', print_r($super_data, true));
-file_put_contents('2014_2_data.json', json_encode($super_data));
+file_put_contents('../parsed_data_text/2014_2_data.txt', print_r($super_data, true));
+file_put_contents('../parsed_data_json/2014_2_data.json', json_encode($super_data));
 
 ?>

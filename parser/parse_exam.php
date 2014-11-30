@@ -11,7 +11,7 @@ function str_lreplace($search, $replace, $subject)
 
     return $subject;
 }
-$raw_data = file_get_contents("2014_2_exam.html");
+$raw_data = file_get_contents("../raw_data/2014_2_exam.html");
 
 $raw_data = explode("<center>", $raw_data)[1];
 $raw_data = explode("</center>", $raw_data)[0];
@@ -47,7 +47,7 @@ $data =  new SimpleXMLElement($raw_data);
 # 
 # 
 
-file_put_contents('2014_2_exam_data.txt', print_r($data, true));
-file_put_contents('2014_2_exam_data.json', json_encode($data));
+file_put_contents('../parsed_data_text/2014_2_exam_data.txt', print_r($data, true));
+file_put_contents('../parsed_data_json/2014_2_exam_data.json', json_encode($data));
 
 ?>
