@@ -8,8 +8,8 @@
     }
 
     # Get the database
-	$database_course = json_decode(file_get_contents("../parsed_data/2014_2_data.json"), true);
-	$database_exam = json_decode(file_get_contents("../parsed_data/2014_2_exam_data.json"), true);
+	$database_course = json_decode(file_get_contents("../parsed_data_json/2014_2_data.json"), true);
+	$database_exam = json_decode(file_get_contents("../parsed_data_json/2014_2_exam_data.json"), true);
 
     # Check exam scheduler first, if there is a clash -> break, tell the user it is impossible (which course is the problem)
 ?>
