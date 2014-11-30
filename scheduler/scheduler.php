@@ -3,8 +3,7 @@
     $database_course = json_decode(file_get_contents("../parsed_data_json/2014_2_data.json"), true);
     $database_exam = json_decode(file_get_contents("../parsed_data_json/2014_2_exam_data.json"), true);
 
-    # Get the string of courses from the form and split it to an array
-    $input_courses = explode(" ", $_POST["courses"]);
+/* ---------------------------------------------------------------------------------------------- */
 
     # STRUCTURE FOR TIMETABLE
     $timetable = array(
@@ -15,94 +14,10 @@
         "friday" => array()
     );
 
-    # STRUCTURE FOR EXAM SCHEDULE
-    # Need to change the date for every semester
-    $exam_schedule = array(
-        "20 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "21 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "22 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "23 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "24 April 2015" => array(
-            "9.00 am",
-            "2.30 pm"
-        ),
-        "27 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "28 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "29 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "30 April 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),  
-        "1 May 2015" => array(
-            "9.00 am",
-            "2.30 pm"
-        ),
-        "4 May 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "5 May 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "6 May 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "7 May 2015" => array(
-            "9.00 am",
-            "11.00 am",
-            "1.00 pm",
-            "5.00 pm"
-        ),
-        "8 May 2015" => array(
-            "9.00 am",
-            "2.30 pm"
-        ),
-    );
+/* ---------------------------------------------------------------------------------------------- */
+
+    # Get the string of courses from the form and split it to an array
+    $input_courses = explode(" ", $_POST["courses"]);
 
     # Check sent data
     if (isset($input_courses)) {
