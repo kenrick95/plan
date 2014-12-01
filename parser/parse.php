@@ -9,6 +9,19 @@ $raw_data = str_replace("&nbsp;", "", $raw_data);
 $raw_data = preg_replace("/ +/", " ", $raw_data);
 # print_r($raw_data);
 
+function count_duration($start, $end) {
+    $hour_start = (int) ($start / 100);
+    $hour_end = (int) ($end / 100);
+    $minute_start = ($start % 100);
+    $minute_end = ($end % 100);
+    if ($minute_end - $minute_start < 0) {
+        return (double) ($hour_end - $hour_start - 1) + (double) ($minute_end - $minute_start + 60)  / 60.0;
+    } else {
+        return (double) ($hour_end - $hour_start) + (double) ($minute_end - $minute_start) / 60.0;
+    }
+    
+}
+
 $data =  new SimpleXMLElement($raw_data);
 $data = $data->body->center;
 $super_data = array();
@@ -41,6 +54,7 @@ foreach ($data->table as $course) {
             } else {
                 $member_time_start = explode("-", $member_time)[0];
                 $member_time_end = explode("-", $member_time)[1];
+                $member_time_duration = count_duration(intval($member_time_start),intval($member_time_end));
             }
 
             $member_location = (string) $index->td[5]->b;
@@ -49,7 +63,10 @@ foreach ($data->table as $course) {
                 "type" => $member_type,
                 "group" => $member_group,
                 "day" => $member_day,
-                "time" => array("full" => $member_time, "start" => $member_time_start, "end" => $member_time_end),
+                "time" => array("full" => $member_time,
+                    "start" => $member_time_start,
+                    "end" => $member_time_end,
+                    "duration" => $member_time_duration),
                 "location" => $member_location,
                 "remarks" => $member_remarks));
 
