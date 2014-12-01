@@ -68,15 +68,7 @@ $(document).ready(function ($) {
             success: function (d) {
                 var res = JSON.parse(d);
                 console.log(res);
-                $("#target").html(
-                    "validation: <span class=\"text-info\">"
-                        + res.validation_result
-                        + "</span>"
-                        + "<br>"
-                        + "exam_schedule_validation: <span class=\"text-info\">"
-                        + res.exam_schedule_validation
-                        + "</span>"
-                );
+                $("#target").html(d);
             }
         });
     });

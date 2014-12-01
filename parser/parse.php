@@ -78,4 +78,5 @@ foreach ($data->table as $course) {
 file_put_contents('../parsed_data_text/2014_2_data.txt', print_r($super_data, true));
 file_put_contents('../parsed_data_json/2014_2_data.json', json_encode($super_data));
 
+echo "OK";
 ?>

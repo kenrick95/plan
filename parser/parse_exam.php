@@ -73,4 +73,5 @@ file_put_contents('../parsed_data_json/2014_2_exam_data.json', json_encode($supe
 file_put_contents('../parsed_data_text/2014_2_course_list.txt', print_r($course_list, true));
 file_put_contents('../parsed_data_json/2014_2_course_list.json', json_encode($course_list));
 
+echo "OK";
 ?>
