@@ -66,13 +66,20 @@ foreach ($data->table as $course) {
             "index_number" => $index_number,
             "details" => $index_member)); }
         //$course_index   = $course->tbody->tr;
+        
+        // Better format for searching
+        $super_data[$course_code] = array("name" => $course_name,
+                                          "au" => $course_au,
+                                          "index" => $index_members
+                                         );
+        
+        /*
         array_push($super_data, array("code" => $course_code,
             "name" => $course_name,
             "au" => $course_au,
             "index" => $index_members));
+        */
     }
-
-
 }
 
 file_put_contents('../parsed_data_text/2014_2_data.txt', print_r($super_data, true));
