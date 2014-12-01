@@ -12,10 +12,11 @@ $times = array( "0830", "0900", "0930", "1000", "1030", "1100", "1130", "1200", 
 # STRUCTURE FOR TIMETABLE
 $timetable = array(
     "MON" => $times, 
-    "TUE" => $times
-    "WED" => $times
-    "THU" => $times
-    "FRI" => $times
+    "TUE" => $times,
+    "WED" => $times,
+    "THU" => $times,
+    "FRI" => $times,
+    "SAT" => $times
     );
 
 $all_timetable = array();
@@ -101,63 +102,61 @@ function generate_timetable ($input_courses, $temp_timetable) {
         - The lecture / tutorial / lab info
     */
     
-    
-    foreach ($input_courses as $course_id) {
-        $course_detail = get_course_details($course_id);
-        $course_indices = $course_detail[index][0];
-        
-        # Input error -> Course ID not found
-        if ($course_detail === false) {
-            return false;
-        }
-        
-        foreach ($course_indices as $index) {
-            $index_number = $index["index_number"];
-            $index_details = $index["details"];
-            
-            foreach ($index_details as $detail) {
-                $start_time = $detail["time"]["start"];
-                $end_time = $detail["time"]["end"];
-                $day = $detail["day"];
-                
-                # Setting up details to a timetable slot
-                if (!isset($temp_timetable[$day][$start_time])) {                    
+    $course_id = $input_courses[0];
+    $course_detail = get_course_details($course_id);
+    $course_indices = $course_detail[index][0];
+
+    # Input error -> Course ID not found
+    if ($course_detail === false) {
+        return false;
+    }
+
+    foreach ($course_indices as $index) {
+        $index_number = $index["index_number"];
+        $index_details = $index["details"];
+
+        foreach ($index_details as $detail) {
+            $start_time = $detail["time"]["start"];
+            $end_time = $detail["time"]["end"];
+            $day = $detail["day"];
+
+            # Setting up details to a timetable slot
+            if (!isset($temp_timetable[$day][$start_time])) {                    
+                $clash = check_clash($start_time, $end_time, $temp_timetable);
+
+                # Clash == move to the next index
+                if ($clash) {
+                    continue;
+                } else {
+                    $data = array("id" => $course_id, "index" => $index_number, "details" => $detail);
+                    $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
+                }
+            } 
+            # If there is already one other record
+            else {
+                $temp_timetable_keys = array_keys($temp_timetable);
+                $i = array_search($start_time, $temp_timetable_keys);
+                $key = $temp_timetable_keys[$i];
+
+                // IF there is already one record inside that time slot, check whether that record also starts at the same time
+                // as $start_time --> if YES, then a clash, move to the next index
+                if ($temp_timetable[$day][$key][0]["details"]["time"]["start"] === $start_time) {
+                    continue;
+                } else if ($temp_timetable[$day][$key][0]["details"]["time"]["end"] === $start_time) {
                     $clash = check_clash($start_time, $end_time, $temp_timetable);
-                    
-                    # Clash == move to the next index
                     if ($clash) {
                         continue;
-                    } else {
-                        $data = array("id" => $course_id, "index" => $index_number, "details" => $detail);
+                    } else {   
                         $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
                     }
-                } 
-                # If there is already one other record
-                else {
-                    $temp_timetable_keys = array_keys($temp_timetable);
-                    $i = array_search($start_time, $temp_timetable_keys);
-                    $key = $temp_timetable_keys[$i];
-                    
-                    // IF there is already one record inside that time slot, check whether that record also starts at the same time
-                    // as $start_time --> if YES, then a clash, move to the next index
-                    if ($temp_timetable[$day][$key][0]["details"]["time"]["start"] === $start_time) {
-                        continue;
-                    } else if ($temp_timetable[$day][$key][0]["details"]["time"]["end"] === $start_time) {
-                        $clash = check_clash($start_time, $end_time, $temp_timetable);
-                        if ($clash) {
-                            continue;
-                        } else {   
-                            $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
-                        }
-                    }
                 }
-                
-                // RECURSION HERE -> delete the course code which is just processed -> for termination condition
-                // ...
-                // BACKTRACK HERE
-                // ...
-                
             }
+
+            // RECURSION HERE -> delete the course code which is just processed -> for termination condition
+            // ...
+            // BACKTRACK HERE
+            // ...
+
         }
     }
 }
