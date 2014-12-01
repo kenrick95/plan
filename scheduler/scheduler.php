@@ -126,7 +126,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
 
                 # Clash == move to the next index
                 if ($clash) {
-                    continue;
+                    break;
                 } else {
                     $data = array("id" => $course_id, "index" => $index_number, "details" => $detail);
                     $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
@@ -141,11 +141,11 @@ function generate_timetable ($input_courses, $temp_timetable) {
                 // IF there is already one record inside that time slot, check whether that record also starts at the same time
                 // as $start_time --> if YES, then a clash, move to the next index
                 if ($temp_timetable[$day][$key][0]["details"]["time"]["start"] === $start_time) {
-                    continue;
+                    break;
                 } else if ($temp_timetable[$day][$key][0]["details"]["time"]["end"] === $start_time) {
                     $clash = check_clash($start_time, $end_time, $temp_timetable);
                     if ($clash) {
-                        continue;
+                        break;
                     } else {   
                         $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
                     }
