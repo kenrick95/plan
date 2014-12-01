@@ -1,7 +1,18 @@
 /*jslint browser: true, sloppy: true, plusplus: true */
 /*global jQuery, $ */
 $(document).ready(function ($) {
+    // Array Remove - By John Resig (MIT Licensed)
+    Array.prototype.remove = function (from, to) {
+        var rest = this.slice((to || from) + 1 || this.length);
+        this.length = from < 0 ? this.length + from : from;
+        return this.push.apply(this, rest);
+    };
     var cache = {};
+    if (!!window.localStorage) {
+        if (!!localStorage.getItem("cache")) {
+            cache = JSON.parse(localStorage.getItem("cache"));
+        }
+    }
     function split(val) {
         return val.split(/,\s*/);
     }
@@ -26,6 +37,9 @@ $(document).ready(function ($) {
                 term: term
             }, function (data, status, xhr) {
                 cache[term] = data;
+                if (!!window.localStorage) {
+                    localStorage.setItem("cache", JSON.stringify(cache));
+                }
                 response(data);
             });
         },
