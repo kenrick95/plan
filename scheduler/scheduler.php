@@ -137,7 +137,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
                 # Clash == move to the next index
                 if ($clash) {
                     #var_dump("clash! and not set");
-                    continue;
+                    break; # this should make it faster
                 } else {
                     $data = array("id" => $course_id, "index" => $index_number, "details" => $detail);
                     $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
@@ -158,7 +158,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
                     $clash = check_clash($day, $start_time, $end_time, $temp_timetable);
                     if ($clash) {
                         #var_dump("clash!");
-                        continue;
+                        break; # this should make it faster
                     } else {   
                         $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
                     }
