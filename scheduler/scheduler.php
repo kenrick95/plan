@@ -9,13 +9,15 @@ $times = array( "0830", "0900", "0930", "1000", "1030", "1100", "1130", "1200", 
 
 # STRUCTURE FOR TIMETABLE
 $timetable = array(
-    "monday" => $times, 
-    "tuesday" => $times
-    "wednesday" => $times
-    "thursday" => $times
-    "friday" => $times
+    "MON" => $times, 
+    "TUE" => $times
+    "WED" => $times
+    "THU" => $times
+    "FRI" => $times
     )
 );
+
+$all_timetable = array();
 
 /* ---------------------------------------------------------------------------------------------- */
 
@@ -81,27 +83,119 @@ function get_exam_details ($course_id, $database_exam) {
 
 /* ---------------------------------------------------------------------------------------------- */
 
-function generate_timetable ($input_courses) {
-    global $database_course, $timetable;
-    $temp_timetable = $timetable; // A copy from $timetable structure
-    $result = array();
+$temp_timetable = $timetable;
+function generate_timetable ($input_courses, $temp_timetable) {
+    global $database_course, $timetable, $all_timetable;
+    
+    # One timetable obtained
+    if (count($input_courses) == 0) {
+        array_push($all_timetable, $temp_timetable);
+        return;
+    }
+    
+    /*
+        Structure to save in the timetable:
+        - Course ID
+        - Index
+        - The lecture / tutorial / lab info
+    */
+    
     
     foreach ($input_courses as $course_id) {
         $course_detail = get_course_details($course_id);
+        $course_indices = $course_detail[index][0];
         
         # Input error -> Course ID not found
         if ($course_detail === false) {
             return false;
         }
         
-        
+        foreach ($course_indices as $index) {
+            $index_number = $index["index_number"];
+            $index_details = $index["details"];
+            
+            foreach ($index_details as $detail) {
+                $start_time = $detail["time"]["start"];
+                $end_time = $detail["time"]["end"];
+                $day = $detail["day"];
+                
+                # Setting up details to a timetable slot
+                if (!isset($temp_timetable[$day][$start_time])) {                    
+                    $clash = check_clash($start_time, $end_time, $temp_timetable);
+                    
+                    # Clash == move to the next index
+                    if ($clash) {
+                        continue;
+                    } else {
+                        $data = array("id" => $course_id, "index" => $index_number, "details" => $detail);
+                        $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
+                    }
+                } 
+                # If there is already one other record
+                else {
+                    $temp_timetable_keys = array_keys($temp_timetable);
+                    $i = array_search($start_time, $temp_timetable_keys);
+                    $key = $temp_timetable_keys[$i];
+                    
+                    // IF there is already one record inside that time slot, check whether that record also starts at the same time
+                    // as $start_time --> if YES, then a clash, move to the next index
+                    if ($temp_timetable[$day][$key][0]["details"]["time"]["start"] === $start_time) {
+                        continue;
+                    } else if ($temp_timetable[$day][$key][0]["details"]["time"]["end"] === $start_time) {
+                        $clash = check_clash($start_time, $end_time, $temp_timetable);
+                        if ($clash) {
+                            continue;
+                        } else {   
+                            $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
+                        }
+                    }
+                }
+                
+                // RECURSION HERE -> delete the course code which is just processed -> for termination condition
+                // ...
+                // BACKTRACK HERE
+                // ...
+                
+            }
+        }
     }
-    
-    return $result;
 }
 
 function get_course_details ($course_id) {
     global $database_course;
     return $database_course[$course_id];
+}
+
+# Check whether all time from start to end is available
+function check_clash($day, $start_time, $end_time, $temp_timetable) {
+    $temp_timetable_keys = array_keys($temp_timetable);
+    $i = array_search($start_time, $temp_timetable_keys);
+    $key = $temp_timetable_keys[$i];
+    
+    while ($key !== $end_time) {
+        if (isset($temp_timetable[$day][$key])) {
+            return true;
+        } else {
+            $i++;
+            $key = $temp_timetable_keys[$i];
+        }
+    }
+    
+    return false;
+}
+
+# Assign slots from start_time to end_time
+function assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable) {
+    $temp_timetable_keys = array_keys($temp_timetable);
+    $i = array_search($start_time, $temp_timetable_keys);
+    $key = $temp_timetable_keys[$i];
+    
+    while ($key !== $end_time) {
+        # 0 <= count <= 1 
+        $count = count($temp_timetable[$day][$key]);
+        $temp_timetable[$day][$key][$count] = $data;
+    }
+    
+    return $temp_timetable;
 }
 ?>
