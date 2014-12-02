@@ -27,6 +27,20 @@ $raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);
 $raw_data = preg_replace("/ +/", " ", $raw_data);
 # print_r($raw_data);
 
+function count_duration($start, $end) {
+    $hour_start = (int) ($start / 100);
+    $hour_end = (int) ($end / 100);
+    $minute_start = ($start % 100);
+    $minute_end = ($end % 100);
+    if ($minute_end - $minute_start < 0) {
+        return (double) ($hour_end - $hour_start - 1) + (double) ($minute_end - $minute_start + 60)  / 60.0;
+    } else {
+        return (double) ($hour_end - $hour_start) + (double) ($minute_end - $minute_start) / 60.0;
+    }
+    
+}
+
+
 $data =  new SimpleXMLElement($raw_data);
 $data = $data->BODY;
 $super_data = array();
@@ -42,9 +56,12 @@ foreach ($data->TABLE as $course) {
             if ($index->TD[0] == null) continue; // skip
             
             if (!empty($index->TD[0]->B )) {
-                if (isset($index_member)) { array_push($index_members,array(
-                    "index_number" => $index_number,
-                    "details" => $index_member)); }
+                if (isset($index_member)) {
+                    array_push($index_members,array(
+                        "index_number" => $index_number,
+                        "details" => $index_member));
+                    unset($index_member);
+                }
                 $index_number = (string) $index->TD[0]->B;
                 $index_member = array();
             }
@@ -56,9 +73,11 @@ foreach ($data->TABLE as $course) {
             if (empty($member_time)) {
                 $member_time_start = "";
                 $member_time_end = "";
+                $member_time_duration = 0;
             } else {
                 $member_time_start = explode("-", $member_time)[0];
                 $member_time_end = explode("-", $member_time)[1];
+                $member_time_duration = count_duration(intval($member_time_start),intval($member_time_end));
             }
 
             $member_location = (string) $index->TD[5]->B;
@@ -67,7 +86,10 @@ foreach ($data->TABLE as $course) {
                 "type" => $member_type,
                 "group" => $member_group,
                 "day" => $member_day,
-                "time" => array("full" => $member_time, "start" => $member_time_start, "end" => $member_time_end),
+                "time" => array("full" => $member_time,
+                    "start" => $member_time_start,
+                    "end" => $member_time_end,
+                    "duration" => $member_time_duration),
                 "location" => $member_location,
                 "remarks" => $member_remarks));
 
@@ -80,14 +102,25 @@ foreach ($data->TABLE as $course) {
             //$index_number = $index->td[0]->b;
 
         }
-        if (isset($index_member)) { array_push($index_members,array(
-            "index_number" => $index_number,
-            "details" => $index_member)); }
+        if (isset($index_member)) {
+            array_push($index_members, array(
+                "index_number" => $index_number,
+                "details" => $index_member)); 
+            unset($index_member);
+        }
         //$course_index   = $course->tbody->tr;
+        $super_data[$course_code] = array("name" => $course_name,
+                                          "au" => $course_au,
+                                          "index" => $index_members
+                                         );
+        unset($index_members);
+        
+        /*
         array_push($super_data, array("code" => $course_code,
             "name" => $course_name,
             "au" => $course_au,
             "index" => $index_members));
+        */
     }
 
 

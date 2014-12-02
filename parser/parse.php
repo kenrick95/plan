@@ -37,9 +37,12 @@ foreach ($data->table as $course) {
             if ($index->td[0] == null) continue; // skip
             
             if (!empty($index->td[0]->b )) {
-                if (isset($index_member)) { array_push($index_members,array(
-                    "index_number" => $index_number,
-                    "details" => $index_member)); }
+                if (isset($index_member)) {
+                    array_push($index_members,array(
+                        "index_number" => $index_number,
+                        "details" => $index_member));
+                    unset($index_member);
+                }
                 $index_number = (string) $index->td[0]->b;
                 $index_member = array();
             }
@@ -79,9 +82,12 @@ foreach ($data->table as $course) {
             //$index_number = $index->td[0]->b;
 
         }
-        if (isset($index_member)) { array_push($index_members,array(
-            "index_number" => $index_number,
-            "details" => $index_member)); }
+        if (isset($index_member)) {
+            array_push($index_members,array(
+                "index_number" => $index_number,
+                "details" => $index_member)); 
+            unset($index_member);
+        }
         //$course_index   = $course->tbody->tr;
         
         // Better format for searching
@@ -89,6 +95,7 @@ foreach ($data->table as $course) {
                                           "au" => $course_au,
                                           "index" => $index_members
                                          );
+        unset($index_members);
         
         /*
         array_push($super_data, array("code" => $course_code,
