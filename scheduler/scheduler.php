@@ -121,6 +121,8 @@ function generate_timetable ($input_courses, $temp_timetable) {
     }
 
     foreach ($course_indices as $index) {
+        # If there is a clash, it skips the 
+        $skip = false;
         $index_number = $index["index_number"];
         $index_details = $index["details"];
 
@@ -137,6 +139,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
                 # Clash == move to the next index
                 if ($clash) {
                     #var_dump("clash! and not set");
+                    $skip = true;
                     break; # this should make it faster
                 } else {
                     $data = array("id" => $course_id, "index" => $index_number, "details" => $detail);
@@ -153,27 +156,32 @@ function generate_timetable ($input_courses, $temp_timetable) {
                 // as $start_time --> if YES, then a clash, move to the next index
                 
                 if ($temp_timetable[$day][$key][0]["details"]["time"]["start"] === $start_time) {
+                    $skip = true;
                     break;
                 } else if ($temp_timetable[$day][$key][0]["details"]["time"]["end"] === $start_time) {
                     $clash = check_clash($day, $start_time, $end_time, $temp_timetable);
                     if ($clash) {
                         #var_dump("clash!");
+                        $skip = true;
                         break; # this should make it faster
                     } else {   
                         $temp_timetable = assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable);
                     }
                 }
             }
-
-            // RECURSION HERE -> delete the course code which is just processed -> for termination condition
-            $popped = array_pop($input_courses);
-            generate_timetable ($input_courses, $temp_timetable);
-
-            // Backtrack
-            array_unshift($input_courses, $popped);
-            $temp_timetable = $original_timetable;
-
         }
+        
+        if ($skip) {
+            continue;
+        }
+        
+        // RECURSION HERE -> delete the course code which is just processed -> for termination condition
+        $popped = array_pop($input_courses);
+        generate_timetable ($input_courses, $temp_timetable);
+
+        // Backtrack
+        array_unshift($input_courses, $popped);
+        $temp_timetable = $original_timetable;
     }
 }
 
