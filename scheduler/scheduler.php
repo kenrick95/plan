@@ -123,6 +123,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
     foreach ($course_indices as $index) {
         # If there is a clash, it skips the 
         $skip = false;
+        $temp_timetable = $original_timetable;
         $index_number = $index["index_number"];
         $index_details = $index["details"];
 
@@ -172,6 +173,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
         }
         
         if ($skip) {
+            $temp_timetable = $original_timetable;
             continue;
         }
         
@@ -181,7 +183,6 @@ function generate_timetable ($input_courses, $temp_timetable) {
 
         // Backtrack
         array_unshift($input_courses, $popped);
-        $temp_timetable = $original_timetable;
     }
 }
 
