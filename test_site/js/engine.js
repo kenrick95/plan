@@ -8,69 +8,70 @@ $(document).ready(function ($) {
         return this.push.apply(this, rest);
     };
     var cache = {};
-    if (!!window.localStorage) {
-        if (!!localStorage.getItem("cache")) {
-            cache = JSON.parse(localStorage.getItem("cache"));
-        }
-    }
     function split(val) {
         return val.split(/,\s*/);
     }
     function extract_last(term) {
         return split(term).pop();
     }
-    $("#input_courses").bind("keydown", function (event) {
-        if (event.keyCode === $.ui.keyCode.TAB &&
-                $(this).autocomplete("instance").menu.active) {
-            event.preventDefault();
+    function tagit(data, status, xhr) {
+        var allTags = data;
+        if (!!window.localStorage) {
+            localStorage.setItem("cache", JSON.stringify(data));
         }
-    }).autocomplete({
-        source: function (request, response) {
-            var term = extract_last(request.term);
-            console.log(term);
-            if (cache.hasOwnProperty(term)) {
-                response(cache[term]);
-                console.log('cache hit');
-                return;
-            }
-            $.getJSON("search.php", {
-                term: term
-            }, function (data, status, xhr) {
-                cache[term] = data;
-                if (!!window.localStorage) {
-                    localStorage.setItem("cache", JSON.stringify(cache));
+        $('#input_courses').tagit({
+            availableTags: allTags,
+            allowSpaces: true,
+            autocomplete: {
+                source: function (request, response) {
+                    var i,
+                        term = extract_last(request.term).replace(/\s+/, "").toLowerCase(),
+                        len = allTags.length,
+                        shown_data = [];
+                    for (i = 0; i < len; i++) {
+                        if (allTags[i].flag === 0
+                                && allTags[i].label.toLowerCase().replace(/\s+/, "").indexOf(term) >= 0) {
+                            shown_data.push(allTags[i]);
+                        }
+                    }
+                    response(shown_data);
+                },
+            },
+            afterTagAdded: function (event, ui) {
+                var i, len = allTags.length;
+                for (i = 0; i < len; i++) {
+                    if (allTags[i].value === ui.tagLabel) {
+                        allTags[i].flag = 1;
+                        break;
+                    }
                 }
-                response(data);
-            });
-        },
-        search: function () {
-            // custom minLength
-            var term = extract_last(this.value);
-            if (term.length < 2) {
-                return false;
+            },
+            afterTagRemoved: function (event, ui) {
+                var i, len = allTags.length;
+                for (i = 0; i < len; i++) {
+                    if (allTags[i].value === ui.tagLabel) {
+                        allTags[i].flag = 0;
+                        break;
+                    }
+                }
             }
-        },
-        focus: function () {
-            // prevent value inserted on focus
-            return false;
-        },
-        select: function (event, ui) {
-            var terms = split(this.value);
-            // remove the current input
-            terms.pop();
-            // add the selected item
-            terms.push(ui.item.value);
-            // add placeholder to get the comma-and-space at the end
-            terms.push("");
-            this.value = terms.join(", ");
-            return false;
+        });
+    }
+    if (!!window.localStorage) {
+        if (!!localStorage.getItem("cache")) {
+            cache = JSON.parse(localStorage.getItem("cache"));
+            tagit(cache);
+        } else {
+            $.getJSON("search.php", { term: '' }, tagit);
         }
-    });
+    } else {
+        $.getJSON("search.php", { term: '' }, tagit);
+    }
+
     $("#course_form #submit").click(function (e) {
         /*
             Check whether the input is valid (using regex)
         */
-
         e.preventDefault();
         var data = $("#input_courses").val();
         console.log(data);
@@ -94,7 +95,8 @@ $(document).ready(function ($) {
                 len = res.timetable.length;
                 for (i = 0; i < len; i++) {
                     timetable = res.timetable[i];
-                    table = "<table class=\"table\">"
+                    table = "<div class=\"table-responsive\">"
+                        + "<table class=\"table\">"
                         + "<thead>"
                         + "<tr>"
                         + "<th>Time\\Day</th>"
@@ -118,17 +120,17 @@ $(document).ready(function ($) {
                                     if (details[0] !== undefined) {
                                         table += "<td>"
                                             + details[0].id
-                                            + "<br>"
+                                            + " "
                                             + details[0].index
-                                            + "<br>"
+                                            + " "
                                             + details[0].details.type
-                                            + "<br>"
+                                            + " "
                                             + details[0].details.group
-                                            + "<br>"
+                                            + " "
                                             + details[0].details.location
-                                            + "<br>"
+                                            + " "
                                             + details[0].details.time.full
-                                            + "<br>"
+                                            + " "
                                             + details[0].details.remarks
                                             + "</td>";
                                     } else {
@@ -141,7 +143,8 @@ $(document).ready(function ($) {
                         }
                     }
                     table += "</tbody>"
-                        + "</table>";
+                        + "</table>"
+                        + "</div>";
                     $("#target").append(table);
                 }
             }

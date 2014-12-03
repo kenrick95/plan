@@ -62,6 +62,18 @@ foreach ($data->table as $course) {
 
             $member_location = (string) $index->td[5]->b;
             $member_remarks = (empty($index->td[6]->b)) ? "" : (string) $index->td[6]->b; // start on what week?
+            
+            $member_flag = 0; // no remarks
+            if (stripos($member_remarks, "-") !== false) {
+                $member_flag = 1; // all weeks
+            } else if (stripos($member_remarks, ",") !== false) {
+                if (intval($member_remarks[2]) % 2 === 0) {
+                    $member_flag = 2; // even weeks
+                } else {
+                    $member_flag = 3; // odd weeks
+                }
+            }
+
             array_push ($index_member, array(
                 "type" => $member_type,
                 "group" => $member_group,
@@ -71,6 +83,7 @@ foreach ($data->table as $course) {
                     "end" => $member_time_end,
                     "duration" => $member_time_duration),
                 "location" => $member_location,
+                "flag" => $member_flag,
                 "remarks" => $member_remarks));
 
             //$index_number = $index->td[0]->b;

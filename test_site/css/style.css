@@ -5,3 +5,6 @@
 .jumbotron {
     background: #F8F8F8;
 }
+td, th {
+    width: 20em;
+}
