@@ -19,7 +19,6 @@ $(document).ready(function ($) {
         if (!!window.localStorage) {
             localStorage.setItem("cache", JSON.stringify(data));
         }
-        console.log(data);
         $('#input_courses').tagit({
             availableTags: allTags,
             allowSpaces: true,
