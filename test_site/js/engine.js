@@ -19,6 +19,7 @@ $(document).ready(function ($) {
         if (!!window.localStorage) {
             localStorage.setItem("cache", JSON.stringify(data));
         }
+        console.log(data);
         $('#input_courses').tagit({
             availableTags: allTags,
             allowSpaces: true,
@@ -123,15 +124,9 @@ $(document).ready(function ($) {
                                             + " "
                                             + details[0].index
                                             + " "
-                                            + details[0].details.type
+                                            + details[0].type
                                             + " "
-                                            + details[0].details.group
-                                            + " "
-                                            + details[0].details.location
-                                            + " "
-                                            + details[0].details.time.full
-                                            + " "
-                                            + details[0].details.remarks
+                                            + details[0].flag
                                             + "</td>";
                                     } else {
                                         table += "<td>"
