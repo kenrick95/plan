@@ -128,16 +128,18 @@ function generate_timetable ($input_courses, $temp_timetable) {
         $index_no = $index["index_number"];
         $index_details = $index["details"];
         $skip = false;
-
+        
+        #echo "Index: " . $index_no . "Course: " . $course_id . "\n\n";
+        
         foreach ($index_details as $detail) {            
             # Check for clash, for each index detail (for each lecture, each tutorial in one index)
-            $clash = check_clash($course_id, $detail, $temp_timetable);
+            $clash = check_clash($course_id, $index_no, $detail, $temp_timetable);
             
             if ($clash) {
                 $skip = true;
                 break;
             }
-            
+                        
             # Assign to timetable
             $temp_timetable = assign_course($course_id, $index_no, $detail, $temp_timetable);
         }
@@ -161,7 +163,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
 
 
 # Check whether there is a clash
-function check_clash ($course_id, $detail, $temp_timetable) {
+function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
     $start_time = $detail["time"]["start"];
     $end_time = $detail["time"]["end"];
     $duration = $detail["time"]["duration"];
@@ -170,7 +172,7 @@ function check_clash ($course_id, $detail, $temp_timetable) {
         
     $time_keys = array_keys($temp_timetable[$day]);
     $index = array_search($start_time, $time_keys);
-    
+        
     # duration * 2 -> how many slots 
     for ($i = 0; $i < $duration * 2; $i++) {
         if (count($temp_timetable[$day][$time_keys[$index]]) > 0) {
@@ -186,7 +188,10 @@ function check_clash ($course_id, $detail, $temp_timetable) {
                 if ($clash_flag === 0) return true;
             
                 # If one is even and one is odd or the other way round
-                if ($week === $clash_flag) return true;
+                if ($week === $clash_flag) { 
+                    # echo "SAVED!!!\n";
+                    return true;
+                }
             }
         }
         
@@ -216,9 +221,14 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
     
     # duration * 2 -> how many slots 
     for ($i = 0; $i < $duration * 2; $i++) {
-        array_push($temp_timetable[$day][$time_keys[$index++]], $data);
+        # To skip if there is two same courses, same type, in the same slot -> e.g. BU8401 FOM
+        if (count($temp_timetable[$day][$time_keys[$index]]) > 0 && $temp_timetable[$day][$time_keys[$index]][0]["id"] === $course_id) break;
+        else array_push($temp_timetable[$day][$time_keys[$index]], $data);
+        
+        $index++;
     }
     
     return $temp_timetable;
 }  
+
 ?>

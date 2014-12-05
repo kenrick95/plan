@@ -118,15 +118,35 @@ $(document).ready(function ($) {
                                 if (days.hasOwnProperty(day)) {
                                     details = timetable[days[day]][times[time]];
                                     if (details[0] !== undefined) {
-                                        table += "<td>"
-                                            + details[0].id
-                                            + " "
-                                            + details[0].index
-                                            + " "
-                                            + details[0].flag
-                                            + " "
-                                            + details[0].type
-                                            + "</td>";
+                                        if (details[1] !== undefined) {
+                                            table += "<td>"
+                                                + details[0].id
+                                                + " "
+                                                + details[0].index
+                                                + " "
+                                                + details[0].type
+                                                + " "
+                                                + details[0].flag
+                                                + "<br>"
+                                                + details[1].id
+                                                + " "
+                                                + details[1].index
+                                                + " "
+                                                + details[1].type
+                                                + " "
+                                                + details[1].flag
+                                                + "</td>";
+                                        } else {
+                                            table += "<td>"
+                                                + details[0].id
+                                                + " "
+                                                + details[0].index
+                                                + " "
+                                                + details[0].type
+                                                + " "
+                                                + details[0].flag
+                                                + "</td>";
+                                        }
                                     } else {
                                         table += "<td>"
                                             + "</td>";
