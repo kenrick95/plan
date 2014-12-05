@@ -1,10 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 .jumbotron {
     background: #F8F8F8;
 }
-td, th {
-    width: 20em;
+#schedule td, #schedule th {
+    width: 12em;
+}
+table {
+    /*table-layout: fixed;*/
+}
+.pointer {
+    cursor: pointer;
 }

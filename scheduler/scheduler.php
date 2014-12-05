@@ -65,12 +65,27 @@ function validate_input ($input_courses, $database_exam) {
 
 # If there is a clash, stop it there
 function check_exam_schedule ($input_courses) {
-    global $database_exam, $exam_schedule;
+    global $database_exam, $database_course, $exam_schedule;
     
     foreach ($input_courses as $course) {
         $exam = get_exam_details($course, $database_exam);
         $exam_date = $exam["date"];
         $exam_time = $exam["time"];
+
+        // parse time
+        $hour = intval($exam["time"][0]);
+        $minutes = intval($exam["time"][2] . $exam["time"][3]);
+        if ($exam["time"][5] . $exam["time"][6] === "pm") {
+            $hour += 12;
+        }
+        $exam["time"] = pad($hour) . pad($minutes);
+
+        $time = ($hour * 60 + $minutes) + $exam["duration"] * 60;
+        $hour = (int) ($time / 60);
+        $minutes = (int) ($time % 60);
+
+        $exam["end_time"] = pad($hour) . pad($minutes);
+        $exam["au"]= trim($database_course[$course]['au']);
         
         if (isset($exam_schedule[$exam_date][$exam_time])) {
             return false;
@@ -189,7 +204,6 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
             
                 # If one is even and one is odd or the other way round
                 if ($week === $clash_flag) { 
-                    # echo "SAVED!!!\n";
                     return true;
                 }
             }
@@ -208,7 +222,12 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
                 "id" => $course_id,
                 "index" => $index_no,
                 "flag" => $detail["flag"],
-                "type" => $detail["type"]
+                "type" => $detail["type"],
+                "location" => $detail["location"],
+                "group" => $detail["group"],
+                "remarks" => $detail["remarks"],
+                "duration" => $detail["time"]["duration"],
+                "start_time" => $detail["time"]["start"]
             );
     
     $start_time = $detail["time"]["start"];
@@ -231,4 +250,10 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
     return $temp_timetable;
 }  
 
+/* ---------------------------------------------------------------------------------------------- */
+// Helper function
+function pad ($num) {
+    if ($num < 10) return "0" . $num;
+    return $num;
+}
 ?>
