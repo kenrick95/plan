@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>NTU Course Planner</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+        <link rel="stylesheet" href="css/jquery.tag-it.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">NTU Course Planner</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <!--<li><a href="#">About</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+        <div id="main" class="container">
+            <div class="jumbotron">
+                <h1 id="jumbo_title">NTU Course Planner</h1>
+                <form role="form" id="course_form">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Enter course codes:</label>
+                        <input type="text" name="courses" id="input_courses" placeholder="Enter course code" class="form-control">
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <div id="result">
+                    <nav id="pager_nav">
+                        <ul class="pager">
+                            <li><a class="pointer" id="page_prev">Previous</a></li>
+                            <li><b id="page_number">1</b> of <b id="page_length">42</b></li>
+                            <li><a class="pointer" id="page_next">Next</a></li>
+                        </ul>
+                    </nav>
+                    <div id="target">
+                        
+                    </div>
+                    <table class="table" id="exam_table">
+                        <thead>
+                            <th>Index</th>
+                            <th>Course</th>
+                            <th>Title</th>
+                            <th>AUs</th>
+                            <th>Exam Schedule</th>
+                        </thead>
+                        <tbody id="exam_body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <footer>
+            &copy; 2014 <a href="http://github.com/edocsss" target="_blank">Edwin Candinegara</a> &amp; <a href="http://kenrick95.org" target="_blank">Kenrick</a>
+            </footer>
+        </div>
+        
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.tag-it.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/engine.js"></script>
+    </body>
+</html>
