@@ -182,6 +182,8 @@ function check_clash ($detail, $temp_timetable) {
             # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
             $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
             $clash_flag = $clash_detail["flag"];
+
+            if ($clash_flag === 0) return true;
             
             # If one is even and one is odd or the other way round
             if ($week === $clash_flag) return true;
