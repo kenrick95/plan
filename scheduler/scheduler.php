@@ -43,6 +43,7 @@ if (isset($input_courses)) {
         $result["exam_schedule_validation"] = check_exam_schedule($input_courses);
         $result["exam_schedule"] = $exam_schedule;
     }
+    
     generate_timetable($input_courses, $timetable);
     $result["timetable"] = $all_timetable;
 
@@ -90,7 +91,142 @@ function get_exam_details ($course_id, $database_exam) {
 
 /* ---------------------------------------------------------------------------------------------- */
 
+/*
+    Data to store in ONE SLOT:
+    - Course ID
+    - Index number
+    - Flag
+*/
+
 $temp_timetable = $timetable;
+function generate_timetable ($input_courses, $temp_timetable) {
+    global $database_course, $all_timetable;
+    $original_timetable = $temp_timetable;
+    
+    # One solution is found
+    if (count($input_courses) == 0) {
+        array_push($all_timetable, $temp_timetable);
+        
+        /*
+        if (count($all_timetable == 20)) {
+            # flush here
+            # Empty $all_timetable to prepare for the next 20 timetables
+            $all_timetable = array();
+        }
+        */
+        
+        return;
+    }
+    
+    # Data retrieval
+    $course = $database_course[$input_courses[0]];
+    $course_id = $input_courses[0];
+    $indices = $course["index"]; # Contains all index of a subject
+    
+    # Checking of timetable (clash or not) for EACH AVAILABLE INDEX
+    foreach ($indices as $index) {
+        $index_no = $index["index_number"];
+        $index_details = $index["details"];
+        $skip = false;
+        
+        var_dump("Course: " . $course_id);
+        var_dump("Index: " . $index_no);
+        
+        foreach ($index_details as $detail) {
+            # Check for clash, for each index detail (for each lecture, each tutorial in one index)
+            $clash = check_clash($detail, $temp_timetable);
+            if ($clash) {
+                $skip = true;
+                break;
+            }
+            
+            # Assign to timetable
+            $temp_timetable = assign_course($course_id, $index_no, $detail, $temp_timetable);
+        }
+        
+        # Skip the recursion as there is a clash in this index
+        # Continue to the next index
+        if ($skip) {
+            $temp_timetable = $original_timetable;
+            continue;
+        }
+        
+        # Reduce to get termination condition later
+        $popped = array_pop($input_courses);
+        generate_timetable($input_courses, $temp_timetable); # Recursion
+        
+        # Backtracking
+        $temp_timetable = $original_timetable;
+        array_unshift($input_courses, $popped);
+    }
+}
+
+
+function check_clash ($detail, $temp_timetable) {
+    $start_time = $detail["time"]["start"];
+    $end_time = $detail["time"]["end"];
+    $duration = $detail["time"]["duration"];
+    $day = $detail["day"];
+    $week = $detail["flag"];
+    
+    $time_keys = array_keys($temp_timetable[$day]);
+    $index = array_search($start_time, $time_keys);
+    
+    # duration * 2 -> how many slots 
+    for ($i = 0; $i < $duration * 2; $i++) {
+        if (count($temp_timetable[$day][$time_keys[$index]]) > 0) {
+          
+            # If the clash is for the whole semester
+            if ($week === 0) return true; 
+            
+            # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
+            $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
+            $clash_flag = $clash_detail["flag"];
+            
+            # If one is even and one is odd or the other way round
+            if ($week === $clash_flag) return true;
+        }
+        
+        $index++;
+    }
+    
+    return false;
+}
+
+
+# Assign course for each index detail one by one
+function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
+    $data = array(
+                "id" => $course_id,
+                "index" => $index_no,
+                "flag" => $detail["flag"],
+                "type" => $detail["type"]
+            );
+    
+    $start_time = $detail["time"]["start"];
+    $end_time = $detail["time"]["end"];
+    $duration = $detail["time"]["duration"];
+    $day = $detail["day"];
+    
+    $time_keys = array_keys($temp_timetable[$day]);
+    $index = array_search($start_time, $time_keys);
+    
+    # duration * 2 -> how many slots 
+    for ($i = 0; $i < $duration * 2; $i++) {
+        array_push($temp_timetable[$day][$time_keys[$index++]], $data);
+    }
+    
+    return $temp_timetable;
+}
+
+
+
+
+
+
+
+/*
+
 function generate_timetable ($input_courses, $temp_timetable) {
     global $database_course, $timetable, $all_timetable;
     $original_timetable = $temp_timetable;
@@ -109,7 +245,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
         - Course ID
         - Index
         - The lecture / tutorial / lab info
-    */
+    /
     
     $course_id = $input_courses[0];
     $course_detail = get_course_details($course_id);
@@ -225,4 +361,6 @@ function assign_time_slots($day, $start_time, $end_time, $data, $temp_timetable)
     }
     return $temp_timetable;
 }
+*/
+    
 ?>
