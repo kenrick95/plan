@@ -65,7 +65,7 @@ foreach ($data->table as $course) {
             
             $member_flag = 0; // no remarks
             if (stripos($member_remarks, "-") !== false) {
-                $member_flag = 1; // all weeks
+                $member_flag = 0; // all weeks
             } else if (stripos($member_remarks, ",") !== false) {
                 if (intval($member_remarks[2]) % 2 === 0) {
                     $member_flag = 2; // even weeks
