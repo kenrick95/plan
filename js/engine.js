@@ -98,10 +98,11 @@ $(document).ready(function ($) {
         show_table(cur_idx - 1);
     });
 
-    $("#course_form #submit").click(function (e) {
+    $("#course_form").submit(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val(), c;
         data = data.toUpperCase();
+        $("#course_form #submit").prop('disabled', true);
         $.ajax({
             type: "POST",
             url: "back_end/scheduler.php",
@@ -112,14 +113,13 @@ $(document).ready(function ($) {
                 $("#exam_table").hide();
                 $("#pager_nav").hide();
                 $("#target").html("");
+                $("#overlay").fadeIn();
 
                 if (data.length === 0) {
                     $("#input_empty_modal").modal({"show": true});
+                    $("#course_form #submit").removeAttr("disabled");
                     return false;
                 }
-
-                var target = document.getElementById("loading_icon");
-                $("#overlay").fadeIn();
             },
             success: function (d) {
                 var res = JSON.parse(d), timetable, len, i, j, k, table, details,
@@ -291,6 +291,7 @@ $(document).ready(function ($) {
                 $("#exam_table").show();
                 // $("#jumbo_title").slideUp();
                 $("#overlay").fadeOut();
+                $("#course_form #submit").removeAttr("disabled");
 
                 show_table(0);
                 $("#page_length").text(all_table.length);
