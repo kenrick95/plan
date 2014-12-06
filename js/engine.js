@@ -183,11 +183,8 @@ $(document).ready(function ($) {
                         for (day in days) {
                             if (days.hasOwnProperty(day)) {
                                 dayname = days[day];
-                                if (timetable[dayname] === undefined) {
-                                    table += "<td></td>";
-                                    continue;
-                                }
-                                if (timetable[dayname][times[j]] === undefined) {
+                                if (timetable[dayname] === undefined
+                                        || timetable[dayname][times[j]] === undefined) {
                                     table += "<td></td>";
                                     continue;
                                 }
@@ -200,10 +197,8 @@ $(document).ready(function ($) {
                                         continue;
                                     }
                                     for (k = j + 1; k < lentime - 1; k++) {
-                                        if (timetable[dayname][times[k]] === undefined) {
-                                            break;
-                                        }
-                                        if (timetable[dayname][times[k]][0] === undefined) {
+                                        if (timetable[dayname][times[k]] === undefined
+                                                || timetable[dayname][times[k]][0] === undefined) {
                                             break;
                                         }
                                         if (details[0].id === timetable[dayname][times[k]][0].id
@@ -221,17 +216,20 @@ $(document).ready(function ($) {
                                     } else {
                                         table += "<td rowspan=\"" + rowspan + "\">";
                                     }
+                                    if (!index_chosen.hasOwnProperty(details[0].id)) {
+                                        index_chosen[details[0].id] = details[0].index;
+                                    }
+                                    table += details[0].id
+                                        + " "
+                                        + details[0].type
+                                        + " "
+                                        + details[0].group
+                                        + " "
+                                        + details[0].location
+                                        + " "
+                                        + details[0].remarks;
                                     if (details[1] !== undefined) {
-                                        table += details[0].id
-                                            + " "
-                                            + details[0].type
-                                            + " "
-                                            + details[0].group
-                                            + " "
-                                            + details[0].location
-                                            + " "
-                                            + details[0].remarks
-                                            + "<br>"
+                                        table += "<br>"
                                             + details[1].id
                                             + " "
                                             + details[1].type
@@ -240,29 +238,12 @@ $(document).ready(function ($) {
                                             + " "
                                             + details[1].location
                                             + " "
-                                            + details[1].remarks
-                                            + "</td>";
-                                        if (!index_chosen.hasOwnProperty(details[0].id)) {
-                                            index_chosen[details[0].id] = details[0].index;
-                                        }
+                                            + details[1].remarks;
                                         if (!index_chosen.hasOwnProperty(details[1].id)) {
                                             index_chosen[details[1].id] = details[1].index;
                                         }
-                                    } else {
-                                        table += details[0].id
-                                            + " "
-                                            + details[0].type
-                                            + " "
-                                            + details[0].group
-                                            + " "
-                                            + details[0].location
-                                            + " "
-                                            + details[0].remarks
-                                            + "</td>";
-                                        if (!index_chosen.hasOwnProperty(details[0].id)) {
-                                            index_chosen[details[0].id] = details[0].index;
-                                        }
                                     }
+                                    table += "</td>";
                                 } else {
                                     table += "<td></td>";
                                 }
