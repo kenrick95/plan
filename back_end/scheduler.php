@@ -225,9 +225,7 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
                 "type" => $detail["type"],
                 "location" => $detail["location"],
                 "group" => $detail["group"],
-                "remarks" => $detail["remarks"],
-                "duration" => $detail["time"]["duration"],
-                "start_time" => $detail["time"]["start"]
+                "remarks" => $detail["remarks"]
             );
     
     $start_time = $detail["time"]["start"];
