@@ -150,7 +150,7 @@ $(document).ready(function ($) {
                         "1800", "1830", "1900", "1930", "2000", "2030", "2100",
                         "2130", "2200", "2230", "2300"], lentime = times.length,
                     index_chosen = {}, exam_schedule, date, time, rowspanning, rowspan,
-                    total_au, total_course, timetable_shown;
+                    total_au, total_course, timetable_shown, dayname;
                 all_table = [];
                 all_indices = [];
 
@@ -182,7 +182,16 @@ $(document).ready(function ($) {
                         table += "<td>" + times[j] + "-" + times[j + 1] + "</td>";
                         for (day in days) {
                             if (days.hasOwnProperty(day)) {
-                                details = timetable[days[day]][times[j]];
+                                dayname = days[day];
+                                if (timetable[dayname] === undefined) {
+                                    table += "<td></td>";
+                                    continue;
+                                }
+                                if (timetable[dayname][times[j]] === undefined) {
+                                    table += "<td></td>";
+                                    continue;
+                                }
+                                details = timetable[dayname][times[j]];
                                 rowspan = 1;
                                 if (details[0] !== undefined) {
                                     if (!timetable_shown.hasOwnProperty(j + " " + day)) {
@@ -191,11 +200,14 @@ $(document).ready(function ($) {
                                         continue;
                                     }
                                     for (k = j + 1; k < lentime - 1; k++) {
-                                        if (timetable[days[day]][times[k]][0] === undefined) {
+                                        if (timetable[dayname][times[k]] === undefined) {
                                             break;
                                         }
-                                        if (details[0].id === timetable[days[day]][times[k]][0].id
-                                                && details[0].type === timetable[days[day]][times[k]][0].type) {
+                                        if (timetable[dayname][times[k]][0] === undefined) {
+                                            break;
+                                        }
+                                        if (details[0].id === timetable[dayname][times[k]][0].id
+                                                && details[0].type === timetable[dayname][times[k]][0].type) {
                                             rowspan++;
                                             if (!timetable_shown.hasOwnProperty(k + " " + day)) {
                                                 timetable_shown[k + " " + day] = true;
@@ -252,8 +264,7 @@ $(document).ready(function ($) {
                                         }
                                     }
                                 } else {
-                                    table += "<td>"
-                                        + "</td>";
+                                    table += "<td></td>";
                                 }
                             }
                         }
