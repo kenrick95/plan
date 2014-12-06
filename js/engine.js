@@ -7,7 +7,27 @@ $(document).ready(function ($) {
         this.length = from < 0 ? this.length + from : from;
         return this.push.apply(this, rest);
     };
-    var cache = {}, all_table = [], cur_idx, all_indices = [];
+    var spin_options = {
+        lines: 13, // The number of lines to draw
+        length: 5, // The length of each line
+        width: 2, // The line thickness
+        radius: 5, // The radius of the inner circle
+        corners: 1, // Corner roundness (0..1)
+        rotate: 0, // The rotation offset
+        direction: 1, // 1: clockwise, -1: counterclockwise
+        color: '#000', // #rgb or #rrggbb or array of colors
+        speed: 1.4, // Rounds per second
+        trail: 60, // Afterglow percentage
+        shadow: false, // Whether to render a shadow
+        hwaccel: false, // Whether to use hardware acceleration
+        className: 'spinner', // The CSS class to assign to the spinner
+        zIndex: 2e9, // The z-index (defaults to 2000000000)
+        top: '55%', // Top position relative to parent
+        left: '48%' // Left position relative to parent
+    };
+    
+    var cache = {}, all_table = [], cur_idx, all_indices = [], spinner = new Spinner(spin_options);
+    
     function split(val) {
         return val.split(/,\s*/);
     }
@@ -38,18 +58,20 @@ $(document).ready(function ($) {
                 },
             },
             afterTagAdded: function (event, ui) {
-                var i, len = allTags.length;
+                var i, len = allTags.length, course = ui.tagLabel.toUpperCase();
                 for (i = 0; i < len; i++) {
-                    if (allTags[i].value === ui.tagLabel) {
+                    // To ignore the case sensitivity
+                    if (allTags[i].value === course) {
                         allTags[i].flag = 1;
                         break;
                     }
                 }
             },
             afterTagRemoved: function (event, ui) {
-                var i, len = allTags.length;
+                var i, len = allTags.length, course = ui.tagLabel.toUpperCase();
                 for (i = 0; i < len; i++) {
-                    if (allTags[i].value === ui.tagLabel) {
+                    // To ignore the case sensitivity
+                    if (allTags[i].value === course) {
                         allTags[i].flag = 0;
                         break;
                     }
@@ -70,6 +92,7 @@ $(document).ready(function ($) {
 
     $("#pager_nav").hide();
     $("#exam_table").hide();
+    $("#loading_icon").hide();
     function show_table(idx) {
         if (idx < 0 || idx >= all_table.length) {
             return;
@@ -93,27 +116,39 @@ $(document).ready(function ($) {
     });
 
     $("#course_form #submit").click(function (e) {
-        /*
-            Check whether the input is valid (using regex)
-        */
         e.preventDefault();
-        var data = $("#input_courses").val();
-        console.log(data);
-
+        var data = $("#input_courses").val(), c;
+        data = data.toUpperCase();        
         $.ajax({
             type: "POST",
             url: "back_end/scheduler.php",
             data: {courses: data},
-            success: function (d) {
+            beforeSend: function () {
+                // Whenever a new request is submitted, remove all table -> in the real web, there will be a loading icon to tell the user
+                // that their request is still in process
+                $("#exam_table").hide();
+                $("#pager_nav").hide();
+                $("#target").html("");
+                
+                var target = document.getElementById("loading_icon");
+                spinner.spin(target);
+                $("#loading_icon").show();
+                console.log("SPINNING!");
+            },
+            success: function (d) { 
+                // Stopping the spinner
+                $("#loading_icon").hide();
+                spinner.stop();
+                
                 var res = JSON.parse(d), timetable, len, i, j, table, details,
-                    day, days = ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
-                    times = ["0830", "0900", "0930", "1000", "1030",
+                day, days = ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
+                times = ["0830", "0900", "0930", "1000", "1030",
                         "1100", "1130", "1200", "1230", "1300", "1330", "1400",
                         "1430", "1500", "1530", "1600", "1630", "1700", "1730",
                         "1800", "1830", "1900", "1930", "2000", "2030", "2100",
                         "2130", "2200", "2230", "2300"], lentime = times.length,
-                    index_chosen = {}, exam_schedule, date, time, rowspanning, rowspan,
-                    total_au, total_course;
+                index_chosen = {}, exam_schedule, date, time, rowspanning, rowspan,
+                total_au, total_course;
                 all_table = [];
                 all_indices = [];
 

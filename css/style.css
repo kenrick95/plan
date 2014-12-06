@@ -12,6 +12,9 @@
 table {
     /*table-layout: fixed;*/
 }
+#exam_table {
+    margin-top: 1em;
+}
 .pointer {
     cursor: pointer;
 }
