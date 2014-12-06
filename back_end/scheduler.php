@@ -120,8 +120,17 @@ function generate_timetable ($input_courses, $temp_timetable) {
         
     # One solution is found
     if (count($input_courses) == 0) {
+        // Don't store empty keys
+        foreach ($temp_timetable as $day => $times) {
+            foreach ($times as $time => $indices) {
+                if (empty($indices))
+                    unset($temp_timetable[$day][$time]);
+            }
+            if (empty($temp_timetable[$day]))
+                unset($temp_timetable[$day]);
+        }
         array_push($all_timetable, $temp_timetable);
-        
+
         /*
         if (count($all_timetable == 20)) {
             # flush here
@@ -227,9 +236,7 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
                 "type" => $detail["type"],
                 "location" => $detail["location"],
                 "group" => $detail["group"],
-                "remarks" => $detail["remarks"],
-                "duration" => $detail["time"]["duration"],
-                "start_time" => $detail["time"]["start"]
+                "remarks" => $detail["remarks"]
             );
     
     $start_time = $detail["time"]["start"];

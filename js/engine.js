@@ -7,27 +7,8 @@ $(document).ready(function ($) {
         this.length = from < 0 ? this.length + from : from;
         return this.push.apply(this, rest);
     };
-    var spin_options = {
-        lines: 13, // The number of lines to draw
-        length: 5, // The length of each line
-        width: 2, // The line thickness
-        radius: 5, // The radius of the inner circle
-        corners: 1, // Corner roundness (0..1)
-        rotate: 0, // The rotation offset
-        direction: 1, // 1: clockwise, -1: counterclockwise
-        color: '#000', // #rgb or #rrggbb or array of colors
-        speed: 1.4, // Rounds per second
-        trail: 60, // Afterglow percentage
-        shadow: false, // Whether to render a shadow
-        hwaccel: false, // Whether to use hardware acceleration
-        className: 'spinner', // The CSS class to assign to the spinner
-        zIndex: 2e9, // The z-index (defaults to 2000000000)
-        top: '55%', // Top position relative to parent
-        left: '48%' // Left position relative to parent
-    };
-    
-    var cache = {}, all_table = [], cur_idx, all_indices = [], spinner = new Spinner(spin_options);
-    
+    var cache = {}, all_table = [], cur_idx, all_indices = [];
+
     function split(val) {
         return val.split(/,\s*/);
     }
@@ -92,7 +73,9 @@ $(document).ready(function ($) {
 
     $("#pager_nav").hide();
     $("#exam_table").hide();
-    $("#loading_icon").hide();
+    $("#loading").css("margin-top", ($("#overlay").outerHeight() - $("#loading").outerHeight()) / 2  + "px");
+    $("#overlay").fadeOut();
+    
     function show_table(idx) {
         if (idx < 0 || idx >= all_table.length) {
             return;
@@ -115,10 +98,11 @@ $(document).ready(function ($) {
         show_table(cur_idx - 1);
     });
 
-    $("#course_form #submit").click(function (e) {
+    $("#course_form").submit(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val(), c;
-        data = data.toUpperCase();        
+        data = data.toUpperCase();
+        $("#course_form #submit").prop('disabled', true);
         $.ajax({
             type: "POST",
             url: "back_end/scheduler.php",
@@ -129,30 +113,24 @@ $(document).ready(function ($) {
                 $("#exam_table").hide();
                 $("#pager_nav").hide();
                 $("#target").html("");
-                
+                $("#overlay").fadeIn();
+
                 if (data.length === 0) {
                     $("#input_empty_modal").modal({"show": true});
+                    $("#course_form #submit").removeAttr("disabled");
                     return false;
                 }
-                
-                var target = document.getElementById("loading_icon");
-                spinner.spin(target);
-                $("#loading_icon").show();
             },
-            success: function (d) { 
-                // Stopping the spinner
-                $("#loading_icon").hide();
-                spinner.stop();
-                
-                var res = JSON.parse(d), timetable, len, i, j, table, details,
-                day, days = ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
-                times = ["0830", "0900", "0930", "1000", "1030",
+            success: function (d) {
+                var res = JSON.parse(d), timetable, len, i, j, k, table, details,
+                    day, days = ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
+                    times = ["0830", "0900", "0930", "1000", "1030",
                         "1100", "1130", "1200", "1230", "1300", "1330", "1400",
                         "1430", "1500", "1530", "1600", "1630", "1700", "1730",
                         "1800", "1830", "1900", "1930", "2000", "2030", "2100",
                         "2130", "2200", "2230", "2300"], lentime = times.length,
-                index_chosen = {}, exam_schedule, date, time, rowspanning, rowspan,
-                total_au, total_course;
+                    index_chosen = {}, exam_schedule, date, time, rowspanning, rowspan,
+                    total_au, total_course, timetable_shown, dayname;
                 all_table = [];
                 all_indices = [];
 
@@ -178,43 +156,60 @@ $(document).ready(function ($) {
                         + "</tr>"
                         + "</thead>"
                         + "<tbody>";
-
+                    timetable_shown = {};
                     for (j = 0; j < lentime - 1; j++) {
                         table += "<tr>";
                         table += "<td>" + times[j] + "-" + times[j + 1] + "</td>";
                         for (day in days) {
                             if (days.hasOwnProperty(day)) {
-                                details = timetable[days[day]][times[j]];
+                                dayname = days[day];
+                                if (timetable[dayname] === undefined
+                                        || timetable[dayname][times[j]] === undefined) {
+                                    table += "<td></td>";
+                                    continue;
+                                }
+                                details = timetable[dayname][times[j]];
+                                rowspan = 1;
                                 if (details[0] !== undefined) {
+                                    if (!timetable_shown.hasOwnProperty(j + " " + day)) {
+                                        timetable_shown[j + " " + day] = true;
+                                    } else {
+                                        continue;
+                                    }
+                                    for (k = j + 1; k < lentime - 1; k++) {
+                                        if (timetable[dayname][times[k]] === undefined
+                                                || timetable[dayname][times[k]][0] === undefined) {
+                                            break;
+                                        }
+                                        if (details[0].id === timetable[dayname][times[k]][0].id
+                                                && details[0].type === timetable[dayname][times[k]][0].type) {
+                                            rowspan++;
+                                            if (!timetable_shown.hasOwnProperty(k + " " + day)) {
+                                                timetable_shown[k + " " + day] = true;
+                                            }
+                                        } else {
+                                            break;
+                                        }
+                                    }
+                                    if (rowspan === 1) {
+                                        table += "<td>";
+                                    } else {
+                                        table += "<td rowspan=\"" + rowspan + "\">";
+                                    }
+                                    if (!index_chosen.hasOwnProperty(details[0].id)) {
+                                        index_chosen[details[0].id] = details[0].index;
+                                    }
+                                    table += details[0].id
+                                        + " "
+                                        + details[0].type
+                                        + " "
+                                        + details[0].group
+                                        + " "
+                                        + details[0].location
+                                        + " "
+                                        + details[0].remarks;
                                     if (details[1] !== undefined) {
-                                        rowspan = 0;
-                                        if (!rowspanning.hasOwnProperty(details[0].id + details[0].type + details[0].start_time)) {
-                                            rowspanning[details[0].id + details[0].type + details[0].start_time] = true;
-                                            rowspan = parseInt(details[0].duration * 2, 10);
-                                        } else {
-                                            continue;
-                                        }
-                                        if (!rowspanning.hasOwnProperty(details[1].id + details[1].type + details[1].start_time)) {
-                                            rowspanning[details[1].id + details[1].type + details[1].start_time] = true;
-                                            rowspan = parseInt(details[1].duration * 2, 10);
-                                        } else {
-                                            continue;
-                                        }
-                                        if (rowspan === 0) {
-                                            table += "<td>";
-                                        } else {
-                                            table += "<td rowspan=\"" + rowspan + "\">";
-                                        }
-                                        table += details[0].id
-                                            + " "
-                                            + details[0].type
-                                            + " "
-                                            + details[0].group
-                                            + " "
-                                            + details[0].location
-                                            + " "
-                                            + details[0].remarks
-                                            + "<br>"
+                                        table += "<br>"
                                             + details[1].id
                                             + " "
                                             + details[1].type
@@ -223,43 +218,14 @@ $(document).ready(function ($) {
                                             + " "
                                             + details[1].location
                                             + " "
-                                            + details[1].remarks
-                                            + "</td>";
-                                        if (!index_chosen.hasOwnProperty(details[0].id)) {
-                                            index_chosen[details[0].id] = details[0].index;
-                                        }
+                                            + details[1].remarks;
                                         if (!index_chosen.hasOwnProperty(details[1].id)) {
                                             index_chosen[details[1].id] = details[1].index;
                                         }
-                                    } else {
-                                        if (!rowspanning.hasOwnProperty(details[0].id + details[0].type + details[0].start_time)) {
-                                            rowspanning[details[0].id + details[0].type + details[0].start_time] = true;
-                                            rowspan = parseInt(details[0].duration * 2, 10);
-                                        } else {
-                                            continue;
-                                        }
-                                        if (rowspan === 0) {
-                                            table += "<td>";
-                                        } else {
-                                            table += "<td rowspan=\"" + rowspan + "\">";
-                                        }
-                                        table += details[0].id
-                                            + " "
-                                            + details[0].type
-                                            + " "
-                                            + details[0].group
-                                            + " "
-                                            + details[0].location
-                                            + " "
-                                            + details[0].remarks
-                                            + "</td>";
-                                        if (!index_chosen.hasOwnProperty(details[0].id)) {
-                                            index_chosen[details[0].id] = details[0].index;
-                                        }
                                     }
+                                    table += "</td>";
                                 } else {
-                                    table += "<td>"
-                                        + "</td>";
+                                    table += "<td></td>";
                                 }
                             }
                         }
@@ -324,6 +290,8 @@ $(document).ready(function ($) {
                 $("#exam_body").html(table);
                 $("#exam_table").show();
                 // $("#jumbo_title").slideUp();
+                $("#overlay").fadeOut();
+                $("#course_form #submit").removeAttr("disabled");
 
                 show_table(0);
                 $("#page_length").text(all_table.length);
