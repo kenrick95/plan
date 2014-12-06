@@ -191,7 +191,9 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
     # duration * 2 -> how many slots 
     for ($i = 0; $i < $duration * 2; $i++) {
         if (count($temp_timetable[$day][$time_keys[$index]]) > 0) {
-                        
+            # In case there are 2 courses at that slot already!
+            if (count($temp_timetable[$day][$time_keys[$index]]) >= 2) return true;
+            
             # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
             $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
             $clash_flag = $clash_detail["flag"];
