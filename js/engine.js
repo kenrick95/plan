@@ -1,5 +1,5 @@
 /*jslint browser: true, sloppy: true, plusplus: true, continue: true */
-/*global jQuery, $, Spinner */
+/*global jQuery, $ */
 $(document).ready(function ($) {
     // Array Remove - By John Resig (MIT Licensed)
     Array.prototype.remove = function (from, to) {
@@ -7,24 +7,7 @@ $(document).ready(function ($) {
         this.length = from < 0 ? this.length + from : from;
         return this.push.apply(this, rest);
     };
-    var spin_options = {
-        lines: 13, // The number of lines to draw
-        length: 5, // The length of each line
-        width: 2, // The line thickness
-        radius: 5, // The radius of the inner circle
-        corners: 1, // Corner roundness (0..1)
-        rotate: 0, // The rotation offset
-        direction: 1, // 1: clockwise, -1: counterclockwise
-        color: '#000', // #rgb or #rrggbb or array of colors
-        speed: 1.4, // Rounds per second
-        trail: 60, // Afterglow percentage
-        shadow: false, // Whether to render a shadow
-        hwaccel: false, // Whether to use hardware acceleration
-        className: 'spinner', // The CSS class to assign to the spinner
-        zIndex: 2e9, // The z-index (defaults to 2000000000)
-        top: '55%', // Top position relative to parent
-        left: '48%' // Left position relative to parent
-    }, cache = {}, all_table = [], cur_idx, all_indices = [], spinner = new Spinner(spin_options);
+    var cache = {}, all_table = [], cur_idx, all_indices = [];
 
     function split(val) {
         return val.split(/,\s*/);
@@ -90,7 +73,9 @@ $(document).ready(function ($) {
 
     $("#pager_nav").hide();
     $("#exam_table").hide();
-    $("#loading_icon").hide();
+    $("#loading").css("margin-top", ($("#overlay").outerHeight() - $("#loading").outerHeight()) / 2  + "px");
+    $("#overlay").fadeOut();
+    
     function show_table(idx) {
         if (idx < 0 || idx >= all_table.length) {
             return;
@@ -116,7 +101,7 @@ $(document).ready(function ($) {
     $("#course_form #submit").click(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val(), c;
-        data = data.toUpperCase();        
+        data = data.toUpperCase();
         $.ajax({
             type: "POST",
             url: "back_end/scheduler.php",
@@ -134,14 +119,9 @@ $(document).ready(function ($) {
                 }
 
                 var target = document.getElementById("loading_icon");
-                spinner.spin(target);
-                $("#loading_icon").show();
+                $("#overlay").fadeIn();
             },
             success: function (d) {
-                // Stopping the spinner
-                $("#loading_icon").hide();
-                spinner.stop();
-
                 var res = JSON.parse(d), timetable, len, i, j, k, table, details,
                     day, days = ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
                     times = ["0830", "0900", "0930", "1000", "1030",
@@ -310,6 +290,7 @@ $(document).ready(function ($) {
                 $("#exam_body").html(table);
                 $("#exam_table").show();
                 // $("#jumbo_title").slideUp();
+                $("#overlay").fadeOut();
 
                 show_table(0);
                 $("#page_length").text(all_table.length);
