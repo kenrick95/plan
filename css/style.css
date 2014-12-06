@@ -8,6 +8,7 @@
 }
 #schedule td, #schedule th {
     width: 12em;
+    padding-left: 0.5em;
 }
 table {
     /*table-layout: fixed;*/
@@ -17,4 +18,7 @@ table {
 }
 .pointer {
     cursor: pointer;
+}
+#input_empty_modal p {
+    font-size: 1.2em;
 }

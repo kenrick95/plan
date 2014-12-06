@@ -130,10 +130,14 @@ $(document).ready(function ($) {
                 $("#pager_nav").hide();
                 $("#target").html("");
                 
+                if (data.length === 0) {
+                    $("#input_empty_modal").modal({"show": true});
+                    return false;
+                }
+                
                 var target = document.getElementById("loading_icon");
                 spinner.spin(target);
                 $("#loading_icon").show();
-                console.log("SPINNING!");
             },
             success: function (d) { 
                 // Stopping the spinner
