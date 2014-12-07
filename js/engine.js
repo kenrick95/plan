@@ -22,6 +22,7 @@ $(document).ready(function ($) {
         }
         $('#input_courses').tagit({
             availableTags: allTags,
+            caseSensitive: false,
             allowSpaces: true,
             autocomplete: {
                 source: function (request, response) {
@@ -37,6 +38,19 @@ $(document).ready(function ($) {
                     }
                     response(shown_data);
                 },
+            },
+            beforeTagAdded: function (event, ui) {
+                var i, len = allTags.length, course = ui.tagLabel.toUpperCase(), found = false;
+                for (i = 0; i < len; i++) {
+                    // To ignore the case sensitivity
+                    if (allTags[i].value === course) {
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) {
+                    return false;
+                }
             },
             afterTagAdded: function (event, ui) {
                 var i, len = allTags.length, course = ui.tagLabel.toUpperCase();
@@ -57,6 +71,9 @@ $(document).ready(function ($) {
                         break;
                     }
                 }
+            },
+            preprocessTag: function (val) {
+                return val.toUpperCase();
             }
         });
     }
