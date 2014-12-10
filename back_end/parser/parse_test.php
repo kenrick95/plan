@@ -44,11 +44,16 @@ function count_duration($start, $end) {
 $data =  new SimpleXMLElement($raw_data);
 $data = $data->BODY;
 $super_data = array();
+$course_list = array();
 foreach ($data->TABLE as $course) {
     if ($course->TR[0]->TD[0] !== null) { // course
         $course_code = (string) $course->TR[0]->TD[0]->B->FONT[0];
         $course_name = (string) $course->TR[0]->TD[1]->B->FONT[0];
         $course_au   = (string) $course->TR[0]->TD[2]->B->FONT[0];
+
+        array_push($course_list, array(
+            "code" => $course_code,
+            "name" => $course_name));
     } else { // index of the course
         
         $index_members = array();
@@ -141,6 +146,9 @@ foreach ($data->TABLE as $course) {
 
 file_put_contents('../data/parsed/text/2014_2_data_test.txt', print_r($super_data, true));
 file_put_contents('../data/parsed/json/2014_2_data_test.json', json_encode($super_data));
+
+file_put_contents('../data/parsed/text/2014_2_course_list.txt', print_r($course_list, true));
+file_put_contents('../data/parsed/json/2014_2_course_list.json', json_encode($course_list));
 
 echo "OK";
 ?>

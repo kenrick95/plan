@@ -70,8 +70,8 @@ foreach ($data->table[2]->TR->TR as $entry) {
 file_put_contents('../data/parsed/text/2014_2_exam_data.txt', print_r($super_data, true));
 file_put_contents('../data/parsed/json/2014_2_exam_data.json', json_encode($super_data));
 
-file_put_contents('../data/parsed/text/2014_2_course_list.txt', print_r($course_list, true));
-file_put_contents('../data/parsed/json/2014_2_course_list.json', json_encode($course_list));
+# file_put_contents('../data/parsed/text/2014_2_course_list.txt', print_r($course_list, true));
+# file_put_contents('../data/parsed/json/2014_2_course_list.json', json_encode($course_list));
 
 echo "OK";
 ?>
