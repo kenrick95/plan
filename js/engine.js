@@ -78,6 +78,7 @@ $(document).ready(function ($) {
         });
     }
     if (!!window.localStorage) {
+        localStorage.clear();
         if (!!localStorage.getItem("cache")) {
             cache = JSON.parse(localStorage.getItem("cache"));
             tagit(cache);
@@ -92,7 +93,7 @@ $(document).ready(function ($) {
     $("#exam_table").hide();
     $("#loading").css("margin-top", ($("#overlay").outerHeight() - $("#loading").outerHeight()) / 2  + "px");
     $("#overlay").fadeOut();
-    
+
     function show_table(idx) {
         if (idx < 0 || idx >= all_table.length) {
             return;
@@ -130,13 +131,13 @@ $(document).ready(function ($) {
                 $("#exam_table").hide();
                 $("#pager_nav").hide();
                 $("#target").html("");
-                $("#overlay").fadeIn();
 
                 if (data.length === 0) {
-                    $("#input_empty_modal").modal({"show": true});
+                    $("#input_empty_modal").modal('show');
                     $("#course_form #submit").removeAttr("disabled");
                     return false;
                 }
+                $("#overlay").fadeIn();
             },
             success: function (d) {
                 var res = JSON.parse(d), timetable, len, i, j, k, table, details,
