@@ -66,7 +66,7 @@ try {
     $request['staff_access'] = 'false';
 
     $response = httpRequest("http://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1", $request);
-    file_put_contents("data/raw/test/". $year . "_" . $semester . ".html", $response);
+    file_put_contents("data/raw/". $year . "_" . $semester . ".html", $response);
 
 
     ### Exam data
@@ -84,7 +84,7 @@ try {
 
     $response = httpRequest("http://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.get_detail", $request);
 
-    file_put_contents("data/raw/test/". $year . "_" . $semester . "_exam.html", $response);
+    file_put_contents("data/raw/". $year . "_" . $semester . "_exam.html", $response);
 
     echo "OK";
 } catch (Exception $e) {

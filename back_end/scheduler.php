@@ -1,7 +1,7 @@
 <?php
 ini_set('memory_limit', '512M');
 # Get the database
-$database_course = json_decode(file_get_contents("data/parsed/json/2014_2_data_test.json"), true);
+$database_course = json_decode(file_get_contents("data/parsed/json/2014_2_data.json"), true);
 $database_exam = json_decode(file_get_contents("data/parsed/json/2014_2_exam_data.json"), true);
 
 /* ---------------------------------------------------------------------------------------------- */

@@ -1,5 +1,35 @@
 Array
 (
+    [BS1101] => Array
+        (
+            [date] => 3 March 2015
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => BS1101
+            [name] => BASICS OF TCM
+            [duration] => 2.5
+        )
+
+    [BS2106] => Array
+        (
+            [date] => 3 March 2015
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BS2106
+            [name] => TCM FORMULARY
+            [duration] => 2.5
+        )
+
+    [BS3102] => Array
+        (
+            [date] => 4 March 2015
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => BS3102
+            [name] => SYNOPSIS OF THE GOLDEN CHAMBER
+            [duration] => 2.5
+        )
+
     [AC1101] => Array
         (
             [date] => 24 April 2015
@@ -290,6 +320,16 @@ Array
             [duration] => 2
         )
 
+    [RE9006] => Array
+        (
+            [date] => 24 April 2015
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => RE9006
+            [name] => BUSINESS OPERATIONS MANAGEMENT
+            [duration] => 2.5
+        )
+
     [SS0201] => Array
         (
             [date] => 24 April 2015
@@ -547,6 +587,16 @@ Array
             [time] => 2.30 pm
             [code] => PH3502
             [name] => CHAOTIC DYNAMICAL SYSTEMS
+            [duration] => 2.5
+        )
+
+    [RE1021] => Array
+        (
+            [date] => 24 April 2015
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => RE1021
+            [name] => MATHEMATICS II
             [duration] => 2.5
         )
 
@@ -2020,6 +2070,16 @@ Array
             [duration] => 2.5
         )
 
+    [RE1002] => Array
+        (
+            [date] => 28 April 2015
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => RE1002
+            [name] => ELECTRONICS AND INFORMATION ENGINEERING I
+            [duration] => 2.5
+        )
+
     [BS8003] => Array
         (
             [date] => 28 April 2015
@@ -2780,16 +2840,6 @@ Array
             [duration] => 2
         )
 
-    [MH4601] => Array
-        (
-            [date] => 29 April 2015
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => MH4601
-            [name] => DIFFERENTIAL GEOMETRY
-            [duration] => 2
-        )
-
     [MS1014] => Array
         (
             [date] => 29 April 2015
@@ -2808,16 +2858,6 @@ Array
             [code] => MT1004
             [name] => INTRODUCTION TO METEOROLOGY AND OCEANOGRAPHY
             [duration] => 2.5
-        )
-
-    [MTH413] => Array
-        (
-            [date] => 29 April 2015
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => MTH413
-            [name] => DIFFERENTIAL GEOMETRY
-            [duration] => 2
         )
 
     [PH2301] => Array
@@ -3400,6 +3440,16 @@ Array
             [duration] => 2
         )
 
+    [RE9005] => Array
+        (
+            [date] => 30 April 2015
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => RE9005
+            [name] => TECHNOLOGY, NETWORKS & E-BUSINESS
+            [duration] => 2.5
+        )
+
     [SS1005] => Array
         (
             [date] => 30 April 2015
@@ -3737,6 +3787,16 @@ Array
             [time] => 1.00 pm
             [code] => PH3401
             [name] => ATOMIC PHYSICS
+            [duration] => 2.5
+        )
+
+    [RE1003] => Array
+        (
+            [date] => 30 April 2015
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => RE1003
+            [name] => MECHANICAL AND STRUCTURAL ENGINEERING I
             [duration] => 2.5
         )
 
@@ -5020,16 +5080,6 @@ Array
             [duration] => 2.5
         )
 
-    [HC4043] => Array
-        (
-            [date] => 5 May 2015
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HC4043
-            [name] => SPECIAL TOPICS IN MODERN CHINA
-            [duration] => 2.5
-        )
-
     [HE2015] => Array
         (
             [date] => 5 May 2015
@@ -5317,16 +5367,6 @@ Array
             [time] => 1.00 pm
             [code] => FE1008
             [name] => COMPUTING
-            [duration] => 2.5
-        )
-
-    [HA3008] => Array
-        (
-            [date] => 5 May 2015
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HA3008
-            [name] => NONPROFIT MANAGEMENT AND SOCIAL ENTREPRENEURSHIP
             [duration] => 2.5
         )
 
