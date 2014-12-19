@@ -137,6 +137,7 @@ $(document).ready(function ($) {
                     $("#course_form #submit").removeAttr("disabled");
                     return false;
                 }
+                
                 $("#overlay").fadeIn();
             },
             success: function (d) {
@@ -156,6 +157,14 @@ $(document).ready(function ($) {
                 //$("#target").html(d);
                 $("#target").html("");
                 len = res.timetable.length;
+                
+                if (len === 0) {
+                    $("#overlay").fadeOut();
+                    $("#no_possible_schedule").modal('show');
+                    $("#course_form #submit").removeAttr("disabled");
+                    return;
+                }
+                
                 for (i = 0; i < len; i++) {
                     rowspanning = {};
                     index_chosen = {};
