@@ -96,11 +96,11 @@
             <div class="modal-dialog modal-md">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 class="modal-title" id="input_empty_modal_label">Empty Input</h4>
+                        <h4 class="modal-title" id="input_empty_modal_label">Empty Input</h4>
                     </div>
                     <div class="modal-body">
                         <p>
-                            Please enter the ID of the courses that you want to be scheduled
+                            Please enter the code of the courses that you want to be scheduled
                         </p>
                     </div>
                     <div class="modal-footer">
@@ -113,11 +113,17 @@
             <div class="modal-dialog modal-md">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 class="modal-title" id="about_modal_label">About</h4>
+                        <h4 class="modal-title" id="about_modal_label">About</h4>
                     </div>
                     <div class="modal-body">
+                        <p class="lead">
+                            If A*-search returns the optimum result, <b>plan*</b> returns the perfect timetable for your NTU courses!
+                        </p>
                         <p>
-                            If A*-search returns the optimum result, <b>plan*</b> returns the perfect timetable for your NTU courses! <b>plan*</b> returns you only <b>the possible combination of the courses</b>, so that you don't need to manually do trial-and-error at STARS Planner anymore. Just choose one, input at STARS Planner, and may the force be with you during the STARS Wars.
+                            <b>plan*</b> returns you only <b>the possible combination of the courses</b>, so that you don't need to manually do trial-and-error at STARS Planner anymore. Just choose one, input at STARS Planner, and may the force be with you during the STARS Wars.
+                        </p>
+                        <p>
+                            By using this application, you agree that [INSERT SOME LEGAL CLAUSE HERE].
                         </p>
                         <p>
                             This application is made during exam period of Semester 1, A.Y. 2014-15, by <a href="http://github.com/edocsss" target="_blank">Edwin Candinegara</a> &amp; <a href="http://kenrick95.org" target="_blank">Kenrick</a>.
@@ -127,21 +133,21 @@
                         </p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="no_possible_schedule" tabindex="-1" role="dialog" aria-labelledby="input_empty_modal_label" aria-hidden="true">
+        <div class="modal fade" id="no_possible_schedule" tabindex="-1" role="dialog" aria-labelledby="no_possible_schedule_label" aria-hidden="true">
             <div class="modal-dialog modal-md">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 class="modal-title" id="no_possible_schedule">No Possible Schedule</h4>
+                        <h4 class="modal-title" id="no_possible_schedule_label">No Possible Schedule</h4>
                     </div>
                     <div class="modal-body">
                         <p>
-                            There is no possible arrangement found for the given course IDs because 
-                            a clash of lecture / tutorial / lab session occurs.
+                            There is no possible arrangement found for the given courses because 
+                            lecture, tutorial, or lab session has clashed.
                         </p>
                     </div>
                     <div class="modal-footer">

@@ -850,16 +850,6 @@ Array
             [duration] => 2.5
         )
 
-    [MA4801] => Array
-        (
-            [date] => 27 April 2015
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => MA4801
-            [name] => FINITE ELEMENT METHOD
-            [duration] => 2.5
-        )
-
     [MH1811] => Array
         (
             [date] => 27 April 2015
@@ -5486,7 +5476,7 @@ Array
             [day] => Tuesday
             [time] => 1.00 pm
             [code] => MS4611
-            [name] => IMPLANTED BIOMEDICAL DEVICES
+            [name] => BIOMEDICAL DEVICES
             [duration] => 2
         )
 
@@ -5717,16 +5707,6 @@ Array
             [time] => 5.00 pm
             [code] => MA4853
             [name] => MANUFACTURING SYSTEMS
-            [duration] => 2.5
-        )
-
-    [MA9002] => Array
-        (
-            [date] => 5 May 2015
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => MA9002
-            [name] => NUCLEAR ENGINEERING
             [duration] => 2.5
         )
 
