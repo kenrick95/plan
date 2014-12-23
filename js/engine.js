@@ -1,12 +1,6 @@
 /*jslint browser: true, sloppy: true, plusplus: true, continue: true */
-/*global jQuery, $ */
+/*global jQuery, $, swal */
 $(document).ready(function ($) {
-    // Array Remove - By John Resig (MIT Licensed)
-    Array.prototype.remove = function (from, to) {
-        var rest = this.slice((to || from) + 1 || this.length);
-        this.length = from < 0 ? this.length + from : from;
-        return this.push.apply(this, rest);
-    };
     var cache = {}, all_table = [], cur_idx, all_indices = [];
 
     function split(val) {
@@ -78,7 +72,7 @@ $(document).ready(function ($) {
         });
     }
     if (!!window.localStorage) {
-        localStorage.clear();
+        localStorage.clear(); // force to load fresh data
         if (!!localStorage.getItem("cache")) {
             cache = JSON.parse(localStorage.getItem("cache"));
             tagit(cache);
@@ -118,7 +112,7 @@ $(document).ready(function ($) {
 
     $("#course_form").submit(function (e) {
         e.preventDefault();
-        var data = $("#input_courses").val(), c;
+        var data = $("#input_courses").val();
         data = data.toUpperCase();
         $("#course_form #submit").prop('disabled', true);
         $.ajax({
@@ -133,11 +127,10 @@ $(document).ready(function ($) {
                 $("#target").html("");
 
                 if (data.length === 0) {
-                    $("#input_empty_modal").modal('show');
+                    swal("Empty input", "Please enter the code of the courses that you want to be scheduled.", "error");
                     $("#course_form #submit").removeAttr("disabled");
                     return false;
                 }
-                
                 $("#overlay").fadeIn();
             },
             success: function (d) {
@@ -148,7 +141,7 @@ $(document).ready(function ($) {
                         "1430", "1500", "1530", "1600", "1630", "1700", "1730",
                         "1800", "1830", "1900", "1930", "2000", "2030", "2100",
                         "2130", "2200", "2230", "2300"], lentime = times.length,
-                    index_chosen = {}, exam_schedule, date, time, rowspanning, rowspan,
+                    index_chosen = {}, exam_schedule, date, time, rowspan,
                     total_au, total_course, timetable_shown, dayname;
                 all_table = [];
                 all_indices = [];
@@ -157,16 +150,26 @@ $(document).ready(function ($) {
                 //$("#target").html(d);
                 $("#target").html("");
                 len = res.timetable.length;
-                
-                if (len === 0) {
+                if (!res.validation_result) {
+                    swal("We're sorry.", "Invalid input were given. Please refresh the page to try again.", "warning");
                     $("#overlay").fadeOut();
-                    $("#no_possible_schedule").modal('show');
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
-                
+                if (!res.exam_schedule_validation) {
+                    swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule has clashed. Please try selecting another course.", "warning");
+                    $("#overlay").fadeOut();
+                    $("#course_form #submit").removeAttr("disabled");
+                    return;
+                }
+                if (len === 0) {
+                    swal("We're sorry.", "There is no possible arrangement found for the given courses because lecture, tutorial, or lab session has clashed. Please try selecting another course.", "warning");
+                    $("#overlay").fadeOut();
+                    $("#course_form #submit").removeAttr("disabled");
+                    return;
+                }
+
                 for (i = 0; i < len; i++) {
-                    rowspanning = {};
                     index_chosen = {};
                     timetable = res.timetable[i];
                     table = "<div class=\"table-responsive\">"
@@ -263,14 +266,14 @@ $(document).ready(function ($) {
                         + "</div>";
                     all_table.push(table);
                     all_indices.push(index_chosen);
-                    //$("#target").append(table);
                 }
 
 
                 // show exam table
                 table = "";
                 exam_schedule = res.exam_schedule;
-                total_au = 0, total_course = 0;
+                total_au = 0;
+                total_course = 0;
                 for (date in exam_schedule) {
                     if (exam_schedule.hasOwnProperty(date)) {
                         for (time in exam_schedule[date]) {
@@ -287,7 +290,7 @@ $(document).ready(function ($) {
                                     + exam_schedule[date][time].name
                                     + "</td>"
                                     + "<td>"
-                                    + exam_schedule[date][time]["au"][0]
+                                    + exam_schedule[date][time].au[0]
                                     + "</td>"
                                     + "<td>"
                                     + exam_schedule[date][time].day
@@ -298,7 +301,7 @@ $(document).ready(function ($) {
                                     + "&mdash;"
                                     + exam_schedule[date][time].end_time
                                     + "</td>";
-                                total_au += parseInt(exam_schedule[date][time]["au"][0]);
+                                total_au += parseInt(exam_schedule[date][time].au[0], 10);
                                 table += "</tr>";
                             }
                         }
@@ -316,7 +319,6 @@ $(document).ready(function ($) {
 
                 $("#exam_body").html(table);
                 $("#exam_table").show();
-                // $("#jumbo_title").slideUp();
                 $("#overlay").fadeOut();
                 $("#course_form #submit").removeAttr("disabled");
 
