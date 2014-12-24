@@ -152,19 +152,19 @@ $(document).ready(function ($) {
                 len = res.timetable.length;
                 if (!res.validation_result) {
                     swal("We're sorry.", "Invalid input were given. Please refresh the page to try again.", "warning");
-                    $("#overlay").fadeOut();
+                    $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
                 if (!res.exam_schedule_validation) {
                     swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule has clashed. Please try selecting another course.", "warning");
-                    $("#overlay").fadeOut();
+                    $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
                 if (len === 0) {
                     swal("We're sorry.", "There is no possible arrangement found for the given courses because lecture, tutorial, or lab session has clashed. Please try selecting another course.", "warning");
-                    $("#overlay").fadeOut();
+                    $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
