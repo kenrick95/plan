@@ -197,7 +197,7 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
     $week = $detail["flag"];
         
     $time_keys = array_keys($temp_timetable[$day]);
-    $index = array_search($start_time, $time_keys);
+    $index = array_search($start_time, $time_keys); # Iterator for each time slot in the temp_timetable
         
     # duration * 2 -> how many slots 
     for ($i = 0; $i < $duration * 2; $i++) {
@@ -213,12 +213,8 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
             if ($course_id !== $clash_detail["id"]) {
                 # If the clash is for the whole semester
                 if ($week === 0) return true; 
-                if ($clash_flag === 0) return true;
-            
-                # If one is even and one is odd or the other way round
-                if ($week === $clash_flag) { 
-                    return true;
-                }
+                if ($clash_flag === 0) return true;            
+                if ($week === $clash_flag) return true;
             }
         }
         
