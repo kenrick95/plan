@@ -1,4 +1,5 @@
 <?php
+set_time_limit(60);
 $settings['cookiefile'] = "cookies.tmp";
 
 function httpRequest($url, $post="") {
