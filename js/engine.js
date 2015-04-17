@@ -113,6 +113,9 @@ $(document).ready(function ($) {
     $("#course_form").submit(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val();
+
+        console.log(data);
+
         data = data.toUpperCase();
         $("#course_form #submit").prop('disabled', true);
         $.ajax({
@@ -146,7 +149,9 @@ $(document).ready(function ($) {
                 all_table = [];
                 all_indices = [];
 
+                console.log("RES: ");
                 console.log(res);
+
                 //$("#target").html(d);
                 $("#target").html("");
                 len = res.timetable.length;
@@ -275,6 +280,7 @@ $(document).ready(function ($) {
                 total_au = 0;
                 total_course = 0;
                 for (date in exam_schedule) {
+                    console.log(date);
                     if (exam_schedule.hasOwnProperty(date)) {
                         for (time in exam_schedule[date]) {
                             if (exam_schedule[date].hasOwnProperty(time)) {
@@ -292,15 +298,22 @@ $(document).ready(function ($) {
                                     + "<td>"
                                     + exam_schedule[date][time].au[0]
                                     + "</td>"
-                                    + "<td>"
-                                    + exam_schedule[date][time].day
-                                    + ", "
-                                    + date
-                                    + ", "
-                                    + exam_schedule[date][time].time
-                                    + "&mdash;"
-                                    + exam_schedule[date][time].end_time
-                                    + "</td>";
+                                    + "<td>";
+
+                                    // Check for existence of examination for that course
+                                    if (exam_schedule[date][time].day !== -1) {
+                                        table += exam_schedule[date][time].day
+                                            + ", "
+                                            + date
+                                            + ", "
+                                            + exam_schedule[date][time].time
+                                            + "&mdash;"
+                                            + exam_schedule[date][time].end_time;
+                                    } else {
+                                        table += "N/A";
+                                    }
+
+                                    table += "</td>";
                                 total_au += parseInt(exam_schedule[date][time].au[0], 10);
                                 table += "</tr>";
                             }

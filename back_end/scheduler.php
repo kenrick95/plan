@@ -39,7 +39,7 @@ if (isset($input_courses)) {
         }
     }
 
-    $result = array("validation_result" => validate_input($input_courses, $database_exam));
+    $result = array("validation_result" => validate_input($input_courses, $database_course));
     if ($result["validation_result"]) {
         $result["exam_schedule_validation"] = check_exam_schedule($input_courses);
         $result["exam_schedule"] = $exam_schedule;
@@ -54,9 +54,9 @@ if (isset($input_courses)) {
 /* ---------------------------------------------------------------------------------------------- */
 
 # Check whether it is a valid course code
-function validate_input ($input_courses, $database_exam) {
+function validate_input ($input_courses, $database_course) {
     foreach ($input_courses as $course) {
-        if (!array_key_exists($course, $database_exam)) {
+        if (!array_key_exists($course, $database_course)) {
             return false;
         }
     }
@@ -71,28 +71,44 @@ function check_exam_schedule ($input_courses) {
     
     foreach ($input_courses as $course) {
         $exam = get_exam_details($course, $database_exam);
-        $exam_date = $exam["date"];
-        $exam_time = $exam["time"];
+        if ($exam === -1) {
+            $exam_date = -1;
+            $exam_time = -1;
 
-        // parse time
-        $hour = intval($exam["time"][0]);
-        $minutes = intval($exam["time"][2] . $exam["time"][3]);
-        if ($exam["time"][5] . $exam["time"][6] === "pm") {
-            $hour += 12;
-        }
-        $exam["time"] = pad($hour) . pad($minutes);
-
-        $time = ($hour * 60 + $minutes) + $exam["duration"] * 60;
-        $hour = (int) ($time / 60);
-        $minutes = (int) ($time % 60);
-
-        $exam["end_time"] = pad($hour) . pad($minutes);
-        $exam["au"]= trim($database_course[$course]['au']);
-        
-        if (isset($exam_schedule[$exam_date][$exam_time])) {
-            return false;
+            $exam = [];
+            $exam["au"] = trim($database_course[$course]['au']);;
+            $exam["code"] = $course;
+            $exam["date"] = -1;
+            $exam["day"] = -1;
+            $exam["duration"] = -1;
+            $exam["end_time"] = -1;
+            $exam["name"] = trim($database_course[$course]["name"]);
+            $exam["time"] = -1;
+            $exam_schedule[$course][$course] = $exam;
         } else {
-            $exam_schedule[$exam_date][$exam_time] = $exam;
+            $exam_date = $exam["date"];
+            $exam_time = $exam["time"];
+
+            // parse time
+            $hour = intval($exam["time"][0]);
+            $minutes = intval($exam["time"][2] . $exam["time"][3]);
+            if ($exam["time"][5] . $exam["time"][6] === "pm") {
+                $hour += 12;
+            }
+            $exam["time"] = pad($hour) . pad($minutes);
+
+            $time = ($hour * 60 + $minutes) + $exam["duration"] * 60;
+            $hour = (int) ($time / 60);
+            $minutes = (int) ($time % 60);
+
+            $exam["end_time"] = pad($hour) . pad($minutes);
+            $exam["au"]= trim($database_course[$course]['au']);
+        
+            if (isset($exam_schedule[$exam_date][$exam_time])) {
+                return false;
+            } else {
+                $exam_schedule[$exam_date][$exam_time] = $exam;
+            }
         }
     }
     
@@ -102,6 +118,10 @@ function check_exam_schedule ($input_courses) {
 
 # Get exam details based on the course ID
 function get_exam_details ($course_id, $database_exam) {
+    if (!array_key_exists($course_id, $database_exam)) {
+        return -1;
+    }
+
     return $database_exam[$course_id];
 }
 
