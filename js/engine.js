@@ -114,7 +114,7 @@ $(document).ready(function ($) {
         e.preventDefault();
         var data = $("#input_courses").val();
 
-        console.log(data);
+        // console.log(data);
 
         data = data.toUpperCase();
         $("#course_form #submit").prop('disabled', true);
@@ -149,8 +149,8 @@ $(document).ready(function ($) {
                 all_table = [];
                 all_indices = [];
 
-                console.log("RES: ");
-                console.log(res);
+                // console.log("RES: ");
+                // console.log(res);
 
                 //$("#target").html(d);
                 $("#target").html("");
@@ -280,7 +280,7 @@ $(document).ready(function ($) {
                 total_au = 0;
                 total_course = 0;
                 for (date in exam_schedule) {
-                    console.log(date);
+                    // console.log(date);
                     if (exam_schedule.hasOwnProperty(date)) {
                         for (time in exam_schedule[date]) {
                             if (exam_schedule[date].hasOwnProperty(time)) {
