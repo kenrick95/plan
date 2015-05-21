@@ -1,6 +1,9 @@
 <?php
-# DONE clean the data
-$raw_data = file_get_contents("../data/raw/2014_2.html");
+$year = isset($_GET['year']) ? int($_GET['year']) : 2015;
+$semester = isset($_GET['semester']) ? int($_GET['semester']) : 1;
+
+
+$raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . ".html");
 
 $raw_data = str_replace("<HR SIZE=2>", "", $raw_data);
 $raw_data = str_replace("<HR>", "", $raw_data);
@@ -144,11 +147,11 @@ foreach ($data->TABLE as $course) {
 
 }
 
-file_put_contents('../data/parsed/text/2014_2_data.txt', print_r($super_data, true));
-file_put_contents('../data/parsed/json/2014_2_data.json', json_encode($super_data));
+file_put_contents("../data/parsed/text/". $year . "_" . $semester . "_data.txt", print_r($super_data, true));
+file_put_contents("../data/parsed/json/". $year . "_" . $semester . "_data.json", json_encode($super_data));
 
-file_put_contents('../data/parsed/text/2014_2_course_list.txt', print_r($course_list, true));
-file_put_contents('../data/parsed/json/2014_2_course_list.json', json_encode($course_list));
+file_put_contents("../data/parsed/text/". $year . "_" . $semester . "_course_list.txt", print_r($course_list, true));
+file_put_contents("../data/parsed/json/". $year . "_" . $semester . "_course_list.json", json_encode($course_list));
 
 echo "OK";
 ?>

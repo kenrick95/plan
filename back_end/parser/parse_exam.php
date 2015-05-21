@@ -1,5 +1,7 @@
 <?php
-# DONE clean the data
+$year = isset($_GET['year']) ? int($_GET['year']) : 2015;
+$semester = isset($_GET['semester']) ? int($_GET['semester']) : 1;
+
 function str_lreplace($search, $replace, $subject)
 {
     $pos = strrpos($subject, $search);
@@ -11,13 +13,14 @@ function str_lreplace($search, $replace, $subject)
 
     return $subject;
 }
-$raw_data = file_get_contents("../data/raw/2014_2_exam.html");
+$raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . "_exam.html");
 
 $raw_data = explode("<center>", $raw_data)[1];
 $raw_data = explode("</center>", $raw_data)[0];
 $raw_data = "<center>" . $raw_data . "</center>";
 
 $raw_data = str_replace("<BR>", "", $raw_data);
+$raw_data = str_replace("<br>", "", $raw_data);
 $raw_data = str_replace("&nbsp;", "", $raw_data);
 
 $raw_data = str_replace("<table border=1 width=600 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
@@ -67,11 +70,8 @@ foreach ($data->table[2]->TR->TR as $entry) {
     }
 }
 
-file_put_contents('../data/parsed/text/2014_2_exam_data.txt', print_r($super_data, true));
-file_put_contents('../data/parsed/json/2014_2_exam_data.json', json_encode($super_data));
-
-# file_put_contents('../data/parsed/text/2014_2_course_list.txt', print_r($course_list, true));
-# file_put_contents('../data/parsed/json/2014_2_course_list.json', json_encode($course_list));
+file_put_contents("../data/parsed/text/". $year . "_" . $semester . "_exam_data.txt", print_r($super_data, true));
+file_put_contents("../data/parsed/json/". $year . "_" . $semester . "_exam_data.json", json_encode($super_data));
 
 echo "OK";
 ?>

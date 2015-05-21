@@ -1,10 +1,12 @@
 <?php
 ini_set('memory_limit', '512M');
 error_reporting(E_ALL ^ E_WARNING);
+$year = isset($_GET['year']) ? int($_GET['year']) : 2015;
+$semester = isset($_GET['semester']) ? int($_GET['semester']) : 1;
 
 # Get the database
-$database_course = json_decode(file_get_contents("data/parsed/json/2014_2_data.json"), true);
-$database_exam = json_decode(file_get_contents("data/parsed/json/2014_2_exam_data.json"), true);
+$database_course = json_decode(file_get_contents("data/parsed/json/". $year . "_" . $semester . "_data.json"), true);
+$database_exam = json_decode(file_get_contents("data/parsed/json/". $year . "_" . $semester . "_exam_data.json"), true);
 
 /* ---------------------------------------------------------------------------------------------- */
 
