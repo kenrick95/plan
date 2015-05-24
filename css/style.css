@@ -7,9 +7,22 @@
     background: #F8F8F8;
     margin-bottom: 1em;
 }
-#schedule td, #schedule th {
+#schedule th {
     width: 12em;
     padding-left: 0.5em;
+}
+#schedule th:nth-child(-n+1) {
+    width: 8em;
+    padding-left: 0.5em;
+}
+#schedule {
+    font-size: .8em;
+}
+#schedule td {
+    padding: 0.1em .5em;
+}
+#pager_nav {
+    text-align: center;
 }
 table {
     /*table-layout: fixed;*/
@@ -19,6 +32,9 @@ table {
 }
 .pointer {
     cursor: pointer;
+}
+.pager {
+    margin-bottom: 10px;
 }
 #input_empty_modal p {
     font-size: 1.1em;

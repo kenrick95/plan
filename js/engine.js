@@ -112,7 +112,8 @@ $(document).ready(function ($) {
 
     $("#course_form").submit(function (e) {
         e.preventDefault();
-        var data = $("#input_courses").val();
+        var data = $("#input_courses").val(),
+            major = $("#major").val();
 
         // console.log(data);
 
@@ -121,7 +122,7 @@ $(document).ready(function ($) {
         $.ajax({
             type: "POST",
             url: "back_end/scheduler.php",
-            data: {courses: data},
+            data: {courses: data, major: major},
             beforeSend: function () {
                 // Whenever a new request is submitted, remove all table -> in the real web, there will be a loading icon to tell the user
                 // that their request is still in process

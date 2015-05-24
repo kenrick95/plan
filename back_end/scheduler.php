@@ -1,4 +1,8 @@
 <?php
+// BUG: HW0310, HW0210
+// all major are shown, filter by major
+// remove non-selected major before generate_timetable
+
 ini_set('memory_limit', '512M');
 error_reporting(E_ALL ^ E_WARNING);
 $year = isset($_GET['year']) ? int($_GET['year']) : 2015;
