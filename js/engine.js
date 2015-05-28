@@ -113,7 +113,7 @@ $(document).ready(function ($) {
     $("#course_form").submit(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val(),
-            major = $("#major").val();
+            major = $("#course_major").val();
 
         // console.log(data);
 

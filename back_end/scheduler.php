@@ -35,6 +35,7 @@ $all_timetable = array();
 
 # Get the string of courses from the form and split it to an array
 $input_courses = explode(",", preg_replace("/\s+/", "", strtoupper($_REQUEST["courses"])));
+$user_major= strtoupper($_REQUEST["major"]);
 
 # Check sent data
 if (isset($input_courses)) {
@@ -51,6 +52,11 @@ if (isset($input_courses)) {
         $result["exam_schedule"] = $exam_schedule;
     }
     
+    # Filter HW0210 / HW0310 based on the user major
+    filter_HW0210_timetable($user_major);
+    filter_HW0310_timetable($user_major);
+
+    # Generate all possible timetables
     generate_timetable($input_courses, $timetable);
     $result["timetable"] = $all_timetable;
 
@@ -174,7 +180,7 @@ function generate_timetable ($input_courses, $temp_timetable) {
     $course = $database_course[$input_courses[0]];
     $course_id = $input_courses[0];
     $indices = $course["index"]; # Contains all index of a subject
-        
+
     # Checking of timetable (clash or not) for EACH AVAILABLE INDEX
     foreach ($indices as $index) {
         $index_no = $index["index_number"];
@@ -282,6 +288,39 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
     
     return $temp_timetable;
 }  
+
+/* ---------------------------------------------------------------------------------------------- */
+
+function filter_HW0210_timetable ($user_major) {
+    global $database_course;
+    $HW0210_unfiltered = $database_course["HW0210"]["index"];
+    $HW0210_filtered = array();
+
+    foreach ($HW0210_unfiltered as $i) {
+        if (strpos($i["details"][0]["group"], $user_major) !== false) {
+            array_push($HW0210_filtered, $i);
+        }
+    }
+
+    $database_course["HW0210"]["index"] = $HW0210_filtered;
+}
+
+function filter_HW0310_timetable ($user_major) {
+    global $database_course;
+    $HW0310_unfiltered = $database_course["HW0310"]["index"];
+    $HW0310_filtered = array();
+
+    foreach ($HW0310_unfiltered as $i) {
+        if (strpos($i["details"][0]["group"], $user_major) !== false) {
+            array_push($HW0310_filtered, $i);
+        }
+    }
+
+    $database_course["HW0310"]["index"] = $HW0310_filtered;
+}
+
+
+
 
 /* ---------------------------------------------------------------------------------------------- */
 // Helper function
