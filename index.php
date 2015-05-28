@@ -56,35 +56,53 @@
                 <form role="form" id="course_form">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Enter course codes:</label>
+                        <div class="row">
+                        <div class="col-sm-10">
                         <input type="text" name="courses" id="input_courses" placeholder="Enter course code" class="form-control">
+                        </div>
+                        <div class="col-sm-2">
+                        <select name="major" class="form-control">
+                            <option value="SCE">SCE</option>
+                            <option value="MAT">MSE</option>
+                            <option value="MAE">MAE</option>
+                            <option value="CBE">CBE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="CEE">CEE</option>
+                        </select>
+                        </div>
+                        </div>
                     </div>
                     <button type="submit" id="submit" class="btn btn-primary">Submit</button>
                     <a class="pull-right" id="adv-search" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#advanced_search_modal">Advanced Search</a>
                 </form>
                 <div id="loading_icon"></div>
                 <div id="result">
-                    <nav id="pager_nav">
+                    <nav id="pager_nav" >
                         <ul class="pager">
                             <li><a class="pointer" id="page_prev">Previous</a></li>
                             <li><b id="page_number">1</b> of <b id="page_length">42</b></li>
                             <li><a class="pointer" id="page_next">Next</a></li>
                         </ul>
                     </nav>
-                    <div id="target">
+                    <div id="tables">
+                        <div id="target">
                         
-                    </div>
-                    <div class="table-responsive">
-                    <table class="table" id="exam_table">
-                        <thead>
-                            <th>Index</th>
-                            <th>Course</th>
-                            <th>Title</th>
-                            <th>AUs</th>
-                            <th>Exam Schedule</th>
-                        </thead>
-                        <tbody id="exam_body">
-                        </tbody>
-                    </table>
+                        </div>
+                        <div class="table-responsive">
+                        <table class="table" id="exam_table">
+                            <thead>
+                                <tr>
+                                    <th>Index</th>
+                                    <th>Course</th>
+                                    <th>Title</th>
+                                    <th>AUs</th>
+                                    <th>Exam Schedule</th>
+                                </tr>
+                            </thead>
+                            <tbody id="exam_body">
+                            </tbody>
+                        </table>
+                        </div>
                     </div>
                 </div>
             </div>

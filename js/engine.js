@@ -112,16 +112,17 @@ $(document).ready(function ($) {
 
     $("#course_form").submit(function (e) {
         e.preventDefault();
-        var data = $("#input_courses").val();
+        var data = $("#input_courses").val(),
+            major = $("#major").val();
 
-        console.log(data);
+        // console.log(data);
 
         data = data.toUpperCase();
         $("#course_form #submit").prop('disabled', true);
         $.ajax({
             type: "POST",
             url: "back_end/scheduler.php",
-            data: {courses: data},
+            data: {courses: data, major: major},
             beforeSend: function () {
                 // Whenever a new request is submitted, remove all table -> in the real web, there will be a loading icon to tell the user
                 // that their request is still in process
@@ -149,8 +150,8 @@ $(document).ready(function ($) {
                 all_table = [];
                 all_indices = [];
 
-                console.log("RES: ");
-                console.log(res);
+                // console.log("RES: ");
+                // console.log(res);
 
                 //$("#target").html(d);
                 $("#target").html("");
@@ -280,7 +281,7 @@ $(document).ready(function ($) {
                 total_au = 0;
                 total_course = 0;
                 for (date in exam_schedule) {
-                    console.log(date);
+                    // console.log(date);
                     if (exam_schedule.hasOwnProperty(date)) {
                         for (time in exam_schedule[date]) {
                             if (exam_schedule[date].hasOwnProperty(time)) {
