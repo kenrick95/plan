@@ -46,6 +46,20 @@ table {
     background-position: center center;
     background-repeat: no-repeat;
 }
+#adv-search:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+.modal-body {
+    max-height: 700px;
+    overflow-y: auto;
+}
 footer {
     margin-bottom: 0.7em;
+}
+
+@media (min-width: 768px) {
+    #advanced_search_modal > .modal-dialog {
+       width: 800px;
+    }
 }
