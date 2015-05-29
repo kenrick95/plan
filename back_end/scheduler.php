@@ -53,8 +53,9 @@ if (isset($input_courses)) {
     }
     
     # Filter HW0210 / HW0310 based on the user major
-    filter_HW0210_timetable($user_major);
-    filter_HW0310_timetable($user_major);
+    filter_timetable("HW0188", $user_major);
+    filter_timetable("HW0210", $user_major);
+    filter_timetable("HW0310", $user_major);
 
     # Generate all possible timetables
     generate_timetable($input_courses, $timetable);
@@ -290,36 +291,19 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
 }  
 
 /* ---------------------------------------------------------------------------------------------- */
-
-function filter_HW0210_timetable ($user_major) {
+function filter_timetable($course, $user_major) {
     global $database_course;
-    $HW0210_unfiltered = $database_course["HW0210"]["index"];
-    $HW0210_filtered = array();
+    $unfiltered = $database_course[$course]["index"];
+    $filtered = array();
 
-    foreach ($HW0210_unfiltered as $i) {
+    foreach ($unfiltered as $i) {
         if (strpos($i["details"][0]["group"], $user_major) !== false) {
-            array_push($HW0210_filtered, $i);
+            array_push($filtered, $i);
         }
     }
 
-    $database_course["HW0210"]["index"] = $HW0210_filtered;
+    $database_course[$course]["index"] = $filtered;
 }
-
-function filter_HW0310_timetable ($user_major) {
-    global $database_course;
-    $HW0310_unfiltered = $database_course["HW0310"]["index"];
-    $HW0310_filtered = array();
-
-    foreach ($HW0310_unfiltered as $i) {
-        if (strpos($i["details"][0]["group"], $user_major) !== false) {
-            array_push($HW0310_filtered, $i);
-        }
-    }
-
-    $database_course["HW0310"]["index"] = $HW0310_filtered;
-}
-
-
 
 
 /* ---------------------------------------------------------------------------------------------- */
