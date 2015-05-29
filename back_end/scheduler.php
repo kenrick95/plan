@@ -291,6 +291,7 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
 }  
 
 /* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
 
 function filter_HW0188_timetable ($user_major) {
     global $database_course;

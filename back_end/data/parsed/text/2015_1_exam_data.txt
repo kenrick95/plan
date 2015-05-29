@@ -320,16 +320,6 @@ Array
             [duration] => 2
         )
 
-    [CS4011] => Array
-        (
-            [date] => 20 November 2015
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => CS4011
-            [name] => NEWS COPY EDITING
-            [duration] => 2
-        )
-
     [CY1203] => Array
         (
             [date] => 20 November 2015
@@ -470,13 +460,13 @@ Array
             [duration] => 2.5
         )
 
-    [RE1006] => Array
+    [RE8002] => Array
         (
             [date] => 20 November 2015
             [day] => Friday
             [time] => 2.30 pm
-            [code] => RE1006
-            [name] => MATERIALS AND MANUFACTURING ENGINEERING
+            [code] => RE8002
+            [name] => ACCOUNTING
             [duration] => 2.5
         )
 
@@ -1400,16 +1390,6 @@ Array
             [duration] => 2.5
         )
 
-    [BA3203] => Array
-        (
-            [date] => 24 November 2015
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BA3203
-            [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
-            [duration] => 3
-        )
-
     [BS4009] => Array
         (
             [date] => 24 November 2015
@@ -1788,6 +1768,16 @@ Array
             [code] => AB1301
             [name] => BUSINESS LAW
             [duration] => 2.5
+        )
+
+    [BA3203] => Array
+        (
+            [date] => 25 November 2015
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => BA3203
+            [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
+            [duration] => 3
         )
 
     [BH3301] => Array
@@ -2970,6 +2960,16 @@ Array
             [duration] => 2.5
         )
 
+    [RE1006] => Array
+        (
+            [date] => 26 November 2015
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => RE1006
+            [name] => MATERIALS AND MANUFACTURING ENGINEERING
+            [duration] => 2.5
+        )
+
     [RE2002] => Array
         (
             [date] => 26 November 2015
@@ -3280,16 +3280,6 @@ Array
             [duration] => 2
         )
 
-    [CS4018] => Array
-        (
-            [date] => 27 November 2015
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CS4018
-            [name] => SPECIALISED JOURNALISM:BUSINESS & ECONOMICS
-            [duration] => 2
-        )
-
     [CS4027] => Array
         (
             [date] => 27 November 2015
@@ -3297,16 +3287,6 @@ Array
             [time] => 9.00 am
             [code] => CS4027
             [name] => NARRATIVE FILM & TV:CONCEPTS & APPLICATIONS
-            [duration] => 2
-        )
-
-    [CS4033] => Array
-        (
-            [date] => 27 November 2015
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CS4033
-            [name] => CORPORATE COMMUNICATIONS MANAGEMENT
             [duration] => 2
         )
 
@@ -4020,16 +4000,6 @@ Array
             [duration] => 2
         )
 
-    [CS2058] => Array
-        (
-            [date] => 30 November 2015
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => CS2058
-            [name] => INTEGRATED MARKETING COMMUNICATION
-            [duration] => 2
-        )
-
     [CV4110] => Array
         (
             [date] => 30 November 2015
@@ -4488,6 +4458,16 @@ Array
             [code] => CE4011
             [name] => PARALLEL COMPUTING
             [duration] => 2
+        )
+
+    [CH9203] => Array
+        (
+            [date] => 1 December 2015
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => CH9203
+            [name] => FOOD PROCESS ENGINEERING
+            [duration] => 3
         )
 
     [CM4031] => Array
@@ -5940,13 +5920,13 @@ Array
             [duration] => 2
         )
 
-    [HL8026] => Array
+    [HL8021] => Array
         (
             [date] => 2 December 2015
             [day] => Wednesday
             [time] => 5.00 pm
-            [code] => HL8026
-            [name] => WOMEN'S LITERATURE AND THE CONTEMPORARY
+            [code] => HL8021
+            [name] => FICTIONS OF LOVE: FILM AND LITERATURE
             [duration] => 2
         )
 
@@ -6370,16 +6350,6 @@ Array
             [duration] => 2.5
         )
 
-    [CH9203] => Array
-        (
-            [date] => 3 December 2015
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => CH9203
-            [name] => FOOD PROCESS ENGINEERING
-            [duration] => 3
-        )
-
     [CM3021] => Array
         (
             [date] => 3 December 2015
@@ -6407,16 +6377,6 @@ Array
             [time] => 1.00 pm
             [code] => CS2024
             [name] => WEB DESIGN AND TECHNOLOGIES
-            [duration] => 2
-        )
-
-    [CS2055] => Array
-        (
-            [date] => 3 December 2015
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => CS2055
-            [name] => ORGANISATIONAL COMMUNICATION
             [duration] => 2
         )
 
@@ -6930,16 +6890,6 @@ Array
             [duration] => 2.5
         )
 
-    [RE8002] => Array
-        (
-            [date] => 4 December 2015
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => RE8002
-            [name] => ACCOUNTING
-            [duration] => 2.5
-        )
-
     [BF3201] => Array
         (
             [date] => 4 December 2015
@@ -7017,16 +6967,6 @@ Array
             [time] => 2.30 pm
             [code] => CS4032
             [name] => COMMUNICATION CAMPAIGNS
-            [duration] => 2
-        )
-
-    [CS4072] => Array
-        (
-            [date] => 4 December 2015
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => CS4072
-            [name] => SPECIAL TOPICS IN COMPUTER MEDIATED COMMUNICATION
             [duration] => 2
         )
 

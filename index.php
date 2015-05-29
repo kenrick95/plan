@@ -73,6 +73,7 @@
                         </div>
                     </div>
                     <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                    <!-- <a class="pull-right" id="adv-search" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#advanced_search_modal">Advanced Search</a> -->
                 </form>
                 <div id="loading_icon"></div>
                 <div id="result">
