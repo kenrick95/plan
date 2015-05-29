@@ -53,6 +53,7 @@ if (isset($input_courses)) {
     }
     
     # Filter HW0210 / HW0310 based on the user major
+    filter_HW0188_timetable($user_major);
     filter_HW0210_timetable($user_major);
     filter_HW0310_timetable($user_major);
 
@@ -291,6 +292,20 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
 
 /* ---------------------------------------------------------------------------------------------- */
 
+function filter_HW0188_timetable ($user_major) {
+    global $database_course;
+    $HW0188_unfiltered = $database_course["HW0188"]["index"];
+    $HW0188_filtered = array();
+
+    foreach ($HW0188_unfiltered as $i) {
+        if (strpos($i["details"][0]["group"], $user_major) !== false) {
+            array_push($HW0188_filtered, $i);
+        }
+    }
+
+    $database_course["HW0188"]["index"] = $HW0188_filtered;
+}
+
 function filter_HW0210_timetable ($user_major) {
     global $database_course;
     $HW0210_unfiltered = $database_course["HW0210"]["index"];
@@ -305,14 +320,26 @@ function filter_HW0210_timetable ($user_major) {
     $database_course["HW0210"]["index"] = $HW0210_filtered;
 }
 
+# After reading the data, SPECIAL CASE FOR CBE --> check only array index 2, instead of 0
+# Only CBE has 3 entries per array, others only 1
 function filter_HW0310_timetable ($user_major) {
     global $database_course;
     $HW0310_unfiltered = $database_course["HW0310"]["index"];
     $HW0310_filtered = array();
 
+    if (strcmp($user_major, "CBE") === 0) {
+        $check_index = 2;
+    } else if (strcmp($user_major, "MAT") === 0) {
+        $check_index = 0;
+    } else {
+        $check_index = 1;
+    }
+
     foreach ($HW0310_unfiltered as $i) {
-        if (strpos($i["details"][0]["group"], $user_major) !== false) {
-            array_push($HW0310_filtered, $i);
+        if (count($i["details"]) === $check_index + 1) {
+            if (strpos($i["details"][$check_index]["group"], $user_major) !== false) {
+                array_push($HW0310_filtered, $i);
+            }
         }
     }
 
