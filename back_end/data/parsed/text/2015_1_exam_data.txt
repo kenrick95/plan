@@ -360,16 +360,6 @@ Array
             [duration] => 2.5
         )
 
-    [FL8001] => Array
-        (
-            [date] => 20 November 2015
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => FL8001
-            [name] => INTRODUCTION TO FILM STUDIES
-            [duration] => 2
-        )
-
     [HE1001] => Array
         (
             [date] => 20 November 2015
@@ -870,13 +860,13 @@ Array
             [duration] => 2.5
         )
 
-    [HP2500] => Array
+    [HP2200] => Array
         (
             [date] => 23 November 2015
             [day] => Monday
             [time] => 1.00 pm
-            [code] => HP2500
-            [name] => PERSONALITY AND INDIVIDUAL DIFFERENCES
+            [code] => HP2200
+            [name] => BIOLOGICAL PSYCHOLOGY
             [duration] => 2.5
         )
 
@@ -2030,6 +2020,16 @@ Array
             [duration] => 3
         )
 
+    [BM2506] => Array
+        (
+            [date] => 25 November 2015
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BM2506
+            [name] => DIGITAL MARKETING:CONNECTING WITH CUSTOMERS IN TODAY'S WORLD
+            [duration] => 2
+        )
+
     [BS1001] => Array
         (
             [date] => 25 November 2015
@@ -2330,16 +2330,6 @@ Array
             [duration] => 2
         )
 
-    [CS8005] => Array
-        (
-            [date] => 25 November 2015
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => CS8005
-            [name] => THE POWER OF MEDIA: MYTH AND REALITY
-            [duration] => 2
-        )
-
     [CSC184] => Array
         (
             [date] => 25 November 2015
@@ -2418,16 +2408,6 @@ Array
             [code] => HH2024
             [name] => HISTORY OF THE MALAY WORLD:PRESENT IDENTITIES,PAST HISTORIES
             [duration] => 2.5
-        )
-
-    [HL8027] => Array
-        (
-            [date] => 25 November 2015
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HL8027
-            [name] => VISIONS OF THE MODERN: AN INTERDISCIPLINARY APPROACH
-            [duration] => 2
         )
 
     [HL8028] => Array
@@ -3060,6 +3040,16 @@ Array
             [duration] => 2
         )
 
+    [CS8116] => Array
+        (
+            [date] => 26 November 2015
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CS8116
+            [name] => INTRODUCTION TO NEWS MEDIA
+            [duration] => 2
+        )
+
     [CV4102] => Array
         (
             [date] => 26 November 2015
@@ -3247,16 +3237,6 @@ Array
             [time] => 9.00 am
             [code] => BS2101
             [name] => ANATOMY
-            [duration] => 2.5
-        )
-
-    [BT2402] => Array
-        (
-            [date] => 27 November 2015
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => BT2402
-            [name] => SERVICES OPERATIONS MANAGEMENT
             [duration] => 2.5
         )
 
@@ -4247,6 +4227,16 @@ Array
             [time] => 5.00 pm
             [code] => BU8501
             [name] => MARKETING FOR THE 21ST CENTURY
+            [duration] => 2
+        )
+
+    [BU8541] => Array
+        (
+            [date] => 30 November 2015
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => BU8541
+            [name] => SPORT MARKETING - MARKETING OF CHAMPIONS
             [duration] => 2
         )
 
@@ -5940,16 +5930,6 @@ Array
             [duration] => 2.5
         )
 
-    [IC9103] => Array
-        (
-            [date] => 2 December 2015
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => IC9103
-            [name] => E-COMMERCE TECHNOLOGY
-            [duration] => 2
-        )
-
     [MA4844] => Array
         (
             [date] => 2 December 2015
@@ -6008,6 +5988,16 @@ Array
             [code] => CH3141
             [name] => ADVANCED UNIT OPERATIONS
             [duration] => 2.5
+        )
+
+    [CM4016] => Array
+        (
+            [date] => 3 December 2015
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CM4016
+            [name] => PHARMACEUTICAL CHEMISTRY
+            [duration] => 2
         )
 
     [CPE489] => Array
@@ -6440,16 +6430,6 @@ Array
             [duration] => 2.5
         )
 
-    [HA4005] => Array
-        (
-            [date] => 3 December 2015
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HA4005
-            [name] => CONSTITUTIONAL AND ADMINISTRATIVE LAW IN SINGAPORE
-            [duration] => 2.5
-        )
-
     [HC4051] => Array
         (
             [date] => 3 December 2015
@@ -6480,13 +6460,13 @@ Array
             [duration] => 2.5
         )
 
-    [HP3802] => Array
+    [HP3501] => Array
         (
             [date] => 3 December 2015
             [day] => Thursday
             [time] => 1.00 pm
-            [code] => HP3802
-            [name] => PERSONNEL PSYCHOLOGY
+            [code] => HP3501
+            [name] => HUMAN MOTIVATION
             [duration] => 2.5
         )
 
