@@ -2,6 +2,7 @@
 /*global jQuery, $, swal */
 $(document).ready(function ($) {
     var cache = {}, all_table = [], cur_idx, all_indices = [];
+    $("#course_form #submit").removeAttr("disabled");
 
     function split(val) {
         return val.split(/,\s*/);
@@ -146,7 +147,8 @@ $(document).ready(function ($) {
                         "1800", "1830", "1900", "1930", "2000", "2030", "2100",
                         "2130", "2200", "2230", "2300"], lentime = times.length,
                     index_chosen = {}, exam_schedule, date, time, rowspan,
-                    total_au, total_course, timetable_shown, dayname;
+                    total_au, total_course, timetable_shown, dayname, sorted_exam_schedule,
+                    date_time, item;
                 all_table = [];
                 all_indices = [];
 
@@ -278,47 +280,61 @@ $(document).ready(function ($) {
                 // show exam table
                 table = "";
                 exam_schedule = res.exam_schedule;
-                total_au = 0;
-                total_course = 0;
+                sorted_exam_schedule = [];
+
                 for (date in exam_schedule) {
-                    // console.log(date);
                     if (exam_schedule.hasOwnProperty(date)) {
                         for (time in exam_schedule[date]) {
                             if (exam_schedule[date].hasOwnProperty(time)) {
-                                total_course++;
-                                table += "<tr>";
-                                table += "<td id=\"index-" + exam_schedule[date][time].code + "\">"
-                                    + " " // index
-                                    + "</td>"
-                                    + "<td>"
-                                    + exam_schedule[date][time].code
-                                    + "</td>"
-                                    + "<td>"
-                                    + exam_schedule[date][time].name
-                                    + "</td>"
-                                    + "<td>"
-                                    + exam_schedule[date][time].au[0]
-                                    + "</td>"
-                                    + "<td>";
-
-                                    // Check for existence of examination for that course
-                                    if (exam_schedule[date][time].day !== -1) {
-                                        table += exam_schedule[date][time].day
-                                            + ", "
-                                            + date
-                                            + ", "
-                                            + exam_schedule[date][time].time
-                                            + "&mdash;"
-                                            + exam_schedule[date][time].end_time;
-                                    } else {
-                                        table += "N/A";
-                                    }
-
-                                    table += "</td>";
-                                total_au += parseInt(exam_schedule[date][time].au[0], 10);
-                                table += "</tr>";
+                                date_time = new Date(date + " " + time.replace(".", ":"));
+                                sorted_exam_schedule.push({
+                                    date_time: date_time,
+                                    data: exam_schedule[date][time]
+                                });
                             }
                         }
+                    }
+                }
+                sorted_exam_schedule.sort(function (a, b) {
+                    return a.date_time > b.date_time;
+                });
+                total_au = 0;
+                total_course = 0;
+                for (date_time in sorted_exam_schedule) {
+                    if (sorted_exam_schedule.hasOwnProperty(date_time)) {
+                        total_course++;
+                        item = sorted_exam_schedule[date_time].data;
+                        table += "<tr>";
+                        table += "<td id=\"index-" + item.code + "\">"
+                            + " " // index
+                            + "</td>"
+                            + "<td>"
+                            + item.code
+                            + "</td>"
+                            + "<td>"
+                            + item.name
+                            + "</td>"
+                            + "<td>"
+                            + item.au[0]
+                            + "</td>"
+                            + "<td>";
+
+                        // Check for existence of examination for that course
+                        if (item.day !== -1) {
+                            table += item.day
+                                + ", "
+                                + item.date
+                                + ", "
+                                + item.time
+                                + "&mdash;"
+                                + item.end_time;
+                        } else {
+                            table += "N/A";
+                        }
+
+                        table += "</td>";
+                        total_au += parseInt(item.au[0], 10);
+                        table += "</tr>";
                     }
                 }
                 table += "<tr>"
