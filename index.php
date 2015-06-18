@@ -64,8 +64,8 @@
                         <select id="course_major" name="major" class="form-control">
                             <option value="SCE">SCE</option>
                             <option value="MAT">MSE</option>
-                            <option value="MAE">MAE</option>
-                            <option value="CBE">CBE</option>
+                            <option value="MA">MAE</option>
+                            <option value="CB">CBE</option>
                             <option value="EEE">EEE</option>
                             <option value="CV">CEE</option>
                         </select>

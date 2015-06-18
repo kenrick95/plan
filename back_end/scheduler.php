@@ -312,9 +312,17 @@ function filter_HW0210_timetable ($user_major) {
     $HW0210_unfiltered = $database_course["HW0210"]["index"];
     $HW0210_filtered = array();
 
-    foreach ($HW0210_unfiltered as $i) {
-        if (strpos($i["details"][0]["group"], $user_major) !== false) {
-            array_push($HW0210_filtered, $i);
+    if (strcmp($user_major, "MA") === 0) {
+        foreach ($HW0210_unfiltered as $i) {
+            if (strpos($i["details"][0]["group"], "MAT") === false && strpos($i["details"][0]["group"], $user_major) !== false) {
+                array_push($HW0210_filtered, $i);
+            }
+        }
+    } else {
+        foreach ($HW0210_unfiltered as $i) {
+            if (strpos($i["details"][0]["group"], $user_major) !== false) {
+                array_push($HW0210_filtered, $i);
+            }
         }
     }
 
@@ -328,19 +336,19 @@ function filter_HW0310_timetable ($user_major) {
     $HW0310_unfiltered = $database_course["HW0310"]["index"];
     $HW0310_filtered = array();
 
-    // if (strcmp($user_major, "CBE") === 0) {
-    //     $check_index = 2;
-    // } else if (strcmp($user_major, "MAT") === 0) {
+    $check_major = $user_major;
+    if (strcmp($user_major, "MA") === 0) {
+        $check_major = "MAE";
+    }
 
-    if (strcmp($user_major, "MAT") === 0 || strcmp($user_major, "MAE") === 0) {
+    $check_index = 1;
+    if (strcmp($user_major, "MAT") === 0 || strcmp($user_major, "MA") === 0) {
         $check_index = 0;
-    } else {
-        $check_index = 1;
     }
 
     foreach ($HW0310_unfiltered as $i) {
         // if (count($i["details"]) === $check_index + 1) {
-            if (strpos($i["details"][$check_index]["group"], $user_major) !== false) {
+            if (strpos($i["details"][$check_index]["group"], $check_major) !== false) {
                 array_push($HW0310_filtered, $i);
             }
         // }
