@@ -332,7 +332,7 @@ function filter_HW0310_timetable ($user_major) {
     //     $check_index = 2;
     // } else if (strcmp($user_major, "MAT") === 0) {
 
-    if (strcmp($user_major, "MAT") === 0) {
+    if (strcmp($user_major, "MAT") === 0 || strcmp($user_major, "MAE") === 0) {
         $check_index = 0;
     } else {
         $check_index = 1;
