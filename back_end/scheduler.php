@@ -52,8 +52,6 @@ if (isset($input_courses)) {
         $result["exam_schedule"] = $exam_schedule;
     }
 
-    print_r($user_major);
-    
     # Filter HW0210 / HW0310 based on the user major
     filter_HW0188_timetable($user_major);
     filter_HW0210_timetable($user_major);
@@ -339,9 +337,6 @@ function filter_HW0310_timetable ($user_major) {
     } else {
         $check_index = 1;
     }
-
-    print_r("CHECK INDEX!!!   ");
-    print_r($check_index);
 
     foreach ($HW0310_unfiltered as $i) {
         // if (count($i["details"]) === $check_index + 1) {
