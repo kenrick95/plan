@@ -1,9 +1,14 @@
 /*jslint browser: true, sloppy: true, plusplus: true, continue: true */
-/*global jQuery, $, swal */
+/*global jQuery, $, swal, ga */
 $(document).ready(function ($) {
     var cache = {}, all_table = [], cur_idx, all_indices = [];
     $("#course_form #submit").removeAttr("disabled");
-
+    if (!!window.localStorage) {
+        if (!localStorage.getItem("not_first_visit")) {
+            $("#about_modal").modal("show");
+            localStorage.setItem("not_first_visit", true);
+        }
+    }
     function split(val) {
         return val.split(/,\s*/);
     }
@@ -73,8 +78,9 @@ $(document).ready(function ($) {
         });
     }
     if (!!window.localStorage) {
-        localStorage.clear(); // force to load fresh data
+        localStorage.setItem("cache", ""); // force to load fresh data
         if (!!localStorage.getItem("cache")) {
+            console.log("boo");
             cache = JSON.parse(localStorage.getItem("cache"));
             tagit(cache);
         } else {
@@ -110,12 +116,23 @@ $(document).ready(function ($) {
     $("#page_prev").click(function () {
         show_table(cur_idx - 1);
     });
+    $("body").keypress(function (event) {
+        if (event.target.nodeName.toLowerCase() !== 'input') {
+            if ((event.charCode === 106 || event.keyCode === 39) && $("#page_next").is(":visible")) { // j
+                // "j" or ArrowRight
+                show_table(cur_idx + 1);
+            } else if ((event.charCode === 107 || event.keyCode === 37) && $("#page_prev").is(":visible")) { // k
+                // "k" or ArrowLeft
+                show_table(cur_idx - 1);
+            }
+        }
+    });
 
     $("#course_form").submit(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val(),
             major = $("#course_major").val();
-
+        ga('send', 'event', 'form', 'submit', 'course_form');
         // console.log(data);
 
         data = data.toUpperCase();
@@ -125,6 +142,7 @@ $(document).ready(function ($) {
             url: "back_end/scheduler.php",
             data: {courses: data, major: major},
             beforeSend: function () {
+                var i, splitted;
                 // Whenever a new request is submitted, remove all table -> in the real web, there will be a loading icon to tell the user
                 // that their request is still in process
                 $("#exam_table").hide();
@@ -135,6 +153,10 @@ $(document).ready(function ($) {
                     swal("Empty input", "Please enter the code of the courses that you want to be scheduled.", "error");
                     $("#course_form #submit").removeAttr("disabled");
                     return false;
+                }
+                splitted = data.split(',');
+                for (i = 0; i < splitted.length; i++) {
+                    ga('send', 'event', 'form', 'submit_course', splitted[i]);
                 }
                 $("#overlay").fadeIn();
             },
@@ -158,19 +180,23 @@ $(document).ready(function ($) {
                 //$("#target").html(d);
                 $("#target").html("");
                 len = res.timetable.length;
+                ga('send', 'event', 'form', 'result', 'result_length', len);
                 if (!res.validation_result) {
+                    ga('send', 'event', 'form', 'result', 'not_found_invalid');
                     swal("We're sorry.", "Invalid input were given. Please refresh the page to try again.", "warning");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
                 if (!res.exam_schedule_validation) {
+                    ga('send', 'event', 'form', 'result', 'not_found_exam');
                     swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule has clashed. Please try selecting another course.", "warning");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
                 if (len === 0) {
+                    ga('send', 'event', 'form', 'result', 'not_found_impossible');
                     swal("We're sorry.", "There is no possible arrangement found for the given courses because lecture, tutorial, or lab session has clashed. Please try selecting another course.", "warning");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
@@ -358,4 +384,5 @@ $(document).ready(function ($) {
             }
         });
     });
+    ga('send', 'event', 'page', 'view', 'view');
 });
