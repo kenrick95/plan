@@ -389,6 +389,12 @@ function remarks_to_weeks ($remarks) {
         $ret[$i] = false;
     }
     $start = stripos($remarks, "wk");
+    if ($start === false) {
+        for ($i = 0; $i < 13; $i++) {
+            $ret[$i] = true;
+        }
+        return $ret;
+    }
     $start += 2; // skip "wk"
     
     $cur_val = 0;
