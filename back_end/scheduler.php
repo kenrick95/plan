@@ -55,7 +55,11 @@ if (isset($input_courses)) {
     # Filter HW0210 / HW0310 based on the user major
     filter_HW0188_timetable($user_major);
     filter_HW0210_timetable($user_major);
-    filter_HW0310_timetable($user_major);
+
+    # For EEE, it considers all HW0310, including those from SCE, MSE, etc. (checked with bug reporter)
+    if (strcmp($user_major, "EEE") !== 0) {
+        filter_HW0310_timetable($user_major);
+    }
 
     # Generate all possible timetables
     generate_timetable($input_courses, $timetable);
@@ -243,12 +247,20 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
             $remarks = remarks_to_weeks($detail["remarks"]);
             $clash_detail = $temp_timetable[$day][$time_keys[$index]][0];
             $clash_remarks = remarks_to_weeks($clash_detail["remarks"]);
+
+            if ($course_id !== $clash_detail["id"]) {
+                for ($j = 0; $j < 13; $j++) {
+                    if ($remarks[$j] && $clash_remarks[$j]) {
+                        return true;
+                    }
+                }
+            }
             
-            // # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
+            // // # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
             // $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
             // $clash_flag = $clash_detail["flag"];
             
-            // # Consider it as a clash IF AND ONLY IF the clash happens because of a slot is already occupied by DIFFERENT COURSE!!
+            // // # Consider it as a clash IF AND ONLY IF the clash happens because of a slot is already occupied by DIFFERENT COURSE!!
             // if ($course_id !== $clash_detail["id"]) {
             //     # If the clash is for the whole semester
             //     if ($week === 0) return true; 
