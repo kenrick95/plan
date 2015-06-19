@@ -200,6 +200,16 @@ Array
             [duration] => 2.5
         )
 
+    [HL4032] => Array
+        (
+            [date] => 20 November 2015
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HL4032
+            [name] => URBAN CULTURE ASIA
+            [duration] => 2.5
+        )
+
     [IM1001] => Array
         (
             [date] => 20 November 2015
@@ -317,6 +327,16 @@ Array
             [time] => 2.30 pm
             [code] => CM3041
             [name] => PHYSICAL AND BIOPHYSICAL CHEMISTRY 2
+            [duration] => 2
+        )
+
+    [CS2401] => Array
+        (
+            [date] => 20 November 2015
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CS2401
+            [name] => INFORMATION ANALYTICS: TOOLS, TECHNIQUES AND TECHNOLOGIES
             [duration] => 2
         )
 
@@ -1000,6 +1020,16 @@ Array
             [duration] => 2
         )
 
+    [CS8900] => Array
+        (
+            [date] => 23 November 2015
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CS8900
+            [name] => GLOBAL CINEMA
+            [duration] => 2
+        )
+
     [DD3005] => Array
         (
             [date] => 23 November 2015
@@ -1038,6 +1068,16 @@ Array
             [code] => HE9091
             [name] => PRINCIPLES OF ECONOMICS
             [duration] => 2.5
+        )
+
+    [IN9005] => Array
+        (
+            [date] => 23 November 2015
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => IN9005
+            [name] => PERSONAL INFORMATION MANAGEMENT
+            [duration] => 2
         )
 
     [MA4811] => Array
@@ -1420,6 +1460,16 @@ Array
             [duration] => 2
         )
 
+    [CS2400] => Array
+        (
+            [date] => 24 November 2015
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CS2400
+            [name] => FOUNDATION OF INFORMATION ANALYTICS
+            [duration] => 2
+        )
+
     [CV0002] => Array
         (
             [date] => 24 November 2015
@@ -1458,6 +1508,16 @@ Array
             [code] => EE4717
             [name] => WEB APPLICATION DESIGN
             [duration] => 2
+        )
+
+    [HA2017] => Array
+        (
+            [date] => 24 November 2015
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => HA2017
+            [name] => FOREIGN POLICY ANALYSIS
+            [duration] => 2.5
         )
 
     [HC2004] => Array
@@ -1907,6 +1967,16 @@ Array
             [time] => 9.00 am
             [code] => HL207
             [name] => CONTEMPORARY LITERATURE AND CULTURE
+            [duration] => 2.5
+        )
+
+    [HL4034] => Array
+        (
+            [date] => 25 November 2015
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HL4034
+            [name] => BRITISH ASIAN LITERATURE
             [duration] => 2.5
         )
 
@@ -2800,6 +2870,16 @@ Array
             [duration] => 2.5
         )
 
+    [HA3013] => Array
+        (
+            [date] => 26 November 2015
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => HA3013
+            [name] => MANAGING HUMAN RESOURCE AND BEHAVIOR IN THE PUBLIC SECTOR
+            [duration] => 2.5
+        )
+
     [HC2010] => Array
         (
             [date] => 26 November 2015
@@ -3360,6 +3440,16 @@ Array
             [duration] => 2.5
         )
 
+    [HL4033] => Array
+        (
+            [date] => 27 November 2015
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HL4033
+            [name] => MAJOR AUTHOR STUDY: JAMES JOYCE
+            [duration] => 2.5
+        )
+
     [HP3805] => Array
         (
             [date] => 27 November 2015
@@ -3567,6 +3657,16 @@ Array
             [time] => 2.30 pm
             [code] => CS4043
             [name] => SPECIALISED JOURNALISM:SCIENCE & HEALTH REPORTING
+            [duration] => 2
+        )
+
+    [CS4100] => Array
+        (
+            [date] => 27 November 2015
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CS4100
+            [name] => INFORMATION BEHAVIOUR
             [duration] => 2
         )
 
@@ -3850,6 +3950,16 @@ Array
             [duration] => 2
         )
 
+    [HA4012] => Array
+        (
+            [date] => 30 November 2015
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => HA4012
+            [name] => CHALLENGING ISSUES IN SINGAPORE
+            [duration] => 2.5
+        )
+
     [HE1003] => Array
         (
             [date] => 30 November 2015
@@ -3977,6 +4087,16 @@ Array
             [time] => 1.00 pm
             [code] => CM2031
             [name] => ORGANIC AND BIOORGANIC CHEMISTRY
+            [duration] => 2
+        )
+
+    [CS2404] => Array
+        (
+            [date] => 30 November 2015
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => CS2404
+            [name] => REPRESENTING AND ORGANIZING INFORMATION
             [duration] => 2
         )
 
@@ -4380,16 +4500,6 @@ Array
             [duration] => 2.5
         )
 
-    [MA4856] => Array
-        (
-            [date] => 30 November 2015
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => MA4856
-            [name] => NAVAL ARCHITECTURE AND MARINE ENGINEERING
-            [duration] => 2.5
-        )
-
     [MT1003] => Array
         (
             [date] => 30 November 2015
@@ -4687,6 +4797,16 @@ Array
             [time] => 1.00 pm
             [code] => AE3002
             [name] => FLIGHT MECHANICS
+            [duration] => 2.5
+        )
+
+    [BC2406] => Array
+        (
+            [date] => 1 December 2015
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BC2406
+            [name] => BUSINESS ANALYTICS I: VISUAL AND PREDICTIVE TECHNIQUES
             [duration] => 2.5
         )
 
@@ -5270,16 +5390,6 @@ Array
             [duration] => 2
         )
 
-    [CS4036] => Array
-        (
-            [date] => 2 December 2015
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => CS4036
-            [name] => STATISTICS & DATA ANALYSIS
-            [duration] => 2
-        )
-
     [CSC422] => Array
         (
             [date] => 2 December 2015
@@ -5670,6 +5780,16 @@ Array
             [duration] => 2.5
         )
 
+    [HA4011] => Array
+        (
+            [date] => 2 December 2015
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HA4011
+            [name] => PUBLIC ADMINISTRATION: PAST, PRESENT, AND FUTURE
+            [duration] => 2.5
+        )
+
     [HC2031] => Array
         (
             [date] => 2 December 2015
@@ -5937,6 +6057,16 @@ Array
             [time] => 5.00 pm
             [code] => MA4844
             [name] => INDUSTRIAL DESIGN
+            [duration] => 2.5
+        )
+
+    [MA4856] => Array
+        (
+            [date] => 2 December 2015
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => MA4856
+            [name] => NAVAL ARCHITECTURE AND MARINE ENGINEERING
             [duration] => 2.5
         )
 

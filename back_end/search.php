@@ -1,6 +1,6 @@
 <?php
-$year = isset($_GET['year']) ? int($_GET['year']) : 2015;
-$semester = isset($_GET['semester']) ? int($_GET['semester']) : 1;
+$year = isset($_GET['year']) ? intval($_GET['year']) : 2015;
+$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
 
 $term = isset($_GET['term']) ? trim($_GET['term']) : '';
 $term = preg_replace("/\s+/", "", $term);

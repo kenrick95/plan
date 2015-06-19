@@ -5,8 +5,8 @@
 
 ini_set('memory_limit', '512M');
 error_reporting(E_ALL ^ E_WARNING);
-$year = isset($_GET['year']) ? int($_GET['year']) : 2015;
-$semester = isset($_GET['semester']) ? int($_GET['semester']) : 1;
+$year = isset($_GET['year']) ? intval($_GET['year']) : 2015;
+$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
 
 # Get the database
 $database_course = json_decode(file_get_contents("data/parsed/json/". $year . "_" . $semester . "_data.json"), true);
@@ -228,6 +228,8 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
     $duration = $detail["time"]["duration"];
     $day = $detail["day"];
     $week = $detail["flag"];
+    
+    // $week = remarks_to_weeks($detail["remarks"]);
         
     $time_keys = array_keys($temp_timetable[$day]);
     $index = array_search($start_time, $time_keys); # Iterator for each time slot in the temp_timetable
@@ -358,4 +360,56 @@ function pad ($num) {
     if ($num < 10) return "0" . $num;
     return $num;
 }
+
+/**
+ *  
+ * @param  String $remarks      Remarks string
+ * @return Array                Boolean array of size 13 (0-based), indicating whether course is held on week i or not
+ */
+function remarks_to_weeks ($remarks) {
+    $ret = [];
+    for ($i = 0; $i < 13; $i++) {
+        $ret[$i] = false;
+    }
+    $start = stripos($remarks, "wk");
+    $start += 2; // skip "wk"
+    
+    $cur_val = 0;
+    $cur_val2 = 0;
+    $range = false;
+    for ($i = $start; $i < strlen($remarks); $i++) {
+        if ('0' <= $remarks[$i] && $remarks[$i] <= '9') {
+            if ($range)
+                $cur_val2 = $cur_val2 * 10 + intval($remarks[$i]);
+            else
+                $cur_val = $cur_val * 10 + intval($remarks[$i]);
+        } else if ($remarks[$i] === '-') {
+            $range = true;
+        } else if ($remarks[$i] === ',') {
+            if ($range) {
+                for ($wk = $cur_val; $wk <= $cur_val2; $wk++) {
+                    $ret[$wk] = true;
+                }
+            } else {
+                $ret[$cur_val] = true;
+            }
+
+            $cur_val = 0;
+            $cur_val2 = 0;
+            $range = false;
+        }
+    }
+    // final
+    if ($cur_val !== 0)
+        if ($range) {
+            for ($wk = $cur_val; $wk <= $cur_val2; $wk++) {
+                $ret[$wk] = true;
+            }
+        } else {
+            $ret[$cur_val] = true;
+        }
+
+    return $ret;
+}
+
 ?>
