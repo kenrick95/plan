@@ -239,18 +239,22 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
         if (count($temp_timetable[$day][$time_keys[$index]]) > 0) {
             # In case there are 2 courses at that slot already!
             if (count($temp_timetable[$day][$time_keys[$index]]) >= 2) return true;
+
+            $remarks = remarks_to_weeks($detail["remarks"]);
+            $clash_detail = $temp_timetable[$day][$time_keys[$index]][0];
+            $clash_remarks = remarks_to_weeks($clash_detail["remarks"]);
             
-            # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
-            $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
-            $clash_flag = $clash_detail["flag"];
+            // # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
+            // $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
+            // $clash_flag = $clash_detail["flag"];
             
-            # Consider it as a clash IF AND ONLY IF the clash happens because of a slot is already occupied by DIFFERENT COURSE!!
-            if ($course_id !== $clash_detail["id"]) {
-                # If the clash is for the whole semester
-                if ($week === 0) return true; 
-                if ($clash_flag === 0) return true;            
-                if ($week === $clash_flag) return true;
-            }
+            // # Consider it as a clash IF AND ONLY IF the clash happens because of a slot is already occupied by DIFFERENT COURSE!!
+            // if ($course_id !== $clash_detail["id"]) {
+            //     # If the clash is for the whole semester
+            //     if ($week === 0) return true; 
+            //     if ($clash_flag === 0) return true;            
+            //     if ($week === $clash_flag) return true;
+            // }
         }
         
         $index++;
