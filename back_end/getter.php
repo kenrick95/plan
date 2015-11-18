@@ -22,7 +22,7 @@ function httpRequest($url, $post="") {
     // */
     curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($ch, CURLOPT_SSLVERSION, 4);
-    curl_setopt($ch, CURLOPT_SSL_CIPHER_LIST, 'SSLv3');
+    //curl_setopt($ch, CURLOPT_SSL_CIPHER_LIST, 'SSLv3');
 
 
     if (!empty($post)) curl_setopt($ch, CURLOPT_POSTFIELDS,$post);
