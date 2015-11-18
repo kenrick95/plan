@@ -1,6 +1,6 @@
 <?php
 $year = isset($_GET['year']) ? intval($_GET['year']) : 2015;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
+$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 2;
 
 
 $raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . ".html");
@@ -40,7 +40,7 @@ function count_duration($start, $end) {
     } else {
         return (double) ($hour_end - $hour_start) + (double) ($minute_end - $minute_start) / 60.0;
     }
-    
+
 }
 
 
@@ -58,11 +58,11 @@ foreach ($data->TABLE as $course) {
             "code" => $course_code,
             "name" => $course_name));
     } else { // index of the course
-        
+
         $index_members = array();
         foreach ($course->TR as $index) {
             if ($index->TD[0] == null) continue; // skip
-            
+
             if (!empty($index->TD[0]->B )) {
                 if (isset($index_member)) {
                     array_push($index_members,array(
@@ -90,7 +90,7 @@ foreach ($data->TABLE as $course) {
 
             $member_location = (string) $index->TD[5]->B;
             $member_remarks = (empty($index->TD[6]->B)) ? "" : (string) $index->TD[6]->B; // start on what week?
-            
+
             $member_flag = 0; // no remarks
             if (stripos($member_remarks, "-") !== false) {
                 $member_flag = 0; // all weeks
@@ -126,7 +126,7 @@ foreach ($data->TABLE as $course) {
         if (isset($index_member)) {
             array_push($index_members, array(
                 "index_number" => $index_number,
-                "details" => $index_member)); 
+                "details" => $index_member));
             unset($index_member);
         }
         //$course_index   = $course->tbody->tr;
@@ -135,7 +135,7 @@ foreach ($data->TABLE as $course) {
                                           "index" => $index_members
                                          );
         unset($index_members);
-        
+
         /*
         array_push($super_data, array("code" => $course_code,
             "name" => $course_name,
