@@ -49,15 +49,11 @@ try {
         throw new Exception("Semester is empty");
     }
     if (empty($_REQUEST['plan_no'])) {
-        if ($_REQUEST['semester'] == 2) $plan_no = 2;
-            else
         throw new Exception("plan_no is empty. Get it manually from https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.main");
     }
     $year = $_REQUEST['year'];
     $semester = $_REQUEST['semester'];
-
-    if ($_REQUEST['semester'] == 2) $plan_no = 4;
-    else $plan_no = $_REQUEST['plan_no'];
+    $plan_no = $_REQUEST['plan_no'];
 
     ### Course data
     $request['r_search_type'] = 'F';
