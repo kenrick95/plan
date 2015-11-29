@@ -5480,16 +5480,6 @@ Array
             [duration] => 2
         )
 
-    [EE8066] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => EE8066
-            [name] => HAPPINESS 101
-            [duration] => 2
-        )
-
     [EM9106] => Array
         (
             [date] => 4 May 2016
@@ -6460,16 +6450,6 @@ Array
             [duration] => 2
         )
 
-    [BS2106] => Array
-        (
-            [date] => 6 May 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => BS2106
-            [name] => TCM FORMULARY
-            [duration] => 2.5
-        )
-
     [CH2104] => Array
         (
             [date] => 6 May 2016
@@ -6720,16 +6700,6 @@ Array
             [duration] => 2
         )
 
-    [BS1101] => Array
-        (
-            [date] => 6 May 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => BS1101
-            [name] => BASICS OF TCM
-            [duration] => 2.5
-        )
-
     [BS211S] => Array
         (
             [date] => 6 May 2016
@@ -6738,16 +6708,6 @@ Array
             [code] => BS211S
             [name] => EQUATIONS OF LIFE
             [duration] => 2
-        )
-
-    [BS3102] => Array
-        (
-            [date] => 6 May 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => BS3102
-            [name] => SYNOPSIS OF THE GOLDEN CHAMBER
-            [duration] => 2.5
         )
 
     [CE1007] => Array

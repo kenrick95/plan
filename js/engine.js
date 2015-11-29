@@ -31,8 +31,7 @@ $(document).ready(function ($) {
                         len = allTags.length,
                         shown_data = [];
                     for (i = 0; i < len; i++) {
-                        if (allTags[i].flag === 0
-                                && allTags[i].label.toLowerCase().replace(/\s+/, "").indexOf(term) >= 0) {
+                        if (allTags[i].flag === 0 && allTags[i].label.toLowerCase().replace(/\s+/, "").indexOf(term) >= 0) {
                             shown_data.push(allTags[i]);
                         }
                     }
@@ -188,9 +187,14 @@ $(document).ready(function ($) {
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
-                if (!res.exam_schedule_validation) {
+                if (!res.exam_schedule_validation.ok) {
+                    var conflict_msg = "";
+                    console.log(res.exam_schedule_validation);
+                    for (i = 0; i < res.exam_schedule_validation.conflict.length; i++) {
+                      conflict_msg += res.exam_schedule_validation.conflict[i][0] + " and " + res.exam_schedule_validation.conflict[i][1] + "\n";
+                    }
                     ga('send', 'event', 'form', 'result', 'not_found_exam');
-                    swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule has clashed. Please try selecting another course.", "warning");
+                    swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule of the following have clashed:\n " + conflict_msg + "\nPlease try selecting another course.", "warning");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
@@ -312,7 +316,13 @@ $(document).ready(function ($) {
                     if (exam_schedule.hasOwnProperty(date)) {
                         for (time in exam_schedule[date]) {
                             if (exam_schedule[date].hasOwnProperty(time)) {
-                                date_time = new Date(date + " " + time.replace(".", ":"));
+                                date_str = date + " " + time.replace(".", ":");
+                                if (isNaN(Date.parse(date_str))) {
+                                  date_time = Infinity;
+                                }
+                                else {
+                                  date_time = new Date(date_str);
+                                }
                                 sorted_exam_schedule.push({
                                     date_time: date_time,
                                     data: exam_schedule[date][time]

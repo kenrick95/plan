@@ -85,6 +85,7 @@ function validate_input ($input_courses, $database_course) {
 # If there is a clash, stop it there
 function check_exam_schedule ($input_courses) {
     global $database_exam, $database_course, $exam_schedule;
+    $ret = array("ok" => true, "conflict" => []);
 
     foreach ($input_courses as $course) {
         $exam = get_exam_details($course, $database_exam);
@@ -122,14 +123,15 @@ function check_exam_schedule ($input_courses) {
             $exam["au"]= trim($database_course[$course]['au']);
 
             if (isset($exam_schedule[$exam_date][$exam_time])) {
-                return false;
+                $ret['ok'] = false;
+                array_push($ret['conflict'], [$exam_schedule[$exam_date][$exam_time]["code"], $exam["code"]]);
             } else {
                 $exam_schedule[$exam_date][$exam_time] = $exam;
             }
         }
     }
 
-    return true;
+    return $ret;
 }
 
 
@@ -169,14 +171,6 @@ function generate_timetable ($input_courses, $temp_timetable) {
                 unset($temp_timetable[$day]);
         }
         array_push($all_timetable, $temp_timetable);
-
-        /*
-        if (count($all_timetable == 20)) {
-            # flush here
-            # Empty $all_timetable to prepare for the next 20 timetables
-            $all_timetable = array();
-        }
-        */
 
         return;
     }
@@ -255,18 +249,6 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
                     }
                 }
             }
-
-            // // # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
-            // $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
-            // $clash_flag = $clash_detail["flag"];
-
-            // // # Consider it as a clash IF AND ONLY IF the clash happens because of a slot is already occupied by DIFFERENT COURSE!!
-            // if ($course_id !== $clash_detail["id"]) {
-            //     # If the clash is for the whole semester
-            //     if ($week === 0) return true;
-            //     if ($clash_flag === 0) return true;
-            //     if ($week === $clash_flag) return true;
-            // }
         }
 
         $index++;
