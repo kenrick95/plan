@@ -194,7 +194,12 @@ function generate_timetable ($input_courses, $temp_timetable) {
         
         #echo "Index: " . $index_no . "Course: " . $course_id . "\n\n";
         
-        foreach ($index_details as $detail) {            
+        foreach ($index_details as $detail) {
+            # Skip for Online Course (no timetable detail)
+            if (strcmp(strtolower(trim($detail["remarks"])), "online course") === 0) {
+                continue;
+            }
+
             # Check for clash, for each index detail (for each lecture, each tutorial in one index)
             $clash = check_clash($course_id, $index_no, $detail, $temp_timetable);
             
