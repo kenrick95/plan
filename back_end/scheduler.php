@@ -6,7 +6,7 @@
 ini_set('memory_limit', '512M');
 error_reporting(E_ALL ^ E_WARNING);
 $year = isset($_GET['year']) ? intval($_GET['year']) : 2015;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
+$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 2;
 
 # Get the database
 $database_course = json_decode(file_get_contents("data/parsed/json/". $year . "_" . $semester . "_data.json"), true);
@@ -21,7 +21,7 @@ $times = array( "0830" => array(),"0900" => array(),"0930" => array(),"1000" => 
 
 # STRUCTURE FOR TIMETABLE
 $timetable = array(
-    "MON" => $times, 
+    "MON" => $times,
     "TUE" => $times,
     "WED" => $times,
     "THU" => $times,
@@ -77,7 +77,7 @@ function validate_input ($input_courses, $database_course) {
             return false;
         }
     }
-    
+
     return true;
 }
 
@@ -85,7 +85,8 @@ function validate_input ($input_courses, $database_course) {
 # If there is a clash, stop it there
 function check_exam_schedule ($input_courses) {
     global $database_exam, $database_course, $exam_schedule;
-    
+    $ret = array("ok" => true, "conflict" => []);
+
     foreach ($input_courses as $course) {
         $exam = get_exam_details($course, $database_exam);
         if ($exam === -1) {
@@ -120,16 +121,17 @@ function check_exam_schedule ($input_courses) {
 
             $exam["end_time"] = pad($hour) . pad($minutes);
             $exam["au"]= trim($database_course[$course]['au']);
-        
+
             if (isset($exam_schedule[$exam_date][$exam_time])) {
-                return false;
+                $ret['ok'] = false;
+                array_push($ret['conflict'], [$exam_schedule[$exam_date][$exam_time]["code"], $exam["code"]]);
             } else {
                 $exam_schedule[$exam_date][$exam_time] = $exam;
             }
         }
     }
-    
-    return true;
+
+    return $ret;
 }
 
 
@@ -156,7 +158,7 @@ $temp_timetable = $timetable;
 function generate_timetable ($input_courses, $temp_timetable) {
     global $database_course, $all_timetable;
     $original_timetable = $temp_timetable;
-        
+
     # One solution is found
     if (count($input_courses) == 0) {
         // Don't store empty keys
@@ -170,17 +172,9 @@ function generate_timetable ($input_courses, $temp_timetable) {
         }
         array_push($all_timetable, $temp_timetable);
 
-        /*
-        if (count($all_timetable == 20)) {
-            # flush here
-            # Empty $all_timetable to prepare for the next 20 timetables
-            $all_timetable = array();
-        }
-        */
-        
         return;
     }
-        
+
     # Data retrieval
     $course = $database_course[$input_courses[0]];
     $course_id = $input_courses[0];
@@ -191,38 +185,33 @@ function generate_timetable ($input_courses, $temp_timetable) {
         $index_no = $index["index_number"];
         $index_details = $index["details"];
         $skip = false;
-        
-        #echo "Index: " . $index_no . "Course: " . $course_id . "\n\n";
-        
-        foreach ($index_details as $detail) {
-            # Skip for Online Course (no timetable detail)
-            if (strcmp(strtolower(trim($detail["remarks"])), "online course") === 0) {
-                continue;
-            }
 
+        #echo "Index: " . $index_no . "Course: " . $course_id . "\n\n";
+
+        foreach ($index_details as $detail) {
             # Check for clash, for each index detail (for each lecture, each tutorial in one index)
             $clash = check_clash($course_id, $index_no, $detail, $temp_timetable);
-            
+
             if ($clash) {
                 $skip = true;
                 break;
             }
-                        
+
             # Assign to timetable
             $temp_timetable = assign_course($course_id, $index_no, $detail, $temp_timetable);
         }
-        
+
         # Skip the recursion as there is a clash in this index
         # Continue to the next index
         if ($skip) {
             $temp_timetable = $original_timetable;
             continue;
         }
-        
+
         # Reduce to get termination condition later
         $popped = array_shift($input_courses);
         generate_timetable($input_courses, $temp_timetable); # Recursion
-                
+
         # Backtracking
         $temp_timetable = $original_timetable;
         array_unshift($input_courses, $popped);
@@ -237,13 +226,13 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
     $duration = $detail["time"]["duration"];
     $day = $detail["day"];
     $week = $detail["flag"];
-    
+
     // $week = remarks_to_weeks($detail["remarks"]);
-        
+
     $time_keys = array_keys($temp_timetable[$day]);
     $index = array_search($start_time, $time_keys); # Iterator for each time slot in the temp_timetable
-        
-    # duration * 2 -> how many slots 
+
+    # duration * 2 -> how many slots
     for ($i = 0; $i < $duration * 2; $i++) {
         if (count($temp_timetable[$day][$time_keys[$index]]) > 0) {
             # In case there are 2 courses at that slot already!
@@ -260,23 +249,11 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
                     }
                 }
             }
-            
-            // // # Take the clash course from the timetable -> it must be index 0 (because at most there are only 2 entries)
-            // $clash_detail = $temp_timetable[$day][$time_keys[$index]][0]; # An array object containing the data structure
-            // $clash_flag = $clash_detail["flag"];
-            
-            // // # Consider it as a clash IF AND ONLY IF the clash happens because of a slot is already occupied by DIFFERENT COURSE!!
-            // if ($course_id !== $clash_detail["id"]) {
-            //     # If the clash is for the whole semester
-            //     if ($week === 0) return true; 
-            //     if ($clash_flag === 0) return true;            
-            //     if ($week === $clash_flag) return true;
-            // }
         }
-        
+
         $index++;
     }
-    
+
     return false;
 }
 
@@ -292,26 +269,26 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
                 "group" => $detail["group"],
                 "remarks" => $detail["remarks"]
             );
-    
+
     $start_time = $detail["time"]["start"];
     $end_time = $detail["time"]["end"];
     $duration = $detail["time"]["duration"];
     $day = $detail["day"];
-    
+
     $time_keys = array_keys($temp_timetable[$day]);
     $index = array_search($start_time, $time_keys);
-    
-    # duration * 2 -> how many slots 
+
+    # duration * 2 -> how many slots
     for ($i = 0; $i < $duration * 2; $i++) {
         # To skip if there is two same courses, same type, in the same slot -> e.g. BU8401 FOM
         if (count($temp_timetable[$day][$time_keys[$index]]) > 0 && $temp_timetable[$day][$time_keys[$index]][0]["id"] === $course_id) break;
         else array_push($temp_timetable[$day][$time_keys[$index]], $data);
-        
+
         $index++;
     }
-    
+
     return $temp_timetable;
-}  
+}
 
 /* ---------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
@@ -400,7 +377,7 @@ function pad ($num) {
 }
 
 /**
- *  
+ *
  * @param  String $remarks      Remarks string
  * @return Array                Boolean array of size 13 (0-based), indicating whether course is held on week i or not
  */
@@ -417,7 +394,7 @@ function remarks_to_weeks ($remarks) {
         return $ret;
     }
     $start += 2; // skip "wk"
-    
+
     $cur_val = 0;
     $cur_val2 = 0;
     $range = false;

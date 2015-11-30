@@ -21,7 +21,8 @@ function httpRequest($url, $post="") {
     //   THANK YOU
     // */
     curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
-    curl_setopt($ch, CURLOPT_SSLVERSION, 3);
+    curl_setopt($ch, CURLOPT_SSLVERSION, 4);
+    //curl_setopt($ch, CURLOPT_SSL_CIPHER_LIST, 'SSLv3');
 
 
     if (!empty($post)) curl_setopt($ch, CURLOPT_POSTFIELDS,$post);
@@ -29,15 +30,15 @@ function httpRequest($url, $post="") {
     //curl_setopt($ch, CURLOPT_VERBOSE, true); // Display communication with server
     //$fp = fopen("output.tmp", "w");
     //curl_setopt($ch, CURLOPT_STDERR, $fp); // Display communication with server
-    
+
     $xml = curl_exec($ch);
-    
+
     if (!$xml) {
         throw new Exception("Error getting data from server ($url): " . curl_error($ch));
     }
 
     curl_close($ch);
-    
+
     return $xml;
 }
 try {
@@ -48,25 +49,21 @@ try {
         throw new Exception("Semester is empty");
     }
     if (empty($_REQUEST['plan_no'])) {
-        if ($_REQUEST['semester'] == 2) $plan_no = 4;
-            else
         throw new Exception("plan_no is empty. Get it manually from https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.main");
     }
     $year = $_REQUEST['year'];
     $semester = $_REQUEST['semester'];
-    
-    if ($_REQUEST['semester'] == 2) $plan_no = 4;
-    else $plan_no = $_REQUEST['plan_no'];
+    $plan_no = $_REQUEST['plan_no'];
 
     ### Course data
     $request['r_search_type'] = 'F';
     $request['boption'] = 'Search';
     $request['acadsem'] = $year . ';' . $semester;
-    $request['r_course_yr'] = '';
+    #$request['r_course_yr'] = '';
     $request['r_subj_code'] = '';
     $request['staff_access'] = 'false';
 
-    $response = httpRequest("http://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1", $request);
+    $response = httpRequest("https://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1", $request);
     file_put_contents("data/raw/". $year . "_" . $semester . ".html", $response);
 
 
@@ -83,7 +80,7 @@ try {
     $request['academic_session'] = 'Semester '. $semester .' Academic Year '.$year .'-'.($year + 1);
     $request['boption'] = 'Next';
 
-    $response = httpRequest("http://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.get_detail", $request);
+    $response = httpRequest("https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.get_detail", $request);
 
     file_put_contents("data/raw/". $year . "_" . $semester . "_exam.html", $response);
 
