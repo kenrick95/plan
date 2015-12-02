@@ -36,6 +36,7 @@ $all_timetable = array();
 # Get the string of courses from the form and split it to an array
 $input_courses = explode(",", preg_replace("/\s+/", "", strtoupper($_REQUEST["courses"])));
 $user_major= strtoupper($_REQUEST["major"]);
+$user_free_times_selection = $_REQUEST["freetime"];
 
 # Check sent data
 if (isset($input_courses)) {
@@ -45,6 +46,9 @@ if (isset($input_courses)) {
             unset($input_courses[$i]);
         }
     }
+
+    # Put dummy data for user selected free time
+    $timetable = select_free_time($timetable, $user_free_times_selection);
 
     $result = array("validation_result" => validate_input($input_courses, $database_course));
     if ($result["validation_result"]) {
@@ -81,6 +85,18 @@ function validate_input ($input_courses, $database_course) {
     return true;
 }
 
+# Put dummy data on the timetable template for blocking the USER FREE TIME SELECTION
+function select_free_time ($timetable, $user_selection) {
+    foreach ($user_selection as $day => $times) {
+        foreach ($times as $time => $free_time) {
+            if ($free_time === "true") {
+                $timetable[$day][$time] = true;
+            }
+        }
+    }
+
+    return $timetable;
+}
 
 # If there is a clash, stop it there
 function check_exam_schedule ($input_courses) {
@@ -236,7 +252,7 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
     for ($i = 0; $i < $duration * 2; $i++) {
         if (count($temp_timetable[$day][$time_keys[$index]]) > 0) {
             # In case there are 2 courses at that slot already!
-            if (count($temp_timetable[$day][$time_keys[$index]]) >= 2) return true;
+            if (count($temp_timetable[$day][$time_keys[$index]]) >= 2 || $temp_timetable[$day][$time_keys[$index]] === true) return true;
 
             $remarks = remarks_to_weeks($detail["remarks"]);
             $clash_detail = $temp_timetable[$day][$time_keys[$index]][0];

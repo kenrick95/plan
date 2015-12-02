@@ -127,6 +127,72 @@ $(document).ready(function ($) {
         }
     });
 
+/* ******************************************************************************************** */
+
+    // Handler for advanced search
+    var times = {"0830": false, "0900": false, "0930": false, "1000": false, "1030": false, "1100": false, "1130": false, "1200": false, "1230": false, "1300": false, "1330": false,
+                 "1400": false, "1430": false, "1500": false, "1530": false, "1600": false, "1630": false, "1700": false, "1730": false, "1800": false, "1830": false, "1900": false, 
+                 "1930": false, "2000": false, "2030": false, "2100": false, "2130": false, "2200": false, "2230": false, "2300": false},
+
+        // Need JSON.parse(JSON.stringify(times)) for OBJECT cloning
+        free_times_template = {
+            "MON": JSON.parse(JSON.stringify(times)),
+            "TUE": JSON.parse(JSON.stringify(times)),
+            "WED": JSON.parse(JSON.stringify(times)),
+            "THU": JSON.parse(JSON.stringify(times)),
+            "FRI": JSON.parse(JSON.stringify(times)),
+            "SAT": JSON.parse(JSON.stringify(times))
+        },
+
+        user_free_times_selection = free_times_template,
+        current_day = "MON";
+
+
+    // Update dropdown button text
+    $(".dropdown-menu").on("click", "li a", function () {
+        $("#day_button").html($(this).text() + ' <span class="caret"></span>');
+        current_day = $(this).attr("data-day");
+
+        $(".free_time_checkbox").each(function () {
+            this.checked = user_free_times_selection[current_day][this.value];
+        });
+    });
+
+    // Update free times selection on time click
+    $(".free_time_checkbox").on("click", function () {
+        var time = this.value;
+        
+        if (this.checked) {
+            user_free_times_selection[current_day][time] = true;
+        } else {
+            user_free_times_selection[current_day][time] = false;
+        }
+    });
+
+    // Select All
+    $("#free_time_select_all_button").on("click", function () {
+        // Update variable
+        for (var time in user_free_times_selection[current_day]) {
+            user_free_times_selection[current_day][time] = true;
+        }
+
+        // Checking the checkboxes
+        $(".free_time_checkbox").prop("checked", true);
+    });
+
+    // Deselect All
+    $("#free_time_deselect_all_button").on("click", function () {
+        // Update variable
+        for (var time in user_free_times_selection[current_day]) {
+            user_free_times_selection[current_day][time] = false;
+        }
+
+        // Unchecking the checkboxes
+        $(".free_time_checkbox").prop("checked", false);
+    });
+
+/* ******************************************************************************************** */
+
     $("#course_form").submit(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val(),
@@ -139,7 +205,7 @@ $(document).ready(function ($) {
         $.ajax({
             type: "POST",
             url: "back_end/scheduler.php",
-            data: {courses: data, major: major},
+            data: {courses: data, major: major, freetime: user_free_times_selection},
             beforeSend: function () {
                 var i, splitted;
                 // Whenever a new request is submitted, remove all table -> in the real web, there will be a loading icon to tell the user
@@ -201,7 +267,7 @@ $(document).ready(function ($) {
                 }
                 if (len === 0) {
                     ga('send', 'event', 'form', 'result', 'not_found_impossible');
-                    swal("We're sorry.", "There is no possible arrangement found for the given courses because lecture, tutorial, or lab session has clashed. Please try selecting another course.", "warning");
+                    swal("We're sorry.", "There is no possible arrangement found for the given courses. Please try selecting another course.", "warning");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
@@ -394,5 +460,7 @@ $(document).ready(function ($) {
             }
         });
     });
+
+    // Google Analytics
     ga('send', 'event', 'page', 'view', 'view');
 });

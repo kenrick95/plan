@@ -62,6 +62,32 @@ table {
     background-position: center center;
     background-repeat: no-repeat;
 }
+#adv_search {
+    cursor: pointer;
+}
+#advanced_search_modal .col-xs-3 {
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+#advanced_search_modal .row:first-child {
+    margin-bottom: 1em;
+}
+#advanced_search_modal input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+}
+#advanced_search_modal .col-xs-3 span {
+    vertical-align: middle;
+}
+#free_time_select_all_button {
+    margin-right: 0.5em;
+}
+#free_time_selection_text {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
 footer {
     margin-bottom: 0.7em;
 }
