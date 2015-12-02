@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <button type="submit" id="submit" class="btn btn-primary">Submit</button>
-                    <a class="pull-right" id="adv_search" data-keyboard="false" data-toggle="modal" data-backdrop="static" data-target="#advanced_search_modal" data-toggle="tooltip" data-placement="bottom" title="Choose your preferred free time!">Advanced Search!</a>
+                    <a class="pull-right" id="adv_search" data-keyboard="false" data-toggle="modal" data-backdrop="static" data-target="#advanced_search_modal" data-toggle="tooltip" data-placement="bottom" title="Choose your preferred free time!">Advanced Search</a>
                 </form>
 
                 <div id="loading_icon"></div>
