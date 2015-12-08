@@ -68,6 +68,7 @@
                             <option value="CB">CBE</option>
                             <option value="EEE">EEE</option>
                             <option value="CV">CEE</option>
+                            <option value="NBS">NBS</option>
                         </select>
                         </div>
                         </div>
@@ -172,7 +173,7 @@
                                 </div>
                                 
                                 <button type="button" id="free_time_deselect_all_button" class="btn btn-danger pull-right">De-select All</button>
-                                <button type="button" id="free_time_select_all_button" class="btn btn-primary pull-right">Select All</button>
+                                <button type="button" id="free_time_select_all_button" class="btn btn-primary pull-right">I want a free day!</button>
                             </div>
                         </div>
 
