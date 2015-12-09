@@ -65,20 +65,17 @@ table {
 #adv_search {
     cursor: pointer;
 }
-#advanced_search_modal .col-xs-3 {
-    text-align: center;
-    margin-bottom: 0.3em;
+#advanced_search_modal label {
+    font-weight: normal;
 }
-#advanced_search_modal .row:first-child {
-    margin-bottom: 1em;
-}
-#advanced_search_modal input[type=checkbox] {
+#advanced_search_modal .item {
+    flex: 1 1 9em;
     vertical-align: middle;
-    position: relative;
-    bottom: 2px;
 }
-#advanced_search_modal .col-xs-3 span {
-    vertical-align: middle;
+#free_time_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
 }
 #free_time_select_all_button {
     margin-right: 0.5em;

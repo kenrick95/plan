@@ -69,6 +69,10 @@
                             <option value="EEE">EEE</option>
                             <option value="CV">CEE</option>
                             <option value="NBS">NBS</option>
+                            <option value="ADM">ADM</option>
+                            <option value="HSS">HSS</option>
+                            <option value="WKWSCI">WKWSCI</option>
+                            <option value="LKCMedicine">LKCMedicine</option>
                         </select>
                         </div>
                         </div>
@@ -88,7 +92,7 @@
                     </nav>
                     <div id="tables">
                         <div id="target">
-                        
+
                         </div>
                         <div class="table-responsive">
 	                        <table class="table" id="exam_table">
@@ -131,7 +135,7 @@
                             This application was made during exam period of Semester 1, A.Y. 2014-15, by <a href="https://www.linkedin.com/pub/edwin-candinegara/94/45b/19b" target="_blank">Edwin Candinegara</a> &amp; <a href="http://kenrick95.org" target="_blank">Kenrick</a>.
                         </p>
                         <p>
-                            <b>Note:</b> Class schedule and exam schedule data is crawled from NTU public server that does not require login for accessing data. We do not claim any intellectual property over this data.
+                            <b>Note:</b> Class schedule and exam schedule data is crawled from NTU public server that does not require login for the data access. We do not claim any intellectual property over this data.
                         </p>
                         <h3>
                             Data Protection – Google Analytics Statement
@@ -146,13 +150,13 @@
                 </div>
             </div>
         </div>
-		
+
 		<!-- ADVANCED SEARCH MODAL -->
         <div class="modal fade" id="advanced_search_modal" tabindex="-1" role="dialog" aria-labelledby="advanced_search_modal_label" aria-hidden="true">
             <div class="modal-dialog modal-md">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h2 class="modal-title" id="advanced_search_modal_label">Choose Your Free Time!</h4>
+                        <h2 class="modal-title" id="advanced_search_modal_label">Choose your free time!</h4>
                     </div>
                     <div class="modal-body">
                         <div class="row">
@@ -171,123 +175,102 @@
                                         <li><a href="#" data-day="SAT">Saturday</a></li>
                                     </ul>
                                 </div>
-                                
-                                <button type="button" id="free_time_deselect_all_button" class="btn btn-danger pull-right">De-select All</button>
-                                <button type="button" id="free_time_select_all_button" class="btn btn-primary pull-right">I want a free day!</button>
+
+                                <button type="button" id="free_time_deselect_all_button" class="btn btn-default pull-right">Deselect All</button>
+                                <button type="button" id="free_time_select_all_button" class="btn btn-default pull-right">I want a free day!</button>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="0830"><span>&nbsp;&nbsp;0830 - 0900</span>
+                        <div id="free_time_container">
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="0830"> 0830 - 0900</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="0900"><span>&nbsp;&nbsp;0900 - 0930</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="0900"> 0900 - 0930</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="0930"><span>&nbsp;&nbsp;0930 - 1000</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="0930"> 0930 - 1000</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1000"><span>&nbsp;&nbsp;1000 - 1030</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1000"> 1000 - 1030</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1030"><span>&nbsp;&nbsp;1030 - 1100</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1030"> 1030 - 1100</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1100"><span>&nbsp;&nbsp;1100 - 1130</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1100"> 1100 - 1130</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1130"><span>&nbsp;&nbsp;1130 - 1200</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1130"> 1130 - 1200</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1200"><span>&nbsp;&nbsp;1200 - 1230</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1200"> 1200 - 1230</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1230"><span>&nbsp;&nbsp;1230 - 1300</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1230"> 1230 - 1300</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1300"><span>&nbsp;&nbsp;1300 - 0330</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1300"> 1300 - 0330</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1330"><span>&nbsp;&nbsp;1330 - 1400</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1330"> 1330 - 1400</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1400"><span>&nbsp;&nbsp;1400 - 1430</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1400"> 1400 - 1430</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1430"><span>&nbsp;&nbsp;1430 - 1500</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1430"> 1430 - 1500</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1500"><span>&nbsp;&nbsp;1500 - 1530</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1500"> 1500 - 1530</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1530"><span>&nbsp;&nbsp;1530 - 1600</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1530"> 1530 - 1600</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1600"><span>&nbsp;&nbsp;1600 - 1630</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1600"> 1600 - 1630</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1630"><span>&nbsp;&nbsp;1630 - 1700</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1630"> 1630 - 1700</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1700"><span>&nbsp;&nbsp;1700 - 1730</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1700"> 1700 - 1730</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1730"><span>&nbsp;&nbsp;1730 - 1800</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1730"> 1730 - 1800</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1800"><span>&nbsp;&nbsp;1800 - 1830</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1800"> 1800 - 1830</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1830"><span>&nbsp;&nbsp;1830 - 1900</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1830"> 1830 - 1900</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1900"><span>&nbsp;&nbsp;1900 - 1930</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1900"> 1900 - 1930</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="1930"><span>&nbsp;&nbsp;1930 - 2000</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="1930"> 1930 - 2000</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="2000"><span>&nbsp;&nbsp;2000 - 2030</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="2000"> 2000 - 2030</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="2030"><span>&nbsp;&nbsp;2030 - 2100</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="2030"> 2030 - 2100</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="2100"><span>&nbsp;&nbsp;2100 - 2130</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="2100"> 2100 - 2130</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="2130"><span>&nbsp;&nbsp;2130 - 2200</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="2130"> 2130 - 2200</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="2200"><span>&nbsp;&nbsp;2200 - 2230</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="2200"> 2200 - 2230</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="2230"><span>&nbsp;&nbsp;2230 - 2300</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="2230"> 2230 - 2300</label>
                             </div>
-                            <div class="col-xs-3">
-                                <input type="checkbox" class="free_time_checkbox" value="2300"><span>&nbsp;&nbsp;2300 - 2330</span>
+                            <div class="item">
+                                <label><input type="checkbox" class="free_time_checkbox" value="2300"> 2300 - 2330</label>
                             </div>
                         </div>
                     </div>
@@ -295,16 +278,14 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <p id="free_time_selection_text">
-                                <b>
-                                    The long awaited feature is here now! <br>
+                                    The long awaited feature is here! <br>
                                     You can decide when you want to take a break easily! <br>
-                                    *** Please double check with <u>STARS Planner</u> as this is a very new feature! ***
-                                </b>
+                                    <strong>As this is a very new feature, please double check with <u>STARS Planner</u> !</strong>
                             </p>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
                     </div>
                 </div>
             </div>
