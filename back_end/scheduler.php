@@ -58,7 +58,7 @@ if (isset($input_courses)) {
 
     # Filter HW0210 / HW0310 based on the user major
     filter_HW0188_timetable($user_major);
-    filter_HW0210_timetable($user_major);
+    // filter_HW0210_timetable($user_major); non-existent
 
     # For EEE, it considers all HW0310, including those from SCE, MSE, etc. (checked with bug reporter)
     if (strcmp($user_major, "EEE") !== 0) {

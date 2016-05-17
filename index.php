@@ -62,7 +62,7 @@
                         </div>
                         <div class="col-sm-2">
                         <select id="course_major" name="major" class="form-control">
-                            <option value="SCE">SCE</option>
+                            <option value="SCSE">SCSE</option>
                             <option value="MAT">MSE</option>
                             <option value="MA">MAE</option>
                             <option value="CB">CBE</option>
