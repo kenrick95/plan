@@ -3,7 +3,7 @@ plan*
 
 A PHP-based application that help students of NTU (Nanyang Technological University) to plan their courses.
 
-The application do web-scraping of course data from NTU public servers, parses the data and stores them into meaningful content, and then do the scheduling of the courses based on user input.
+The application do web-scraping of course data from NTU public serverZZ, parses the data and stores them into meaningful content, and then do the scheduling of the courses based on user input.
 
 ### Back-end Architecture
 * Getter ([getter.php](https://github.com/kenrick95/plan/blob/master/back_end/getter.php))
