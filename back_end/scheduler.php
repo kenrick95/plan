@@ -5,8 +5,8 @@
 
 ini_set('memory_limit', '512M');
 error_reporting(E_ALL ^ E_WARNING);
-$year = isset($_GET['year']) ? intval($_GET['year']) : 2015;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 2;
+$year = isset($_GET['year']) ? intval($_GET['year']) : 2016;
+$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
 
 # Get the database
 $database_course = json_decode(file_get_contents("data/parsed/json/". $year . "_" . $semester . "_data.json"), true);

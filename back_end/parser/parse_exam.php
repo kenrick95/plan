@@ -1,6 +1,6 @@
 <?php
-$year = isset($_GET['year']) ? intval($_GET['year']) : 2015;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 2;
+$year = isset($_GET['year']) ? intval($_GET['year']) : 2016;
+$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
 
 function str_lreplace($search, $replace, $subject)
 {
