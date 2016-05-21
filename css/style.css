@@ -69,7 +69,7 @@ table {
     font-weight: normal;
 }
 #advanced_search_modal .item {
-    flex: 1 1 9em;
+    flex: 0 1 10em;
     vertical-align: middle;
 }
 #free_time_container {
