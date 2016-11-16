@@ -63,16 +63,18 @@
                         <div class="col-sm-2">
                         <select id="course_major" name="major" class="form-control">
                             <option value="SCSE">SCSE</option>
-                            <option value="MAT">MSE</option>
-                            <option value="MA">MAE</option>
-                            <option value="CB">CBE</option>
-                            <option value="EEE">EEE</option>
-                            <option value="CV">CEE</option>
-                            <option value="NBS">NBS</option>
                             <option value="ADM">ADM</option>
+                            <option value="CB">CBE</option>
+                            <option value="CV">CEE</option>
+                            <option value="EEE">EEE</option>
                             <option value="HSS">HSS</option>
-                            <option value="WKWSCI">WKWSCI</option>
+                            <option value="MA">MAE</option>
                             <option value="LKCMedicine">LKCMedicine</option>
+                            <option value="MAT">MSE</option>
+                            <option value="NBS">NBS</option>
+                            <option value="SPMS">SPMS</option>
+                            <option value="WKWSCI">WKWSCI</option>
+                            <option value="Others">Others</option>
                         </select>
                         </div>
                         </div>

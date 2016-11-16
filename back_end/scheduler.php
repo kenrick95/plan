@@ -1,12 +1,8 @@
 <?php
-// BUG: HW0310, HW0210
-// all major are shown, filter by major
-// remove non-selected major before generate_timetable
-
 ini_set('memory_limit', '512M');
 error_reporting(E_ALL ^ E_WARNING);
-$year = isset($_GET['year']) ? intval($_GET['year']) : 2016;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
+$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
+$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
 
 # Get the database
 $database_course = json_decode(file_get_contents("data/parsed/json/". $year . "_" . $semester . "_data.json"), true);

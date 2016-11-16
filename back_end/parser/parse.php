@@ -1,6 +1,6 @@
 <?php
-$year = isset($_GET['year']) ? intval($_GET['year']) : 2016;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
+$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
+$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
 
 
 $raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . ".html");
@@ -28,7 +28,6 @@ $raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);
 
 
 $raw_data = preg_replace("/ +/", " ", $raw_data);
-# print_r($raw_data);
 
 function count_duration($start, $end) {
     $hour_start = (int) ($start / 100);

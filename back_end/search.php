@@ -1,8 +1,8 @@
 <?php
-$year = isset($_GET['year']) ? intval($_GET['year']) : 2016;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
+$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
+$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
 
-$term = isset($_GET['term']) ? trim($_GET['term']) : '';
+$term = isset($_REQUEST['term']) ? trim($_REQUEST['term']) : '';
 $term = preg_replace("/\s+/", "", $term);
 // if (strlen($term) < 2) $term = '';
 

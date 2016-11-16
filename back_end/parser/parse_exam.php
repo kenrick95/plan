@@ -1,6 +1,6 @@
 <?php
-$year = isset($_GET['year']) ? intval($_GET['year']) : 2016;
-$semester = isset($_GET['semester']) ? intval($_GET['semester']) : 1;
+$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
+$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
 
 function str_lreplace($search, $replace, $subject)
 {
@@ -35,6 +35,7 @@ $raw_data = str_replace("<td align=left width=25% valign=top>", "<td>", $raw_dat
 
 $raw_data = str_replace("bgcolor=#99CCFF", "", $raw_data);
 $raw_data = str_replace("bgcolor=#FFFFFF", "", $raw_data);
+$raw_data = str_replace("colspan=2", "", $raw_data);
 
 $raw_data = str_replace("<tr", "<TR", $raw_data);
 $raw_data = str_replace("</tr", "</TR", $raw_data);
@@ -43,7 +44,7 @@ $raw_data = trim($raw_data);
 $raw_data = preg_replace("/ +/", " ", $raw_data);
 $raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);
 
-# file_put_contents('2014_2_exam_data.txt', print_r($raw_data, true));
+// file_put_contents('test.txt', print_r($raw_data, true));
 $data =  new SimpleXMLElement($raw_data);
 
 # whew, finished cleaning data, now parse it!
