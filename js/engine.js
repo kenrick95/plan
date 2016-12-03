@@ -1,7 +1,26 @@
 /*jslint browser: true, sloppy: true, plusplus: true, continue: true */
 /*global jQuery, $, swal, ga */
 $(document).ready(function ($) {
-    var cache = {}, all_table = [], cur_idx, all_indices = [];
+    var ACADEMIC_START_DATE = new Date('January 9, 2017 00:00:00 GMT+0800'); // CHANGE THIS EVERY SEMESTER
+    var ACADEMIC_END_DATE = new Date('April 14, 2017 23:59:59 GMT+0800'); // CHANGE THIS EVERY SEMESTER
+    var ACADEMIC_RECESS_START_DATE = new Date('February 27, 2017 00:00:00 GMT+0800');
+    var ACADEMIC_RECESS_END_DATE = new Date('March 3, 2017 23:59:59 GMT+0800');
+
+    Date.prototype.addDays = function (dayNum) {
+        var date = new Date(this.valueOf());
+        date.setDate(date.getDate() + dayNum);
+        return date;
+    };
+
+    Date.prototype.addMinutes = function (minutes) {
+        var date = new Date(this.valueOf());
+        return new Date(date.getTime() + minutes * 60000);
+    }
+
+
+
+    var cache = {}, all_table = [], cur_idx, full_result, all_indices = [];
+    $('#calendar_buttons button').tooltip();
     $("#course_form #submit").removeAttr("disabled");
     if (!!window.localStorage) {
         if (!localStorage.getItem("not_first_visit")) {
@@ -79,7 +98,6 @@ $(document).ready(function ($) {
     if (!!window.localStorage) {
         localStorage.setItem("cache", ""); // force to load fresh data
         if (!!localStorage.getItem("cache")) {
-            console.log("boo");
             cache = JSON.parse(localStorage.getItem("cache"));
             tagit(cache);
         } else {
@@ -89,7 +107,7 @@ $(document).ready(function ($) {
         $.getJSON("back_end/search.php", { term: '' }, tagit);
     }
 
-    $("#pager_nav").hide();
+    $("#result").hide();
     $("#exam_table").hide();
     $("#loading").css("margin-top", ($("#overlay").outerHeight() - $("#loading").outerHeight()) / 2  + "px");
     $("#overlay").fadeOut();
@@ -101,12 +119,12 @@ $(document).ready(function ($) {
         var code;
         $("#page_number").text(idx + 1);
         $("#target").html(all_table[idx]);
-        // console.log(all_indices[idx]);
         for (code in all_indices[idx]) {
             if (all_indices[idx].hasOwnProperty(code)) {
                 $("#index-" + code).text(all_indices[idx][code]);
             }
         }
+
         cur_idx = idx;
     }
     $("#page_next").click(function () {
@@ -131,7 +149,7 @@ $(document).ready(function ($) {
 
     // Handler for advanced search
     var times = {"0830": false, "0900": false, "0930": false, "1000": false, "1030": false, "1100": false, "1130": false, "1200": false, "1230": false, "1300": false, "1330": false,
-                 "1400": false, "1430": false, "1500": false, "1530": false, "1600": false, "1630": false, "1700": false, "1730": false, "1800": false, "1830": false, "1900": false, 
+                 "1400": false, "1430": false, "1500": false, "1530": false, "1600": false, "1630": false, "1700": false, "1730": false, "1800": false, "1830": false, "1900": false,
                  "1930": false, "2000": false, "2030": false, "2100": false, "2130": false, "2200": false, "2230": false, "2300": false},
 
         // Need JSON.parse(JSON.stringify(times)) for OBJECT cloning
@@ -161,7 +179,7 @@ $(document).ready(function ($) {
     // Update free times selection on time click
     $(".free_time_checkbox").on("click", function () {
         var time = this.value;
-        
+
         if (this.checked) {
             user_free_times_selection[current_day][time] = true;
         } else {
@@ -193,12 +211,184 @@ $(document).ready(function ($) {
 
 /* ******************************************************************************************** */
 
+    function getOrderedDictKeys(o) {
+        var keys = [];
+        for (var key in o) {
+            keys.push(key);
+        }
+
+        keys.sort();
+        return keys;
+    }
+
+    function parseTimetable() {
+        var currentTimetable = full_result.timetable[cur_idx];
+        var days = {
+            MON: {},
+            TUE: {},
+            WED: {},
+            THU: {},
+            FRI: {},
+            SAT: {}
+        };
+
+        var courseIdType, courseItem, hour;
+        for (var day in currentTimetable) {
+            sortedHours = getOrderedDictKeys(currentTimetable[day]);
+            for (var i in sortedHours) {
+                hour = sortedHours[i];
+                for (var j in currentTimetable[day][hour]) {
+                    courseItem = currentTimetable[day][hour][j];
+                    courseIdType = courseItem['id'] + '_' + courseItem['type'];
+
+                    if (days[day].hasOwnProperty(courseIdType)) {
+                        days[day][courseIdType]['end'] = hour;
+                    } else {
+                        days[day][courseIdType] = {
+                            courseId: courseItem['id'],
+                            begin: hour,
+                            end: hour,
+                            location: courseItem['location'],
+                            flag: courseItem['flag'], // 0 = no remarks, 2 = even weeks, 3 = odd weeks
+                            type: courseItem['type']
+                        };
+                    }
+                }
+            }
+        }
+
+        return days;
+    }
+
+    function generateTimetableCalendarEvents(parsedTimetable) {
+        var events = [];
+        var courseDetail, perCourseEvents;
+
+        for (var day in parsedTimetable) {
+            for (var courseIdType in parsedTimetable[day]) {
+                courseDetail = parsedTimetable[day][courseIdType];
+                perCourseEvents = generateCalendarEventByCourseDetails(
+                    courseDetail.courseId + ' [' + courseDetail.type + ']',
+                    courseDetail.location,
+                    day,
+                    courseDetail.begin,
+                    courseDetail.end,
+                    courseDetail.flag
+                );
+
+                events = events.concat(perCourseEvents);
+            }
+        }
+
+        return events;
+    }
+
+    function generateCalendarEventByCourseDetails(subject, location, day, beginTime, endTime, flag) {
+        var events = [];
+        var event;
+        var beginDate = getStartDateByDay(day, flag);
+        var skipRecess = false;
+
+        while (beginDate.getTime() <= ACADEMIC_END_DATE.getTime()) {
+            event = {};
+            event.subject = subject;
+            event.location = location;
+            event.beginTime = injectTimeToDate(beginDate, beginTime);
+            event.endTime = injectTimeToDate(beginDate, endTime).addMinutes(30);
+            events.push(event);
+
+            // Each week or bi-weekly update
+            if (flag === 0) beginDate = beginDate.addDays(7);
+            else if (flag === 2 || flag === 3) beginDate = beginDate.addDays(14);
+
+            // Skip recess week
+            if (ACADEMIC_RECESS_START_DATE <= beginDate && !skipRecess) {
+                beginDate = beginDate.addDays(7);
+                skipRecess = true;
+            }
+        }
+
+        return events;
+    }
+
+    function getStartDateByDay(day, flag) {
+        var addDayNum;
+        switch (day) {
+            case 'MON':
+                addDayNum = 0;
+                break;
+
+            case 'TUE':
+                addDayNum = 1;
+                break;
+
+            case 'WED':
+                addDayNum = 2;
+                break;
+
+            case 'THU':
+                addDayNum = 3;
+                break;
+
+            case 'FRI':
+                addDayNum = 4;
+                break;
+
+            case 'SAT':
+                addDayNum = 5;
+                break;
+        }
+
+        return (flag === 2) ? ACADEMIC_START_DATE.addDays(addDayNum + 7) : ACADEMIC_START_DATE.addDays(addDayNum);
+    }
+
+    function injectTimeToDate(date, time) {
+        var dateString = date.toString();
+        var hour = time.substring(0, 2);
+        var minute = time.substring(2, 4);
+        var second = '00';
+        var fullTime = hour + ':' + minute + ':' + second;
+
+        var dateStringArr = dateString.split(' ');
+        dateStringArr[4] = fullTime;
+
+        return new Date(dateStringArr.join(' '));
+    }
+
+    function generateCalendarFromEventArray(events) {
+        var cal = ics();
+        var event;
+
+        for (var i = 0; i < events.length; i++) {
+            event = events[i];
+            cal.addEvent(
+                event.subject,
+                '',
+                event.location,
+                event.beginTime.toUTCString(),
+                event.endTime.toUTCString()
+            );
+        }
+
+        return cal;
+    }
+
+    $('#calendar_buttons button').click(function () {
+        var parsedTimetable = parseTimetable();
+        var calendarEvents = generateTimetableCalendarEvents(parsedTimetable);
+
+        var cal = generateCalendarFromEventArray(calendarEvents);
+        var fileName = 'ntu_course_timetable';
+        cal.download(fileName);
+    });
+
+/* ******************************************************************************************** */
+
     $("#course_form").submit(function (e) {
         e.preventDefault();
         var data = $("#input_courses").val(),
             major = $("#course_major").val();
         ga('send', 'event', 'form', 'submit', 'course_form');
-        // console.log(data);
 
         data = data.toUpperCase();
         $("#course_form #submit").prop('disabled', true);
@@ -211,7 +401,7 @@ $(document).ready(function ($) {
                 // Whenever a new request is submitted, remove all table -> in the real web, there will be a loading icon to tell the user
                 // that their request is still in process
                 $("#exam_table").hide();
-                $("#pager_nav").hide();
+                $("#result").hide();
                 $("#target").html("");
 
                 if (data.length === 0) {
@@ -236,13 +426,11 @@ $(document).ready(function ($) {
                     index_chosen = {}, exam_schedule, date, time, rowspan,
                     total_au, total_course, timetable_shown, dayname, sorted_exam_schedule,
                     date_time, item;
+
                 all_table = [];
                 all_indices = [];
+                full_result = res;
 
-                // console.log("RES: ");
-                // console.log(res);
-
-                //$("#target").html(d);
                 $("#target").html("");
                 len = res.timetable.length;
                 ga('send', 'event', 'form', 'result', 'result_length', len);
@@ -255,7 +443,6 @@ $(document).ready(function ($) {
                 }
                 if (!res.exam_schedule_validation.ok) {
                     var conflict_msg = "";
-                    console.log(res.exam_schedule_validation);
                     for (i = 0; i < res.exam_schedule_validation.conflict.length; i++) {
                       conflict_msg += res.exam_schedule_validation.conflict[i][0] + " and " + res.exam_schedule_validation.conflict[i][1] + "\n";
                     }
@@ -456,7 +643,7 @@ $(document).ready(function ($) {
 
                 show_table(0);
                 $("#page_length").text(all_table.length);
-                $("#pager_nav").show();
+                $("#result").show();
             }
         });
     });

@@ -92,6 +92,16 @@
                             <li><a class="pointer" id="page_next" title="Keyboard shortcut: j, &rarr;">Next &rarr;</a></li>
                         </ul>
                     </nav>
+
+                    <div id="calendar_buttons" class="row">
+                        <div class="col-xs-12 text-center">
+                            <button type="button" class="btn btn-info" data-placement="right" data-toggle="tooltip" title="Download calendar for the shown timetable and import it to Google Calendar/iCalendar!">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                                Generate Calendar!
+                            </button>
+                        </div>
+                    </div>
+
                     <div id="tables">
                         <div id="target">
 
@@ -299,6 +309,8 @@
         <script src="js/jquery.tag-it.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/sweet-alert.min.js"></script>
+        <script src="js/ics.js"></script>
+        <script src="js/FileSaver.min.js"></script>
         <script src="js/engine.js"></script>
     </body>
 </html>
