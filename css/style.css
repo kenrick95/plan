@@ -24,8 +24,8 @@
 #pager_nav {
     text-align: center;
 }
-table {
-    /*table-layout: fixed;*/
+#tables {
+    margin-top: 20px;
 }
 #exam_table {
     margin-top: 1em;
