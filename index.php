@@ -1,4 +1,6 @@
-<!DOCTYPE HTML>
+<?php
+require("back_end/config.php");
+?><!DOCTYPE HTML>
 <html>
     <head>
         <title>plan* - NTU Course Planner</title>

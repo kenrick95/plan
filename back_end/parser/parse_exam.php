@@ -1,6 +1,5 @@
 <?php
-$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
-$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
+require("../config.php");
 
 function str_lreplace($search, $replace, $subject)
 {
@@ -24,6 +23,7 @@ $raw_data = str_replace("<br>", "", $raw_data);
 $raw_data = str_replace("&nbsp;", "", $raw_data);
 
 $raw_data = str_replace("<table border=1 width=600 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
+$raw_data = str_replace("<table width=800 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
 $raw_data = str_replace("<table border=1 width=100% cellspacing=0 cellpadding=1>", "<table>", $raw_data);
 
 $raw_data = str_replace("<td align=left width=5% valign=top>", "<td>", $raw_data);
@@ -50,7 +50,10 @@ $data =  new SimpleXMLElement($raw_data);
 # whew, finished cleaning data, now parse it!
 $super_data = array();
 $course_list = array();
-foreach ($data->table[2]->TR->TR as $entry) {
+
+$table_length = count($data->table);
+
+foreach ($data->table[$table_length - 1]->TR->TR as $entry) {
     $exam_date = trim((string) $entry->td[0]);
     $exam_day = trim((string) $entry->td[1]);
     $exam_time = trim((string) $entry->td[2]);

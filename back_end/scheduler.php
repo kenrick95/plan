@@ -1,8 +1,5 @@
 <?php
-ini_set('memory_limit', '512M');
-error_reporting(E_ALL ^ E_WARNING);
-$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
-$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
+require("config.php");
 
 # Get the database
 $database_course = json_decode(file_get_contents("data/parsed/json/". $year . "_" . $semester . "_data.json"), true);
@@ -52,14 +49,8 @@ if (isset($input_courses)) {
         $result["exam_schedule"] = $exam_schedule;
     }
 
-    # Filter HW0210 / HW0310 based on the user major
+    # Filter HW0188 based on the user major
     filter_HW0188_timetable($user_major);
-    // filter_HW0210_timetable($user_major); non-existent
-
-    # For EEE, it considers all HW0310, including those from SCE, MSE, etc. (checked with bug reporter)
-    if (strcmp($user_major, "EEE") !== 0) {
-        filter_HW0310_timetable($user_major);
-    }
 
     # Generate all possible timetables
     generate_timetable($input_courses, $timetable);
@@ -318,68 +309,6 @@ function filter_HW0188_timetable ($user_major) {
 
     $database_course["HW0188"]["index"] = $HW0188_filtered;
 }
-
-function filter_HW0210_timetable ($user_major) {
-    global $database_course;
-    $HW0210_unfiltered = $database_course["HW0210"]["index"];
-    $HW0210_filtered = array();
-
-    $check_major = $user_major;
-    if (strcmp($user_major, "EEE") === 0) {
-        $check_major = "Y";
-    }
-
-    if (strcmp($user_major, "MA") === 0) {
-        foreach ($HW0210_unfiltered as $i) {
-            if (strpos($i["details"][0]["group"], "MAT") === false && strpos($i["details"][0]["group"], $check_major) !== false) {
-                array_push($HW0210_filtered, $i);
-            }
-        }
-    } else {
-        foreach ($HW0210_unfiltered as $i) {
-            if (strpos($i["details"][0]["group"], $check_major) !== false) {
-                array_push($HW0210_filtered, $i);
-            }
-        }
-    }
-
-    $database_course["HW0210"]["index"] = $HW0210_filtered;
-}
-
-# After reading the data, SPECIAL CASE FOR CBE --> check only array index 2, instead of 0
-# Only CBE has 3 entries per array, others only 1
-function filter_HW0310_timetable ($user_major) {
-    global $database_course;
-    $HW0310_unfiltered = $database_course["HW0310"]["index"];
-    $HW0310_filtered = array();
-
-    $check_major = $user_major;
-    if (strcmp($user_major, "MA") === 0) {
-        $check_major = "MAE";
-    } else if (strcmp($user_major, "EEE") === 0) {
-        $check_major = "Y";
-    }
-
-    $check_index = 1;
-    if (strcmp($user_major, "MAT") === 0 || strcmp($user_major, "MA") === 0) {
-        $check_index = 0;
-    } else if (strcmp($user_major, "EEE") === 0) {
-        $check_index = 1;
-    }
-
-    foreach ($HW0310_unfiltered as $i) {
-        // if (count($i["details"]) === $check_index + 1) {
-            if (strpos($i["details"][$check_index]["group"], $check_major) !== false) {
-                array_push($HW0310_filtered, $i);
-            }
-        // }
-    }
-
-    $database_course["HW0310"]["index"] = $HW0310_filtered;
-}
-
-
-
 
 /* ---------------------------------------------------------------------------------------------- */
 // Helper function

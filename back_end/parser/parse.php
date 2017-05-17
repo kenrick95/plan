@@ -1,6 +1,5 @@
 <?php
-$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
-$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
+require("../config.php");
 
 
 $raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . ".html");

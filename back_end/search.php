@@ -1,6 +1,5 @@
 <?php
-$year = isset($_REQUEST['year']) ? intval($_REQUEST['year']) : 2016;
-$semester = isset($_REQUEST['semester']) ? intval($_REQUEST['semester']) : 2;
+require("config.php");
 
 $term = isset($_REQUEST['term']) ? trim($_REQUEST['term']) : '';
 $term = preg_replace("/\s+/", "", $term);
