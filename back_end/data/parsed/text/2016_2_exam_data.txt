@@ -1460,6 +1460,16 @@ Array
             [duration] => 2.5
         )
 
+    [RE6005] => Array
+        (
+            [date] => 25 April 2017
+            [day] => Tuesday
+            [time] => 9.30 am
+            [code] => RE6005
+            [name] => TECHNOLOGY, NETWORKS, E-BUSINESS
+            [duration] => 2
+        )
+
     [AC2103] => Array
         (
             [date] => 25 April 2017
@@ -1518,16 +1528,6 @@ Array
             [code] => CH9202
             [name] => FOOD PHYSICS
             [duration] => 3
-        )
-
-    [CS2403] => Array
-        (
-            [date] => 25 April 2017
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CS2403
-            [name] => INFORMATION VISUALIZATION AND PRESENTATION
-            [duration] => 2
         )
 
     [CV3012] => Array
@@ -1767,7 +1767,7 @@ Array
             [time] => 1.00 pm
             [code] => PH4509
             [name] => QUANTUM FIELD THEORY WITH APPL IN CONDENSED MATTER PHYSICS
-            [duration] => 2
+            [duration] => 3
         )
 
     [RE1021] => Array
@@ -2210,13 +2210,13 @@ Array
             [duration] => 2.5
         )
 
-    [BF3207] => Array
+    [BF3201] => Array
         (
             [date] => 26 April 2017
             [day] => Wednesday
             [time] => 1.00 pm
-            [code] => BF3207
-            [name] => ALTERNATIVE INVESTMENTS
+            [code] => BF3201
+            [name] => CORPORATE FINANCE AND STRATEGY
             [duration] => 2
         )
 
@@ -2478,6 +2478,16 @@ Array
             [code] => PH4401
             [name] => QUANTUM MECHANICS III
             [duration] => 2.5
+        )
+
+    [RE6006] => Array
+        (
+            [date] => 26 April 2017
+            [day] => Wednesday
+            [time] => 1.30 pm
+            [code] => RE6006
+            [name] => BUSINESS OPERATIONS MANAGEMENT
+            [duration] => 3
         )
 
     [BU8101] => Array
@@ -2827,6 +2837,16 @@ Array
             [time] => 9.00 am
             [code] => EE4534
             [name] => MODERN DISTRIBUTION SYSTEMS WITH RENEWABLE RESOURCES
+            [duration] => 2
+        )
+
+    [ES2303] => Array
+        (
+            [date] => 27 April 2017
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => ES2303
+            [name] => INTRODUCTION TO ECOLOGY
             [duration] => 2
         )
 
@@ -3408,6 +3428,16 @@ Array
             [code] => AB1301
             [name] => BUSINESS LAW
             [duration] => 2.5
+        )
+
+    [BF3204] => Array
+        (
+            [date] => 28 April 2017
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BF3204
+            [name] => FINANCIAL MODELLING
+            [duration] => 2
         )
 
     [BL9305] => Array
@@ -4260,16 +4290,6 @@ Array
             [duration] => 2.5
         )
 
-    [BF3204] => Array
-        (
-            [date] => 2 May 2017
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BF3204
-            [name] => FINANCIAL MODELLING
-            [duration] => 2
-        )
-
     [BS3010] => Array
         (
             [date] => 2 May 2017
@@ -4740,6 +4760,16 @@ Array
             [duration] => 2
         )
 
+    [BG4240] => Array
+        (
+            [date] => 3 May 2017
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => BG4240
+            [name] => SPECIAL TOPICS IN BIOENGINEERING
+            [duration] => 2
+        )
+
     [BS2010] => Array
         (
             [date] => 3 May 2017
@@ -4767,6 +4797,16 @@ Array
             [time] => 9.00 am
             [code] => CE4015
             [name] => SIMULATION AND MODELLING
+            [duration] => 2
+        )
+
+    [CH4305] => Array
+        (
+            [date] => 3 May 2017
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CH4305
+            [name] => SPECIAL TOPICS IN BIOTECHNOLOGY
             [duration] => 2
         )
 
@@ -5700,16 +5740,6 @@ Array
             [duration] => 2.5
         )
 
-    [HP3002] => Array
-        (
-            [date] => 4 May 2017
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HP3002
-            [name] => POSITIVE PSYCHOLOGY
-            [duration] => 2.5
-        )
-
     [HS2015] => Array
         (
             [date] => 4 May 2017
@@ -5960,6 +5990,16 @@ Array
             [duration] => 2.5
         )
 
+    [ES4903] => Array
+        (
+            [date] => 4 May 2017
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => ES4903
+            [name] => BASICS OF ATMOSPHERIC CHEMISTRY
+            [duration] => 2
+        )
+
     [HA2005] => Array
         (
             [date] => 4 May 2017
@@ -6100,13 +6140,13 @@ Array
             [duration] => 2.5
         )
 
-    [BF3201] => Array
+    [BF3207] => Array
         (
             [date] => 5 May 2017
             [day] => Friday
             [time] => 9.00 am
-            [code] => BF3201
-            [name] => CORPORATE FINANCE AND STRATEGY
+            [code] => BF3207
+            [name] => ALTERNATIVE INVESTMENTS
             [duration] => 2
         )
 
@@ -6117,16 +6157,6 @@ Array
             [time] => 9.00 am
             [code] => BS2008
             [name] => EXPERIMENTAL MOLECULAR AND CELL BIOLOGY
-            [duration] => 2.5
-        )
-
-    [BT2503] => Array
-        (
-            [date] => 5 May 2017
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => BT2503
-            [name] => REVENUE MANAGEMENT
             [duration] => 2.5
         )
 
@@ -6288,16 +6318,6 @@ Array
             [code] => MA4012
             [name] => MECHATRONICS ENGINEERING DESIGN
             [duration] => 2.5
-        )
-
-    [MH4702] => Array
-        (
-            [date] => 5 May 2017
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => MH4702
-            [name] => PROBABILISTIC METHODS IN OR
-            [duration] => 2
         )
 
     [MS4603] => Array
@@ -6468,16 +6488,6 @@ Array
             [code] => MA2700
             [name] => AEROSPACE MATERIALS & MANUFACTURING PROCESSES
             [duration] => 2.5
-        )
-
-    [MH4601] => Array
-        (
-            [date] => 5 May 2017
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MH4601
-            [name] => DIFFERENTIAL GEOMETRY
-            [duration] => 2
         )
 
     [PH3401] => Array

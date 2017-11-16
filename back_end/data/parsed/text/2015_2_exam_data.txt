@@ -66,7 +66,7 @@ Array
             [day] => Friday
             [time] => 9.00 am
             [code] => CE4002
-            [name] => VISUAL MEDIA COMPRESSION AND PROCESSING
+            [name] => VISUAL INFORMATION PROCESSING AND MANAGEMENT
             [duration] => 2
         )
 
@@ -78,26 +78,6 @@ Array
             [code] => CH9200
             [name] => FOOD MICROBIOLOGY
             [duration] => 3
-        )
-
-    [CM2021] => Array
-        (
-            [date] => 22 April 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CM2021
-            [name] => INORGANIC AND BIOINORGANIC CHEMISTRY
-            [duration] => 2
-        )
-
-    [CPE491] => Array
-        (
-            [date] => 22 April 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CPE491
-            [name] => VISUAL MEDIA COMPRESSION AND PROCESSING
-            [duration] => 2
         )
 
     [CS2054] => Array
@@ -136,7 +116,7 @@ Array
             [day] => Friday
             [time] => 9.00 am
             [code] => CZ4002
-            [name] => VISUAL MEDIA COMPRESSION AND PROCESSING
+            [name] => VISUAL INFORMATION PROCESSING AND MANAGEMENT
             [duration] => 2
         )
 
@@ -167,6 +147,16 @@ Array
             [time] => 9.00 am
             [code] => HC4060
             [name] => GLOBALISATION AND CHINESE OVERSEAS
+            [duration] => 2.5
+        )
+
+    [HE2005] => Array
+        (
+            [date] => 22 April 2016
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HE2005
+            [name] => PRINCIPLES OF ECONOMETRICS
             [duration] => 2.5
         )
 
@@ -290,16 +280,6 @@ Array
             [duration] => 2.5
         )
 
-    [SS4602] => Array
-        (
-            [date] => 22 April 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => SS4602
-            [name] => QUALITY MANAGEMENT IN SPORT
-            [duration] => 2.5
-        )
-
     [AC3102] => Array
         (
             [date] => 22 April 2016
@@ -307,6 +287,16 @@ Array
             [time] => 2.30 pm
             [code] => AC3102
             [name] => RISK REPORTING & ANALYSIS
+            [duration] => 2.5
+        )
+
+    [BC2407] => Array
+        (
+            [date] => 22 April 2016
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BC2407
+            [name] => ANALYTICS II: ADVANCED PREDICTIVE TECHNIQUES
             [duration] => 2.5
         )
 
@@ -377,6 +367,16 @@ Array
             [time] => 2.30 pm
             [code] => CH0493
             [name] => ENVIRONMENTAL SUSTAINABILITY
+            [duration] => 2
+        )
+
+    [CM2021] => Array
+        (
+            [date] => 22 April 2016
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CM2021
+            [name] => INORGANIC AND BIOINORGANIC CHEMISTRY
             [duration] => 2
         )
 
@@ -480,16 +480,6 @@ Array
             [duration] => 2.5
         )
 
-    [IM2002] => Array
-        (
-            [date] => 22 April 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => IM2002
-            [name] => MICROPROCESSORS
-            [duration] => 2.5
-        )
-
     [MA4001] => Array
         (
             [date] => 22 April 2016
@@ -570,16 +560,6 @@ Array
             [duration] => 2.5
         )
 
-    [PH117S] => Array
-        (
-            [date] => 22 April 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => PH117S
-            [name] => RELATIVITY AND QUANTUM PHYSICS
-            [duration] => 2.5
-        )
-
     [RE8002] => Array
         (
             [date] => 22 April 2016
@@ -610,13 +590,13 @@ Array
             [duration] => 2.5
         )
 
-    [BS3020] => Array
+    [BS3008] => Array
         (
             [date] => 25 April 2016
             [day] => Monday
             [time] => 9.00 am
-            [code] => BS3020
-            [name] => PLANT BIOTECHNOLOGY
+            [code] => BS3008
+            [name] => COMPUTATIONAL BIOLOGY AND MODELING
             [duration] => 2.5
         )
 
@@ -670,16 +650,6 @@ Array
             [duration] => 2
         )
 
-    [CPE480] => Array
-        (
-            [date] => 25 April 2016
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => CPE480
-            [name] => VIRTUAL & AUGMENTED REALITY
-            [duration] => 2
-        )
-
     [CS4020] => Array
         (
             [date] => 25 April 2016
@@ -690,13 +660,13 @@ Array
             [duration] => 2
         )
 
-    [CSC480] => Array
+    [CS4079] => Array
         (
             [date] => 25 April 2016
             [day] => Monday
             [time] => 9.00 am
-            [code] => CSC480
-            [name] => VIRTUAL & AUGMENTED REALITY
+            [code] => CS4079
+            [name] => ISSUES IN CINEMA STUDIES - CINEMA AND SOCIAL CURRENTS
             [duration] => 2
         )
 
@@ -900,6 +870,16 @@ Array
             [duration] => 2.5
         )
 
+    [BS2014] => Array
+        (
+            [date] => 25 April 2016
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => BS2014
+            [name] => MICROBIAL BIOTECHNOLOGY
+            [duration] => 2.5
+        )
+
     [CH9204] => Array
         (
             [date] => 25 April 2016
@@ -1000,6 +980,16 @@ Array
             [duration] => 2.5
         )
 
+    [HS2002] => Array
+        (
+            [date] => 25 April 2016
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => HS2002
+            [name] => DOING SOCIAL RESEARCH
+            [duration] => 2.5
+        )
+
     [IM0040] => Array
         (
             [date] => 25 April 2016
@@ -1038,16 +1028,6 @@ Array
             [code] => MH4310
             [name] => CODING THEORY
             [duration] => 2
-        )
-
-    [MP2007] => Array
-        (
-            [date] => 25 April 2016
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => MP2007
-            [name] => MATHEMATICS 4
-            [duration] => 2.5
         )
 
     [MS0002] => Array
@@ -1090,6 +1070,16 @@ Array
             [duration] => 2.5
         )
 
+    [RE1021] => Array
+        (
+            [date] => 25 April 2016
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => RE1021
+            [name] => MATHEMATICS II
+            [duration] => 2.5
+        )
+
     [BU8201] => Array
         (
             [date] => 25 April 2016
@@ -1127,16 +1117,6 @@ Array
             [time] => 5.00 pm
             [code] => CM8003
             [name] => FROM ALCHEMY TO CHEMISTRY
-            [duration] => 2
-        )
-
-    [CPE484] => Array
-        (
-            [date] => 25 April 2016
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => CPE484
-            [name] => EMBEDDED OPERATING SYSTEMS
             [duration] => 2
         )
 
@@ -1350,16 +1330,6 @@ Array
             [duration] => 2.5
         )
 
-    [CH3114] => Array
-        (
-            [date] => 26 April 2016
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => CH3114
-            [name] => BIOCHEMICAL ENGINEERING
-            [duration] => 2.5
-        )
-
     [CM4033] => Array
         (
             [date] => 26 April 2016
@@ -1370,24 +1340,14 @@ Array
             [duration] => 2
         )
 
-    [CPE433] => Array
+    [CV2015] => Array
         (
             [date] => 26 April 2016
             [day] => Tuesday
             [time] => 9.00 am
-            [code] => CPE433
-            [name] => MACHINE LEARNING
-            [duration] => 2
-        )
-
-    [CSC419] => Array
-        (
-            [date] => 26 April 2016
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => CSC419
-            [name] => MACHINE LEARNING
-            [duration] => 2
+            [code] => CV2015
+            [name] => HYDRAULICS
+            [duration] => 2.5
         )
 
     [CZ2002] => Array
@@ -1500,6 +1460,16 @@ Array
             [duration] => 2.5
         )
 
+    [MA3703] => Array
+        (
+            [date] => 26 April 2016
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MA3703
+            [name] => FLIGHT DYNAMICS
+            [duration] => 2
+        )
+
     [MH1801] => Array
         (
             [date] => 26 April 2016
@@ -1538,6 +1508,16 @@ Array
             [code] => MT3006
             [name] => SHIP CHARTERING
             [duration] => 2.5
+        )
+
+    [PH4606] => Array
+        (
+            [date] => 26 April 2016
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => PH4606
+            [name] => FUNDAMENTALS AND APPLICATIONS OF ACOUSTICS
+            [duration] => 2
         )
 
     [AB3601] => Array
@@ -1720,16 +1700,6 @@ Array
             [duration] => 2.5
         )
 
-    [HE311] => Array
-        (
-            [date] => 26 April 2016
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HE311
-            [name] => COST-BENEFIT ANALYSIS
-            [duration] => 2.5
-        )
-
     [HP2100] => Array
         (
             [date] => 26 April 2016
@@ -1778,6 +1748,16 @@ Array
             [code] => MA2005
             [name] => ENGINEERING GRAPHICS
             [duration] => 2.5
+        )
+
+    [MH4301] => Array
+        (
+            [date] => 26 April 2016
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MH4301
+            [name] => SET THEORY AND LOGIC
+            [duration] => 2
         )
 
     [MH4501] => Array
@@ -1846,17 +1826,17 @@ Array
             [day] => Tuesday
             [time] => 5.00 pm
             [code] => CE4054
-            [name] => PROGRAMMABLE SYSTEMS-ON-CHIP
+            [name] => PROGRAMMABLE SYSTEM-ON-CHIP
             [duration] => 2
         )
 
-    [CPE485] => Array
+    [CS8800] => Array
         (
             [date] => 26 April 2016
             [day] => Tuesday
             [time] => 5.00 pm
-            [code] => CPE485
-            [name] => PROGRAMMABLE SYSTEMS-ON-CHIP
+            [code] => CS8800
+            [name] => MEDIA AND SOCIETY IN THE DIGITAL AGE
             [duration] => 2
         )
 
@@ -2000,26 +1980,6 @@ Array
             [duration] => 2
         )
 
-    [CM442S] => Array
-        (
-            [date] => 27 April 2016
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => CM442S
-            [name] => CHEMICAL KINETICS AND DYNAMICS
-            [duration] => 2
-        )
-
-    [CPE486] => Array
-        (
-            [date] => 27 April 2016
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => CPE486
-            [name] => PERVASIVE NETWORKS
-            [duration] => 2
-        )
-
     [CS2021] => Array
         (
             [date] => 27 April 2016
@@ -2120,13 +2080,13 @@ Array
             [duration] => 2.5
         )
 
-    [HC4014] => Array
+    [HC4030] => Array
         (
             [date] => 27 April 2016
             [day] => Wednesday
             [time] => 9.00 am
-            [code] => HC4014
-            [name] => SPECIAL TOPICS IN CHINESE LITERARY AND CULTURAL STUDIES
+            [code] => HC4030
+            [name] => MODERN CHINESE INTELLECTUALS AND POLITICAL MOVEMENTS
             [duration] => 2.5
         )
 
@@ -2167,16 +2127,6 @@ Array
             [time] => 9.00 am
             [code] => HP2400
             [name] => SOCIAL PSYCHOLOGY
-            [duration] => 2.5
-        )
-
-    [IM1004] => Array
-        (
-            [date] => 27 April 2016
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => IM1004
-            [name] => DIGITAL ELECTRONICS
             [duration] => 2.5
         )
 
@@ -2327,7 +2277,7 @@ Array
             [time] => 1.00 pm
             [code] => BT2503
             [name] => REVENUE MANAGEMENT
-            [duration] => 2
+            [duration] => 2.5
         )
 
     [CE3005] => Array
@@ -2480,6 +2430,16 @@ Array
             [duration] => 2.5
         )
 
+    [MA3010] => Array
+        (
+            [date] => 27 April 2016
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA3010
+            [name] => THERMODYNAMICS AND HEAT TRANSFER
+            [duration] => 2.5
+        )
+
     [MH3511] => Array
         (
             [date] => 27 April 2016
@@ -2577,16 +2537,6 @@ Array
             [time] => 5.00 pm
             [code] => CE9001
             [name] => JAVA AND THE INTERNET
-            [duration] => 2
-        )
-
-    [CM9021] => Array
-        (
-            [date] => 27 April 2016
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => CM9021
-            [name] => MATERIALS CHEMISTRY
             [duration] => 2
         )
 
@@ -2760,36 +2710,6 @@ Array
             [duration] => 2
         )
 
-    [CPE490] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CPE490
-            [name] => ADVANCED DATA MANAGEMENT TECHNIQUES
-            [duration] => 2
-        )
-
-    [CS2023] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CS2023
-            [name] => PRINT & DIGITAL PUBLICATIONS
-            [duration] => 2
-        )
-
-    [CS4030] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CS4030
-            [name] => CRISIS MANAGEMENT
-            [duration] => 2
-        )
-
     [CS4054] => Array
         (
             [date] => 28 April 2016
@@ -2817,16 +2737,6 @@ Array
             [time] => 9.00 am
             [code] => CV2016
             [name] => HYDROLOGY
-            [duration] => 2.5
-        )
-
-    [CY1402] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CY1402
-            [name] => COMPUTING
             [duration] => 2.5
         )
 
@@ -2890,6 +2800,16 @@ Array
             [duration] => 2
         )
 
+    [ES0001] => Array
+        (
+            [date] => 28 April 2016
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => ES0001
+            [name] => THE PHYSICAL ENVIRONMENTS OF SINGAPORE
+            [duration] => 2
+        )
+
     [FE1008] => Array
         (
             [date] => 28 April 2016
@@ -2920,16 +2840,6 @@ Array
             [duration] => 2.5
         )
 
-    [HE210] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HE210
-            [name] => DEVELOPMENT ECONOMICS
-            [duration] => 2.5
-        )
-
     [HE4011] => Array
         (
             [date] => 28 April 2016
@@ -2946,16 +2856,6 @@ Array
             [day] => Thursday
             [time] => 9.00 am
             [code] => HL2008
-            [name] => SINGAPORE LITERATURE & CULTURE II
-            [duration] => 2.5
-        )
-
-    [HL208] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HL208
             [name] => SINGAPORE LITERATURE & CULTURE II
             [duration] => 2.5
         )
@@ -3028,6 +2928,16 @@ Array
             [code] => MS4622
             [name] => COMPOSITE MATERIALS
             [duration] => 2
+        )
+
+    [PH4414] => Array
+        (
+            [date] => 28 April 2016
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => PH4414
+            [name] => INTRODUCTION TO SPINTRONICS
+            [duration] => 2.5
         )
 
     [SS2001] => Array
@@ -3120,16 +3030,6 @@ Array
             [duration] => 2
         )
 
-    [CH0491] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => CH0491
-            [name] => ENGINEERS & SOCIETY
-            [duration] => 2.5
-        )
-
     [CM3021] => Array
         (
             [date] => 28 April 2016
@@ -3150,13 +3050,13 @@ Array
             [duration] => 2
         )
 
-    [CS4035] => Array
+    [CSC302] => Array
         (
             [date] => 28 April 2016
             [day] => Thursday
             [time] => 1.00 pm
-            [code] => CS4035
-            [name] => STRATEGIC MARKETING COMMUNICATION MANAGEMENT
+            [code] => CSC302
+            [name] => NET CENTRIC COMPUTING
             [duration] => 2
         )
 
@@ -3248,16 +3148,6 @@ Array
             [code] => EE4904
             [name] => BIOMEDICAL INSTRUMENTATION
             [duration] => 2
-        )
-
-    [HC2052] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HC2052
-            [name] => LANGUAGE AND SOCIETY
-            [duration] => 2.5
         )
 
     [HE3014] => Array
@@ -3387,26 +3277,6 @@ Array
             [time] => 5.00 pm
             [code] => CM9102
             [name] => FOOD ANALYSIS AND SAFETY
-            [duration] => 2
-        )
-
-    [CPE184] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => CPE184
-            [name] => HUMAN RESOURCE MANAGEMENT & ENTREPRENEURSHIP
-            [duration] => 2
-        )
-
-    [CSC184] => Array
-        (
-            [date] => 28 April 2016
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => CSC184
-            [name] => HUMAN RESOURCE MANAGEMENT & ENTREPRENEURSHIP
             [duration] => 2
         )
 
@@ -3630,6 +3500,26 @@ Array
             [duration] => 2.5
         )
 
+    [CH2113] => Array
+        (
+            [date] => 29 April 2016
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CH2113
+            [name] => FLUIDS SYSTEMS
+            [duration] => 2.5
+        )
+
+    [CH3101] => Array
+        (
+            [date] => 29 April 2016
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CH3101
+            [name] => PROCESS CONTROL AND DYNAMICS
+            [duration] => 2.5
+        )
+
     [CM3061] => Array
         (
             [date] => 29 April 2016
@@ -3667,16 +3557,6 @@ Array
             [time] => 9.00 am
             [code] => CS4160
             [name] => THE KOREAN WAVE: A MULTIDISCIPLINARY PERSPECTIVE
-            [duration] => 2
-        )
-
-    [CSC425] => Array
-        (
-            [date] => 29 April 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CSC425
-            [name] => SIMULATION AND MODELLING
             [duration] => 2
         )
 
@@ -3737,16 +3617,6 @@ Array
             [time] => 9.00 am
             [code] => HE4016
             [name] => QUANTITATIVE MACROECONOMICS
-            [duration] => 2.5
-        )
-
-    [HH2001] => Array
-        (
-            [date] => 29 April 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HH2001
-            [name] => SINGAPORE: THE MAKING OF A COSMOPOLITAN CITY-STATE
             [duration] => 2.5
         )
 
@@ -3840,16 +3710,6 @@ Array
             [duration] => 2.5
         )
 
-    [SS4104] => Array
-        (
-            [date] => 29 April 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => SS4104
-            [name] => HEALTH & WELLNESS III
-            [duration] => 2.5
-        )
-
     [AB1301] => Array
         (
             [date] => 29 April 2016
@@ -3877,7 +3737,7 @@ Array
             [time] => 2.30 pm
             [code] => BT2502
             [name] => TOURISM AND HOSPITALITY FACILITY MANAGEMENT AND DESIGN
-            [duration] => 2.5
+            [duration] => 2
         )
 
     [CE1006] => Array
@@ -3888,6 +3748,26 @@ Array
             [code] => CE1006
             [name] => COMPUTER ORGANISATION AND ARCHITECTURE
             [duration] => 2
+        )
+
+    [CSC304] => Array
+        (
+            [date] => 29 April 2016
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CSC304
+            [name] => AI AND INTELLIGENT SYSTEMS
+            [duration] => 2
+        )
+
+    [CV3011] => Array
+        (
+            [date] => 29 April 2016
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CV3011
+            [name] => REINFORCED CONCRETE DESIGN
+            [duration] => 2.5
         )
 
     [CZ1006] => Array
@@ -4030,16 +3910,6 @@ Array
             [duration] => 2
         )
 
-    [MP2305] => Array
-        (
-            [date] => 29 April 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MP2305
-            [name] => FLUID MECHANICS
-            [duration] => 2.5
-        )
-
     [MS2018] => Array
         (
             [date] => 29 April 2016
@@ -4077,6 +3947,16 @@ Array
             [time] => 2.30 pm
             [code] => PH4603
             [name] => SOFT CONDENSED MATTER PHYSICS
+            [duration] => 2
+        )
+
+    [RE1003] => Array
+        (
+            [date] => 29 April 2016
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => RE1003
+            [name] => MECHANICAL AND STRUCTURAL ENGINEERING I
             [duration] => 2.5
         )
 
@@ -4116,7 +3996,7 @@ Array
             [day] => Tuesday
             [time] => 9.00 am
             [code] => BS1008
-            [name] => BIOINFORMATICS & BIOSTATISTICS
+            [name] => BIOSTATISTICS
             [duration] => 2.5
         )
 
@@ -4146,8 +4026,8 @@ Array
             [day] => Tuesday
             [time] => 9.00 am
             [code] => CM1051
-            [name] => BASIC BIOLOGICAL CHEMISTRY
-            [duration] => 2
+            [name] => BASIC BIOLOGICAL AND BIOCHEMISTRY
+            [duration] => 2.5
         )
 
     [CM4015] => Array
@@ -4168,16 +4048,6 @@ Array
             [code] => CS0204
             [name] => BASIC MEDIA WRITING
             [duration] => 2
-        )
-
-    [CY1308] => Array
-        (
-            [date] => 3 May 2016
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => CY1308
-            [name] => PHYSICS
-            [duration] => 2.5
         )
 
     [CZ2001] => Array
@@ -4250,16 +4120,6 @@ Array
             [duration] => 2.5
         )
 
-    [HE303] => Array
-        (
-            [date] => 3 May 2016
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HE303
-            [name] => THE CHINESE ECONOMY
-            [duration] => 2.5
-        )
-
     [HP2700] => Array
         (
             [date] => 3 May 2016
@@ -4300,6 +4160,16 @@ Array
             [duration] => 2.5
         )
 
+    [MA2701] => Array
+        (
+            [date] => 3 May 2016
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MA2701
+            [name] => FLIGHT PERFORMANCE
+            [duration] => 2.5
+        )
+
     [MH3513] => Array
         (
             [date] => 3 May 2016
@@ -4308,6 +4178,16 @@ Array
             [code] => MH3513
             [name] => FINANCIAL MATHEMATICS
             [duration] => 2
+        )
+
+    [MP4012] => Array
+        (
+            [date] => 3 May 2016
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MP4012
+            [name] => DESIGN OPTIMIZATION AND ANALYSIS
+            [duration] => 2.5
         )
 
     [MS2012] => Array
@@ -4700,6 +4580,16 @@ Array
             [duration] => 2
         )
 
+    [HL0301] => Array
+        (
+            [date] => 3 May 2016
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HL0301
+            [name] => ENVIRONMENTAL SUSTAINABILITY IN LITERATURE
+            [duration] => 2
+        )
+
     [HL4013] => Array
         (
             [date] => 3 May 2016
@@ -4740,16 +4630,6 @@ Array
             [duration] => 2.5
         )
 
-    [MA4873] => Array
-        (
-            [date] => 3 May 2016
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => MA4873
-            [name] => INTERMEDIATE AERODYNAMICS
-            [duration] => 2.5
-        )
-
     [MA8103] => Array
         (
             [date] => 3 May 2016
@@ -4776,8 +4656,8 @@ Array
             [day] => Wednesday
             [time] => 9.00 am
             [code] => BC3402
-            [name] => TECHNOLOGY MANAGEMENT IN FINANCIAL SERVICES
-            [duration] => 2.5
+            [name] => FINANCIAL SERVICE PROCESSES AND ANALYTICS
+            [duration] => 2
         )
 
     [BE1401] => Array
@@ -4850,13 +4730,13 @@ Array
             [duration] => 2
         )
 
-    [CSC409] => Array
+    [CSC204] => Array
         (
             [date] => 4 May 2016
             [day] => Wednesday
             [time] => 9.00 am
-            [code] => CSC409
-            [name] => CRYPTOGRAPHY AND NETWORK SECURITY
+            [code] => CSC204
+            [name] => COMPUTER GRAPHICS AND APPLICATIONS
             [duration] => 2
         )
 
@@ -4930,16 +4810,6 @@ Array
             [duration] => 2.5
         )
 
-    [HE215] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HE215
-            [name] => MACROECONOMIC ISSUES AND POLICIES IN CONTEMPORARY CHINA
-            [duration] => 2.5
-        )
-
     [HH1003] => Array
         (
             [date] => 4 May 2016
@@ -4976,16 +4846,6 @@ Array
             [day] => Wednesday
             [time] => 9.00 am
             [code] => HL3024
-            [name] => CONTEMPORARY WOMEN'S WRITING
-            [duration] => 2.5
-        )
-
-    [HL324] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HL324
             [name] => CONTEMPORARY WOMEN'S WRITING
             [duration] => 2.5
         )
@@ -5030,16 +4890,6 @@ Array
             [duration] => 2
         )
 
-    [MH4930] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => MH4930
-            [name] => SPECIAL TOPICS IN MATHEMATICS
-            [duration] => 2
-        )
-
     [MS3013] => Array
         (
             [date] => 4 May 2016
@@ -5070,16 +4920,6 @@ Array
             [duration] => 2.5
         )
 
-    [PH116S] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => PH116S
-            [name] => ELECTRICITY AND MAGNETISM
-            [duration] => 2.5
-        )
-
     [AC2401] => Array
         (
             [date] => 4 May 2016
@@ -5097,7 +4937,7 @@ Array
             [time] => 1.00 pm
             [code] => BF3201
             [name] => CORPORATE FINANCE AND STRATEGY
-            [duration] => 2.5
+            [duration] => 2
         )
 
     [BS2104] => Array
@@ -5180,6 +5020,16 @@ Array
             [duration] => 2
         )
 
+    [ES2201] => Array
+        (
+            [date] => 4 May 2016
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => ES2201
+            [name] => LAW& ECON,SUSTAINABLE DEVELOPMENT,& ENVIRONMENTAL PROTECTION
+            [duration] => 2.5
+        )
+
     [HA1004] => Array
         (
             [date] => 4 May 2016
@@ -5217,17 +5067,7 @@ Array
             [time] => 1.00 pm
             [code] => HE4001
             [name] => ADVANCED MICROECONOMICS
-            [duration] => 2.5
-        )
-
-    [HH3004] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HH3004
-            [name] => COMPARATIVE BUSINESS HISTORY
-            [duration] => 2.5
+            [duration] => 2
         )
 
     [HL3003] => Array
@@ -5450,26 +5290,6 @@ Array
             [duration] => 2
         )
 
-    [CPE416] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => CPE416
-            [name] => DISTRIBUTED SYSTEMS
-            [duration] => 2
-        )
-
-    [CSC411] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => CSC411
-            [name] => DISTRIBUTED COMPUTING
-            [duration] => 2
-        )
-
     [CZ4013] => Array
         (
             [date] => 4 May 2016
@@ -5528,26 +5348,6 @@ Array
             [code] => HL4023
             [name] => ADVANCED STUDIES IN AMERICAN LITERATURE
             [duration] => 2.5
-        )
-
-    [HL8001] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HL8001
-            [name] => MADNESS IN LITERATURE & FILM
-            [duration] => 2
-        )
-
-    [HL8027] => Array
-        (
-            [date] => 4 May 2016
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HL8027
-            [name] => VISIONS OF THE MODERN: AN INTERDISCIPLINARY APPROACH
-            [duration] => 2
         )
 
     [HT9201] => Array
@@ -5627,7 +5427,7 @@ Array
             [time] => 9.00 am
             [code] => BF3202
             [name] => FIXED INCOME SECURITIES
-            [duration] => 2
+            [duration] => 2.5
         )
 
     [BM2506] => Array
@@ -5637,7 +5437,7 @@ Array
             [time] => 9.00 am
             [code] => BM2506
             [name] => DIGITAL MARKETING:CONNECTING WITH CUSTOMERS IN TODAY'S WORLD
-            [duration] => 2.5
+            [duration] => 2
         )
 
     [BS2008] => Array
@@ -5658,6 +5458,16 @@ Array
             [code] => CE2003
             [name] => DIGITAL SYSTEMS DESIGN
             [duration] => 2
+        )
+
+    [CH3103] => Array
+        (
+            [date] => 5 May 2016
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CH3103
+            [name] => CHEMICAL THERMODYNAMICS
+            [duration] => 2.5
         )
 
     [CH4405] => Array
@@ -5760,16 +5570,6 @@ Array
             [duration] => 2.5
         )
 
-    [HE220] => Array
-        (
-            [date] => 5 May 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HE220
-            [name] => SURVEY METHODS AND SAMPLING TECHNIQUES
-            [duration] => 2.5
-        )
-
     [HH1008] => Array
         (
             [date] => 5 May 2016
@@ -5786,16 +5586,6 @@ Array
             [day] => Thursday
             [time] => 9.00 am
             [code] => HL2010
-            [name] => EAST ASIAN LITERATURE
-            [duration] => 2.5
-        )
-
-    [HL210] => Array
-        (
-            [date] => 5 May 2016
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HL210
             [name] => EAST ASIAN LITERATURE
             [duration] => 2.5
         )
@@ -5917,7 +5707,7 @@ Array
             [time] => 1.00 pm
             [code] => BF2209
             [name] => DERIVATIVE SECURITIES
-            [duration] => 2
+            [duration] => 2.5
         )
 
     [BG1109] => Array
@@ -5947,7 +5737,7 @@ Array
             [time] => 1.00 pm
             [code] => BS1006
             [name] => PRINCIPLES OF GENETICS
-            [duration] => 2
+            [duration] => 2.5
         )
 
     [BS3022] => Array
@@ -6070,32 +5860,12 @@ Array
             [duration] => 2.5
         )
 
-    [HL229] => Array
-        (
-            [date] => 5 May 2016
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HL229
-            [name] => AMERICAN MODERNISM
-            [duration] => 2.5
-        )
-
     [HL3033] => Array
         (
             [date] => 5 May 2016
             [day] => Thursday
             [time] => 1.00 pm
             [code] => HL3033
-            [name] => THE WORLD OF MUSICALS AND INTERCULTURAL THEATRE
-            [duration] => 2.5
-        )
-
-    [HL333] => Array
-        (
-            [date] => 5 May 2016
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HL333
             [name] => THE WORLD OF MUSICALS AND INTERCULTURAL THEATRE
             [duration] => 2.5
         )
@@ -6230,16 +6000,6 @@ Array
             [duration] => 2.5
         )
 
-    [BU8402] => Array
-        (
-            [date] => 5 May 2016
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => BU8402
-            [name] => MANAGEMENT OF RESEARCH & INNOVATION
-            [duration] => 2
-        )
-
     [BU8543] => Array
         (
             [date] => 5 May 2016
@@ -6277,26 +6037,6 @@ Array
             [time] => 5.00 pm
             [code] => CM9091
             [name] => INDUSTRIAL AND ENVIRONMENTAL CHEMISTRY
-            [duration] => 2
-        )
-
-    [CPE183] => Array
-        (
-            [date] => 5 May 2016
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => CPE183
-            [name] => ENGINEERS AND SOCIETY
-            [duration] => 2
-        )
-
-    [CSC183] => Array
-        (
-            [date] => 5 May 2016
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => CSC183
-            [name] => ENGINEERS AND SOCIETY
             [duration] => 2
         )
 
@@ -6436,7 +6176,7 @@ Array
             [day] => Friday
             [time] => 9.00 am
             [code] => BC3403
-            [name] => TECHNOLOGIES FOR DIGITAL MARKETING
+            [name] => SOCIAL MEDIA AND DIGITAL ANALYTICS
             [duration] => 2.5
         )
 
@@ -6477,16 +6217,6 @@ Array
             [time] => 9.00 am
             [code] => CM1041
             [name] => BASIC PHYSICAL CHEMISTRY WITH LABORATORY
-            [duration] => 2
-        )
-
-    [CSC415] => Array
-        (
-            [date] => 6 May 2016
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CSC415
-            [name] => INFORMATION RETRIEVAL
             [duration] => 2
         )
 
@@ -6650,6 +6380,26 @@ Array
             [duration] => 2.5
         )
 
+    [MA3701] => Array
+        (
+            [date] => 6 May 2016
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MA3701
+            [name] => AERODYNAMICS
+            [duration] => 2.5
+        )
+
+    [MH4601] => Array
+        (
+            [date] => 6 May 2016
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MH4601
+            [name] => DIFFERENTIAL GEOMETRY
+            [duration] => 2
+        )
+
     [MH4702] => Array
         (
             [date] => 6 May 2016
@@ -6740,12 +6490,12 @@ Array
             [duration] => 2.5
         )
 
-    [CH1118] => Array
+    [CH1119] => Array
         (
             [date] => 6 May 2016
             [day] => Friday
             [time] => 2.30 pm
-            [code] => CH1118
+            [code] => CH1119
             [name] => THERMODYNAMICS
             [duration] => 2.5
         )
@@ -6800,16 +6550,6 @@ Array
             [duration] => 2.5
         )
 
-    [HL2030] => Array
-        (
-            [date] => 6 May 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HL2030
-            [name] => POST 1945 AMERICAN LITERATURE AND CULTURE
-            [duration] => 2.5
-        )
-
     [HL4020] => Array
         (
             [date] => 6 May 2016
@@ -6840,16 +6580,6 @@ Array
             [duration] => 2.5
         )
 
-    [MA4829] => Array
-        (
-            [date] => 6 May 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MA4829
-            [name] => MACHINE INTELLIGENCE
-            [duration] => 2.5
-        )
-
     [MA4837] => Array
         (
             [date] => 6 May 2016
@@ -6858,16 +6588,6 @@ Array
             [code] => MA4837
             [name] => NET SHAPE MANUFACTURING
             [duration] => 2.5
-        )
-
-    [MH4601] => Array
-        (
-            [date] => 6 May 2016
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MH4601
-            [name] => DIFFERENTIAL GEOMETRY
-            [duration] => 2
         )
 
     [MS1012] => Array
@@ -6897,6 +6617,16 @@ Array
             [time] => 2.30 pm
             [code] => PH3401
             [name] => ATOMIC PHYSICS
+            [duration] => 2.5
+        )
+
+    [RE1002] => Array
+        (
+            [date] => 6 May 2016
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => RE1002
+            [name] => ELECTRONICS AND INFORMATION ENGINEERING I
             [duration] => 2.5
         )
 

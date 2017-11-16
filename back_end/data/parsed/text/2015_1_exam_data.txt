@@ -1030,26 +1030,6 @@ Array
             [duration] => 2
         )
 
-    [DD3005] => Array
-        (
-            [date] => 23 November 2015
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => DD3005
-            [name] => SURVEY OF MODERN ART,1900-1945
-            [duration] => 2
-        )
-
-    [DD3013] => Array
-        (
-            [date] => 23 November 2015
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => DD3013
-            [name] => FROM MODERN TO POST-MODERN: ART 1945-1985
-            [duration] => 2
-        )
-
     [DG9001] => Array
         (
             [date] => 23 November 2015
@@ -1980,13 +1960,13 @@ Array
             [duration] => 2.5
         )
 
-    [HP3101] => Array
+    [HP3805] => Array
         (
             [date] => 25 November 2015
             [day] => Wednesday
             [time] => 9.00 am
-            [code] => HP3101
-            [name] => APPLIED STATISTICAL METHODS FOR PSYCHOLOGICAL RESEARCH
+            [code] => HP3805
+            [name] => MANAGING ORGANISATIONAL BEHAVIOR
             [duration] => 2.5
         )
 
@@ -2030,6 +2010,26 @@ Array
             [duration] => 2.5
         )
 
+    [MP2007] => Array
+        (
+            [date] => 25 November 2015
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MP2007
+            [name] => MATHEMATICS 4
+            [duration] => 2
+        )
+
+    [MS4003] => Array
+        (
+            [date] => 25 November 2015
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MS4003
+            [name] => NANOMATERIALS & BIOMATERIALS
+            [duration] => 2
+        )
+
     [MS4014] => Array
         (
             [date] => 25 November 2015
@@ -2068,6 +2068,16 @@ Array
             [code] => PH4501
             [name] => STATISTICAL MECHANICS II
             [duration] => 2.5
+        )
+
+    [AB0402] => Array
+        (
+            [date] => 25 November 2015
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => AB0402
+            [name] => SUSTAINABILITY, INNOVATION AND OPERATIONS
+            [duration] => 2
         )
 
     [AB0901] => Array
@@ -2440,16 +2450,6 @@ Array
             [duration] => 2
         )
 
-    [DD2000] => Array
-        (
-            [date] => 25 November 2015
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => DD2000
-            [name] => INTRODUCTION TO THE HISTORIES OF ART III
-            [duration] => 2
-        )
-
     [EE8061] => Array
         (
             [date] => 25 November 2015
@@ -2800,6 +2800,16 @@ Array
             [duration] => 2.5
         )
 
+    [CE1012] => Array
+        (
+            [date] => 26 November 2015
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CE1012
+            [name] => ENGINEERING MATHEMATICS II
+            [duration] => 2
+        )
+
     [CE3002] => Array
         (
             [date] => 26 November 2015
@@ -3050,16 +3060,6 @@ Array
             [duration] => 2.5
         )
 
-    [SS3501] => Array
-        (
-            [date] => 26 November 2015
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => SS3501
-            [name] => SOCIOLOGY OF SPORT II
-            [duration] => 2.5
-        )
-
     [BG4309] => Array
         (
             [date] => 26 November 2015
@@ -3138,56 +3138,6 @@ Array
             [code] => CV4102
             [name] => ADVANCED STEEL DESIGN
             [duration] => 2.5
-        )
-
-    [DG9003] => Array
-        (
-            [date] => 26 November 2015
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => DG9003
-            [name] => AESTHETIC AND CREATIVE USE OF THE 2D MEDIA
-            [duration] => 2
-        )
-
-    [DG9004] => Array
-        (
-            [date] => 26 November 2015
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => DG9004
-            [name] => AESTHETIC AND CREATIVE TECHNIQUES OF THE MOVING IMAGE
-            [duration] => 2
-        )
-
-    [DP2002] => Array
-        (
-            [date] => 26 November 2015
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => DP2002
-            [name] => HISTORY OF PHOTOGRAPHY
-            [duration] => 2
-        )
-
-    [DR2003] => Array
-        (
-            [date] => 26 November 2015
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => DR2003
-            [name] => HISTORY OF PRODUCT DESIGN
-            [duration] => 2
-        )
-
-    [DV2003] => Array
-        (
-            [date] => 26 November 2015
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => DV2003
-            [name] => HISTORY OF GRAPHIC DESIGN
-            [duration] => 2
         )
 
     [EE8084] => Array
@@ -3317,6 +3267,16 @@ Array
             [time] => 9.00 am
             [code] => BS2101
             [name] => ANATOMY
+            [duration] => 2.5
+        )
+
+    [BT2403] => Array
+        (
+            [date] => 27 November 2015
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BT2403
+            [name] => SERVICES OPERATIONS MANAGEMENT
             [duration] => 2.5
         )
 
@@ -3450,13 +3410,13 @@ Array
             [duration] => 2.5
         )
 
-    [HP3805] => Array
+    [HP3101] => Array
         (
             [date] => 27 November 2015
             [day] => Friday
             [time] => 9.00 am
-            [code] => HP3805
-            [name] => MANAGING ORGANISATIONAL BEHAVIOR
+            [code] => HP3101
+            [name] => APPLIED STATISTICAL METHODS FOR PSYCHOLOGICAL RESEARCH
             [duration] => 2.5
         )
 
@@ -3518,6 +3478,16 @@ Array
             [code] => MH4320
             [name] => COMPUTATIONAL ECONOMICS
             [duration] => 2
+        )
+
+    [MP2305] => Array
+        (
+            [date] => 27 November 2015
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MP2305
+            [name] => FLUID MECHANICS
+            [duration] => 2.5
         )
 
     [MP4003] => Array
@@ -3837,7 +3807,7 @@ Array
             [time] => 9.00 am
             [code] => BG3103
             [name] => SIGNAL PROCESSING IN BIOSYSTEMS
-            [duration] => 2.5
+            [duration] => 2
         )
 
     [BS1003] => Array
@@ -3950,16 +3920,6 @@ Array
             [duration] => 2
         )
 
-    [HA4012] => Array
-        (
-            [date] => 30 November 2015
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HA4012
-            [name] => CHALLENGING ISSUES IN SINGAPORE
-            [duration] => 2.5
-        )
-
     [HE1003] => Array
         (
             [date] => 30 November 2015
@@ -4017,16 +3977,6 @@ Array
             [time] => 9.00 am
             [code] => MH1401
             [name] => ALGORITHMS AND COMPUTING I
-            [duration] => 2
-        )
-
-    [MH4601] => Array
-        (
-            [date] => 30 November 2015
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => MH4601
-            [name] => DIFFERENTIAL GEOMETRY
             [duration] => 2
         )
 
@@ -4288,6 +4238,16 @@ Array
             [code] => MH4510
             [name] => DATA MINING
             [duration] => 2
+        )
+
+    [MP4004] => Array
+        (
+            [date] => 30 November 2015
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MP4004
+            [name] => ADVANCED MANUFACTURING AND NANOTECHNOLOGY
+            [duration] => 2.5
         )
 
     [MS1016] => Array
@@ -4967,6 +4927,16 @@ Array
             [time] => 1.00 pm
             [code] => HL2041
             [name] => ASIAN HISTORICAL FICTION
+            [duration] => 2.5
+        )
+
+    [HP309] => Array
+        (
+            [date] => 1 December 2015
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => HP309
+            [name] => CULTURAL PSYCHOLOGY
             [duration] => 2.5
         )
 
@@ -5670,6 +5640,16 @@ Array
             [duration] => 2
         )
 
+    [CE1011] => Array
+        (
+            [date] => 2 December 2015
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CE1011
+            [name] => ENGINEERING MATHEMATICS I
+            [duration] => 2
+        )
+
     [CH0491] => Array
         (
             [date] => 2 December 2015
@@ -5898,6 +5878,16 @@ Array
             [code] => MH2100
             [name] => CALCULUS III
             [duration] => 2
+        )
+
+    [MP2303] => Array
+        (
+            [date] => 2 December 2015
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MP2303
+            [name] => THERMODYNAMICS
+            [duration] => 2.5
         )
 
     [MS2015] => Array
@@ -6510,6 +6500,16 @@ Array
             [duration] => 2
         )
 
+    [CSC301] => Array
+        (
+            [date] => 3 December 2015
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CSC301
+            [name] => PROGRAMMING LANGUAGES
+            [duration] => 2
+        )
+
     [CV1011] => Array
         (
             [date] => 3 December 2015
@@ -6960,16 +6960,6 @@ Array
             [duration] => 2
         )
 
-    [MH4702] => Array
-        (
-            [date] => 4 December 2015
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => MH4702
-            [name] => PROBABILISTIC METHODS IN OR
-            [duration] => 2
-        )
-
     [MS2013] => Array
         (
             [date] => 4 December 2015
@@ -7067,6 +7057,16 @@ Array
             [time] => 2.30 pm
             [code] => CM2021
             [name] => INORGANIC AND BIOINORGANIC CHEMISTRY
+            [duration] => 2
+        )
+
+    [CPE301] => Array
+        (
+            [date] => 4 December 2015
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CPE301
+            [name] => DIGITAL COMMUNICATIONS
             [duration] => 2
         )
 
