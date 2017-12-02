@@ -310,16 +310,6 @@ Array
             [duration] => 2.5
         )
 
-    [BG0491] => Array
-        (
-            [date] => 27 April 2018
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => BG0491
-            [name] => ENGINEERS & SOCIETY
-            [duration] => 2.5
-        )
-
     [BS2105] => Array
         (
             [date] => 27 April 2018
@@ -598,16 +588,6 @@ Array
             [code] => PH4606
             [name] => FUNDAMENTALS & APPLICATIONS OF ACOUSTICS
             [duration] => 2
-        )
-
-    [SS4602] => Array
-        (
-            [date] => 27 April 2018
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => SS4602
-            [name] => QUALITY MANAGEMENT IN SPORT
-            [duration] => 2.5
         )
 
     [AC1102] => Array
@@ -1077,16 +1057,6 @@ Array
             [time] => 1.00 pm
             [code] => PH4506
             [name] => ELECTRODYNAMICS
-            [duration] => 2.5
-        )
-
-    [RE2006] => Array
-        (
-            [date] => 30 April 2018
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => RE2006
-            [name] => ENGINEERING COMPUTATION
             [duration] => 2.5
         )
 
@@ -1630,6 +1600,16 @@ Array
             [duration] => 2
         )
 
+    [PH4508] => Array
+        (
+            [date] => 2 May 2018
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => PH4508
+            [name] => INTRODUCTION TO GENERAL RELATIVITY
+            [duration] => 2.5
+        )
+
     [SS2108] => Array
         (
             [date] => 2 May 2018
@@ -1910,6 +1890,16 @@ Array
             [duration] => 2.5
         )
 
+    [RE2006] => Array
+        (
+            [date] => 2 May 2018
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => RE2006
+            [name] => ENGINEERING COMPUTATION
+            [duration] => 2
+        )
+
     [SS4601] => Array
         (
             [date] => 2 May 2018
@@ -2007,16 +1997,6 @@ Array
             [time] => 5.00 pm
             [code] => EE8086
             [name] => ASTRONOMY - STARS, GALAXIES & COSMOLOGY
-            [duration] => 2
-        )
-
-    [HC8005] => Array
-        (
-            [date] => 2 May 2018
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HC8005
-            [name] => DIRECTED READINGS OF MODERN CHINESE SONG LYRICS (IN CHINESE)
             [duration] => 2
         )
 
@@ -2128,6 +2108,16 @@ Array
             [code] => BA2201
             [name] => ACTUARIAL ECONOMICS
             [duration] => 3
+        )
+
+    [BG0491] => Array
+        (
+            [date] => 3 May 2018
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => BG0491
+            [name] => ENGINEERS & SOCIETY
+            [duration] => 2.5
         )
 
     [BS1008] => Array
@@ -2440,6 +2430,16 @@ Array
             [duration] => 2.5
         )
 
+    [BF2202] => Array
+        (
+            [date] => 3 May 2018
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => BF2202
+            [name] => MATHEMATICAL METHODS FOR FINANCE
+            [duration] => 2.5
+        )
+
     [BG1105] => Array
         (
             [date] => 3 May 2018
@@ -2698,16 +2698,6 @@ Array
             [code] => RE6006
             [name] => BUSINESS OPERATIONS MANAGEMENT
             [duration] => 3
-        )
-
-    [BC2408] => Array
-        (
-            [date] => 3 May 2018
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => BC2408
-            [name] => SUPPLY CHAIN ANALYTICS
-            [duration] => 2.5
         )
 
     [BF3207] => Array
@@ -3287,16 +3277,6 @@ Array
             [time] => 9.00 am
             [code] => PH1012
             [name] => PHYSICS A
-            [duration] => 2.5
-        )
-
-    [PH4508] => Array
-        (
-            [date] => 4 May 2018
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => PH4508
-            [name] => INTRODUCTION TO GENERAL RELATIVITY
             [duration] => 2.5
         )
 
@@ -4580,16 +4560,6 @@ Array
             [duration] => 2.5
         )
 
-    [PH3603] => Array
-        (
-            [date] => 8 May 2018
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => PH3603
-            [name] => BIOPHYSICS
-            [duration] => 2.5
-        )
-
     [RE1017] => Array
         (
             [date] => 8 May 2018
@@ -4977,16 +4947,6 @@ Array
             [time] => 5.00 pm
             [code] => HE3002
             [name] => GAME THEORY & APPLICATIONS TO SOCIAL SCIENCES
-            [duration] => 2.5
-        )
-
-    [HH2005] => Array
-        (
-            [date] => 8 May 2018
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HH2005
-            [name] => EAST ASIA: TRADITION & MODERNITY
             [duration] => 2.5
         )
 
