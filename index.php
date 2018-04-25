@@ -49,6 +49,9 @@ require("back_end/config.php");
                             <li class="active"><a class="pointer">Home</a></li>
                             <li><a class="pointer" data-toggle="modal" data-target="#about_modal">About</a></li>
                         </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="pointer" href="https://github.com/kenrick95/plan">GitHub</a></li>
+                        </ul>
                     </div>
                 </div>
         </nav>
@@ -128,6 +131,10 @@ require("back_end/config.php");
             </div>
 
             <footer>
+            If you encounter any issue or outdated data, please report it at <a href="https://github.com/kenrick95/plan">GitHub repo</a>.
+
+            <br />
+
             &copy; <?php echo date("Y"); ?> <a href="http://github.com/edwin-candinegara" target="_blank">Edwin Candinegara</a> &amp; <a href="http://kenrick95.org" target="_blank">Kenrick</a>
             </footer>
         </div>
