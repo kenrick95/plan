@@ -93,8 +93,8 @@ require("config.php");
             </footer>
         </div>
 
-        <script src="../js/jquery-1.11.1.min.js"></script>
-        <script src="../js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="../js/jquery-1.12.4.min.js"></script>
+        <script src="../js/jquery-migrate-1.4.1.min.js"></script>
         <script src="../js/jquery-ui.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
         <script src="../js/sweet-alert.min.js"></script>
