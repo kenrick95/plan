@@ -22,6 +22,7 @@ $raw_data = str_replace("<BR>", "", $raw_data);
 $raw_data = str_replace("<br>", "", $raw_data);
 $raw_data = str_replace("&nbsp;", "", $raw_data);
 
+$raw_data = str_replace("<table border=1 width=800 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
 $raw_data = str_replace("<table border=1 width=600 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
 $raw_data = str_replace("<table width=800 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
 $raw_data = str_replace("<table border=1 width=100% cellspacing=0 cellpadding=1>", "<table>", $raw_data);
@@ -39,7 +40,7 @@ $raw_data = str_replace("colspan=2", "", $raw_data);
 
 $raw_data = str_replace("<tr", "<TR", $raw_data);
 $raw_data = str_replace("</tr", "</TR", $raw_data);
-$raw_data = str_lreplace("</table>", "</TR></TR></table>", $raw_data);
+$raw_data = str_lreplace("</table>", "</TR></table>", $raw_data);
 $raw_data = trim($raw_data);
 $raw_data = preg_replace("/ +/", " ", $raw_data);
 $raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);

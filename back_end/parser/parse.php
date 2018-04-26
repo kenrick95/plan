@@ -6,13 +6,18 @@ $raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . ".html")
 
 $raw_data = str_replace("<HR SIZE=2>", "", $raw_data);
 $raw_data = str_replace("<HR>", "", $raw_data);
+$raw_data = str_replace("<hr>", "", $raw_data);
 $raw_data = str_replace("<BR>", "", $raw_data);
 $raw_data = str_replace("<br>", "", $raw_data);
+$raw_data = str_replace("<br />", "", $raw_data);
 $raw_data = str_replace("<P>", "", $raw_data);
+$raw_data = str_replace("<p>", "", $raw_data);
 $raw_data = str_replace("&nbsp;", "", $raw_data);
 $raw_data = str_replace("^", "", $raw_data);
 $raw_data = str_replace("</FORM>", "", $raw_data);
+$raw_data = str_replace("</form>", "", $raw_data);
 $raw_data = str_replace("<CENTER><FONT SIZE=4 FACE=\"Arial\">", "<FONT SIZE=4 FACE=\"Arial\">", $raw_data);
+$raw_data = str_replace("<CENTER>", "", $raw_data);
 $raw_data = str_replace("</CENTER>", "", $raw_data);
 $raw_data = str_replace("</center>", "", $raw_data);
 
@@ -21,12 +26,25 @@ $raw_data = str_replace("COLOR=#FF00FF", "", $raw_data);
 $raw_data = str_replace("SIZE=2", "", $raw_data);
 $raw_data = str_replace("SIZE=4", "", $raw_data);
 $raw_data = str_replace("COLOR=black", "", $raw_data);
-$raw_data = str_replace("<TABLE  border>", "<TABLE>", $raw_data);
 $raw_data = str_replace("</FONT></B></B>", "</FONT></B></CENTER></B>", $raw_data);
 $raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);
 
+$raw_data = str_replace("<body>", "<BODY>", $raw_data);
+$raw_data = str_replace("</body>", "</BODY>", $raw_data);
+$raw_data = str_replace("<TABLE  border>", "<TABLE>", $raw_data);
+$raw_data = str_replace("<table  border>", "<TABLE>", $raw_data);
+$raw_data = str_replace("<table >", "<TABLE>", $raw_data);
+$raw_data = str_replace("</table>", "</TABLE>", $raw_data);
+$raw_data = str_replace("<tr>", "<TR>", $raw_data);
+$raw_data = str_replace("</tr>", "</TR>", $raw_data);
+$raw_data = str_replace("<td>", "<TD>", $raw_data);
+$raw_data = str_replace("</td>", "</TD>", $raw_data);
+$raw_data = str_replace("</b>", "</B>", $raw_data);
+$raw_data = str_replace("<b>", "<B>", $raw_data);
 
 $raw_data = preg_replace("/ +/", " ", $raw_data);
+// file_put_contents('test.txt', print_r($raw_data, true));
+
 
 function count_duration($start, $end) {
     $hour_start = (int) ($start / 100);
