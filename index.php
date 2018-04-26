@@ -312,8 +312,8 @@ require("back_end/config.php");
             </div>
         </div>
 
-        <script src="js/jquery-1.11.1.min.js"></script>
-        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/jquery-migrate-1.4.1.min.js"></script>
         <script src="js/jquery-ui.min.js"></script>
         <script src="js/jquery.tag-it.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
