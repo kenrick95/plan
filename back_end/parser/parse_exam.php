@@ -44,8 +44,9 @@ $raw_data = str_lreplace("</table>", "</TR></table>", $raw_data);
 $raw_data = trim($raw_data);
 $raw_data = preg_replace("/ +/", " ", $raw_data);
 $raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);
+$raw_data = str_replace("<TR bgcolor=\"#3366FF\">", "", $raw_data);
 
-// file_put_contents('test.txt', print_r($raw_data, true));
+file_put_contents('test.txt', print_r($raw_data, true));
 $data =  new SimpleXMLElement($raw_data);
 
 # whew, finished cleaning data, now parse it!
