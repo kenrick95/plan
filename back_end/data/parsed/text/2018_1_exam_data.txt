@@ -810,13 +810,13 @@ Array
             [duration] => 3
         )
 
-    [CM3062] => Array
+    [CM3041] => Array
         (
             [date] => 26 November 2018
             [day] => Monday
             [time] => 1.00 pm
-            [code] => CM3062
-            [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 4
+            [code] => CM3041
+            [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 2
             [duration] => 2
         )
 
@@ -970,13 +970,13 @@ Array
             [duration] => 2
         )
 
-    [MA2004] => Array
+    [MA2002] => Array
         (
             [date] => 26 November 2018
             [day] => Monday
             [time] => 1.00 pm
-            [code] => MA2004
-            [name] => MANUFACTURING PROCESSES
+            [code] => MA2002
+            [name] => THEORY OF MECHANISM
             [duration] => 2.5
         )
 
@@ -4070,16 +4070,6 @@ Array
             [duration] => 2
         )
 
-    [MA1701] => Array
-        (
-            [date] => 3 December 2018
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => MA1701
-            [name] => INTRODUCTION TO AEROSPACE ENGINEERING
-            [duration] => 2.5
-        )
-
     [MA3004] => Array
         (
             [date] => 3 December 2018
@@ -4538,6 +4528,16 @@ Array
             [code] => IM2003
             [name] => COMPUTER COMMUNICATIONS
             [duration] => 2
+        )
+
+    [MA1701] => Array
+        (
+            [date] => 4 December 2018
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MA1701
+            [name] => INTRODUCTION TO AEROSPACE ENGINEERING
+            [duration] => 2.5
         )
 
     [MA3003] => Array
@@ -5120,13 +5120,13 @@ Array
             [duration] => 2.5
         )
 
-    [CM3041] => Array
+    [CM3062] => Array
         (
             [date] => 5 December 2018
             [day] => Wednesday
             [time] => 9.00 am
-            [code] => CM3041
-            [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 2
+            [code] => CM3062
+            [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 4
             [duration] => 2
         )
 
@@ -5490,13 +5490,13 @@ Array
             [duration] => 2
         )
 
-    [MA2002] => Array
+    [MA2004] => Array
         (
             [date] => 5 December 2018
             [day] => Wednesday
             [time] => 1.00 pm
-            [code] => MA2002
-            [name] => THEORY OF MECHANISM
+            [code] => MA2004
+            [name] => MANUFACTURING PROCESSES
             [duration] => 2.5
         )
 
