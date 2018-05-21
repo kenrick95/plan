@@ -4890,6 +4890,16 @@ Array
             [duration] => 2
         )
 
+    [PH3502] => Array
+        (
+            [date] => 4 December 2018
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => PH3502
+            [name] => CHAOTIC DYNAMICAL SYSTEMS
+            [duration] => 2.5
+        )
+
     [PH4607] => Array
         (
             [date] => 4 December 2018
