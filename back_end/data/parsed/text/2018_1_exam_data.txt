@@ -2450,16 +2450,6 @@ Array
             [duration] => 2.5
         )
 
-    [BC3401] => Array
-        (
-            [date] => 29 November 2018
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => BC3401
-            [name] => ENTERPRISE PROCESSES & ANALYTICS
-            [duration] => 2.5
-        )
-
     [BS2003] => Array
         (
             [date] => 29 November 2018
@@ -3617,16 +3607,6 @@ Array
             [time] => 2.30 pm
             [code] => MH2200
             [name] => GROUPS & SYMMETRIES
-            [duration] => 2
-        )
-
-    [MH4930] => Array
-        (
-            [date] => 30 November 2018
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MH4930
-            [name] => SPECIAL TOPICS IN MATHEMATICS
             [duration] => 2
         )
 
