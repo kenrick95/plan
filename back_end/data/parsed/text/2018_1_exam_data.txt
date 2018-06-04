@@ -230,16 +230,6 @@ Array
             [duration] => 2.5
         )
 
-    [PH115S] => Array
-        (
-            [date] => 23 November 2018
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => PH115S
-            [name] => OPTICS, VIBRATIONS & WAVES
-            [duration] => 2.5
-        )
-
     [RE1015] => Array
         (
             [date] => 23 November 2018
@@ -2956,16 +2946,6 @@ Array
             [day] => Thursday
             [time] => 1.00 pm
             [code] => PH1104
-            [name] => MECHANICS
-            [duration] => 2.5
-        )
-
-    [PH114S] => Array
-        (
-            [date] => 29 November 2018
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => PH114S
             [name] => MECHANICS
             [duration] => 2.5
         )
@@ -6187,26 +6167,6 @@ Array
             [time] => 1.00 pm
             [code] => MH1100
             [name] => CALCULUS I
-            [duration] => 2
-        )
-
-    [MH110S] => Array
-        (
-            [date] => 6 December 2018
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => MH110S
-            [name] => CALCULUS I
-            [duration] => 2
-        )
-
-    [MH111S] => Array
-        (
-            [date] => 6 December 2018
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => MH111S
-            [name] => CALCULUS II
             [duration] => 2
         )
 
