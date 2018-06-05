@@ -3280,16 +3280,6 @@ Array
             [duration] => 2
         )
 
-    [FE1008] => Array
-        (
-            [date] => 30 November 2018
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => FE1008
-            [name] => COMPUTING
-            [duration] => 2.5
-        )
-
     [HA3007] => Array
         (
             [date] => 30 November 2018
