@@ -67,7 +67,7 @@ require("back_end/config.php");
                         </div>
                         <div class="col-sm-2">
                         <select id="course_major" name="major" class="form-control">
-                            <option value="SCSE">SCSE</option>
+                            <option value="SCE">SCSE</option>
                             <option value="ADM">ADM</option>
                             <option value="CB">CBE</option>
                             <option value="CV">CEE</option>
@@ -75,7 +75,7 @@ require("back_end/config.php");
                             <option value="HSS">HSS</option>
                             <option value="MA">MAE</option>
                             <option value="LKCMedicine">LKCMedicine</option>
-                            <option value="MAT">MSE</option>
+                            <option value="MSE">MSE</option>
                             <option value="NBS">NBS</option>
                             <option value="SPMS">SPMS</option>
                             <option value="WKWSCI">WKWSCI</option>
