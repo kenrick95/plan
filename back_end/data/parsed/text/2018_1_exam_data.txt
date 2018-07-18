@@ -50,6 +50,16 @@ Array
             [duration] => 2.5
         )
 
+    [BR2201] => Array
+        (
+            [date] => 23 November 2018
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BR2201
+            [name] => RISK MODELLING
+            [duration] => 3
+        )
+
     [BS3033] => Array
         (
             [date] => 23 November 2018
@@ -407,16 +417,6 @@ Array
             [time] => 2.30 pm
             [code] => HE3001
             [name] => MATHEMATICAL ECONOMICS
-            [duration] => 2.5
-        )
-
-    [HL2011] => Array
-        (
-            [date] => 23 November 2018
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HL2011
-            [name] => REPRESENTATIONS OF ASIA
             [duration] => 2.5
         )
 
@@ -1496,7 +1496,7 @@ Array
             [day] => Tuesday
             [time] => 1.00 pm
             [code] => HA3004
-            [name] => UNITED STATES AND EAST ASIA
+            [name] => UNITED STATES & EAST ASIA
             [duration] => 2.5
         )
 
@@ -1957,6 +1957,16 @@ Array
             [time] => 9.00 am
             [code] => PH116S
             [name] => ELECTRICITY & MAGNETISM
+            [duration] => 2.5
+        )
+
+    [PH2101] => Array
+        (
+            [date] => 28 November 2018
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => PH2101
+            [name] => QUANTUM MECHANICS 1
             [duration] => 2.5
         )
 
@@ -2750,6 +2760,16 @@ Array
             [duration] => 2.5
         )
 
+    [CH3111] => Array
+        (
+            [date] => 29 November 2018
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CH3111
+            [name] => PROCESS CONTROL & DYNAMICS
+            [duration] => 2.5
+        )
+
     [CM4013] => Array
         (
             [date] => 29 November 2018
@@ -2767,16 +2787,6 @@ Array
             [time] => 1.00 pm
             [code] => CM9001
             [name] => CONCEPTUAL CHEMISTRY WITH LABORATORY
-            [duration] => 2
-        )
-
-    [CS2022] => Array
-        (
-            [date] => 29 November 2018
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => CS2022
-            [name] => MULTIMEDIA WRITING IN CHINESE
             [duration] => 2
         )
 
@@ -3210,16 +3220,6 @@ Array
             [duration] => 2
         )
 
-    [CS2401] => Array
-        (
-            [date] => 30 November 2018
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CS2401
-            [name] => INFORMATION ANALYTICS: TOOLS, TECHNIQUES & TECHNOLOGIES
-            [duration] => 2
-        )
-
     [CV3015] => Array
         (
             [date] => 30 November 2018
@@ -3227,26 +3227,6 @@ Array
             [time] => 9.00 am
             [code] => CV3015
             [name] => ENVIRONMENTAL ENGINEERING
-            [duration] => 2.5
-        )
-
-    [CY1401] => Array
-        (
-            [date] => 30 November 2018
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CY1401
-            [name] => ALGORITHMS & COMPUTING I
-            [duration] => 2
-        )
-
-    [CY1402] => Array
-        (
-            [date] => 30 November 2018
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CY1402
-            [name] => COMPUTING
             [duration] => 2.5
         )
 
@@ -3408,16 +3388,6 @@ Array
             [code] => BG2104
             [name] => ELECTRONICS FOR BIOMEDICAL ENGINEERS
             [duration] => 2
-        )
-
-    [BS2020] => Array
-        (
-            [date] => 30 November 2018
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => BS2020
-            [name] => MATHS, PHYS & BASIC PROGRAMMING FOR THE STRUCTURAL BIOLOGIST
-            [duration] => 2.5
         )
 
     [BS4006] => Array
@@ -3957,16 +3927,6 @@ Array
             [time] => 1.00 pm
             [code] => HA1012
             [name] => FUNDAMENTALS OF POLITICS
-            [duration] => 2.5
-        )
-
-    [HE3016] => Array
-        (
-            [date] => 3 December 2018
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HE3016
-            [name] => PRINCIPLES OF MATHEMATICS FINANCE
             [duration] => 2.5
         )
 
@@ -4670,16 +4630,6 @@ Array
             [duration] => 2.5
         )
 
-    [CS2056] => Array
-        (
-            [date] => 4 December 2018
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CS2056
-            [name] => PSYCHOLOGY & COMMUNICATION
-            [duration] => 2
-        )
-
     [CV4102] => Array
         (
             [date] => 4 December 2018
@@ -5030,16 +4980,6 @@ Array
             [duration] => 2
         )
 
-    [BR2201] => Array
-        (
-            [date] => 5 December 2018
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => BR2201
-            [name] => RISK MODELLING
-            [duration] => 3
-        )
-
     [BS3004] => Array
         (
             [date] => 5 December 2018
@@ -5047,7 +4987,7 @@ Array
             [time] => 9.00 am
             [code] => BS3004
             [name] => CANCER BIOLOGY & THERAPY
-            [duration] => 2
+            [duration] => 2.5
         )
 
     [CE2007] => Array
@@ -5687,7 +5627,7 @@ Array
             [time] => 9.00 am
             [code] => BM2506
             [name] => DIGITAL MARKETING:CONNECTING WITH CUSTOMERS IN TODAY'S WORLD
-            [duration] => 2.5
+            [duration] => 2
         )
 
     [BS0001] => Array
@@ -5737,26 +5677,6 @@ Array
             [time] => 9.00 am
             [code] => CM3031
             [name] => ORGANIC REACTION MECHANISMS & SYNTHESIS
-            [duration] => 2
-        )
-
-    [CS2403] => Array
-        (
-            [date] => 6 December 2018
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CS2403
-            [name] => INFORMATION VISUALIZATION AND PRESENTATION
-            [duration] => 2
-        )
-
-    [CS4053] => Array
-        (
-            [date] => 6 December 2018
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CS4053
-            [name] => POPULAR CINEMA
             [duration] => 2
         )
 
@@ -6077,16 +5997,6 @@ Array
             [time] => 1.00 pm
             [code] => HC2030
             [name] => PRE-QIN THOUGHT
-            [duration] => 2.5
-        )
-
-    [HE2008] => Array
-        (
-            [date] => 6 December 2018
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HE2008
-            [name] => PUBLIC FINANCE
             [duration] => 2.5
         )
 
