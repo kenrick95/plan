@@ -1,6 +1,8 @@
 *.sublime-project
 *.sublime-workspace
 
+cookies.tmp
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
