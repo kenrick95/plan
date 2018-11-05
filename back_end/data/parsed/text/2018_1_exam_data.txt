@@ -1060,16 +1060,6 @@ Array
             [duration] => 2.5
         )
 
-    [CH2113] => Array
-        (
-            [date] => 26 November 2018
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => CH2113
-            [name] => FLUIDS SYSTEMS
-            [duration] => 2.5
-        )
-
     [CH4451] => Array
         (
             [date] => 26 November 2018
@@ -1507,16 +1497,6 @@ Array
             [time] => 1.00 pm
             [code] => HS1002
             [name] => SINGAPORE SOCIETY IN TRANSITION
-            [duration] => 2.5
-        )
-
-    [IM0002] => Array
-        (
-            [date] => 27 November 2018
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => IM0002
-            [name] => ENGINEERS & SOCIETY
             [duration] => 2.5
         )
 
@@ -3240,16 +3220,6 @@ Array
             [duration] => 2
         )
 
-    [FE1008] => Array
-        (
-            [date] => 30 November 2018
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => FE1008
-            [name] => COMPUTING
-            [duration] => 2.5
-        )
-
     [HA3007] => Array
         (
             [date] => 30 November 2018
@@ -4537,16 +4507,6 @@ Array
             [time] => 1.00 pm
             [code] => BG3102
             [name] => CONTROL IN BIOSYSTEMS
-            [duration] => 2.5
-        )
-
-    [BM3502] => Array
-        (
-            [date] => 4 December 2018
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BM3502
-            [name] => GLOBAL BUSINESS STRATEGY
             [duration] => 2.5
         )
 

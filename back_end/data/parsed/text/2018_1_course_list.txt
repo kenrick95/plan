@@ -6441,7 +6441,7 @@ Array
     [1073] => Array
         (
             [code] => SP0032
-            [name] => ART, TECHNOLOGY AND THE IMAGE
+            [name] => ART, TECHNOLOGY & THE IMAGE
         )
 
     [1074] => Array
