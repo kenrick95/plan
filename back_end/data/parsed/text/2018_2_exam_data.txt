@@ -1020,16 +1020,6 @@ Array
             [duration] => 2.5
         )
 
-    [MAS710] => Array
-        (
-            [date] => 29 April 2019
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => MAS710
-            [name] => CONTINUOUS METHODS
-            [duration] => 3
-        )
-
     [MH1301] => Array
         (
             [date] => 29 April 2019
@@ -2060,16 +2050,6 @@ Array
             [duration] => 2
         )
 
-    [MP4008] => Array
-        (
-            [date] => 30 April 2019
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => MP4008
-            [name] => HUMAN RESOURCE MANAGEMENT
-            [duration] => 2
-        )
-
     [MT3006] => Array
         (
             [date] => 30 April 2019
@@ -2630,16 +2610,6 @@ Array
             [duration] => 2.5
         )
 
-    [HH2011] => Array
-        (
-            [date] => 2 May 2019
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => HH2011
-            [name] => ANCIENT & MEDIEVAL SOUTH ASIA
-            [duration] => 2.5
-        )
-
     [HL1006] => Array
         (
             [date] => 2 May 2019
@@ -2948,16 +2918,6 @@ Array
             [code] => MA3001
             [name] => MACHINE ELEMENT DESIGN
             [duration] => 2.5
-        )
-
-    [MAS713] => Array
-        (
-            [date] => 3 May 2019
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => MAS713
-            [name] => MATHEMATICAL STATISTICS
-            [duration] => 3
         )
 
     [MH3400] => Array
@@ -4240,16 +4200,6 @@ Array
             [duration] => 2.5
         )
 
-    [PH4507] => Array
-        (
-            [date] => 7 May 2019
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => PH4507
-            [name] => TOPICS IN PHYSICS
-            [duration] => 2.5
-        )
-
     [PH4605] => Array
         (
             [date] => 7 May 2019
@@ -4348,16 +4298,6 @@ Array
             [code] => CS0204
             [name] => BASIC MEDIA WRITING
             [duration] => 2
-        )
-
-    [CV6313] => Array
-        (
-            [date] => 7 May 2019
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CV6313
-            [name] => SHALLOW & DEEP FOUNDATIONS
-            [duration] => 3
         )
 
     [CZ1012] => Array
@@ -5300,16 +5240,6 @@ Array
             [duration] => 2
         )
 
-    [MP4001] => Array
-        (
-            [date] => 8 May 2019
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => MP4001
-            [name] => QUALITY ASSURANCE & MANAGEMENT
-            [duration] => 2.5
-        )
-
     [AC2401] => Array
         (
             [date] => 9 May 2019
@@ -5587,6 +5517,16 @@ Array
             [time] => 1.00 pm
             [code] => BG1109
             [name] => ANATOMY & PHYSIOLOGY
+            [duration] => 2.5
+        )
+
+    [BR2206] => Array
+        (
+            [date] => 9 May 2019
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => BR2206
+            [name] => LIFE INSURANCE UNDERWRITING AND CLAIMS
             [duration] => 2.5
         )
 
