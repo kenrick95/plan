@@ -52,6 +52,16 @@ if (isset($input_courses)) {
     # Filter HW0188 based on the user major
     filter_HW0188_timetable($user_major);
 
+    # Filter HY0001 off when generating timetable
+    {
+        $key = array_search('HY0001', $input_courses, true);
+        if ($key !== FALSE) {
+            unset($input_courses[$key]);
+        }
+        # "reindex" the array
+        $input_courses = array_values($input_courses);
+    }
+
     # Generate all possible timetables
     generate_timetable($input_courses, $timetable);
     $result["timetable"] = $all_timetable;
