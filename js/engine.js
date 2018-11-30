@@ -415,8 +415,14 @@ $(document).ready(function ($) {
                 }
                 $("#overlay").fadeIn();
             },
+            error: function() {
+                ga('send', 'event', 'form', 'result', 'server_error');
+                swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "warning");
+                $("#overlay").hide();
+                $("#course_form #submit").removeAttr("disabled");
+            },
             success: function (d) {
-                var res = JSON.parse(d), timetable, len, i, j, k, table, details,
+                var res, timetable, len, i, j, k, table, details,
                     day, days = ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
                     times = ["0830", "0900", "0930", "1000", "1030",
                         "1100", "1130", "1200", "1230", "1300", "1330", "1400",
@@ -426,6 +432,15 @@ $(document).ready(function ($) {
                     index_chosen = {}, exam_schedule, date, time, rowspan,
                     total_au, total_course, timetable_shown, dayname, sorted_exam_schedule,
                     date_time, item;
+                try {
+                    res = JSON.parse(d);
+                } catch(e) {
+                    ga('send', 'event', 'form', 'result', 'server_error');
+                    swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "warning");
+                    $("#overlay").hide();
+                    $("#course_form #submit").removeAttr("disabled");
+                    return;
+                }
 
                 all_table = [];
                 all_indices = [];
