@@ -1060,16 +1060,6 @@ Array
             [duration] => 2.5
         )
 
-    [PH4606] => Array
-        (
-            [date] => 29 April 2019
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => PH4606
-            [name] => FUNDAMENTALS & APPLICATIONS OF ACOUSTICS
-            [duration] => 2
-        )
-
     [SS1103] => Array
         (
             [date] => 29 April 2019
