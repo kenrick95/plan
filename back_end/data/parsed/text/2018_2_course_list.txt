@@ -266,2600 +266,2600 @@ Array
 
     [44] => Array
         (
+            [code] => AAM08C
+            [name] => COMPUTER LITERACY THROUGH CODING AND APPLICATIONS
+        )
+
+    [45] => Array
+        (
             [code] => AAU08A
             [name] => THEATRE GAMES: ENGAGEMENT THROUGH PLAY*
         )
 
-    [45] => Array
+    [46] => Array
         (
             [code] => AAU28B
             [name] => CREATIVE CLASSROOM:INTRODUCING DRAMA THRU IMAGINATION & PLAY*
         )
 
-    [46] => Array
+    [47] => Array
         (
             [code] => AAU28C
             [name] => TWENTY-FIRST CENTURY LEARNING THROUGH THEATRE & DRAMA*
         )
 
-    [47] => Array
+    [48] => Array
         (
             [code] => AAU28D
             [name] => VOICE STUDIES & PRODUCTION*
         )
 
-    [48] => Array
+    [49] => Array
         (
             [code] => AB0301
             [name] => LEGAL & ETHICAL ISSUES IN SUSTAINABILITY#
         )
 
-    [49] => Array
+    [50] => Array
         (
             [code] => AB0502
             [name] => MANAGING SUSTAINABILITY#
         )
 
-    [50] => Array
+    [51] => Array
         (
             [code] => AB0601
             [name] => COMMUNICATION MANAGEMENT FUNDAMENTALS
         )
 
-    [51] => Array
+    [52] => Array
         (
             [code] => AB0602
             [name] => COMMUNICATION MANAGEMENT STRATEGIES
         )
 
-    [52] => Array
+    [53] => Array
         (
             [code] => AB0603
             [name] => BUSINESS GONE GREEN: MANAGERIAL ISSUES#
         )
 
-    [53] => Array
+    [54] => Array
         (
             [code] => AB0901
             [name] => PRINCIPLES OF ECONOMICS: A SINGAPORE PERSPECTIVE*
         )
 
-    [54] => Array
+    [55] => Array
         (
             [code] => AB1000
             [name] => CAREER FOUNDATIONS I
         )
 
-    [55] => Array
+    [56] => Array
         (
             [code] => AB1201
             [name] => FINANCIAL MANAGEMENT*
         )
 
-    [56] => Array
+    [57] => Array
         (
             [code] => AB1202
             [name] => STATISTICS & ANALYSIS*
         )
 
-    [57] => Array
+    [58] => Array
         (
             [code] => AB1301
             [name] => BUSINESS LAW*
         )
 
-    [58] => Array
+    [59] => Array
         (
             [code] => AB1401
             [name] => TECHNOLOGICAL INNOVATIONS & DEVELOPMENTS*
         )
 
-    [59] => Array
+    [60] => Array
         (
             [code] => AB1402
             [name] => FOUNDATIONAL EXCEL*
         )
 
-    [60] => Array
+    [61] => Array
         (
             [code] => AB1501
             [name] => MARKETING*
         )
 
-    [61] => Array
+    [62] => Array
         (
             [code] => AB1601
             [name] => ORGANISATIONAL BEHAVIOUR & DESIGN*
         )
 
-    [62] => Array
+    [63] => Array
         (
             [code] => AB2000
             [name] => CAREER FOUNDATIONS II
         )
 
-    [63] => Array
+    [64] => Array
         (
             [code] => AB3601
             [name] => STRATEGIC MANAGEMENT*
         )
 
-    [64] => Array
+    [65] => Array
         (
             [code] => AB8401
             [name] => DECISION MAKING WITH PROGRAMMING & ANALYTICS*#
         )
 
-    [65] => Array
+    [66] => Array
         (
             [code] => AB9101
             [name] => BUSINESS VALUATION: FROM THEORY TO PRACTICE*
         )
 
-    [66] => Array
+    [67] => Array
         (
             [code] => AB9102
             [name] => FORENSIC ACCOUNTING & FRAUD INVESTIGATION*
         )
 
-    [67] => Array
+    [68] => Array
         (
             [code] => AB9601
             [name] => NEGOTIATE TO GET WHAT YOU WANT: STRATEGY & PRACTICE*
         )
 
-    [68] => Array
+    [69] => Array
         (
             [code] => AB9602
             [name] => LEADERSHIP IN ORGANISATIONS*
         )
 
-    [69] => Array
+    [70] => Array
         (
             [code] => AC1101
             [name] => ACCOUNTING I
         )
 
-    [70] => Array
+    [71] => Array
         (
             [code] => AC1102
             [name] => ACCOUNTING II
         )
 
-    [71] => Array
+    [72] => Array
         (
             [code] => AC2101
             [name] => ACCOUNTING RECOGNITION & MEASUREMENT
         )
 
-    [72] => Array
+    [73] => Array
         (
             [code] => AC2104
             [name] => ASSURANCE & AUDITING
         )
 
-    [73] => Array
+    [74] => Array
         (
             [code] => AC2105
             [name] => ACCOUNTING FOR DECISION MAKING & CONTROL
         )
 
-    [74] => Array
+    [75] => Array
         (
             [code] => AC2301
             [name] => PRINCIPLES OF TAXATION*
         )
 
-    [75] => Array
+    [76] => Array
         (
             [code] => AC2302
             [name] => COMPANY LAW & CORPORATE GOVERNANCE*
         )
 
-    [76] => Array
+    [77] => Array
         (
             [code] => AC2401
             [name] => ACCOUNTING INFORMATION SYSTEMS*
         )
 
-    [77] => Array
+    [78] => Array
         (
             [code] => AC3102
             [name] => RISK REPORTING & ANALYSIS
         )
 
-    [78] => Array
+    [79] => Array
         (
             [code] => AC3103
             [name] => ACCOUNTING ANALYSIS & EQUITY VALUATION
         )
 
-    [79] => Array
+    [80] => Array
         (
             [code] => AC3104
             [name] => RISK MANAGEMENT & ADVANCED AUDITING
         )
 
-    [80] => Array
+    [81] => Array
         (
             [code] => AD1101
             [name] => FINANCIAL ACCOUNTING*
         )
 
-    [81] => Array
+    [82] => Array
         (
             [code] => AD2101
             [name] => MANAGEMENT ACCOUNTING*
         )
 
-    [82] => Array
+    [83] => Array
         (
             [code] => ADP16A
             [name] => INTRODUCTION TO THEATRE & PERFORMANCE*
         )
 
-    [83] => Array
+    [84] => Array
         (
             [code] => ADP26A
             [name] => CONTEMPORARY THEATRE: STYLES & CONVENTIONS*
         )
 
-    [84] => Array
+    [85] => Array
         (
             [code] => ADP26D
             [name] => THEATRE & TECHNOLOGY*
         )
 
-    [85] => Array
+    [86] => Array
         (
             [code] => ADP26E
             [name] => PLAYWRITING & SCRIPT ANALYSIS*
         )
 
-    [86] => Array
+    [87] => Array
         (
             [code] => ADP26G
             [name] => INDEPENDENT STUDY IN THEATRE*
         )
 
-    [87] => Array
+    [88] => Array
         (
             [code] => ADP26L
             [name] => DEVISING THEATRE: METHODS & PRACTICES*
         )
 
-    [88] => Array
+    [89] => Array
         (
             [code] => AED06A
             [name] => SPECIAL NEEDS EDUCATION & INCLUSION*
         )
 
-    [89] => Array
+    [90] => Array
         (
             [code] => AED06B
             [name] => DISABILITIES & DISORDERS*
         )
 
-    [90] => Array
+    [91] => Array
         (
             [code] => AED10A
             [name] => EDUCATIONAL PSY I:THEORIES & APPL FOR LEARNING & TEACHING*
         )
 
-    [91] => Array
+    [92] => Array
         (
             [code] => AED16C
             [name] => LEARNING ENVIRONMENTS FOR YOUNG CHILDREN*
         )
 
-    [92] => Array
+    [93] => Array
         (
             [code] => AED16D
             [name] => CHILD DEVELOPMENT IN EARLY CHILDHOOD EDUCATION*
         )
 
-    [93] => Array
+    [94] => Array
         (
             [code] => AED16E
             [name] => DIVERSITY IN EARLY CHILDHOOD EDUCATION*
         )
 
-    [94] => Array
+    [95] => Array
         (
             [code] => AED18A
             [name] => CURRICULUM DESIGN*
         )
 
-    [95] => Array
+    [96] => Array
         (
             [code] => AED20B
             [name] => EDUCATIONAL PSY II:THEORIES & APPL FOR LEARNING & TEACHING*
         )
 
-    [96] => Array
+    [97] => Array
         (
             [code] => AED28B
             [name] => CRITICAL PERSPECTIVES ON EDUCATION*
         )
 
-    [97] => Array
+    [98] => Array
         (
             [code] => AED28D
             [name] => BASIC COUNSELLING SKILLS FOR TEACHERS IN INITIAL TRG PROGRAM*
         )
 
-    [98] => Array
+    [99] => Array
         (
             [code] => AED38A
             [name] => MOTIVATING PUPILS TO LEARN*
         )
 
-    [99] => Array
+    [100] => Array
         (
             [code] => AED38B
             [name] => FACILITATING ASYNCHRONOUS ONLINE DISCUSSION*
         )
 
-    [100] => Array
+    [101] => Array
         (
             [code] => AED38C
             [name] => DESIGNING ICT-BASED CONSTRUCTIVIST ACTIVITIES*
         )
 
-    [101] => Array
+    [102] => Array
         (
             [code] => AGE08D
             [name] => DESIGNING LEARNING ENVIRONMENTS WITH THE INTERNET OF THINGS*
         )
 
-    [102] => Array
+    [103] => Array
         (
             [code] => AGE18A
             [name] => PHYSICS OF GEMSTONES*
         )
 
-    [103] => Array
+    [104] => Array
         (
             [code] => AGQ28B
             [name] => EVERYDAY SCIENCE IN FOODS*
         )
 
-    [104] => Array
+    [105] => Array
         (
             [code] => AGQ28C
             [name] => FOOD & SOCIETY*
         )
 
-    [105] => Array
+    [106] => Array
         (
             [code] => AGQ28E
             [name] => PERSONAL FINANCE*
         )
 
-    [106] => Array
+    [107] => Array
         (
             [code] => AGQ28G
             [name] => TEXTILES STUDY*
         )
 
-    [107] => Array
+    [108] => Array
         (
             [code] => BA2201
             [name] => ACTUARIAL ECONOMICS*
         )
 
-    [108] => Array
+    [109] => Array
         (
             [code] => BA2204
             [name] => MODELS*
         )
 
-    [109] => Array
+    [110] => Array
         (
             [code] => BA2205
             [name] => ACTUARIAL COMPUTING*
         )
 
-    [110] => Array
+    [111] => Array
         (
             [code] => BA3202
             [name] => ACTUARIAL STATISTICS*
         )
 
-    [111] => Array
+    [112] => Array
         (
             [code] => BA3204
             [name] => ACTUARIAL MANAGEMENT*
         )
 
-    [112] => Array
+    [113] => Array
         (
             [code] => BC2407
             [name] => ANALYTICS II: ADVANCED PREDICTIVE TECHNIQUES*
         )
 
-    [113] => Array
+    [114] => Array
         (
             [code] => BC2408
             [name] => SUPPLY CHAIN ANALYTICS*
         )
 
-    [114] => Array
+    [115] => Array
         (
             [code] => BC3402
             [name] => FINANCIAL SERVICE PROCESSES & ANALYTICS*
         )
 
-    [115] => Array
+    [116] => Array
         (
             [code] => BC3406
             [name] => BUSINESS ANALYTICS CONSULTING
         )
 
-    [116] => Array
+    [117] => Array
         (
             [code] => BC3408
             [name] => DECISION MODELLING & ANALYSIS*
         )
 
-    [117] => Array
+    [118] => Array
         (
             [code] => BC3409
             [name] => AI IN ACCOUNTING & FINANCE*
         )
 
-    [118] => Array
+    [119] => Array
         (
             [code] => BE1401
             [name] => BUSINESS OPERATIONS & PROCESS*
         )
 
-    [119] => Array
+    [120] => Array
         (
             [code] => BE2501
             [name] => INTERNATIONAL BUSINESS ENVIRONMENT*
         )
 
-    [120] => Array
+    [121] => Array
         (
             [code] => BE2502
             [name] => INNOVATION MARKETING*
         )
 
-    [121] => Array
+    [122] => Array
         (
             [code] => BE2601
             [name] => MANAGEMENT PRINCIPLES, SKILLS & COMPETENCIES*
         )
 
-    [122] => Array
+    [123] => Array
         (
             [code] => BE3201
             [name] => ENTREPRENEURIAL FINANCE*
         )
 
-    [123] => Array
+    [124] => Array
         (
             [code] => BF2101
             [name] => FINANCIAL STATEMENT ANALYSIS*
         )
 
-    [124] => Array
+    [125] => Array
         (
             [code] => BF2201
             [name] => INVESTMENTS*
         )
 
-    [125] => Array
+    [126] => Array
         (
             [code] => BF2206
             [name] => WEALTH MANAGEMENT*
         )
 
-    [126] => Array
+    [127] => Array
         (
             [code] => BF2207
             [name] => INTERNATIONAL FINANCE*
         )
 
-    [127] => Array
+    [128] => Array
         (
             [code] => BF2209
             [name] => DERIVATIVE SECURITIES*
         )
 
-    [128] => Array
+    [129] => Array
         (
             [code] => BF2210
             [name] => RISK MANAGEMENT OF FINANCIAL INSTITUTIONS*
         )
 
-    [129] => Array
+    [130] => Array
         (
             [code] => BF2211
             [name] => GLOBAL FINANCIAL MARKETS*
         )
 
-    [130] => Array
+    [131] => Array
         (
             [code] => BF2212
             [name] => INVESTMENT PRODUCTS*
         )
 
-    [131] => Array
+    [132] => Array
         (
             [code] => BF2214
             [name] => FINTECH IN INVESTMENT MANAGEMENT*
         )
 
-    [132] => Array
+    [133] => Array
         (
             [code] => BF2301
             [name] => INTERNATIONAL TAX & TRADING LAW*
         )
 
-    [133] => Array
+    [134] => Array
         (
             [code] => BF3201
             [name] => CORPORATE FINANCE & STRATEGY*
         )
 
-    [134] => Array
+    [135] => Array
         (
             [code] => BF3202
             [name] => FIXED INCOME SECURITIES*
         )
 
-    [135] => Array
+    [136] => Array
         (
             [code] => BF3203
             [name] => EQUITY SECURITIES*
         )
 
-    [136] => Array
+    [137] => Array
         (
             [code] => BF3204
             [name] => FINANCIAL MODELLING*
         )
 
-    [137] => Array
+    [138] => Array
         (
             [code] => BF3209
             [name] => PORTFOLIO MANAGEMENT & ANALYSIS*
         )
 
-    [138] => Array
+    [139] => Array
         (
             [code] => BF3210
             [name] => ISSUES IN GLOBAL FINANCIAL MARKETS*
         )
 
-    [139] => Array
+    [140] => Array
         (
             [code] => BF3211
             [name] => COMMODITIES TRADING & RISK MANAGEMENT*
         )
 
-    [140] => Array
+    [141] => Array
         (
             [code] => BF4001
             [name] => INDUSTRY SEMINAR*
         )
 
-    [141] => Array
+    [142] => Array
         (
             [code] => BG0491
             [name] => ENGINEERS & SOCIETY
         )
 
-    [142] => Array
+    [143] => Array
         (
             [code] => BG1105
             [name] => MATERIALS SCIENCE
         )
 
-    [143] => Array
+    [144] => Array
         (
             [code] => BG1109
             [name] => ANATOMY & PHYSIOLOGY
         )
 
-    [144] => Array
+    [145] => Array
         (
             [code] => BG1117
             [name] => ENGINEERING MATHEMATICS
         )
 
-    [145] => Array
+    [146] => Array
         (
             [code] => BG1802
             [name] => BIOENGINEERING LAB 1B
         )
 
-    [146] => Array
+    [147] => Array
         (
             [code] => BG2109
             [name] => BIOMECHANICS
         )
 
-    [147] => Array
+    [148] => Array
         (
             [code] => BG2110
             [name] => BIOELECTRICITY
         )
 
-    [148] => Array
+    [149] => Array
         (
             [code] => BG2142
             [name] => BIOLOGICAL THERMODYNAMICS
         )
 
-    [149] => Array
+    [150] => Array
         (
             [code] => BG2802
             [name] => BIOENGINEERING LAB 2B
         )
 
-    [150] => Array
+    [151] => Array
         (
             [code] => BG4211
             [name] => CNYSP OVERSEAS FINAL YEAR PROJECT
         )
 
-    [151] => Array
+    [152] => Array
         (
             [code] => BG4214
             [name] => BIOMEDICAL OPTICS
         )
 
-    [152] => Array
+    [153] => Array
         (
             [code] => BG4313
             [name] => GLOBAL MEDICAL DEVICE REGULATORY OVERVIEW
         )
 
-    [153] => Array
+    [154] => Array
         (
             [code] => BG4801
             [name] => FINAL YEAR PROJECT
         )
 
-    [154] => Array
+    [155] => Array
         (
             [code] => BH2602
             [name] => TOTAL REWARDS MANAGEMENT*
         )
 
-    [155] => Array
+    [156] => Array
         (
             [code] => BH2604
             [name] => MANAGING & CONSULTING THROUGH RESEARCH*
         )
 
-    [156] => Array
+    [157] => Array
         (
             [code] => BH3301
             [name] => EMPLOYMENT LAW*
         )
 
-    [157] => Array
+    [158] => Array
         (
             [code] => BH3602
             [name] => HR TECHNOLOGY, METRICS & PERFORMANCE MANAGEMENT*
         )
 
-    [158] => Array
+    [159] => Array
         (
             [code] => BH3603
             [name] => CULTURAL INTELLIGENCE AT WORK*
         )
 
-    [159] => Array
+    [160] => Array
         (
             [code] => BH3604
             [name] => MANAGING ORGANIZATIONAL CHANGE*
         )
 
-    [160] => Array
+    [161] => Array
         (
             [code] => BL9302
             [name] => LAW OF INTELLECTUAL PROPERTY & NEW MEDIA*
         )
 
-    [161] => Array
+    [162] => Array
         (
             [code] => BL9305
             [name] => ADVANCED TAXATION*
         )
 
-    [162] => Array
+    [163] => Array
         (
             [code] => BM2501
             [name] => MARKET BEHAVIOUR*
         )
 
-    [163] => Array
+    [164] => Array
         (
             [code] => BM2502
             [name] => MARKET INTELLIGENCE*
         )
 
-    [164] => Array
+    [165] => Array
         (
             [code] => BM2503
             [name] => MARKET RELATIONSHIPS*
         )
 
-    [165] => Array
+    [166] => Array
         (
             [code] => BM2504
             [name] => INTEGRATED MARKETING COMMUNICATIONS*
         )
 
-    [166] => Array
+    [167] => Array
         (
             [code] => BM2506
             [name] => DIGITAL MARKETING:CONNECTING WITH CUSTOMERS IN TODAY'S WORLD*
         )
 
-    [167] => Array
+    [168] => Array
         (
             [code] => BM2507
             [name] => MARKETING ANALYTICS*
         )
 
-    [168] => Array
+    [169] => Array
         (
             [code] => BM3501
             [name] => MARKETING STRATEGY*
         )
 
-    [169] => Array
+    [170] => Array
         (
             [code] => BM3502
             [name] => GLOBAL BUSINESS STRATEGY*
         )
 
-    [170] => Array
+    [171] => Array
         (
             [code] => BR2206
             [name] => LIFE INSURANCE UNDERWRITING AND CLAIMS*
         )
 
-    [171] => Array
+    [172] => Array
         (
             [code] => BR3203
             [name] => PRINCIPLES OF ENTERPRISE RISK MANAGEMENT*
         )
 
-    [172] => Array
+    [173] => Array
         (
             [code] => BR3204
             [name] => PROPERTY & LIABILITY INSURANCE*
         )
 
-    [173] => Array
+    [174] => Array
         (
             [code] => BS1005
             [name] => BIOCHEMISTRY I*
         )
 
-    [174] => Array
+    [175] => Array
         (
             [code] => BS1006
             [name] => PRINCIPLES OF GENETICS*#
         )
 
-    [175] => Array
+    [176] => Array
         (
             [code] => BS1007
             [name] => MOLECULAR & CELL BIOLOGY I*#
         )
 
-    [176] => Array
+    [177] => Array
         (
             [code] => BS1009
             [name] => INTRODUCTION TO COMPUTATIONAL THINKING
         )
 
-    [177] => Array
+    [178] => Array
         (
             [code] => BS1100
             [name] => MOLECULAR & CELL BIOLOGY TECHNIQUES LEVEL 1
         )
 
-    [178] => Array
+    [179] => Array
         (
             [code] => BS1102
             [name] => TCM IN ANCIENT CHINESE
         )
 
-    [179] => Array
+    [180] => Array
         (
             [code] => BS2004
             [name] => MOLECULAR & CELL BIOLOGY II*
         )
 
-    [180] => Array
+    [181] => Array
         (
             [code] => BS2007
             [name] => IMMUNOLOGY
         )
 
-    [181] => Array
+    [182] => Array
         (
             [code] => BS2008
             [name] => EXPERIMENTAL MOLECULAR & CELL BIOLOGY*
         )
 
-    [182] => Array
+    [183] => Array
         (
             [code] => BS2010
             [name] => BIOIMAGING
         )
 
-    [183] => Array
+    [184] => Array
         (
             [code] => BS2012
             [name] => GENETICS & GENOMICS
         )
 
-    [184] => Array
+    [185] => Array
         (
             [code] => BS2021
             [name] => RNA STRUCTURES & RNA BASED DRUG DEVELOPMENT*
         )
 
-    [185] => Array
+    [186] => Array
         (
             [code] => BS2104
             [name] => BIOMEDICAL PHARMACOLOGY
         )
 
-    [186] => Array
+    [187] => Array
         (
             [code] => BS2105
             [name] => EMPEROR'S CANON OF INTERNAL MEDICINE
         )
 
-    [187] => Array
+    [188] => Array
         (
             [code] => BS2106
             [name] => TCM FORMULARY
         )
 
-    [188] => Array
+    [189] => Array
         (
             [code] => BS2107
             [name] => TCM INTERNSHIP I
         )
 
-    [189] => Array
+    [190] => Array
         (
             [code] => BS211S
             [name] => EQUATIONS OF LIFE
         )
 
-    [190] => Array
+    [191] => Array
         (
             [code] => BS3006
             [name] => BIOENTREPRENEURSHIP
         )
 
-    [191] => Array
+    [192] => Array
         (
             [code] => BS3008
             [name] => COMPUTATIONAL BIOLOGY & MODELING
         )
 
-    [192] => Array
+    [193] => Array
         (
             [code] => BS3010
             [name] => CURRENT TOPICS IN STEM CELL & DEVELOPMENTAL BIOLOGY
         )
 
-    [193] => Array
+    [194] => Array
         (
             [code] => BS3013
             [name] => DRUG DISCOVERY & DEVELOPMENT BIOTECHNOLOGY
         )
 
-    [194] => Array
+    [195] => Array
         (
             [code] => BS3015
             [name] => THE RNA WORLD
         )
 
-    [195] => Array
+    [196] => Array
         (
             [code] => BS3017
             [name] => ADVANCED MICROBIAL PATHOGENESIS
         )
 
-    [196] => Array
+    [197] => Array
         (
             [code] => BS3019
             [name] => NEUROPSYCHOLOGY OF STRESS & RESILIENCE
         )
 
-    [197] => Array
+    [198] => Array
         (
             [code] => BS3022
             [name] => PROTEIN TRAFFICKING
         )
 
-    [198] => Array
+    [199] => Array
         (
             [code] => BS3023
             [name] => REGULATORY CONTROL OF HEALTHCARE PRODUCTS & MEDICAL DEVICES
         )
 
-    [199] => Array
+    [200] => Array
         (
             [code] => BS3025
             [name] => NUCLEAR MAGNETIC RESONANCE IN STRUCTURAL BIOLOGY*
         )
 
-    [200] => Array
+    [201] => Array
         (
             [code] => BS3027
             [name] => SPECTROSCOPIC METHODS IN BIOMEDICAL STRUCTURAL BIOLOGY*
         )
 
-    [201] => Array
+    [202] => Array
         (
             [code] => BS3028
             [name] => CHEMICAL BIOLOGY
         )
 
-    [202] => Array
+    [203] => Array
         (
             [code] => BS3030
             [name] => TELOMERE BIOLOGY: GENOME STABILITY, CANCER & AGEING
         )
 
-    [203] => Array
+    [204] => Array
         (
             [code] => BS3035
             [name] => ONE HEALTH
         )
 
-    [204] => Array
+    [205] => Array
         (
             [code] => BS3102
             [name] => SYNOPSIS OF THE GOLDEN CHAMBER
         )
 
-    [205] => Array
+    [206] => Array
         (
             [code] => BS3104
             [name] => PATHOLOGY
         )
 
-    [206] => Array
+    [207] => Array
         (
             [code] => BS3106
             [name] => SEASONAL FEBRILE DISEASES
         )
 
-    [207] => Array
+    [208] => Array
         (
             [code] => BS3107
             [name] => TCM INTERNSHIP III
         )
 
-    [208] => Array
+    [209] => Array
         (
             [code] => BS4223
             [name] => PROFESSIONAL CAREER DEVELOPMENT
         )
 
-    [209] => Array
+    [210] => Array
         (
             [code] => BS8001
             [name] => HUMAN BODY FUNCTION & DISEASE*#
         )
 
-    [210] => Array
+    [211] => Array
         (
             [code] => BS8101
             [name] => EXPLORING THE SCIENCE OF GOOD EATING EXPERIENCE*#
         )
 
-    [211] => Array
+    [212] => Array
         (
             [code] => BU8101
             [name] => ACCOUNTING: A USER PERSPECTIVE*#
         )
 
-    [212] => Array
+    [213] => Array
         (
             [code] => BU8201
             [name] => BUSINESS FINANCE*#
         )
 
-    [213] => Array
+    [214] => Array
         (
             [code] => BU8241
             [name] => MONEY 101*#
         )
 
-    [214] => Array
+    [215] => Array
         (
             [code] => BU8301
             [name] => FUNDAMENTALS OF BUSINESS LAW*#
         )
 
-    [215] => Array
+    [216] => Array
         (
             [code] => BU8341
             [name] => PRACTICAL ETHICS: THINKING ABOUT RIGHT & WRONG*#
         )
 
-    [216] => Array
+    [217] => Array
         (
             [code] => BU8401
             [name] => MANAGEMENT DECISION TOOLS*#
         )
 
-    [217] => Array
+    [218] => Array
         (
             [code] => BU8501
             [name] => MARKETING FOR THE 21ST CENTURY*#
         )
 
-    [218] => Array
+    [219] => Array
         (
             [code] => BU8502
             [name] => MARKETING COMMUNICATIONS: AN INTEGRATED APPROACH*#
         )
 
-    [219] => Array
+    [220] => Array
         (
             [code] => BU8542
             [name] => SOCIAL MARKETING - MAKING THE WORLD A BETTER PLACE*#
         )
 
-    [220] => Array
+    [221] => Array
         (
             [code] => BU8544
             [name] => MARKETING HEALTH: CONSUMERS' PURSUIT OF WELLNESS*#
         )
 
-    [221] => Array
+    [222] => Array
         (
             [code] => BU8545
             [name] => CONSUMER NEUROSCIENCE: HOW BRAIN SCIENCE IS INFORMING BUS*#
         )
 
-    [222] => Array
+    [223] => Array
         (
             [code] => BU8601
             [name] => FUNDAMENTALS OF MANAGEMENT*#
         )
 
-    [223] => Array
+    [224] => Array
         (
             [code] => BU8641
             [name] => CULTURAL INTELLIGENCE: HOW TO BE AN EXPLORER OF THE WORLD*#
         )
 
-    [224] => Array
+    [225] => Array
         (
             [code] => BU8642
             [name] => LEADERSHIP IN THE 21ST CENTURY*#
         )
 
-    [225] => Array
+    [226] => Array
         (
             [code] => BU8644
             [name] => SMARTER BRAIN? THE SCIENCE OF DECISION MAKING*#
         )
 
-    [226] => Array
+    [227] => Array
         (
             [code] => BU9302
             [name] => LAW OF INTELLECTUAL PROPERTY & NEW MEDIA*
         )
 
-    [227] => Array
+    [228] => Array
         (
             [code] => CE0001
             [name] => ENGINEERS & SOCIETY
         )
 
-    [228] => Array
+    [229] => Array
         (
             [code] => CE1003
             [name] => INTRODUCTION TO COMPUTATIONAL THINKING*
         )
 
-    [229] => Array
+    [230] => Array
         (
             [code] => CE1005
             [name] => DIGITAL LOGIC*
         )
 
-    [230] => Array
+    [231] => Array
         (
             [code] => CE1006
             [name] => COMPUTER ORGANISATION & ARCHITECTURE*
         )
 
-    [231] => Array
+    [232] => Array
         (
             [code] => CE1007
             [name] => DATA STRUCTURES*
         )
 
-    [232] => Array
+    [233] => Array
         (
             [code] => CE1011
             [name] => ENGINEERING MATHEMATICS I*
         )
 
-    [233] => Array
+    [234] => Array
         (
             [code] => CE1012
             [name] => ENGINEERING MATHEMATICS II*
         )
 
-    [234] => Array
+    [235] => Array
         (
             [code] => CE1015
             [name] => INTRODUCTION TO DATA SCIENCE & ARTIFICIAL INTELLIGENCE
         )
 
-    [235] => Array
+    [236] => Array
         (
             [code] => CE2001
             [name] => ALGORITHMS*
         )
 
-    [236] => Array
+    [237] => Array
         (
             [code] => CE2002
             [name] => OBJECT ORIENTED DESIGN & PROGRAMMING*
         )
 
-    [237] => Array
+    [238] => Array
         (
             [code] => CE2003
             [name] => DIGITAL SYSTEMS DESIGN*
         )
 
-    [238] => Array
+    [239] => Array
         (
             [code] => CE2004
             [name] => CIRCUITS & SIGNAL ANALYSIS*
         )
 
-    [239] => Array
+    [240] => Array
         (
             [code] => CE2005
             [name] => OPERATING SYSTEMS*
         )
 
-    [240] => Array
+    [241] => Array
         (
             [code] => CE2006
             [name] => SOFTWARE ENGINEERING*
         )
 
-    [241] => Array
+    [242] => Array
         (
             [code] => CE3001
             [name] => ADVANCED COMPUTER ARCHITECTURE*
         )
 
-    [242] => Array
+    [243] => Array
         (
             [code] => CE3003
             [name] => MICROCONTROLLER PROGRAMMING*
         )
 
-    [243] => Array
+    [244] => Array
         (
             [code] => CE3004
             [name] => MULTIDISCIPLINARY DESIGN PROJECT
         )
 
-    [244] => Array
+    [245] => Array
         (
             [code] => CE3005
             [name] => COMPUTER NETWORKS*
         )
 
-    [245] => Array
+    [246] => Array
         (
             [code] => CE3007
             [name] => DIGITAL SIGNAL PROCESSING*
         )
 
-    [246] => Array
+    [247] => Array
         (
             [code] => CE4001
             [name] => VIRTUAL & AUGMENTED REALITY*
         )
 
-    [247] => Array
+    [248] => Array
         (
             [code] => CE4013
             [name] => DISTRIBUTED SYSTEMS*
         )
 
-    [248] => Array
+    [249] => Array
         (
             [code] => CE4015
             [name] => SIMULATION & MODELLING*
         )
 
-    [249] => Array
+    [250] => Array
         (
             [code] => CE4021
             [name] => PERVASIVE NETWORKS*
         )
 
-    [250] => Array
+    [251] => Array
         (
             [code] => CE4024
             [name] => CRYPTOGRAPHY & NETWORK SECURITY*
         )
 
-    [251] => Array
+    [252] => Array
         (
             [code] => CE4034
             [name] => INFORMATION RETRIEVAL*
         )
 
-    [252] => Array
+    [253] => Array
         (
             [code] => CE4041
             [name] => MACHINE LEARNING*
         )
 
-    [253] => Array
+    [254] => Array
         (
             [code] => CE4046
             [name] => INTELLIGENT AGENTS*
         )
 
-    [254] => Array
+    [255] => Array
         (
             [code] => CE4055
             [name] => CYBER PHYSICAL SYSTEM SECURITY
         )
 
-    [255] => Array
+    [256] => Array
         (
             [code] => CE4065
             [name] => DIGITAL FORENSICS*
         )
 
-    [256] => Array
+    [257] => Array
         (
             [code] => CE4067
             [name] => SOFTWARE SECURITY
         )
 
-    [257] => Array
+    [258] => Array
         (
             [code] => CE4071
             [name] => NETWORK SCIENCE*
         )
 
-    [258] => Array
+    [259] => Array
         (
             [code] => CE4073
             [name] => SPECIAL TOPIC: DATA SCIENCE FOR BUSINESS*
         )
 
-    [259] => Array
+    [260] => Array
         (
             [code] => CE9010
             [name] => INTRODUCTION TO DATA ANALYSIS*
         )
 
-    [260] => Array
+    [261] => Array
         (
             [code] => CH0491
             [name] => ENGINEERS & SOCIETY
         )
 
-    [261] => Array
+    [262] => Array
         (
             [code] => CH1105
             [name] => MATERIALS SCIENCE
         )
 
-    [262] => Array
+    [263] => Array
         (
             [code] => CH1108
             [name] => THERMODYNAMICS
         )
 
-    [263] => Array
+    [264] => Array
         (
             [code] => CH1117
             [name] => ENGINEERING MATHEMATICS
         )
 
-    [264] => Array
+    [265] => Array
         (
             [code] => CH1802
             [name] => CHEMICAL & BIOMOLECULAR ENGINEERING LABORATORY 2
         )
 
-    [265] => Array
+    [266] => Array
         (
             [code] => CH2010
             [name] => ENGINEERING STATISTICS
         )
 
-    [266] => Array
+    [267] => Array
         (
             [code] => CH2102
             [name] => ORGANIC CHEMISTRY & SPECTROPHOTOMETRY
         )
 
-    [267] => Array
+    [268] => Array
         (
             [code] => CH2104
             [name] => HEAT & MASS TRANSFER IN CHEMICAL & BIOLOGICAL SYSTEMS
         )
 
-    [268] => Array
+    [269] => Array
         (
             [code] => CH2109
             [name] => DECISION TOOLS FOR ENGINEERING BUSINESS
         )
 
-    [269] => Array
+    [270] => Array
         (
             [code] => CH2112
             [name] => CHEMICAL REACTION ENGINEERING
         )
 
-    [270] => Array
+    [271] => Array
         (
             [code] => CH2114
             [name] => HEAT & MASS TRANSFER IN CHEMICAL & BIOLOGICAL SYSTEMS
         )
 
-    [271] => Array
+    [272] => Array
         (
             [code] => CH2802
             [name] => CHEMICAL & BIOMOLECULAR ENGINEERING LABORATORY 2B
         )
 
-    [272] => Array
+    [273] => Array
         (
             [code] => CH3102
             [name] => CHEMICAL REACTION ENGINEERING
         )
 
-    [273] => Array
+    [274] => Array
         (
             [code] => CH3104
             [name] => BIOCHEMICAL ENGINEERING
         )
 
-    [274] => Array
+    [275] => Array
         (
             [code] => CH3141
             [name] => ADVANCED UNIT OPERATIONS
         )
 
-    [275] => Array
+    [276] => Array
         (
             [code] => CH4211
             [name] => CNYSP OVERSEAS FINAL YEAR PROJECT
         )
 
-    [276] => Array
+    [277] => Array
         (
             [code] => CH4213
             [name] => PHARMACOKINETICS & BIOPHARMACEUTICS*
         )
 
-    [277] => Array
+    [278] => Array
         (
             [code] => CH4245
             [name] => CASE STUDIES FOR CHEMICAL & BIOMEDICAL ENGINEERS
         )
 
-    [278] => Array
+    [279] => Array
         (
             [code] => CH4303
             [name] => BIOSEPARATIONS*
         )
 
-    [279] => Array
+    [280] => Array
         (
             [code] => CH4703
             [name] => INDEPENDENT RESEARCH PROJECT 2
         )
 
-    [280] => Array
+    [281] => Array
         (
             [code] => CH4801
             [name] => FINAL YEAR DESIGN PROJECT
         )
 
-    [281] => Array
+    [282] => Array
         (
             [code] => CH9200
             [name] => FOOD MICROBIOLOGY*
         )
 
-    [282] => Array
+    [283] => Array
         (
             [code] => CH9202
             [name] => FOOD PHYSICS*
         )
 
-    [283] => Array
+    [284] => Array
         (
             [code] => CH9204
             [name] => QUALITY SYSTEMS OPERATIONS*
         )
 
-    [284] => Array
+    [285] => Array
         (
             [code] => CH9220
             [name] => FOOD STANDARDS - IN FOOD PRODUCTION & TRADE*
         )
 
-    [285] => Array
+    [286] => Array
         (
             [code] => CM1041
             [name] => BASIC PHYSICAL CHEMISTRY WITH LABORATORY*
         )
 
-    [286] => Array
+    [287] => Array
         (
             [code] => CM1051
             [name] => BASIC BIOLOGY & BIOCHEMISTRY*
         )
 
-    [287] => Array
+    [288] => Array
         (
             [code] => CM2021
             [name] => INORGANIC & BIOINORGANIC CHEMISTRY*
         )
 
-    [288] => Array
+    [289] => Array
         (
             [code] => CM2031
             [name] => ORGANIC & BIOORGANIC CHEMISTRY*
         )
 
-    [289] => Array
+    [290] => Array
         (
             [code] => CM2041
             [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 1*
         )
 
-    [290] => Array
+    [291] => Array
         (
             [code] => CM2062
             [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 2*
         )
 
-    [291] => Array
+    [292] => Array
         (
             [code] => CM3021
             [name] => ORGANOMETALLIC CHEMISTRY*
         )
 
-    [292] => Array
+    [293] => Array
         (
             [code] => CM3031
             [name] => ORGANIC REACTION MECHANISMS & SYNTHESIS*
         )
 
-    [293] => Array
+    [294] => Array
         (
             [code] => CM3041
             [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 2*
         )
 
-    [294] => Array
+    [295] => Array
         (
             [code] => CM3061
             [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 3
         )
 
-    [295] => Array
+    [296] => Array
         (
             [code] => CM4011
             [name] => ADVANCED ANALYTICAL CHEMISTRY*
         )
 
-    [296] => Array
+    [297] => Array
         (
             [code] => CM4014
             [name] => NANOSCIENCE & NANOTECHNOLOGY
         )
 
-    [297] => Array
+    [298] => Array
         (
             [code] => CM4021
             [name] => CURRENT TOPICS IN INORGANIC CHEMISTRY*
         )
 
-    [298] => Array
+    [299] => Array
         (
             [code] => CM4031
             [name] => ASYMMETRIC SYNTHESIS*
         )
 
-    [299] => Array
+    [300] => Array
         (
             [code] => CM4032
             [name] => CURRENT TOPICS IN SYNTHETIC ORGANIC CHEMISTRY*
         )
 
-    [300] => Array
+    [301] => Array
         (
             [code] => CM4033
             [name] => METAL MEDIATED REACTIONS*
         )
 
-    [301] => Array
+    [302] => Array
         (
             [code] => CM4042
             [name] => CHEMICAL KINETICS & DYNAMICS*
         )
 
-    [302] => Array
+    [303] => Array
         (
             [code] => CM442S
             [name] => CHEMICAL KINETICS & DYNAMICS*
         )
 
-    [303] => Array
+    [304] => Array
         (
             [code] => CM8001
             [name] => THE IMPACT OF CHEMISTRY ON SOCIETY*#
         )
 
-    [304] => Array
+    [305] => Array
         (
             [code] => CM8003
             [name] => FROM ALCHEMY TO CHEMISTRY*#
         )
 
-    [305] => Array
+    [306] => Array
         (
             [code] => CM8012
             [name] => INTRODUCTION TO FORENSIC SCIENCE*#
         )
 
-    [306] => Array
+    [307] => Array
         (
             [code] => CM9031
             [name] => ANALYTICAL & MANUFACTURING TECHNIQUES IN PHARMA INDUSTRY*
         )
 
-    [307] => Array
+    [308] => Array
         (
             [code] => CM9082
             [name] => DRUG DESIGN & SYNTHESIS*
         )
 
-    [308] => Array
+    [309] => Array
         (
             [code] => CM9091
             [name] => INDUSTRIAL & ENVIRONMENTAL CHEMISTRY*
         )
 
-    [309] => Array
+    [310] => Array
         (
             [code] => CM9102
             [name] => FOOD ANALYSIS & SAFETY*
         )
 
-    [310] => Array
+    [311] => Array
         (
             [code] => CM9103
             [name] => FOOD PROCESSING & PRESERVATION*
         )
 
-    [311] => Array
+    [312] => Array
         (
             [code] => CS0204
             [name] => BASIC MEDIA WRITING*
         )
 
-    [312] => Array
+    [313] => Array
         (
             [code] => CS2005
             [name] => SPEECH & ARGUMENTATION
         )
 
-    [313] => Array
+    [314] => Array
         (
             [code] => CS2008
             [name] => FUNDAMENTALS OF RESEARCH*
         )
 
-    [314] => Array
+    [315] => Array
         (
             [code] => CS2021
             [name] => NEWS REPORTING & WRITING*
         )
 
-    [315] => Array
+    [316] => Array
         (
             [code] => CS2023
             [name] => PRINT & DIGITAL PUBLICATIONS*
         )
 
-    [316] => Array
+    [317] => Array
         (
             [code] => CS2024
             [name] => WEB DESIGN & TECHNOLOGIES*
         )
 
-    [317] => Array
+    [318] => Array
         (
             [code] => CS2025
             [name] => IMAGE & SOUND PRODUCTION*
         )
 
-    [318] => Array
+    [319] => Array
         (
             [code] => CS2030
             [name] => AUDIO IN MEDIA*
         )
 
-    [319] => Array
+    [320] => Array
         (
             [code] => CS2033
             [name] => CORPORATE COMMUNICATIONS MANAGEMENT*
         )
 
-    [320] => Array
+    [321] => Array
         (
             [code] => CS2044
             [name] => PHOTOJOURNALISM*
         )
 
-    [321] => Array
+    [322] => Array
         (
             [code] => CS2045
             [name] => ONLINE JOURNALISM*
         )
 
-    [322] => Array
+    [323] => Array
         (
             [code] => CS2050
             [name] => PEOPLE, POLITICS & THE MEDIA*
         )
 
-    [323] => Array
+    [324] => Array
         (
             [code] => CS2055
             [name] => ORGANISATIONAL COMMUNICATION*
         )
 
-    [324] => Array
+    [325] => Array
         (
             [code] => CS2056
             [name] => PSYCHOLOGY & COMMUNICATION*
         )
 
-    [325] => Array
+    [326] => Array
         (
             [code] => CS2058
             [name] => INTEGRATED MARKETING COMMUNICATION*
         )
 
-    [326] => Array
+    [327] => Array
         (
             [code] => CS2071
             [name] => NEWS PRACTICUM*
         )
 
-    [327] => Array
+    [328] => Array
         (
             [code] => CS2088
             [name] => THE CONTENT LAB FOR COMMUNITY MANAGEMENT*
         )
 
-    [328] => Array
+    [329] => Array
         (
             [code] => CS2090
             [name] => DIGITAL MEDIA ENTREPRENEURSHIP*
         )
 
-    [329] => Array
+    [330] => Array
         (
             [code] => CS2101
             [name] => PUBLIC RELATIONS WRITING*
         )
 
-    [330] => Array
+    [331] => Array
         (
             [code] => CS2300
             [name] => ACTING & DIRECTING FOR TV & FILM*
         )
 
-    [331] => Array
+    [332] => Array
         (
             [code] => CS2400
             [name] => FOUNDATION OF INFORMATION ANALYTICS*
         )
 
-    [332] => Array
+    [333] => Array
         (
             [code] => CS2403
             [name] => INFORMATION VISUALIZATION AND PRESENTATION*
         )
 
-    [333] => Array
+    [334] => Array
         (
             [code] => CS4011
             [name] => NEWS COPY EDITING*
         )
 
-    [334] => Array
+    [335] => Array
         (
             [code] => CS4022
             [name] => SOCIAL MEDIA MINING*
         )
 
-    [335] => Array
+    [336] => Array
         (
             [code] => CS4024
             [name] => WRITING FOR CINEMA & TV*
         )
 
-    [336] => Array
+    [337] => Array
         (
             [code] => CS4029
             [name] => ADVERTISING CREATIVITY & COPYWRITING*
         )
 
-    [337] => Array
+    [338] => Array
         (
             [code] => CS4034
             [name] => BRAND MANAGEMENT*
         )
 
-    [338] => Array
+    [339] => Array
         (
             [code] => CS4039
             [name] => FRONTIERS IN COMMUNICATION SCIENCE*
         )
 
-    [339] => Array
+    [340] => Array
         (
             [code] => CS4042
             [name] => ADVANCED RESEARCH METHODS*
         )
 
-    [340] => Array
+    [341] => Array
         (
             [code] => CS4053
             [name] => POPULAR CINEMA*
         )
 
-    [341] => Array
+    [342] => Array
         (
             [code] => CS4054
             [name] => ASIAN CINEMA*
         )
 
-    [342] => Array
+    [343] => Array
         (
             [code] => CS4059
             [name] => PUBLIC OPINION*
         )
 
-    [343] => Array
+    [344] => Array
         (
             [code] => CS4075
             [name] => SELECTED TOPICS IN PR:EVALUATING & PRODUCING CAMPAIGN RESULT*
         )
 
-    [344] => Array
+    [345] => Array
         (
             [code] => CS4091
             [name] => NEWS PRACTICUM*
         )
 
-    [345] => Array
+    [346] => Array
         (
             [code] => CS4092
             [name] => NEW MEDIA & SOCIETY*
         )
 
-    [346] => Array
+    [347] => Array
         (
             [code] => CS4131
             [name] => RISK COMMUNICATION*
         )
 
-    [347] => Array
+    [348] => Array
         (
             [code] => CS4264
             [name] => INTRODUCTION TO NETWORK ANALYSIS*
         )
 
-    [348] => Array
+    [349] => Array
         (
             [code] => CS8060
             [name] => INTRODUCTION TO ADVERTISING*#
         )
 
-    [349] => Array
+    [350] => Array
         (
             [code] => CS8800
             [name] => MEDIA & SOCIETY IN THE DIGITAL AGE*#
         )
 
-    [350] => Array
+    [351] => Array
         (
             [code] => CS8900
             [name] => GLOBAL CINEMA*#
         )
 
-    [351] => Array
+    [352] => Array
         (
             [code] => CS9080
             [name] => NEWS MEDIA LAB*
         )
 
-    [352] => Array
+    [353] => Array
         (
             [code] => CV0001
             [name] => CIVIL ENGINEERING & SUSTAINABLE BUILT ENVIRONMENT#
         )
 
-    [353] => Array
+    [354] => Array
         (
             [code] => CV0002
             [name] => ENGINEERS & SOCIETY
         )
 
-    [354] => Array
+    [355] => Array
         (
             [code] => CV1011
             [name] => MECHANICS OF MATERIALS
         )
 
-    [355] => Array
+    [356] => Array
         (
             [code] => CV1012
             [name] => FLUID MECHANICS
         )
 
-    [356] => Array
+    [357] => Array
         (
             [code] => CV1013
             [name] => CIVIL ENGINEERING MATERIALS
         )
 
-    [357] => Array
+    [358] => Array
         (
             [code] => CV1014
             [name] => INTRODUCTION TO COMPUTATIONAL THINKING
         )
 
-    [358] => Array
+    [359] => Array
         (
             [code] => CV1711
             [name] => ENGINEERING DRAWING & 3D BUILDING INFORMATION MODELLING
         )
 
-    [359] => Array
+    [360] => Array
         (
             [code] => CV2011
             [name] => STRUCTURAL ANALYSIS I
         )
 
-    [360] => Array
+    [361] => Array
         (
             [code] => CV2012
             [name] => STRUCTURAL ANALYSIS II
         )
 
-    [361] => Array
+    [362] => Array
         (
             [code] => CV2014
             [name] => GEOTECHNICAL ENGINEERING
         )
 
-    [362] => Array
+    [363] => Array
         (
             [code] => CV2016
             [name] => HYDROLOGY
         )
 
-    [363] => Array
+    [364] => Array
         (
             [code] => CV2019
             [name] => MATRIX ALGEBRA & COMPUTATIONAL METHODS
         )
 
-    [364] => Array
+    [365] => Array
         (
             [code] => CV2712
             [name] => CIVIL ENGINEERING LABORATORY B
         )
 
-    [365] => Array
+    [366] => Array
         (
             [code] => CV3012
             [name] => STEEL DESIGN
         )
 
-    [366] => Array
+    [367] => Array
         (
             [code] => CV3016
             [name] => CONSTRUCTION TECHNOLOGY & PROCESSES
         )
 
-    [367] => Array
+    [368] => Array
         (
             [code] => CV4107
             [name] => ENGINEERING ECONOMICS & FINANCE#
         )
 
-    [368] => Array
+    [369] => Array
         (
             [code] => CV4111
             [name] => GROUND ENGINEERING
         )
 
-    [369] => Array
+    [370] => Array
         (
             [code] => CV4113
             [name] => HIGHWAY ENGINEERING
         )
 
-    [370] => Array
+    [371] => Array
         (
             [code] => CV4119
             [name] => ADVANCED PREFABRICATION & PRECAST CONSTRUCTION
         )
 
-    [371] => Array
+    [372] => Array
         (
             [code] => CV4912
             [name] => INTEGRATED DESIGN PROJECT
         )
 
-    [372] => Array
+    [373] => Array
         (
             [code] => CV8011
             [name] => HUMAN RESOURCES MANAGEMENT & ENTREPRENEURSHIP#
         )
 
-    [373] => Array
+    [374] => Array
         (
             [code] => CY0002
             [name] => ETHICS
         )
 
-    [374] => Array
+    [375] => Array
         (
             [code] => CY0006
             [name] => ENTERPRISE, INNOVATION & LEADERSHIP
         )
 
-    [375] => Array
+    [376] => Array
         (
             [code] => CY1007
             [name] => CLIMATE CHANGE
         )
 
-    [376] => Array
+    [377] => Array
         (
             [code] => CY1307
             [name] => RELATIVITY & QUANTUM PHYSICS
         )
 
-    [377] => Array
+    [378] => Array
         (
             [code] => CY1400
             [name] => CN YANG SCHOLARS PROGRAMME UNDERGRADUATE RESEARCH EXPERIENCE
         )
 
-    [378] => Array
+    [379] => Array
         (
             [code] => CY1602
             [name] => MATHEMATICS II
         )
 
-    [379] => Array
+    [380] => Array
         (
             [code] => CY2001
             [name] => RESEARCH ATTACHMENT 1
         )
 
-    [380] => Array
+    [381] => Array
         (
             [code] => CY2002
             [name] => RESEARCH ATTACHMENT 2
         )
 
-    [381] => Array
+    [382] => Array
         (
             [code] => CZ0001
             [name] => ENGINEERS & SOCIETY
         )
 
-    [382] => Array
+    [383] => Array
         (
             [code] => CZ1003
             [name] => INTRODUCTION TO COMPUTATIONAL THINKING*
         )
 
-    [383] => Array
+    [384] => Array
         (
             [code] => CZ1005
             [name] => DIGITAL LOGIC*
         )
 
-    [384] => Array
+    [385] => Array
         (
             [code] => CZ1006
             [name] => COMPUTER ORGANISATION & ARCHITECTURE*
         )
 
-    [385] => Array
+    [386] => Array
         (
             [code] => CZ1007
             [name] => DATA STRUCTURES*
         )
 
-    [386] => Array
+    [387] => Array
         (
             [code] => CZ1011
             [name] => ENGINEERING MATHEMATICS I*
         )
 
-    [387] => Array
+    [388] => Array
         (
             [code] => CZ1012
             [name] => ENGINEERING MATHEMATICS II*
         )
 
-    [388] => Array
+    [389] => Array
         (
             [code] => CZ1015
             [name] => INTRODUCTION TO DATA SCIENCE & ARTIFICIAL INTELLIGENCE
         )
 
-    [389] => Array
+    [390] => Array
         (
             [code] => CZ1016
             [name] => INTRODUCTION TO DATA SCIENCE
         )
 
-    [390] => Array
+    [391] => Array
         (
             [code] => CZ2001
             [name] => ALGORITHMS*
         )
 
-    [391] => Array
+    [392] => Array
         (
             [code] => CZ2002
             [name] => OBJECT ORIENTED DESIGN & PROGRAMMING*
         )
 
-    [392] => Array
+    [393] => Array
         (
             [code] => CZ2003
             [name] => COMPUTER GRAPHICS & VISUALISATION*
         )
 
-    [393] => Array
+    [394] => Array
         (
             [code] => CZ2004
             [name] => HUMAN COMPUTER INTERACTION*
         )
 
-    [394] => Array
+    [395] => Array
         (
             [code] => CZ2005
             [name] => OPERATING SYSTEMS*
         )
 
-    [395] => Array
+    [396] => Array
         (
             [code] => CZ2006
             [name] => SOFTWARE ENGINEERING*
         )
 
-    [396] => Array
+    [397] => Array
         (
             [code] => CZ2007
             [name] => INTRODUCTION TO DATABASES*
         )
 
-    [397] => Array
+    [398] => Array
         (
             [code] => CZ3001
             [name] => ADVANCED COMPUTER ARCHITECTURE*
         )
 
-    [398] => Array
+    [399] => Array
         (
             [code] => CZ3002
             [name] => ADVANCED SOFTWARE ENGINEERING*
         )
 
-    [399] => Array
+    [400] => Array
         (
             [code] => CZ3003
             [name] => SOFTWARE SYSTEMS ANALYSIS & DESIGN*
         )
 
-    [400] => Array
+    [401] => Array
         (
             [code] => CZ3004
             [name] => MULTIDISCIPLINARY DESIGN PROJECT
         )
 
-    [401] => Array
+    [402] => Array
         (
             [code] => CZ3005
             [name] => ARTIFICIAL INTELLIGENCE*
         )
 
-    [402] => Array
+    [403] => Array
         (
             [code] => CZ3006
             [name] => NET CENTRIC COMPUTING*
         )
 
-    [403] => Array
+    [404] => Array
         (
             [code] => CZ3007
             [name] => COMPILER TECHNIQUES*
         )
 
-    [404] => Array
+    [405] => Array
         (
             [code] => CZ4001
             [name] => VIRTUAL & AUGMENTED REALITY*
         )
 
-    [405] => Array
+    [406] => Array
         (
             [code] => CZ4013
             [name] => DISTRIBUTED SYSTEMS*
         )
 
-    [406] => Array
+    [407] => Array
         (
             [code] => CZ4015
             [name] => SIMULATION & MODELLING*
         )
 
-    [407] => Array
+    [408] => Array
         (
             [code] => CZ4021
             [name] => PERVASIVE NETWORKS*
         )
 
-    [408] => Array
+    [409] => Array
         (
             [code] => CZ4024
             [name] => CRYPTOGRAPHY & NETWORK SECURITY*
         )
 
-    [409] => Array
+    [410] => Array
         (
             [code] => CZ4034
             [name] => INFORMATION RETRIEVAL*
         )
 
-    [410] => Array
+    [411] => Array
         (
             [code] => CZ4041
             [name] => MACHINE LEARNING*
         )
 
-    [411] => Array
+    [412] => Array
         (
             [code] => CZ4046
             [name] => INTELLIGENT AGENTS*
         )
 
-    [412] => Array
+    [413] => Array
         (
             [code] => CZ4055
             [name] => CYBER PHYSICAL SYSTEM SECURITY
         )
 
-    [413] => Array
+    [414] => Array
         (
             [code] => CZ4065
             [name] => DIGITAL FORENSICS*
         )
 
-    [414] => Array
+    [415] => Array
         (
             [code] => CZ4067
             [name] => SOFTWARE SECURITY
         )
 
-    [415] => Array
+    [416] => Array
         (
             [code] => CZ4071
             [name] => NETWORK SCIENCE*
         )
 
-    [416] => Array
+    [417] => Array
         (
             [code] => CZ4073
             [name] => SPECIAL TOPIC: DATA SCIENCE FOR BUSINESS*
         )
 
-    [417] => Array
+    [418] => Array
         (
             [code] => DA2000
             [name] => APPLIED DRAWING*
         )
 
-    [418] => Array
+    [419] => Array
         (
             [code] => DA2001
             [name] => PAINTING*
         )
 
-    [419] => Array
+    [420] => Array
         (
             [code] => DA2002
             [name] => THINKING & COMMUNICATING VISUALLY II
         )
 
-    [420] => Array
+    [421] => Array
         (
             [code] => DA2003
             [name] => WATERMEDIA LANDSCAPE PAINTING*
         )
 
-    [421] => Array
+    [422] => Array
         (
             [code] => DA3000
             [name] => THINKING & COMMUNICATING VISUALLY III
         )
 
-    [422] => Array
+    [423] => Array
         (
             [code] => DA9009
             [name] => EXHIBITION DESIGN*
         )
 
-    [423] => Array
+    [424] => Array
         (
             [code] => DA9012
             [name] => MEDIA ART NEXUS*
         )
 
-    [424] => Array
+    [425] => Array
         (
             [code] => DA9013
             [name] => DRAWING & SKETCHING FOR DESIGN*
         )
 
-    [425] => Array
+    [426] => Array
         (
             [code] => DD0000
             [name] => WRITING NARRATIVES FOR CREATIVE MEDIA
         )
 
-    [426] => Array
+    [427] => Array
         (
             [code] => DD0002
             [name] => THE CONTEMPORARY CREATIVE & CULTURAL INDUSTRY OF SINGAPORE
         )
 
-    [427] => Array
+    [428] => Array
         (
             [code] => DD1004
             [name] => INTRODUCTION TO THE HISTORIES OF ART II*
         )
 
-    [428] => Array
+    [429] => Array
         (
             [code] => DD2000
             [name] => INTRODUCTION TO THE HISTORIES OF ART III*
         )
 
-    [429] => Array
+    [430] => Array
         (
             [code] => DD2003
             [name] => ISSUES IN ART HISTORY & THEORY*
         )
 
-    [430] => Array
+    [431] => Array
         (
             [code] => DD2005
             [name] => SURVEY OF NEW MEDIA*
         )
 
-    [431] => Array
+    [432] => Array
         (
             [code] => DD2007
             [name] => THE ART & ARCHITECTURE OF 'THE LONG CENTURY':1789-1914*
         )
 
-    [432] => Array
+    [433] => Array
         (
             [code] => DD3005
             [name] => SURVEY OF MODERN ART,1900-1945*
         )
 
-    [433] => Array
+    [434] => Array
         (
             [code] => DD3010
             [name] => ISSUES IN GLOBAL CONTEMPORARY ART*
         )
 
-    [434] => Array
+    [435] => Array
         (
             [code] => DD8004
             [name] => THE FANTASTIC IN WESTERN VISUAL ARTS*#
         )
 
-    [435] => Array
+    [436] => Array
         (
             [code] => DD8008
             [name] => FAITH & ART*#
         )
 
-    [436] => Array
+    [437] => Array
         (
             [code] => DD8009
             [name] => JAPANESE ART: EDO TO CONTEMPORARY*#
         )
 
-    [437] => Array
+    [438] => Array
         (
             [code] => DD9009
             [name] => DESIGN THINKING*
         )
 
-    [438] => Array
+    [439] => Array
         (
             [code] => DF2001
             [name] => FILM EDITING*
         )
 
-    [439] => Array
+    [440] => Array
         (
             [code] => DF2003
             [name] => CINEMATOGRAPHY I*
         )
 
-    [440] => Array
+    [441] => Array
         (
             [code] => DF2008
             [name] => ISSUES IN FILM PRACTICE*
         )
 
-    [441] => Array
+    [442] => Array
         (
             [code] => DF3002
             [name] => DOCUMENTARY FILMMAKING*
         )
 
-    [442] => Array
+    [443] => Array
         (
             [code] => DF3003
             [name] => FILM PRODUCING
         )
 
-    [443] => Array
+    [444] => Array
         (
             [code] => DF3004
             [name] => DIGITAL FILM PRODUCTION II
         )
 
-    [444] => Array
+    [445] => Array
         (
             [code] => DF3005
             [name] => AUDIO POST-PRODUCTION FOR FILM*
         )
 
-    [445] => Array
+    [446] => Array
         (
             [code] => DF3006
             [name] => CINEMATOGRAPHY II*
         )
 
-    [446] => Array
+    [447] => Array
         (
             [code] => DF3008
             [name] => SOUND FOR FILM*
         )
 
-    [447] => Array
+    [448] => Array
         (
             [code] => DF3009
             [name] => FILM DIRECTING
         )
 
-    [448] => Array
+    [449] => Array
         (
             [code] => DF3010
             [name] => EXPERIMENTAL FILM PRODUCTION*
         )
 
-    [449] => Array
+    [450] => Array
         (
             [code] => DF3011
             [name] => ADVANCED DIRECTING FOR FILM*
         )
 
-    [450] => Array
+    [451] => Array
         (
             [code] => DF8000
             [name] => SURVEY OF EXPERIMENTAL FILM*#
         )
 
-    [451] => Array
+    [452] => Array
         (
             [code] => DF9001
             [name] => THE ART OF LIGHTING*
         )
 
-    [452] => Array
+    [453] => Array
         (
             [code] => DM2000
             [name] => INTERACTIVE I*
         )
 
-    [453] => Array
+    [454] => Array
         (
             [code] => DM2006
             [name] => NARRATIVES FOR INTERACTION*
         )
 
-    [454] => Array
+    [455] => Array
         (
             [code] => DM2007
             [name] => INTERACTIVE II*
         )
 
-    [455] => Array
+    [456] => Array
         (
             [code] => DM2008
             [name] => PROGRAMMING FOR INTERACTION*
         )
 
-    [456] => Array
+    [457] => Array
         (
             [code] => DM2011
             [name] => ISSUES IN INTERACTIVE MEDIA PRACTICE*
         )
 
-    [457] => Array
+    [458] => Array
         (
             [code] => DM3000
             [name] => WEB DESIGN*
         )
 
-    [458] => Array
+    [459] => Array
         (
             [code] => DM3003
             [name] => INTERACTIVE SPACES
         )
 
-    [459] => Array
+    [460] => Array
         (
             [code] => DM3010
             [name] => PROJECT DEVELOPMENT & PLANNING
         )
 
-    [460] => Array
+    [461] => Array
         (
             [code] => DN1009
             [name] => GRAPHIC FORM
         )
 
-    [461] => Array
+    [462] => Array
         (
             [code] => DN1010
             [name] => EXPERIMENTAL INTERACTION
         )
 
-    [462] => Array
+    [463] => Array
         (
             [code] => DN1011
             [name] => FORM & VISUALISATION
         )
 
-    [463] => Array
+    [464] => Array
         (
             [code] => DN1012
             [name] => BLACK & WHITE FILM PHOTOGRAPHY
         )
 
-    [464] => Array
+    [465] => Array
         (
             [code] => DN1013
             [name] => CONCEPTS OF DIGITAL IMAGING
         )
 
-    [465] => Array
+    [466] => Array
         (
             [code] => DN1014
             [name] => DRAWING FOR ANIMATION
         )
 
-    [466] => Array
+    [467] => Array
         (
             [code] => DN1015
             [name] => PRACTICAL DIGITAL FILMMAKING
         )
 
-    [467] => Array
+    [468] => Array
         (
             [code] => DN1016
             [name] => VISUAL STORYTELLING
         )
 
-    [468] => Array
+    [469] => Array
         (
             [code] => DP2000
             [name] => PHOTO IMAGING I: BLACK & WHITE FILM PHOTOGRAPHY*
         )
 
-    [469] => Array
+    [470] => Array
         (
             [code] => DP2001
             [name] => DIGITAL PHOTOGRAPHY*
         )
 
-    [470] => Array
+    [471] => Array
         (
             [code] => DP2005
             [name] => PHOTO IMAGING II: COLOUR PHOTOGRAPHY
         )
 
-    [471] => Array
+    [472] => Array
         (
             [code] => DP2008
             [name] => EXPERIMENTAL PHOTOGRAPHY*
         )
 
-    [472] => Array
+    [473] => Array
         (
             [code] => DP3003
             [name] => NARRATIVE PORTRAITS
         )
 
-    [473] => Array
+    [474] => Array
         (
             [code] => DP3005
             [name] => FINE ART DIGITAL PRINTING
         )
 
-    [474] => Array
+    [475] => Array
         (
             [code] => DP3006
             [name] => DOCUMENTARY PHOTOGRAPHIC PROJECTS
         )
 
-    [475] => Array
+    [476] => Array
         (
             [code] => DP3008
             [name] => LOCATION EXPERIENCES IN PHOTOGRAPHY
-        )
-
-    [476] => Array
-        (
-            [code] => DP4001
-            [name] => EXTENDED IMAGE
         )
 
     [477] => Array
@@ -5606,1373 +5606,1361 @@ Array
 
     [934] => Array
         (
-            [code] => LL9001
-            [name] => SINGAPORE SIGN LANGUAGE LEVEL 1*
-        )
-
-    [935] => Array
-        (
             [code] => LM9001
             [name] => MALAY LANGUAGE LEVEL 1*
         )
 
-    [936] => Array
+    [935] => Array
         (
             [code] => LM9002
             [name] => MALAY LANGUAGE LEVEL 2*
         )
 
-    [937] => Array
+    [936] => Array
         (
             [code] => LM9003
             [name] => MALAY LANGUAGE LEVEL 3*
         )
 
-    [938] => Array
+    [937] => Array
         (
             [code] => LR9001
             [name] => RUSSIAN LANGUAGE LEVEL 1*
         )
 
-    [939] => Array
+    [938] => Array
         (
             [code] => LR9002
             [name] => RUSSIAN LANGUAGE LEVEL 2*
         )
 
-    [940] => Array
+    [939] => Array
         (
             [code] => LS9001
             [name] => SPANISH LANGUAGE LEVEL 1*
         )
 
-    [941] => Array
+    [940] => Array
         (
             [code] => LS9002
             [name] => SPANISH LANGUAGE LEVEL 2*
         )
 
-    [942] => Array
+    [941] => Array
         (
             [code] => LS9003
             [name] => SPANISH LANGUAGE LEVEL 3*
         )
 
-    [943] => Array
+    [942] => Array
         (
             [code] => LS9004
             [name] => SPANISH LANGUAGE LEVEL 4*
         )
 
-    [944] => Array
+    [943] => Array
         (
             [code] => LT9001
             [name] => THAI LANGUAGE LEVEL 1*
         )
 
-    [945] => Array
+    [944] => Array
         (
             [code] => LT9002
             [name] => THAI LANGUAGE LEVEL 2*
         )
 
-    [946] => Array
+    [945] => Array
         (
             [code] => LT9003
             [name] => THAI LANGUAGE LEVEL 3*
         )
 
-    [947] => Array
+    [946] => Array
         (
             [code] => LV9001
             [name] => VIETNAMESE LANGUAGE LEVEL 1*
         )
 
-    [948] => Array
+    [947] => Array
         (
             [code] => LX9001
             [name] => LATIN LANGUAGE LEVEL 1*
         )
 
-    [949] => Array
+    [948] => Array
         (
             [code] => MA0101
             [name] => ENGINEERS & SOCIETY
         )
 
-    [950] => Array
+    [949] => Array
         (
             [code] => MA1001
             [name] => DYNAMICS
         )
 
-    [951] => Array
+    [950] => Array
         (
             [code] => MA1002
             [name] => FUNDAMENTAL ENGINEERING MATERIALS
         )
 
-    [952] => Array
+    [951] => Array
         (
             [code] => MA1700
             [name] => AEROSPACE DISCOVERY COURSE
         )
 
-    [953] => Array
+    [952] => Array
         (
             [code] => MA2001
             [name] => MECHANICS OF MATERIALS
         )
 
-    [954] => Array
+    [953] => Array
         (
             [code] => MA2002
             [name] => THEORY OF MECHANISM*
         )
 
-    [955] => Array
+    [954] => Array
         (
             [code] => MA2003
             [name] => INTRODUCTION TO THERMO-FLUIDS
         )
 
-    [956] => Array
+    [955] => Array
         (
             [code] => MA2004
             [name] => MANUFACTURING PROCESSES
         )
 
-    [957] => Array
+    [956] => Array
         (
             [code] => MA2005
             [name] => ENGINEERING GRAPHICS
         )
 
-    [958] => Array
+    [957] => Array
         (
             [code] => MA2006
             [name] => ENGINEERING MATHEMATICS
         )
 
-    [959] => Array
+    [958] => Array
         (
             [code] => MA2007
             [name] => THERMODYNAMICS
         )
 
-    [960] => Array
+    [959] => Array
         (
             [code] => MA2009
             [name] => INTRODUCTION TO ELECTRICAL CIRCUITS & ELECTRONIC DEVICES*
         )
 
-    [961] => Array
+    [960] => Array
         (
             [code] => MA2011
             [name] => MECHATRONICS SYSTEM INTERFACING
         )
 
-    [962] => Array
+    [961] => Array
         (
             [code] => MA2013
             [name] => CREATIVE THINKING & DESIGN
         )
 
-    [963] => Array
+    [962] => Array
         (
             [code] => MA2071
             [name] => LABORATORY EXPERIMENTS (ME)
         )
 
-    [964] => Array
+    [963] => Array
         (
             [code] => MA2079
             [name] => ENGINEERING INNOVATION & DESIGN
         )
 
-    [965] => Array
+    [964] => Array
         (
             [code] => MA2700
             [name] => AEROSPACE MATERIALS & MANUFACTURING PROCESSES
         )
 
-    [966] => Array
+    [965] => Array
         (
             [code] => MA3001
             [name] => MACHINE ELEMENT DESIGN
         )
 
-    [967] => Array
+    [966] => Array
         (
             [code] => MA3002
             [name] => SOLID MECHANICS & VIBRATION
         )
 
-    [968] => Array
+    [967] => Array
         (
             [code] => MA3003
             [name] => HEAT TRANSFER
         )
 
-    [969] => Array
+    [968] => Array
         (
             [code] => MA3004
             [name] => MATHEMATICAL METHODS IN ENGINEERING
         )
 
-    [970] => Array
+    [969] => Array
         (
             [code] => MA3005
             [name] => CONTROL THEORY
         )
 
-    [971] => Array
+    [970] => Array
         (
             [code] => MA3006
             [name] => FLUID MECHANICS
         )
 
-    [972] => Array
+    [971] => Array
         (
             [code] => MA3071
             [name] => ENGINEERING EXPERIMENTS (ME)
         )
 
-    [973] => Array
+    [972] => Array
         (
             [code] => MA3705
             [name] => AEROSPACE CONTROL THEORY
         )
 
-    [974] => Array
+    [973] => Array
         (
             [code] => MA4001
             [name] => ENGINEERING DESIGN
         )
 
-    [975] => Array
+    [974] => Array
         (
             [code] => MA4002
             [name] => FLUID DYNAMICS
         )
 
-    [976] => Array
+    [975] => Array
         (
             [code] => MA4011
             [name] => ENGINEERING PRODUCT DESIGN
         )
 
-    [977] => Array
+    [976] => Array
         (
             [code] => MA4012
             [name] => MECHATRONICS ENGINEERING DESIGN
         )
 
-    [978] => Array
+    [977] => Array
         (
             [code] => MA4807
             [name] => MARINE STRUCTURAL INTEGRITY
         )
 
-    [979] => Array
+    [978] => Array
         (
             [code] => MA4808
             [name] => MARINE CONTROL SYSTEMS
         )
 
-    [980] => Array
+    [979] => Array
         (
             [code] => MA4813
             [name] => BUILDING SERVICES ENGINEERING
         )
 
-    [981] => Array
+    [980] => Array
         (
             [code] => MA4822
             [name] => MEASUREMENTS & SENSING SYSTEMS
         )
 
-    [982] => Array
+    [981] => Array
         (
             [code] => MA4831
             [name] => COMPUTER-AIDED ENGINEERING
         )
 
-    [983] => Array
+    [982] => Array
         (
             [code] => MA4837
             [name] => NET SHAPE MANUFACTURING
         )
 
-    [984] => Array
+    [983] => Array
         (
             [code] => MA4843
             [name] => MANAGEMENT OF PRODUCT DEVELOPMENT*
         )
 
-    [985] => Array
+    [984] => Array
         (
             [code] => MA4845
             [name] => MANUFACTURING AUTOMATION*
         )
 
-    [986] => Array
+    [985] => Array
         (
             [code] => MA4846
             [name] => PRODUCT DESIGN ENGINEERING
         )
 
-    [987] => Array
+    [986] => Array
         (
             [code] => MA4853
             [name] => MANUFACTURING SYSTEMS
         )
 
-    [988] => Array
+    [987] => Array
         (
             [code] => MA4854
             [name] => QUALITY ASSURANCE & MANAGEMENT*
         )
 
-    [989] => Array
+    [988] => Array
         (
             [code] => MA4870
             [name] => MECHANICS OF COMPOSITE MATERIALS
         )
 
-    [990] => Array
+    [989] => Array
         (
             [code] => MA4871
             [name] => NON-DESTRUCTIVE TESTING
         )
 
-    [991] => Array
+    [990] => Array
         (
             [code] => MA4872
             [name] => AIRCRAFT RELIABILITY & MAINTAINABILITY
         )
 
-    [992] => Array
+    [991] => Array
         (
             [code] => MA4873
             [name] => INTERMEDIATE AERODYNAMICS
         )
 
-    [993] => Array
+    [992] => Array
         (
             [code] => MA4878
             [name] => UNMANNED AERIAL VEHICLES
         )
 
-    [994] => Array
+    [993] => Array
         (
             [code] => MA4880
             [name] => AIRPORT OPERATIONS & SYSTEMS
         )
 
-    [995] => Array
+    [994] => Array
         (
             [code] => MA8005
             [name] => AIRCRAFT ELECTRICAL & ELECTRONICS CIRCUITS#
         )
 
-    [996] => Array
+    [995] => Array
         (
             [code] => MA8103
             [name] => HUMAN RESOURCE MANAGEMENT#
         )
 
-    [997] => Array
+    [996] => Array
         (
             [code] => MA8105
             [name] => ENGINEERING MANAGEMENT ANALYSIS#
         )
 
-    [998] => Array
+    [997] => Array
         (
             [code] => MA9030
             [name] => BIOPRINTING: PRINCIPLES & APPLICATIONS*
         )
 
-    [999] => Array
+    [998] => Array
         (
             [code] => MH1101
             [name] => CALCULUS II*
         )
 
-    [1000] => Array
+    [999] => Array
         (
             [code] => MH110S
             [name] => CALCULUS I
         )
 
-    [1001] => Array
+    [1000] => Array
         (
             [code] => MH111S
             [name] => CALCULUS II
         )
 
-    [1002] => Array
+    [1001] => Array
         (
             [code] => MH1201
             [name] => LINEAR ALGEBRA II*
         )
 
-    [1003] => Array
+    [1002] => Array
         (
             [code] => MH1301
             [name] => DISCRETE MATHEMATICS*
         )
 
-    [1004] => Array
+    [1003] => Array
         (
             [code] => MH1402
             [name] => ALGORITHMS & COMPUTING II
         )
 
-    [1005] => Array
+    [1004] => Array
         (
             [code] => MH1403
             [name] => ALGORITHMS & COMPUTING
         )
 
-    [1006] => Array
+    [1005] => Array
         (
             [code] => MH1801
             [name] => CALCULUS FOR THE SCIENCES II*
         )
 
-    [1007] => Array
+    [1006] => Array
         (
             [code] => MH1803
             [name] => CALCULUS FOR PHYSICS
         )
 
-    [1008] => Array
+    [1007] => Array
         (
             [code] => MH1804
             [name] => MATHEMATICS FOR CHEMISTRY
         )
 
-    [1009] => Array
+    [1008] => Array
         (
             [code] => MH1810
             [name] => MATHEMATICS 1
         )
 
-    [1010] => Array
+    [1009] => Array
         (
             [code] => MH1811
             [name] => MATHEMATICS 2
         )
 
-    [1011] => Array
+    [1010] => Array
         (
             [code] => MH1812
             [name] => DISCRETE MATHEMATICS*
         )
 
-    [1012] => Array
+    [1011] => Array
         (
             [code] => MH2802
             [name] => LINEAR ALGEBRA FOR SCIENTISTS*
         )
 
-    [1013] => Array
+    [1012] => Array
         (
             [code] => MH2811
             [name] => MATHEMATICS II
         )
 
-    [1014] => Array
+    [1013] => Array
         (
             [code] => MH3100
             [name] => REAL ANALYSIS I*
         )
 
-    [1015] => Array
+    [1014] => Array
         (
             [code] => MH3110
             [name] => ORDINARY DIFFERENTIAL EQUATIONS*
         )
 
-    [1016] => Array
+    [1015] => Array
         (
             [code] => MH3200
             [name] => ABSTRACT ALGEBRA I*
         )
 
-    [1017] => Array
+    [1016] => Array
         (
             [code] => MH3400
             [name] => ALGORITHMS FOR THE REAL WORLD*
         )
 
-    [1018] => Array
+    [1017] => Array
         (
             [code] => MH3500
             [name] => STATISTICS*
         )
 
-    [1019] => Array
+    [1018] => Array
         (
             [code] => MH3511
             [name] => DATA ANALYSIS WITH COMPUTER*
         )
 
-    [1020] => Array
+    [1019] => Array
         (
             [code] => MH3700
             [name] => NUMERICAL ANALYSIS I*
         )
 
-    [1021] => Array
+    [1020] => Array
         (
             [code] => MH3701
             [name] => BASIC OPTIMIZATION*
         )
 
-    [1022] => Array
+    [1021] => Array
         (
             [code] => MH4100
             [name] => REAL ANALYSIS II*
         )
 
-    [1023] => Array
+    [1022] => Array
         (
             [code] => MH4110
             [name] => PARTIAL DIFFERENTIAL EQUATIONS*
         )
 
-    [1024] => Array
+    [1023] => Array
         (
             [code] => MH4310
             [name] => CODING THEORY*
         )
 
-    [1025] => Array
+    [1024] => Array
         (
             [code] => MH4500
             [name] => TIME SERIES ANALYSIS*
         )
 
-    [1026] => Array
+    [1025] => Array
         (
             [code] => MH4501
             [name] => MULTIVARIATE ANALYSIS*
         )
 
-    [1027] => Array
+    [1026] => Array
         (
             [code] => MH4514
             [name] => FINANCIAL MATHEMATICS*
         )
 
-    [1028] => Array
+    [1027] => Array
         (
             [code] => MH4600
             [name] => ALGEBRAIC TOPOLOGY*
         )
 
-    [1029] => Array
+    [1028] => Array
         (
             [code] => MH9101
             [name] => ADVANCED INVESTIGATIONS IN CALCULUS II*
         )
 
-    [1030] => Array
+    [1029] => Array
         (
             [code] => MH9201
             [name] => ADVANCED INVESTIGATIONS IN LINEAR ALGEBRA II*
         )
 
-    [1031] => Array
+    [1030] => Array
         (
             [code] => ML0001
             [name] => ABSOLUTE BASICS FOR CAREER
         )
 
-    [1032] => Array
+    [1031] => Array
         (
             [code] => ML0002
             [name] => CAREER POWER UP!
         )
 
-    [1033] => Array
+    [1032] => Array
         (
             [code] => MS0002
             [name] => ENGINEERS & SOCIETY
         )
 
-    [1034] => Array
+    [1033] => Array
         (
             [code] => MS1008
             [name] => INTRODUCTION TO COMPUTATIONAL THINKING
         )
 
-    [1035] => Array
+    [1034] => Array
         (
             [code] => MS1012
             [name] => MATERIALS PHYSICS
         )
 
-    [1036] => Array
+    [1035] => Array
         (
             [code] => MS1014
             [name] => MATERIALS CHEMISTRY II
         )
 
-    [1037] => Array
+    [1036] => Array
         (
             [code] => MS1015
             [name] => MATERIALS SCIENCE
         )
 
-    [1038] => Array
+    [1037] => Array
         (
             [code] => MS1016
             [name] => THERMODYNAMICS OF MATERIALS
         )
 
-    [1039] => Array
+    [1038] => Array
         (
             [code] => MS2012
             [name] => INTRODUCTION TO MANUFACTURING PROCESSES
         )
 
-    [1040] => Array
+    [1039] => Array
         (
             [code] => MS2013
             [name] => POLYMERS & COMPOSITES
         )
 
-    [1041] => Array
+    [1040] => Array
         (
             [code] => MS2014
             [name] => MATERIALS STRUCTURE & DEFECTS
         )
 
-    [1042] => Array
+    [1041] => Array
         (
             [code] => MS2015
             [name] => MECHANICAL BEHAVIOUR OF MATERIALS
         )
 
-    [1043] => Array
+    [1042] => Array
         (
             [code] => MS2016
             [name] => PHASE TRANSFORMATION & KINETICS
         )
 
-    [1044] => Array
+    [1043] => Array
         (
             [code] => MS2018
             [name] => ELECTRONICS & MAGNETIC PROPERTIES OF MATERIALS
         )
 
-    [1045] => Array
+    [1044] => Array
         (
             [code] => MS2081
             [name] => LABORATORY IIA
         )
 
-    [1046] => Array
+    [1045] => Array
         (
             [code] => MS2082
             [name] => LABORATORY IIB
         )
 
-    [1047] => Array
+    [1046] => Array
         (
             [code] => MS3011
             [name] => METALLIC & CERAMIC MATERIALS
         )
 
-    [1048] => Array
+    [1047] => Array
         (
             [code] => MS3012
             [name] => MICRO/NANOELECTRONIC MATERIALS PROCESSING
         )
 
-    [1049] => Array
+    [1048] => Array
         (
             [code] => MS3013
             [name] => ENVIRONMENTAL EFFECTS ON MATERIALS
         )
 
-    [1050] => Array
+    [1049] => Array
         (
             [code] => MS3014
             [name] => ANALYSIS OF MATERIALS
         )
 
-    [1051] => Array
+    [1050] => Array
         (
             [code] => MS3015
             [name] => MATERIALS ASPECTS IN DESIGN
         )
 
-    [1052] => Array
+    [1051] => Array
         (
             [code] => MS3081
             [name] => LABORATORY III
         )
 
-    [1053] => Array
+    [1052] => Array
         (
             [code] => MS4012
             [name] => QUALITY CONTROL
         )
 
-    [1054] => Array
+    [1053] => Array
         (
             [code] => MS4013
             [name] => BIOMATERIALS
         )
 
-    [1055] => Array
+    [1054] => Array
         (
             [code] => MS4014
             [name] => NANOMATERIALS: FUNDAMENTALS & APPLICATIONS
         )
 
-    [1056] => Array
+    [1055] => Array
         (
             [code] => MS4603
             [name] => MICROELECTRONICS PROCESS INTEGRATION*
         )
 
-    [1057] => Array
+    [1056] => Array
         (
             [code] => MS4611
             [name] => BIOMEDICAL DEVICES*
         )
 
-    [1058] => Array
+    [1057] => Array
         (
             [code] => MS4612
             [name] => DRUG DELIVERY & TISSUE ENGINEERING*
         )
 
-    [1059] => Array
+    [1058] => Array
         (
             [code] => MS4621
             [name] => POLYMER SCIENCE*
         )
 
-    [1060] => Array
+    [1059] => Array
         (
             [code] => MS4622
             [name] => COMPOSITE MATERIALS*
         )
 
-    [1061] => Array
+    [1060] => Array
         (
             [code] => MS4630
             [name] => PHOTOVOLTAIC DEVICES & ENERGY STORAGE*
         )
 
-    [1062] => Array
+    [1061] => Array
         (
             [code] => MS4661
             [name] => APPLICATN OF PATENTS & DESIGNS IN MATLS RELATED INDUSTRY*
         )
 
-    [1063] => Array
+    [1062] => Array
         (
             [code] => MS4662
             [name] => APPRECIATING IP IN RESEARCH & DEVELOPMENT*
         )
 
-    [1064] => Array
-        (
-            [code] => MS4663
-            [name] => ENGINEERING SOLUTIONS BY DESIGN THINKING*
-        )
-
-    [1065] => Array
+    [1063] => Array
         (
             [code] => MS4670
             [name] => COMMODITIES' GEOLOGY & METALLURGY*
         )
 
-    [1066] => Array
+    [1064] => Array
         (
             [code] => MT0001
             [name] => SHIPPING & THE ENVIRONMENT#
         )
 
-    [1067] => Array
+    [1065] => Array
         (
             [code] => MT0002
             [name] => PROFESSIONALS IN SOCIETY
         )
 
-    [1068] => Array
+    [1066] => Array
         (
             [code] => MT1004
             [name] => INTRODUCTION TO METEOROLOGY & OCEANOGRAPHY
         )
 
-    [1069] => Array
+    [1067] => Array
         (
             [code] => MT2004
             [name] => MATHEMATICS II FOR MARITIME STUDIES
         )
 
-    [1070] => Array
+    [1068] => Array
         (
             [code] => MT2005
             [name] => PORT ECONOMICS
         )
 
-    [1071] => Array
+    [1069] => Array
         (
             [code] => MT2006
             [name] => REGULATORY FRAMEWORK OF SHIPPING
         )
 
-    [1072] => Array
+    [1070] => Array
         (
             [code] => MT3005
             [name] => QUALITY MANAGEMENT IN SHIPPING
         )
 
-    [1073] => Array
+    [1071] => Array
         (
             [code] => MT3006
             [name] => SHIP CHARTERING
         )
 
-    [1074] => Array
+    [1072] => Array
         (
             [code] => MT4102
             [name] => DISTRIBUTION & WAREHOUSING
         )
 
-    [1075] => Array
+    [1073] => Array
         (
             [code] => MT4103
             [name] => PORT PLANNING & OPERATIONS
         )
 
-    [1076] => Array
+    [1074] => Array
         (
             [code] => PH1011
             [name] => PHYSICS
         )
 
-    [1077] => Array
+    [1075] => Array
         (
             [code] => PH1012
             [name] => PHYSICS A
         )
 
-    [1078] => Array
+    [1076] => Array
         (
             [code] => PH1106
             [name] => ELECTRICITY & MAGNETISM*
         )
 
-    [1079] => Array
+    [1077] => Array
         (
             [code] => PH1107
             [name] => RELATIVITY & QUANTUM PHYSICS*
         )
 
-    [1080] => Array
+    [1078] => Array
         (
             [code] => PH1199
             [name] => PHYSICS LABORATORY IB
         )
 
-    [1081] => Array
+    [1079] => Array
         (
             [code] => PH1802
             [name] => FOUNDATIONS OF PHYSICS II*
         )
 
-    [1082] => Array
+    [1080] => Array
         (
             [code] => PH2101
             [name] => QUANTUM MECHANICS 1*
         )
 
-    [1083] => Array
+    [1081] => Array
         (
             [code] => PH2102
             [name] => ELECTROMAGNETISM*
         )
 
-    [1084] => Array
+    [1082] => Array
         (
             [code] => PH2199
             [name] => PHYSICS LAB IIB
         )
 
-    [1085] => Array
+    [1083] => Array
         (
             [code] => PH2301
             [name] => PHYSICAL OPTICS*
         )
 
-    [1086] => Array
+    [1084] => Array
         (
             [code] => PH2601
             [name] => INTRODUCTION TO LASERS*
         )
 
-    [1087] => Array
+    [1085] => Array
         (
             [code] => PH3199
             [name] => PHYSICS LAB IIIA
         )
 
-    [1088] => Array
+    [1086] => Array
         (
             [code] => PH3201
             [name] => STATISTICAL MECHANICS I*
         )
 
-    [1089] => Array
+    [1087] => Array
         (
             [code] => PH3399
             [name] => PHYSICS LAB IIIB
         )
 
-    [1090] => Array
+    [1088] => Array
         (
             [code] => PH3401
             [name] => ATOMIC PHYSICS*
         )
 
-    [1091] => Array
+    [1089] => Array
         (
             [code] => PH3603
             [name] => BIOPHYSICS*
         )
 
-    [1092] => Array
+    [1090] => Array
         (
             [code] => PH4401
             [name] => QUANTUM MECHANICS III*
         )
 
-    [1093] => Array
+    [1091] => Array
         (
             [code] => PH4404
             [name] => NANOSCALE PHYSICS*
         )
 
-    [1094] => Array
+    [1092] => Array
         (
             [code] => PH4409
             [name] => QUANTUM ELECTRONICS*
         )
 
-    [1095] => Array
+    [1093] => Array
         (
             [code] => PH4410
             [name] => ECONOPHYSICS*
         )
 
-    [1096] => Array
+    [1094] => Array
         (
             [code] => PH4414
             [name] => INTRODUCTION TO SPINTRONICS*
         )
 
-    [1097] => Array
+    [1095] => Array
         (
             [code] => PH4418
             [name] => PHYSICS IN THE INDUSTRY*
         )
 
-    [1098] => Array
+    [1096] => Array
         (
             [code] => PH4419
             [name] => COMPUTATIONAL PHYSICS*
         )
 
-    [1099] => Array
+    [1097] => Array
         (
             [code] => PH4506
             [name] => ELECTRODYNAMICS*
         )
 
-    [1100] => Array
+    [1098] => Array
         (
             [code] => PH4508
             [name] => INTRODUCTION TO GENERAL RELATIVITY*
         )
 
-    [1101] => Array
+    [1099] => Array
         (
             [code] => PH4509
             [name] => QUANTUM FIELD THEORY WITH APPL IN CONDENSED MATTER PHYSICS*
         )
 
-    [1102] => Array
+    [1100] => Array
         (
             [code] => PH4601
             [name] => PHYSICS OF SEMICONDUCTOR & SPINTRONICS DEVICES*
         )
 
-    [1103] => Array
+    [1101] => Array
         (
             [code] => PH4603
             [name] => SOFT CONDENSED MATTER PHYSICS*
         )
 
-    [1104] => Array
+    [1102] => Array
         (
             [code] => PH4604
             [name] => TOPICS IN APPLIED PHYSICS*
         )
 
-    [1105] => Array
+    [1103] => Array
         (
             [code] => PH4605
             [name] => MEDICAL PHYSICS FOR RADIOTHERAPY*
         )
 
-    [1106] => Array
+    [1104] => Array
         (
             [code] => PS8001
             [name] => DEFENCE SCIENCE
         )
 
-    [1107] => Array
+    [1105] => Array
         (
             [code] => PS9886
             [name] => MAKING & TINKERING (LITE I)*#
         )
 
-    [1108] => Array
+    [1106] => Array
         (
             [code] => PS9887
             [name] => MAKING & TINKERING (LITE II)*#
         )
 
-    [1109] => Array
+    [1107] => Array
         (
             [code] => RE0004
             [name] => FOUNDATIONS OF ENGINEERING LEADERSHIP
         )
 
-    [1110] => Array
+    [1108] => Array
         (
             [code] => RE1012
             [name] => MATHEMATICS II
         )
 
-    [1111] => Array
+    [1109] => Array
         (
             [code] => RE1016
             [name] => ENGINEERING COMPUTATION
         )
 
-    [1112] => Array
+    [1110] => Array
         (
             [code] => RE1017
             [name] => INTRODUCTION TO ENGINEERING MECHANICS
         )
 
-    [1113] => Array
+    [1111] => Array
         (
             [code] => RE1018
             [name] => INTRODUCTORY THERMAL SCIENCES & ELECTROMAGNETISM
         )
 
-    [1114] => Array
+    [1112] => Array
         (
             [code] => RE2012
             [name] => RENAISSANCE DESIGN II
         )
 
-    [1115] => Array
+    [1113] => Array
         (
             [code] => RE6005
             [name] => TECHNOLOGY, NETWORKS, E-BUSINESS
         )
 
-    [1116] => Array
+    [1114] => Array
         (
             [code] => RE6006
             [name] => BUSINESS OPERATIONS MANAGEMENT
         )
 
-    [1117] => Array
+    [1115] => Array
         (
             [code] => RE8010
             [name] => STRATEGIC MARKETING#
         )
 
-    [1118] => Array
+    [1116] => Array
         (
             [code] => RE8012
             [name] => ACCOUNTING#
         )
 
-    [1119] => Array
+    [1117] => Array
         (
             [code] => SP0002
             [name] => ETHICS SEMINAR
         )
 
-    [1120] => Array
+    [1118] => Array
         (
             [code] => SP0007
             [name] => FIELDWORK & DOCUMENTATION
         )
 
-    [1121] => Array
+    [1119] => Array
         (
             [code] => SP0015
             [name] => SCIENCE IN THE MEDIA
         )
 
-    [1122] => Array
+    [1120] => Array
         (
             [code] => SP0040
             [name] => MARITIME SILK ROADS. PAST, PRESENT, & FUTURE
         )
 
-    [1123] => Array
+    [1121] => Array
         (
             [code] => SP0048
             [name] => GLOBAL HISTORY THROUGH MASTERPIECES
         )
 
-    [1124] => Array
+    [1122] => Array
         (
             [code] => SP0068
             [name] => ARTIFICIAL INTELLIGENCE: HISTORY, PHILOSOPHY, & PROSPECTS
         )
 
-    [1125] => Array
+    [1123] => Array
         (
             [code] => SP0079
             [name] => LANGUAGE & SOCIETY
         )
 
-    [1126] => Array
+    [1124] => Array
         (
             [code] => SP0083
             [name] => SCIENCE, CULTURE, & SOCIETY*
         )
 
-    [1127] => Array
+    [1125] => Array
         (
             [code] => SS1103
             [name] => INTRODUCTION TO GROWTH & MOTOR DEVELOPMENT*
         )
 
-    [1128] => Array
+    [1126] => Array
         (
             [code] => SS1105
             [name] => FOUNDATIONS OF EXERCISE PHYSIOLOGY*
         )
 
-    [1129] => Array
+    [1127] => Array
         (
             [code] => SS1106
             [name] => PSYCHOSOCIAL ASPECTS OF SPORT & EXERCISE*
         )
 
-    [1130] => Array
+    [1128] => Array
         (
             [code] => SS1107
             [name] => OUTDOOR RECREATION
         )
 
-    [1131] => Array
+    [1129] => Array
         (
             [code] => SS2106
             [name] => PHYSICAL ACTIVITY & LEISURE FOR SPECIAL POPULATIONS
         )
 
-    [1132] => Array
+    [1130] => Array
         (
             [code] => SS2107
             [name] => RESEARCH METHODS & DESIGN IN PHYSICAL ACTIVITY & SPORT
         )
 
-    [1133] => Array
+    [1131] => Array
         (
             [code] => SS2108
             [name] => FUNDAMENTALS OF SPORT INJURIES*
         )
 
-    [1134] => Array
+    [1132] => Array
         (
             [code] => SS2109
             [name] => MANAGEMENT OF SPORT ORGANISATIONS
         )
 
-    [1135] => Array
+    [1133] => Array
         (
             [code] => SS3112
             [name] => EXERCISE PRESCRIPTION
         )
 
-    [1136] => Array
+    [1134] => Array
         (
             [code] => SS3114
             [name] => PHYSICAL ACTIVITY & HEALTH
         )
 
-    [1137] => Array
+    [1135] => Array
         (
             [code] => SS3115
             [name] => SPORT NUTRITION
         )
 
-    [1138] => Array
+    [1136] => Array
         (
             [code] => SS3212
             [name] => ANALYTICAL BIOMECHANICS
         )
 
-    [1139] => Array
+    [1137] => Array
         (
             [code] => SS3312
             [name] => SPORT PSYCHOLOGY IN THEORY, PRACTICE & RESEARCH
         )
 
-    [1140] => Array
+    [1138] => Array
         (
             [code] => SS3313
             [name] => SPORT COACHING: THEORY TO PRACTICE
         )
 
-    [1141] => Array
+    [1139] => Array
         (
             [code] => SS3615
             [name] => FINANCE & BUSINESS IN SPORT
         )
 
-    [1142] => Array
+    [1140] => Array
         (
             [code] => SS3616
             [name] => LEISURE & RECREATION MANAGEMENT
         )
 
-    [1143] => Array
+    [1141] => Array
         (
             [code] => SS3618
             [name] => SPORT RETAIL MANAGEMENT
         )
 
-    [1144] => Array
+    [1142] => Array
         (
             [code] => SS9001
             [name] => CONDITIONING FOR PHYSICAL FITNESS*
         )
 
-    [1145] => Array
+    [1143] => Array
         (
             [code] => SS9002
             [name] => PRINCIPLES OF STRENGTH TRAINING*
         )
 
-    [1146] => Array
+    [1144] => Array
         (
             [code] => SS9003
             [name] => INTRODUCTION TO PILATES MATWORK & HATHA YOGA*
         )
 
-    [1147] => Array
+    [1145] => Array
         (
             [code] => SS9101
             [name] => BADMINTON*
         )
 
-    [1148] => Array
+    [1146] => Array
         (
             [code] => SS9102
             [name] => TENNIS*
         )
 
-    [1149] => Array
+    [1147] => Array
         (
             [code] => SS9103
             [name] => SQUASH*
         )
 
-    [1150] => Array
+    [1148] => Array
         (
             [code] => SS9104
             [name] => BASKETBALL*
         )
 
-    [1151] => Array
+    [1149] => Array
         (
             [code] => SS9105
             [name] => VOLLEYBALL*
         )
 
-    [1152] => Array
+    [1150] => Array
         (
             [code] => SS9106
             [name] => NETBALL*
         )
 
-    [1153] => Array
+    [1151] => Array
         (
             [code] => SS9107
             [name] => TABLE TENNIS*
         )
 
-    [1154] => Array
+    [1152] => Array
         (
             [code] => SS9202
             [name] => SOCCER*
         )
 
-    [1155] => Array
+    [1153] => Array
         (
             [code] => SS9203
             [name] => HOCKEY*
         )
 
-    [1156] => Array
+    [1154] => Array
         (
             [code] => SS9204
             [name] => FLOORBALL*
         )
 
-    [1157] => Array
+    [1155] => Array
         (
             [code] => SS9205
             [name] => RUGBY*
         )
 
-    [1158] => Array
+    [1156] => Array
         (
             [code] => SS9206
             [name] => TCHOUKBALL*
         )
 
-    [1159] => Array
+    [1157] => Array
         (
             [code] => SS9302
             [name] => DANCESPORT*
         )
 
-    [1160] => Array
+    [1158] => Array
         (
             [code] => SS9303
             [name] => INTRODUCTION TO HIP-HOP & ITS DANCES*
         )
 
-    [1161] => Array
+    [1159] => Array
         (
             [code] => SU2001
             [name] => URBAN PLANNING & DESIGN*#
         )
 
-    [1162] => Array
+    [1160] => Array
         (
             [code] => SU4001
             [name] => LEADERS IN URBAN SYSTEMS & POLICY*#
