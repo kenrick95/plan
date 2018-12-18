@@ -231,7 +231,7 @@ require("back_end/config.php");
                                 <label><input type="checkbox" class="free_time_checkbox" value="1230"> 1230 - 1300</label>
                             </div>
                             <div class="item">
-                                <label><input type="checkbox" class="free_time_checkbox" value="1300"> 1300 - 0330</label>
+                                <label><input type="checkbox" class="free_time_checkbox" value="1300"> 1300 - 1330</label>
                             </div>
                             <div class="item">
                                 <label><input type="checkbox" class="free_time_checkbox" value="1330"> 1330 - 1400</label>
