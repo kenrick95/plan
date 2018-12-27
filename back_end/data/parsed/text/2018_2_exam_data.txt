@@ -1890,6 +1890,16 @@ Array
             [duration] => 2.5
         )
 
+    [BA3204] => Array
+        (
+            [date] => 30 April 2019
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => BA3204
+            [name] => ACTUARIAL MANAGEMENT
+            [duration] => 2.5
+        )
+
     [BS8001] => Array
         (
             [date] => 30 April 2019
@@ -3957,16 +3967,6 @@ Array
             [time] => 9.00 am
             [code] => BL9305
             [name] => ADVANCED TAXATION
-            [duration] => 2.5
-        )
-
-    [BM3502] => Array
-        (
-            [date] => 7 May 2019
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => BM3502
-            [name] => GLOBAL BUSINESS STRATEGY
             [duration] => 2.5
         )
 
