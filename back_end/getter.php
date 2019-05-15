@@ -20,8 +20,8 @@ function httpRequest($url, $post="") {
     //   READ http://www.saotn.org/stop-turning-off-curlopt_ssl_verifypeer-and-fix-your-php-config/
     //   THANK YOU
     // */
-    curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
-    curl_setopt($ch, CURLOPT_SSLVERSION, 4);
+    // curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
+    // curl_setopt($ch, CURLOPT_SSLVERSION, 4);
     //curl_setopt($ch, CURLOPT_SSL_CIPHER_LIST, 'SSLv3');
 
 
