@@ -9,7 +9,7 @@ require("back_end/config.php");
         <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <![endif]-->
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/jquery-ui.min.css">
         <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
         <link rel="stylesheet" href="css/jquery.tag-it.css">
@@ -135,7 +135,7 @@ require("back_end/config.php");
 
             <br />
 
-            &copy; <?php echo date("Y"); ?> <a href="http://github.com/edwin-candinegara" target="_blank">Edwin Candinegara</a> &amp; <a href="http://kenrick95.org" target="_blank">Kenrick</a>
+            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edwin-candinegara" target="_blank">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank">Kenrick</a>
             </footer>
         </div>
 
@@ -153,7 +153,7 @@ require("back_end/config.php");
                             <b>plan*</b> returns you only <b>the possible combination of the courses</b>, so that you don't need to manually do trial-and-error at STARS Planner anymore. Just choose one, input at STARS Planner, and may the force be with you during the STARS Wars.
                         </p>
                         <p>
-                            This application was made during exam period of Semester 1, A.Y. 2014-15, by <a href="https://www.linkedin.com/pub/edwin-candinegara/94/45b/19b" target="_blank">Edwin Candinegara</a> &amp; <a href="http://kenrick95.org" target="_blank">Kenrick</a>.
+                            This application was made during exam period of Semester 1, A.Y. 2014-15, by <a href="https://www.linkedin.com/pub/edwin-candinegara/94/45b/19b" target="_blank">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank">Kenrick</a>.
                         </p>
                         <p>
                             <b>Note:</b> Class schedule and exam schedule data is crawled from NTU public server that does not require login for the data access. We do not claim any intellectual property over this data.

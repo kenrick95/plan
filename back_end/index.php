@@ -9,7 +9,7 @@ require("config.php");
         <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <![endif]-->
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../css/jquery-ui.min.css">
         <link rel="stylesheet" href="../css/jquery-ui.theme.min.css">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -89,7 +89,7 @@ require("config.php");
             </div>
 
             <footer>
-            &copy; <?php echo date("Y"); ?> <a href="http://github.com/edwin-candinegara" target="_blank">Edwin Candinegara</a> &amp; <a href="http://kenrick95.org" target="_blank">Kenrick</a>
+            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edwin-candinegara" target="_blank">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank">Kenrick</a>
             </footer>
         </div>
 

@@ -6,7 +6,7 @@ The application do web-scraping of course data from NTU public server, parses th
 
 ### Back-end Architecture
 * Getter ([getter.php](https://github.com/kenrick95/plan/blob/master/back_end/getter.php))
-  - fetch data from NTU's server ([course schedule](http://wish.wis.ntu.edu.sg/webexe/owa/aus_schedule.main) <sub>([directly to this](http://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1))</sub> and [exam schedule](http://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.main))
+  - fetch data from NTU's server ([course schedule](https://wish.wis.ntu.edu.sg/webexe/owa/aus_schedule.main) <sub>([directly to this](https://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1))</sub> and [exam schedule](https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.main))
   - store the HTML file locally
 * Parser ([parse.php](https://github.com/kenrick95/plan/blob/master/back_end/parser/parse.php) and [parse_exam.php](https://github.com/kenrick95/plan/blob/master/back_end/parser/parse_exam.php))
   - clean and parse the HTML file (read the file as XML file) :persevere: 
