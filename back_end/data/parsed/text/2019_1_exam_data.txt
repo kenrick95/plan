@@ -790,16 +790,6 @@ Array
             [duration] => 2
         )
 
-    [CH9203] => Array
-        (
-            [date] => 25 November 2019
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => CH9203
-            [name] => FOOD PROCESS ENGINEERING
-            [duration] => 3
-        )
-
     [CM3041] => Array
         (
             [date] => 25 November 2019
@@ -4500,16 +4490,6 @@ Array
             [duration] => 2.5
         )
 
-    [HC2053] => Array
-        (
-            [date] => 3 December 2019
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HC2053
-            [name] => VARIETIES OF CHINESE
-            [duration] => 2.5
-        )
-
     [HL2027] => Array
         (
             [date] => 3 December 2019
@@ -4640,13 +4620,13 @@ Array
             [duration] => 2.5
         )
 
-    [CE3006] => Array
+    [CE3005] => Array
         (
             [date] => 3 December 2019
             [day] => Tuesday
             [time] => 1.00 pm
-            [code] => CE3006
-            [name] => DIGITAL COMMUNICATIONS
+            [code] => CE3005
+            [name] => COMPUTER NETWORKS
             [duration] => 2
         )
 
@@ -5330,16 +5310,6 @@ Array
             [duration] => 2
         )
 
-    [HC4010] => Array
-        (
-            [date] => 4 December 2019
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HC4010
-            [name] => CLASSICAL CHINESE LITERARY THEORY
-            [duration] => 2.5
-        )
-
     [HE2010] => Array
         (
             [date] => 4 December 2019
@@ -5650,6 +5620,16 @@ Array
             [duration] => 2
         )
 
+    [MH3100] => Array
+        (
+            [date] => 5 December 2019
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MH3100
+            [name] => REAL ANALYSIS I
+            [duration] => 2
+        )
+
     [MH4701] => Array
         (
             [date] => 5 December 2019
@@ -5750,14 +5730,24 @@ Array
             [duration] => 3
         )
 
-    [CE3005] => Array
+    [CE3006] => Array
         (
             [date] => 5 December 2019
             [day] => Thursday
             [time] => 1.00 pm
-            [code] => CE3005
-            [name] => COMPUTER NETWORKS
+            [code] => CE3006
+            [name] => DIGITAL COMMUNICATIONS
             [duration] => 2
+        )
+
+    [CH9203] => Array
+        (
+            [date] => 5 December 2019
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CH9203
+            [name] => FOOD PROCESS ENGINEERING
+            [duration] => 3
         )
 
     [EE2010] => Array
