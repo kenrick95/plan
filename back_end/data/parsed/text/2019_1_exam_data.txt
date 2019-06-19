@@ -316,7 +316,7 @@ Array
             [day] => Friday
             [time] => 2.30 pm
             [code] => BM2505
-            [name] => MARKETING CHANNELS
+            [name] => CHANNEL VALUE CREATION
             [duration] => 2.5
         )
 
@@ -860,13 +860,13 @@ Array
             [duration] => 2.5
         )
 
-    [HE2009] => Array
+    [HE2011] => Array
         (
             [date] => 25 November 2019
             [day] => Monday
             [time] => 1.00 pm
-            [code] => HE2009
-            [name] => INDUSTRIAL ORGANISATION
+            [code] => HE2011
+            [name] => LABOUR ECONOMICS & LABOUR RELATIONS
             [duration] => 2.5
         )
 
@@ -3240,16 +3240,6 @@ Array
             [duration] => 2.5
         )
 
-    [BR2202] => Array
-        (
-            [date] => 29 November 2019
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => BR2202
-            [name] => INSURANCE LAW & REGULATIONS
-            [duration] => 3
-        )
-
     [BS3018] => Array
         (
             [date] => 29 November 2019
@@ -5230,16 +5220,6 @@ Array
             [duration] => 2.5
         )
 
-    [AB1202] => Array
-        (
-            [date] => 4 December 2019
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => AB1202
-            [name] => STATISTICS & ANALYSIS
-            [duration] => 2
-        )
-
     [BG1103] => Array
         (
             [date] => 4 December 2019
@@ -5248,6 +5228,16 @@ Array
             [code] => BG1103
             [name] => CHEMISTRY FOR ENGINEERS
             [duration] => 2.5
+        )
+
+    [BR2202] => Array
+        (
+            [date] => 4 December 2019
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BR2202
+            [name] => INSURANCE LAW & REGULATIONS
+            [duration] => 3
         )
 
     [BS3024] => Array
@@ -5777,16 +5767,6 @@ Array
             [time] => 1.00 pm
             [code] => HC2060
             [name] => CHINESE EDUCATION IN SOUTHEAST ASIA
-            [duration] => 2.5
-        )
-
-    [HE4023] => Array
-        (
-            [date] => 5 December 2019
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HE4023
-            [name] => ECONOMICS OF ORGANIZATIONS & CORPORATE MANAGEMENT
             [duration] => 2.5
         )
 
