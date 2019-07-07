@@ -1990,6 +1990,16 @@ Array
             [duration] => 2.5
         )
 
+    [AAB20C] => Array
+        (
+            [date] => 27 November 2019
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => AAB20C
+            [name] => ANIMAL EVOLUTION & DIVERSITY
+            [duration] => 2.5
+        )
+
     [AB1501] => Array
         (
             [date] => 27 November 2019
@@ -3348,16 +3358,6 @@ Array
             [code] => EE4152
             [name] => DIGITAL COMMUNICATIONS
             [duration] => 2
-        )
-
-    [HC3014] => Array
-        (
-            [date] => 29 November 2019
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HC3014
-            [name] => CULTURAL STUDIES OF CHINESE CINEMAS
-            [duration] => 2.5
         )
 
     [HL2006] => Array
