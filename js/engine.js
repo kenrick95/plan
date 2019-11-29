@@ -1,10 +1,10 @@
 /*jslint browser: true, sloppy: true, plusplus: true, continue: true */
 /*global jQuery, $, swal, ga */
 $(document).ready(function ($) {
-    var ACADEMIC_START_DATE = new Date('August 12, 2019 00:00:00 GMT+0800'); // CHANGE THIS EVERY SEMESTER
-    var ACADEMIC_END_DATE = new Date('November 15, 2019 23:59:59 GMT+0800'); // CHANGE THIS EVERY SEMESTER
-    var ACADEMIC_RECESS_START_DATE = new Date('September 30, 2019 00:00:00 GMT+0800');
-    var ACADEMIC_RECESS_END_DATE = new Date('October 4, 2019 23:59:59 GMT+0800');
+    var ACADEMIC_START_DATE = new Date('January 13, 2020 00:00:00 GMT+0800'); // CHANGE THIS EVERY SEMESTER
+    var ACADEMIC_END_DATE = new Date('April 17, 2020 23:59:59 GMT+0800'); // CHANGE THIS EVERY SEMESTER
+    var ACADEMIC_RECESS_START_DATE = new Date('March 2, 2020 00:00:00 GMT+0800');
+    var ACADEMIC_RECESS_END_DATE = new Date('March 6, 2020 23:59:59 GMT+0800');
 
     Date.prototype.addDays = function (dayNum) {
         var date = new Date(this.valueOf());
