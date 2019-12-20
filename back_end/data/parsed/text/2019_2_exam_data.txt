@@ -370,16 +370,6 @@ Array
             [duration] => 2.5
         )
 
-    [BS3106] => Array
-        (
-            [date] => 24 April 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => BS3106
-            [name] => SEASONAL FEBRILE DISEASES
-            [duration] => 2.5
-        )
-
     [CH2104] => Array
         (
             [date] => 24 April 2020
@@ -827,6 +817,16 @@ Array
             [time] => 1.00 pm
             [code] => BS1005
             [name] => BIOCHEMISTRY I
+            [duration] => 2.5
+        )
+
+    [BS3106] => Array
+        (
+            [date] => 27 April 2020
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => BS3106
+            [name] => SEASONAL FEBRILE DISEASES
             [duration] => 2.5
         )
 
@@ -1310,13 +1310,13 @@ Array
             [duration] => 2.5
         )
 
-    [HE3011] => Array
+    [HE3005] => Array
         (
             [date] => 28 April 2020
             [day] => Tuesday
             [time] => 9.00 am
-            [code] => HE3011
-            [name] => COST-BENEFIT ANALYSIS
+            [code] => HE3005
+            [name] => ENVIRONMENTAL ECONOMICS
             [duration] => 2.5
         )
 
@@ -2750,6 +2750,16 @@ Array
             [duration] => 2.5
         )
 
+    [AB0901] => Array
+        (
+            [date] => 30 April 2020
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => AB0901
+            [name] => PRINCIPLES OF ECONOMICS: A SINGAPORE PERSPECTIVE
+            [duration] => 2.5
+        )
+
     [AC2301] => Array
         (
             [date] => 30 April 2020
@@ -3140,16 +3150,6 @@ Array
             [duration] => 2.5
         )
 
-    [PH2901] => Array
-        (
-            [date] => 30 April 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => PH2901
-            [name] => ELECTRONICS FOR THE EXPERIMENTALIST
-            [duration] => 2
-        )
-
     [AC2101] => Array
         (
             [date] => 4 May 2020
@@ -3497,6 +3497,16 @@ Array
             [time] => 1.00 pm
             [code] => CM1041
             [name] => BASIC PHYSICAL CHEMISTRY WITH LABORATORY
+            [duration] => 2
+        )
+
+    [CS2400] => Array
+        (
+            [date] => 4 May 2020
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => CS2400
+            [name] => FOUNDATION OF INFORMATION ANALYTICS
             [duration] => 2
         )
 
@@ -4117,16 +4127,6 @@ Array
             [time] => 1.00 pm
             [code] => CS0205
             [name] => BASIC MEDIA WRITING
-            [duration] => 2
-        )
-
-    [CS2400] => Array
-        (
-            [date] => 5 May 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CS2400
-            [name] => FOUNDATION OF INFORMATION ANALYTICS
             [duration] => 2
         )
 
@@ -5247,16 +5247,6 @@ Array
             [time] => 2.30 pm
             [code] => EN2003
             [name] => WATER SUPPLY ENGINEERING
-            [duration] => 2.5
-        )
-
-    [HE3004] => Array
-        (
-            [date] => 8 May 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HE3004
-            [name] => HEALTH ECONOMICS
             [duration] => 2.5
         )
 
