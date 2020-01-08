@@ -1240,6 +1240,16 @@ Array
             [duration] => 2
         )
 
+    [CM3041] => Array
+        (
+            [date] => 28 April 2020
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => CM3041
+            [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 2
+            [duration] => 2
+        )
+
     [CV2016] => Array
         (
             [date] => 28 April 2020
@@ -2190,6 +2200,16 @@ Array
             [duration] => 2.5
         )
 
+    [MH3101] => Array
+        (
+            [date] => 29 April 2020
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MH3101
+            [name] => COMPLEX ANALYSIS
+            [duration] => 2
+        )
+
     [MH4310] => Array
         (
             [date] => 29 April 2020
@@ -2937,6 +2957,16 @@ Array
             [time] => 1.00 pm
             [code] => PH1106
             [name] => ELECTRICITY & MAGNETISM
+            [duration] => 2.5
+        )
+
+    [PH4608] => Array
+        (
+            [date] => 30 April 2020
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => PH4608
+            [name] => PLASMONICS & METAMATERIALS
             [duration] => 2.5
         )
 
