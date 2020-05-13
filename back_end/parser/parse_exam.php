@@ -37,6 +37,7 @@ $raw_data = str_replace("<td align=left width=25% valign=top>", "<td>", $raw_dat
 $raw_data = str_replace("bgcolor=#99CCFF", "", $raw_data);
 $raw_data = str_replace("bgcolor=#FFFFFF", "", $raw_data);
 $raw_data = str_replace("colspan=2", "", $raw_data);
+$raw_data = str_replace("colspan=7", "", $raw_data);
 
 $raw_data = str_replace("<tr", "<TR", $raw_data);
 $raw_data = str_replace("</tr", "</TR", $raw_data);
@@ -53,8 +54,9 @@ $super_data = array();
 $course_list = array();
 
 $table_length = count($data->table);
+$table_inner_length = count($data->table[$table_length - 1]->TR);
 
-foreach ($data->table[$table_length - 1]->TR->TR as $entry) {
+foreach ($data->table[$table_length - 1]->TR[$table_inner_length - 1]->TR as $entry) {
     $exam_date = trim((string) $entry->td[0]);
     $exam_day = trim((string) $entry->td[1]);
     $exam_time = trim((string) $entry->td[2]);

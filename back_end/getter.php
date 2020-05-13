@@ -77,8 +77,9 @@ try {
     $request['p_plan_no'] = $plan_no;
     $request['p_exam_yr'] = $year;
     $request['p_semester'] = $semester;
+    $request['p_type'] = 'UE';
     $request['academic_session'] = 'Semester '. $semester .' Academic Year '.$year .'-'.($year + 1);
-    $request['boption'] = 'Next';
+    $request['bOption'] = 'Next';
 
     $response = httpRequest("https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.get_detail", $request);
 
