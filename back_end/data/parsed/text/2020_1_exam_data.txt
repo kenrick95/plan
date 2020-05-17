@@ -2180,6 +2180,16 @@ Array
             [duration] => 2
         )
 
+    [CM4014] => Array
+        (
+            [date] => 26 November 2020
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CM4014
+            [name] => NANOSCIENCE & NANOTECHNOLOGY
+            [duration] => 2
+        )
+
     [CS0204] => Array
         (
             [date] => 26 November 2020
@@ -2208,16 +2218,6 @@ Array
             [code] => EE2008
             [name] => DATA STRUCTURES & ALGORITHMS
             [duration] => 2.5
-        )
-
-    [EE3015] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => EE3015
-            [name] => POWER SYSTEMS & CONVERSION
-            [duration] => 2
         )
 
     [EE4340] => Array
@@ -2787,16 +2787,6 @@ Array
             [time] => 9.00 am
             [code] => CM3021
             [name] => ORGANOMETALLIC CHEMISTRY
-            [duration] => 2
-        )
-
-    [CM4014] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CM4014
-            [name] => NANOSCIENCE & NANOTECHNOLOGY
             [duration] => 2
         )
 
@@ -4580,16 +4570,6 @@ Array
             [duration] => 2
         )
 
-    [HC1050] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HC1050
-            [name] => THE SCIENCE OF CHINESE CHARACTERS
-            [duration] => 2.5
-        )
-
     [HE2011] => Array
         (
             [date] => 2 December 2020
@@ -5237,6 +5217,16 @@ Array
             [time] => 1.00 pm
             [code] => CZ1011
             [name] => ENGINEERING MATHEMATICS I
+            [duration] => 2
+        )
+
+    [EE3015] => Array
+        (
+            [date] => 3 December 2020
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => EE3015
+            [name] => POWER SYSTEMS & CONVERSION
             [duration] => 2
         )
 
