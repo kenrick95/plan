@@ -60,16 +60,6 @@ Array
             [duration] => 2.5
         )
 
-    [AGQ28C] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => AGQ28C
-            [name] => FOOD & SOCIETY
-            [duration] => 2.5
-        )
-
     [BA3201] => Array
         (
             [date] => 20 November 2020
@@ -1050,16 +1040,6 @@ Array
             [duration] => 2.5
         )
 
-    [AAQ10A] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => AAQ10A
-            [name] => PRINCIPLES OF NUTRITION
-            [duration] => 2.5
-        )
-
     [AB1301] => Array
         (
             [date] => 24 November 2020
@@ -1228,6 +1208,16 @@ Array
             [code] => MS3012
             [name] => MICRO/NANOELECTRONIC MATERIALS PROCESSING
             [duration] => 2
+        )
+
+    [AAQ10A] => Array
+        (
+            [date] => 24 November 2020
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => AAQ10A
+            [name] => PRINCIPLES OF NUTRITION
+            [duration] => 2.5
         )
 
     [AD2101] => Array
@@ -2580,12 +2570,12 @@ Array
             [duration] => 2.5
         )
 
-    [CM9092] => Array
+    [CM4062] => Array
         (
             [date] => 26 November 2020
             [day] => Thursday
             [time] => 5.00 pm
-            [code] => CM9092
+            [code] => CM4062
             [name] => POLYMER CHEMISTRY
             [duration] => 2
         )
@@ -3428,6 +3418,16 @@ Array
             [code] => MS2016
             [name] => PHASE TRANSFORMATION & KINETICS
             [duration] => 2
+        )
+
+    [PH3403] => Array
+        (
+            [date] => 30 November 2020
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => PH3403
+            [name] => COSMOLOGY
+            [duration] => 2.5
         )
 
     [BE1401] => Array
