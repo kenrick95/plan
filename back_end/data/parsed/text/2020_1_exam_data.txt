@@ -100,16 +100,6 @@ Array
             [duration] => 2
         )
 
-    [CE4064] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CE4064
-            [name] => SECURITY MANAGEMENT
-            [duration] => 2
-        )
-
     [CH2140] => Array
         (
             [date] => 20 November 2020
@@ -128,16 +118,6 @@ Array
             [code] => CH2141
             [name] => CHEMICAL ENGINEERING UNIT OPERATIONS I
             [duration] => 2.5
-        )
-
-    [CZ4064] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CZ4064
-            [name] => SECURITY MANAGEMENT
-            [duration] => 2
         )
 
     [EE2004] => Array
@@ -1447,16 +1427,6 @@ Array
             [time] => 5.00 pm
             [code] => BU8101
             [name] => ACCOUNTING: A USER PERSPECTIVE
-            [duration] => 2.5
-        )
-
-    [BU8401] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => BU8401
-            [name] => MANAGEMENT DECISION TOOLS
             [duration] => 2.5
         )
 
@@ -2920,16 +2890,6 @@ Array
             [duration] => 2.5
         )
 
-    [HL2009] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HL2009
-            [name] => SOUTHEAST ASIAN LITERATURE & CULTURE
-            [duration] => 2.5
-        )
-
     [HP3806] => Array
         (
             [date] => 27 November 2020
@@ -3668,16 +3628,6 @@ Array
             [code] => MT4104
             [name] => INFORMATION TECHNOLOGY MANAGEMENT
             [duration] => 2.5
-        )
-
-    [BS8004] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => BS8004
-            [name] => TRADITIONAL CHINESE MEDICINE: A PRIMER COURSE
-            [duration] => 2
         )
 
     [BU8501] => Array
@@ -4490,16 +4440,6 @@ Array
             [duration] => 2.5
         )
 
-    [CE2007] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => CE2007
-            [name] => MICROPROCESSOR-BASED SYSTEMS DESIGN
-            [duration] => 2
-        )
-
     [CE4022] => Array
         (
             [date] => 2 December 2020
@@ -4960,13 +4900,13 @@ Array
             [duration] => 3
         )
 
-    [CE4068] => Array
+    [CE4032] => Array
         (
             [date] => 3 December 2020
             [day] => Thursday
             [time] => 9.00 am
-            [code] => CE4068
-            [name] => APPLICATION SECURITY
+            [code] => CE4032
+            [name] => DATA ANALYTICS & MINING
             [duration] => 2
         )
 
@@ -4990,13 +4930,13 @@ Array
             [duration] => 2
         )
 
-    [CZ4068] => Array
+    [CZ4032] => Array
         (
             [date] => 3 December 2020
             [day] => Thursday
             [time] => 9.00 am
-            [code] => CZ4068
-            [name] => APPLICATION SECURITY
+            [code] => CZ4032
+            [name] => DATA ANALYTICS & MINING
             [duration] => 2
         )
 
@@ -5367,16 +5307,6 @@ Array
             [time] => 1.00 pm
             [code] => MS4631
             [name] => CORROSION ENGINEERING
-            [duration] => 2
-        )
-
-    [PH4606] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => PH4606
-            [name] => FUNDAMENTALS & APPLICATIONS OF ACOUSTICS
             [duration] => 2
         )
 
