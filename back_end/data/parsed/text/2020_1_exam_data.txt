@@ -450,24 +450,24 @@ Array
             [duration] => 2
         )
 
-    [MA3001] => Array
+    [MA3005] => Array
         (
             [date] => 20 November 2020
             [day] => Friday
             [time] => 2.30 pm
-            [code] => MA3001
-            [name] => MACHINE ELEMENT DESIGN
+            [code] => MA3005
+            [name] => CONTROL THEORY
             [duration] => 2.5
         )
 
-    [MA3703] => Array
+    [MA3705] => Array
         (
             [date] => 20 November 2020
             [day] => Friday
             [time] => 2.30 pm
-            [code] => MA3703
-            [name] => FLIGHT DYNAMICS
-            [duration] => 2
+            [code] => MA3705
+            [name] => AEROSPACE CONTROL THEORY
+            [duration] => 2.5
         )
 
     [MS3011] => Array
@@ -880,23 +880,13 @@ Array
             [duration] => 2.5
         )
 
-    [MA3003] => Array
+    [MA3002] => Array
         (
             [date] => 23 November 2020
             [day] => Monday
             [time] => 1.00 pm
-            [code] => MA3003
-            [name] => HEAT TRANSFER
-            [duration] => 2.5
-        )
-
-    [MA3010] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => MA3010
-            [name] => THERMODYNAMICS & HEAT TRANSFER
+            [code] => MA3002
+            [name] => SOLID MECHANICS & VIBRATION
             [duration] => 2.5
         )
 
@@ -1930,6 +1920,16 @@ Array
             [duration] => 2.5
         )
 
+    [MA3703] => Array
+        (
+            [date] => 25 November 2020
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA3703
+            [name] => FLIGHT DYNAMICS
+            [duration] => 2
+        )
+
     [MH2811] => Array
         (
             [date] => 25 November 2020
@@ -2237,16 +2237,6 @@ Array
             [time] => 9.00 am
             [code] => IM1001
             [name] => DATA STRUCTURES & ALGORITHMS
-            [duration] => 2.5
-        )
-
-    [MA3002] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => MA3002
-            [name] => SOLID MECHANICS & VIBRATION
             [duration] => 2.5
         )
 
@@ -2867,16 +2857,6 @@ Array
             [time] => 9.00 am
             [code] => HA1012
             [name] => FUNDAMENTALS OF POLITICS
-            [duration] => 2.5
-        )
-
-    [HC4015] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HC4015
-            [name] => SPECIAL TOPICS IN CLASSICAL CHINESE LITERATURE
             [duration] => 2.5
         )
 
@@ -4140,26 +4120,6 @@ Array
             [duration] => 2
         )
 
-    [MA3005] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => MA3005
-            [name] => CONTROL THEORY
-            [duration] => 2.5
-        )
-
-    [MA3705] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => MA3705
-            [name] => AEROSPACE CONTROL THEORY
-            [duration] => 2.5
-        )
-
     [MA4705] => Array
         (
             [date] => 1 December 2020
@@ -4167,6 +4127,16 @@ Array
             [time] => 1.00 pm
             [code] => MA4705
             [name] => AIRCRAFT NAVIGATION & FLIGHT COMPUTERS
+            [duration] => 2.5
+        )
+
+    [MA4850] => Array
+        (
+            [date] => 1 December 2020
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MA4850
+            [name] => SUPPLY CHAIN & LOGISTICS MANAGEMENT
             [duration] => 2.5
         )
 
@@ -4380,13 +4350,13 @@ Array
             [duration] => 2.5
         )
 
-    [MA4850] => Array
+    [MA3001] => Array
         (
             [date] => 1 December 2020
             [day] => Tuesday
             [time] => 5.00 pm
-            [code] => MA4850
-            [name] => SUPPLY CHAIN & LOGISTICS MANAGEMENT
+            [code] => MA3001
+            [name] => MACHINE ELEMENT DESIGN
             [duration] => 2.5
         )
 
@@ -4797,6 +4767,26 @@ Array
             [time] => 1.00 pm
             [code] => MA2006
             [name] => ENGINEERING MATHEMATICS
+            [duration] => 2.5
+        )
+
+    [MA3003] => Array
+        (
+            [date] => 2 December 2020
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA3003
+            [name] => HEAT TRANSFER
+            [duration] => 2.5
+        )
+
+    [MA3010] => Array
+        (
+            [date] => 2 December 2020
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA3010
+            [name] => THERMODYNAMICS & HEAT TRANSFER
             [duration] => 2.5
         )
 
