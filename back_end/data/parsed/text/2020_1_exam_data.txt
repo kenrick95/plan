@@ -2390,6 +2390,16 @@ Array
             [duration] => 2
         )
 
+    [CZ1106] => Array
+        (
+            [date] => 26 November 2020
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CZ1106
+            [name] => COMPUTER ORGANISATION & ARCHITECTURE
+            [duration] => 2
+        )
+
     [CZ3002] => Array
         (
             [date] => 26 November 2020
