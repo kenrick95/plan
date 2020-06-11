@@ -1,25 +1,5 @@
 Array
 (
-    [SS9607] => Array
-        (
-            [date] => 18 November 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => SS9607
-            [name] => INTRODUCTION TO SPORT BIOMECHANICS
-            [duration] => 2.5
-        )
-
-    [SS9601] => Array
-        (
-            [date] => 19 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => SS9601
-            [name] => HUMAN ANATOMY & PHYSIOLOGY
-            [duration] => 2.5
-        )
-
     [AAL28A] => Array
         (
             [date] => 19 November 2020
@@ -27,7 +7,7 @@ Array
             [time] => 1.00 pm
             [code] => AAL28A
             [name] => SINGAPORE STUDIES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AGQ28B] => Array
@@ -37,7 +17,7 @@ Array
             [time] => 1.00 pm
             [code] => AGQ28B
             [name] => EVERYDAY SCIENCE IN FOODS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC1103] => Array
@@ -47,7 +27,7 @@ Array
             [time] => 9.00 am
             [code] => AC1103
             [name] => ACCOUNTING I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC2104] => Array
@@ -57,7 +37,7 @@ Array
             [time] => 9.00 am
             [code] => AC2104
             [name] => ASSURANCE & AUDITING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BA3201] => Array
@@ -67,7 +47,7 @@ Array
             [time] => 9.00 am
             [code] => BA3201
             [name] => LIFE CONTINGENCIES & DEMOGRAPHY
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [BF3207] => Array
@@ -77,7 +57,7 @@ Array
             [time] => 9.00 am
             [code] => BF3207
             [name] => ALTERNATIVE INVESTMENTS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS2102] => Array
@@ -87,7 +67,7 @@ Array
             [time] => 9.00 am
             [code] => BS2102
             [name] => CHINESE MATERIA MEDICA
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE2004] => Array
@@ -97,7 +77,7 @@ Array
             [time] => 9.00 am
             [code] => CE2004
             [name] => CIRCUITS & SIGNAL ANALYSIS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH2140] => Array
@@ -107,7 +87,7 @@ Array
             [time] => 9.00 am
             [code] => CH2140
             [name] => CHEMICAL ENGINEERING UNIT OPERATIONS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CH2141] => Array
@@ -117,7 +97,7 @@ Array
             [time] => 9.00 am
             [code] => CH2141
             [name] => CHEMICAL ENGINEERING UNIT OPERATIONS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE2004] => Array
@@ -127,7 +107,7 @@ Array
             [time] => 9.00 am
             [code] => EE2004
             [name] => DIGITAL ELECTRONICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE4903] => Array
@@ -137,7 +117,7 @@ Array
             [time] => 9.00 am
             [code] => EE4903
             [name] => PHYSIOLOGICAL SYSTEMS ANALYSIS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HA2009] => Array
@@ -147,7 +127,7 @@ Array
             [time] => 9.00 am
             [code] => HA2009
             [name] => THE MAKING OF E-GOVERNMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE1002] => Array
@@ -157,7 +137,7 @@ Array
             [time] => 9.00 am
             [code] => HE1002
             [name] => MACROECONOMIC PRINCIPLES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL1001] => Array
@@ -167,7 +147,7 @@ Array
             [time] => 9.00 am
             [code] => HL1001
             [name] => INTRODUCTION TO THE STUDY OF LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HT9102] => Array
@@ -177,7 +157,7 @@ Array
             [time] => 9.00 am
             [code] => HT9102
             [name] => LANGUAGE FOUNDATION FOR TRANSLATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM1004] => Array
@@ -187,7 +167,7 @@ Array
             [time] => 9.00 am
             [code] => IM1004
             [name] => DIGITAL ELECTRONICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA1002] => Array
@@ -197,7 +177,7 @@ Array
             [time] => 9.00 am
             [code] => MA1002
             [name] => FUNDAMENTAL ENGINEERING MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4200] => Array
@@ -207,7 +187,7 @@ Array
             [time] => 9.00 am
             [code] => MH4200
             [name] => ABSTRACT ALGEBRA II
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4511] => Array
@@ -217,7 +197,7 @@ Array
             [time] => 9.00 am
             [code] => MH4511
             [name] => SAMPLING & SURVEY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS1015] => Array
@@ -227,7 +207,7 @@ Array
             [time] => 9.00 am
             [code] => MS1015
             [name] => MATERIALS SCIENCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MT2002] => Array
@@ -237,7 +217,7 @@ Array
             [time] => 9.00 am
             [code] => MT2002
             [name] => SHIPPING ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH1105] => Array
@@ -247,17 +227,7 @@ Array
             [time] => 9.00 am
             [code] => PH1105
             [name] => OPTICS, VIBRATIONS & WAVES
-            [duration] => 2.5
-        )
-
-    [SS9606] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => SS9606
-            [name] => FOUNDATIONS OF MOTOR BEHAVIOUR
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC2301] => Array
@@ -267,7 +237,7 @@ Array
             [time] => 2.30 pm
             [code] => AC2301
             [name] => PRINCIPLES OF TAXATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BG2112] => Array
@@ -277,7 +247,7 @@ Array
             [time] => 2.30 pm
             [code] => BG2112
             [name] => CARDIOVASCULAR ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS1200] => Array
@@ -287,7 +257,7 @@ Array
             [time] => 2.30 pm
             [code] => BS1200
             [name] => UNDERSTANDING SINGAPORE HEALTHCARE SYSTEM
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS3101] => Array
@@ -297,7 +267,7 @@ Array
             [time] => 2.30 pm
             [code] => BS3101
             [name] => TREATISE ON EXOGENOUS FEBRILE DISEASES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE1005] => Array
@@ -307,7 +277,17 @@ Array
             [time] => 2.30 pm
             [code] => CE1005
             [name] => DIGITAL LOGIC
-            [duration] => 2
+            [duration] => 2 hr
+        )
+
+    [CE1105] => Array
+        (
+            [date] => 20 November 2020
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CE1105
+            [name] => DIGITAL LOGIC
+            [duration] => 2 hr
         )
 
     [CE3001] => Array
@@ -317,7 +297,7 @@ Array
             [time] => 2.30 pm
             [code] => CE3001
             [name] => ADVANCED COMPUTER ARCHITECTURE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM2021] => Array
@@ -327,7 +307,7 @@ Array
             [time] => 2.30 pm
             [code] => CM2021
             [name] => INORGANIC & BIOINORGANIC CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV3014] => Array
@@ -337,7 +317,7 @@ Array
             [time] => 2.30 pm
             [code] => CV3014
             [name] => TRANSPORTATION ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ1005] => Array
@@ -347,7 +327,17 @@ Array
             [time] => 2.30 pm
             [code] => CZ1005
             [name] => DIGITAL LOGIC
-            [duration] => 2
+            [duration] => 2 hr
+        )
+
+    [CZ1105] => Array
+        (
+            [date] => 20 November 2020
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CZ1105
+            [name] => DIGITAL LOGIC
+            [duration] => 2 hr
         )
 
     [CZ3001] => Array
@@ -357,7 +347,7 @@ Array
             [time] => 2.30 pm
             [code] => CZ3001
             [name] => ADVANCED COMPUTER ARCHITECTURE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE2007] => Array
@@ -367,7 +357,7 @@ Array
             [time] => 2.30 pm
             [code] => EE2007
             [name] => ENGINEERING MATHEMATICS II
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE4341] => Array
@@ -377,7 +367,7 @@ Array
             [time] => 2.30 pm
             [code] => EE4341
             [name] => ADVANCED ANALOG CIRCUITS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4483] => Array
@@ -387,7 +377,7 @@ Array
             [time] => 2.30 pm
             [code] => EE4483
             [name] => ARTIFICIAL INTELLIGENCE & DATA MINING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HC3003] => Array
@@ -397,7 +387,7 @@ Array
             [time] => 2.30 pm
             [code] => HC3003
             [name] => SOUTHEAST ASIAN CHINESE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2002] => Array
@@ -407,7 +397,7 @@ Array
             [time] => 2.30 pm
             [code] => HL2002
             [name] => RENAISSANCE LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP3901] => Array
@@ -417,7 +407,7 @@ Array
             [time] => 2.30 pm
             [code] => HP3901
             [name] => CULTURAL PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP8003] => Array
@@ -427,7 +417,7 @@ Array
             [time] => 2.30 pm
             [code] => HP8003
             [name] => ARE YOU OKAY? MENTAL HEALTH IN SINGAPORE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [IM2007] => Array
@@ -437,7 +427,7 @@ Array
             [time] => 2.30 pm
             [code] => IM2007
             [name] => ENGINEERING MATHEMATICS II
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4483] => Array
@@ -447,7 +437,7 @@ Array
             [time] => 2.30 pm
             [code] => IM4483
             [name] => ARTIFICIAL INTELLIGENCE & DATA MINING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA3005] => Array
@@ -457,7 +447,7 @@ Array
             [time] => 2.30 pm
             [code] => MA3005
             [name] => CONTROL THEORY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3705] => Array
@@ -467,7 +457,7 @@ Array
             [time] => 2.30 pm
             [code] => MA3705
             [name] => AEROSPACE CONTROL THEORY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MS3011] => Array
@@ -477,7 +467,7 @@ Array
             [time] => 2.30 pm
             [code] => MS3011
             [name] => METALLIC & CERAMIC MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4613] => Array
@@ -487,7 +477,7 @@ Array
             [time] => 2.30 pm
             [code] => MS4613
             [name] => WEARABLE SENSORS FOR HEALTHCARE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [PH3101] => Array
@@ -497,7 +487,7 @@ Array
             [time] => 2.30 pm
             [code] => PH3101
             [name] => QUANTUM MECHANICS II
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH4408] => Array
@@ -507,7 +497,7 @@ Array
             [time] => 2.30 pm
             [code] => PH4408
             [name] => NUCLEAR PHYSICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BA3203] => Array
@@ -517,7 +507,7 @@ Array
             [time] => 9.00 am
             [code] => BA3203
             [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [BF2207] => Array
@@ -527,7 +517,7 @@ Array
             [time] => 9.00 am
             [code] => BF2207
             [name] => INTERNATIONAL FINANCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BG3102] => Array
@@ -537,7 +527,7 @@ Array
             [time] => 9.00 am
             [code] => BG3102
             [name] => CONTROL IN BIOSYSTEMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS1101] => Array
@@ -547,7 +537,7 @@ Array
             [time] => 9.00 am
             [code] => BS1101
             [name] => BASICS OF TCM
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS3021] => Array
@@ -557,7 +547,7 @@ Array
             [time] => 9.00 am
             [code] => BS3021
             [name] => BIOIMAGING TECHNIQUES IN EM
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CH4306] => Array
@@ -567,7 +557,7 @@ Array
             [time] => 9.00 am
             [code] => CH4306
             [name] => BIOANALYTICAL TECHNIQUES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CV4112] => Array
@@ -577,7 +567,7 @@ Array
             [time] => 9.00 am
             [code] => CV4112
             [name] => TRAFFIC ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CY1308] => Array
@@ -587,7 +577,7 @@ Array
             [time] => 9.00 am
             [code] => CY1308
             [name] => PHYSICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ2004] => Array
@@ -597,7 +587,7 @@ Array
             [time] => 9.00 am
             [code] => CZ2004
             [name] => HUMAN COMPUTER INTERACTION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3013] => Array
@@ -607,7 +597,7 @@ Array
             [time] => 9.00 am
             [code] => EE3013
             [name] => SEMICONDUCTOR DEVICES & PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4152] => Array
@@ -617,7 +607,7 @@ Array
             [time] => 9.00 am
             [code] => EE4152
             [name] => DIGITAL COMMUNICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HA1001] => Array
@@ -627,7 +617,7 @@ Array
             [time] => 9.00 am
             [code] => HA1001
             [name] => INTRODUCTION TO INTERNATIONAL RELATIONS & FOREIGN POLICY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HC1002] => Array
@@ -637,7 +627,7 @@ Array
             [time] => 9.00 am
             [code] => HC1002
             [name] => INTRODUCTION TO CHINESE LANGUAGE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HC3043] => Array
@@ -647,7 +637,7 @@ Array
             [time] => 9.00 am
             [code] => HC3043
             [name] => CHINESE ECOLOGICAL THOUGHTS & PHILOSOPHY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE3001] => Array
@@ -657,7 +647,7 @@ Array
             [time] => 9.00 am
             [code] => HE3001
             [name] => MATHEMATICAL ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS2009] => Array
@@ -667,7 +657,7 @@ Array
             [time] => 9.00 am
             [code] => HS2009
             [name] => SOCIOLOGY OF THE LIFE COURSE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS4015] => Array
@@ -677,7 +667,7 @@ Array
             [time] => 9.00 am
             [code] => HS4015
             [name] => SOCIOLOGY OF REPRODUCTION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4152] => Array
@@ -687,7 +677,7 @@ Array
             [time] => 9.00 am
             [code] => IM4152
             [name] => DIGITAL COMMUNICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA2007] => Array
@@ -697,7 +687,7 @@ Array
             [time] => 9.00 am
             [code] => MA2007
             [name] => THERMODYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH1810] => Array
@@ -707,7 +697,7 @@ Array
             [time] => 9.00 am
             [code] => MH1810
             [name] => MATHEMATICS 1
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS3013] => Array
@@ -717,7 +707,7 @@ Array
             [time] => 9.00 am
             [code] => MS3013
             [name] => ENVIRONMENTAL EFFECTS ON MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BA2203] => Array
@@ -727,7 +717,7 @@ Array
             [time] => 1.00 pm
             [code] => BA2203
             [name] => STATISTICAL MODELLING
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [BF2209] => Array
@@ -737,7 +727,7 @@ Array
             [time] => 1.00 pm
             [code] => BF2209
             [name] => DERIVATIVE SECURITIES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BG2131] => Array
@@ -747,7 +737,7 @@ Array
             [time] => 1.00 pm
             [code] => BG2131
             [name] => BIOMATERIALS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BR2201] => Array
@@ -757,7 +747,7 @@ Array
             [time] => 1.00 pm
             [code] => BR2201
             [name] => RISK MODELLING
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [BS2001] => Array
@@ -767,7 +757,7 @@ Array
             [time] => 1.00 pm
             [code] => BS2001
             [name] => PHYSIOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS4016] => Array
@@ -777,7 +767,7 @@ Array
             [time] => 1.00 pm
             [code] => BS4016
             [name] => ADVANCED VIROLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM3041] => Array
@@ -787,7 +777,7 @@ Array
             [time] => 1.00 pm
             [code] => CM3041
             [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 2
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV3011] => Array
@@ -797,7 +787,7 @@ Array
             [time] => 1.00 pm
             [code] => CV3011
             [name] => REINFORCED CONCRETE DESIGN
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ3005] => Array
@@ -807,7 +797,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ3005
             [name] => ARTIFICIAL INTELLIGENCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE2001] => Array
@@ -817,7 +807,7 @@ Array
             [time] => 1.00 pm
             [code] => EE2001
             [name] => CIRCUIT ANALYSIS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HA2017] => Array
@@ -827,7 +817,7 @@ Array
             [time] => 1.00 pm
             [code] => HA2017
             [name] => FOREIGN POLICY ANALYSIS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE2007] => Array
@@ -837,7 +827,7 @@ Array
             [time] => 1.00 pm
             [code] => HE2007
             [name] => MONEY & BANKING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE3013] => Array
@@ -847,7 +837,7 @@ Array
             [time] => 1.00 pm
             [code] => HE3013
             [name] => URBAN ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2004] => Array
@@ -857,7 +847,7 @@ Array
             [time] => 1.00 pm
             [code] => HL2004
             [name] => SENSIBILITY & ROMANTICISM
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP1100] => Array
@@ -867,7 +857,7 @@ Array
             [time] => 1.00 pm
             [code] => HP1100
             [name] => FUNDAMENTALS OF SOCIAL SCIENCE RESEARCH
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HT9101] => Array
@@ -877,7 +867,7 @@ Array
             [time] => 1.00 pm
             [code] => HT9101
             [name] => TRANSLATION: HISTORY, THEORIES & PRINCIPLES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3002] => Array
@@ -887,7 +877,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3002
             [name] => SOLID MECHANICS & VIBRATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4881] => Array
@@ -897,7 +887,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4881
             [name] => AIR TRAFFIC MANAGEMENT
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4610] => Array
@@ -907,7 +897,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4610
             [name] => ADVANCED BIOMATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MT4003] => Array
@@ -917,7 +907,7 @@ Array
             [time] => 1.00 pm
             [code] => MT4003
             [name] => MARITIME STRATEGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH2103] => Array
@@ -927,7 +917,7 @@ Array
             [time] => 1.00 pm
             [code] => PH2103
             [name] => THERMAL PHYSICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH4403] => Array
@@ -937,7 +927,7 @@ Array
             [time] => 1.00 pm
             [code] => PH4403
             [name] => SURFACES & INTERFACES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC2302] => Array
@@ -947,7 +937,7 @@ Array
             [time] => 5.00 pm
             [code] => AC2302
             [name] => COMPANY LAW & CORPORATE GOVERNANCE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BU8644] => Array
@@ -957,7 +947,7 @@ Array
             [time] => 5.00 pm
             [code] => BU8644
             [name] => SMARTER BRAIN? THE SCIENCE OF DECISION MAKING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE4016] => Array
@@ -967,7 +957,7 @@ Array
             [time] => 5.00 pm
             [code] => CE4016
             [name] => ADVANCED TOPICS IN ALGORITHMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM8002] => Array
@@ -977,7 +967,7 @@ Array
             [time] => 5.00 pm
             [code] => CM8002
             [name] => FORENSIC SCIENCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM8022] => Array
@@ -987,7 +977,7 @@ Array
             [time] => 5.00 pm
             [code] => CM8022
             [name] => APPLICATIONS OF FORENSIC SCIENCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ4016] => Array
@@ -997,7 +987,7 @@ Array
             [time] => 5.00 pm
             [code] => CZ4016
             [name] => ADVANCED TOPICS IN ALGORITHMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EG0001] => Array
@@ -1007,7 +997,7 @@ Array
             [time] => 5.00 pm
             [code] => EG0001
             [name] => ENGINEERS & SOCIETY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AB1301] => Array
@@ -1017,7 +1007,7 @@ Array
             [time] => 9.00 am
             [code] => AB1301
             [name] => BUSINESS LAW
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BF3204] => Array
@@ -1027,7 +1017,7 @@ Array
             [time] => 9.00 am
             [code] => BF3204
             [name] => FINANCIAL MODELLING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS1002] => Array
@@ -1037,7 +1027,7 @@ Array
             [time] => 9.00 am
             [code] => BS1002
             [name] => BIOPHYSICAL CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS4010] => Array
@@ -1047,7 +1037,7 @@ Array
             [time] => 9.00 am
             [code] => BS4010
             [name] => SYNTHETIC BIOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CE2001] => Array
@@ -1057,7 +1047,7 @@ Array
             [time] => 9.00 am
             [code] => CE2001
             [name] => ALGORITHMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ2001] => Array
@@ -1067,7 +1057,7 @@ Array
             [time] => 9.00 am
             [code] => CZ2001
             [name] => ALGORITHMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE2002] => Array
@@ -1077,7 +1067,7 @@ Array
             [time] => 9.00 am
             [code] => EE2002
             [name] => ANALOG ELECTRONICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE4266] => Array
@@ -1087,7 +1077,7 @@ Array
             [time] => 9.00 am
             [code] => EE4266
             [name] => COMPUTER VISION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EN3003] => Array
@@ -1097,7 +1087,7 @@ Array
             [time] => 9.00 am
             [code] => EN3003
             [name] => ENVIRONMENTAL TRANSPORT PROCESSES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HA2015] => Array
@@ -1107,7 +1097,7 @@ Array
             [time] => 9.00 am
             [code] => HA2015
             [name] => CHINA IN AFRICA
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE1001] => Array
@@ -1117,7 +1107,7 @@ Array
             [time] => 9.00 am
             [code] => HE1001
             [name] => MICROECONOMIC PRINCIPLES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE4020] => Array
@@ -1127,17 +1117,7 @@ Array
             [time] => 9.00 am
             [code] => HE4020
             [name] => ECONOMETRIC TIME SERIES ANALYSIS
-            [duration] => 2.5
-        )
-
-    [MA2012] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => MA2012
-            [name] => INTRODUCTION TO MECHATRONICS SYSTEMS DESIGN
-            [duration] => 2
+            [duration] => 2 hr 30 min
         )
 
     [MA2701] => Array
@@ -1147,7 +1127,7 @@ Array
             [time] => 9.00 am
             [code] => MA2701
             [name] => FLIGHT PERFORMANCE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH1802] => Array
@@ -1157,7 +1137,7 @@ Array
             [time] => 9.00 am
             [code] => MH1802
             [name] => CALCULUS FOR THE SCIENCES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4510] => Array
@@ -1167,7 +1147,7 @@ Array
             [time] => 9.00 am
             [code] => MH4510
             [name] => STATISTICAL LEARNING & DATA MINING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS3012] => Array
@@ -1177,7 +1157,7 @@ Array
             [time] => 9.00 am
             [code] => MS3012
             [name] => MICRO/NANOELECTRONIC MATERIALS PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [AAQ10A] => Array
@@ -1187,17 +1167,7 @@ Array
             [time] => 1.00 pm
             [code] => AAQ10A
             [name] => PRINCIPLES OF NUTRITION
-            [duration] => 2.5
-        )
-
-    [AD2101] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => AD2101
-            [name] => MANAGEMENT ACCOUNTING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BG4341] => Array
@@ -1207,7 +1177,7 @@ Array
             [time] => 1.00 pm
             [code] => BG4341
             [name] => FUNDAMENTALS OF INTELLECTUAL PROPERTY IN BIOMEDICAL ENGINEER
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS3027] => Array
@@ -1217,7 +1187,7 @@ Array
             [time] => 1.00 pm
             [code] => BS3027
             [name] => SPECTROSCOPIC METHODS IN BIOMEDICAL STRUCTURAL BIOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE3002] => Array
@@ -1227,7 +1197,7 @@ Array
             [time] => 1.00 pm
             [code] => CE3002
             [name] => SENSORS, INTERFACING & CONTROL
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH4341] => Array
@@ -1237,7 +1207,7 @@ Array
             [time] => 1.00 pm
             [code] => CH4341
             [name] => FUNDAMENTALS OF INTELLECTUAL PROPERTY IN CHEMICAL ENG
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH9201] => Array
@@ -1247,7 +1217,7 @@ Array
             [time] => 1.00 pm
             [code] => CH9201
             [name] => FOOD CHEMISTRY
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [CM3011] => Array
@@ -1257,7 +1227,7 @@ Array
             [time] => 1.00 pm
             [code] => CM3011
             [name] => CHEMICAL SPECTROSCOPY & APPLICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CS2400] => Array
@@ -1267,7 +1237,7 @@ Array
             [time] => 1.00 pm
             [code] => CS2400
             [name] => FOUNDATION OF INFORMATION ANALYTICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV1011] => Array
@@ -1277,7 +1247,7 @@ Array
             [time] => 1.00 pm
             [code] => CV1011
             [name] => MECHANICS OF MATERIALS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CV4120] => Array
@@ -1287,7 +1257,7 @@ Array
             [time] => 1.00 pm
             [code] => CV4120
             [name] => ADVANCED REINFORCED CONCRETE DESIGN
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE3001] => Array
@@ -1297,7 +1267,7 @@ Array
             [time] => 1.00 pm
             [code] => EE3001
             [name] => ENGINEERING ELECTROMAGNETICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE4646] => Array
@@ -1307,7 +1277,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4646
             [name] => VLSI TECHNOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HC1001] => Array
@@ -1317,7 +1287,7 @@ Array
             [time] => 1.00 pm
             [code] => HC1001
             [name] => INTRODUCTION TO THE STUDY OF LITERATURE & CULTURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL1002] => Array
@@ -1327,7 +1297,7 @@ Array
             [time] => 1.00 pm
             [code] => HL1002
             [name] => SURVEY OF ENGLISH LITERATURE 1
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP8005] => Array
@@ -1337,7 +1307,7 @@ Array
             [time] => 1.00 pm
             [code] => HP8005
             [name] => INTRODUCTION TO HUMAN RESOURCE MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS2001] => Array
@@ -1347,7 +1317,7 @@ Array
             [time] => 1.00 pm
             [code] => HS2001
             [name] => CLASSICAL SOCIAL THEORY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4001] => Array
@@ -1357,7 +1327,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4001
             [name] => ENGINEERING DESIGN
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4011] => Array
@@ -1367,7 +1337,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4011
             [name] => ENGINEERING PRODUCT DESIGN
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH2100] => Array
@@ -1377,7 +1347,7 @@ Array
             [time] => 1.00 pm
             [code] => MH2100
             [name] => CALCULUS III
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS2013] => Array
@@ -1387,7 +1357,7 @@ Array
             [time] => 1.00 pm
             [code] => MS2013
             [name] => POLYMERS & COMPOSITES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4660] => Array
@@ -1397,7 +1367,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4660
             [name] => FUNDAMENTALS OF INTELLECTUAL PROPERTY IN MATLS SCI & ENG
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [AC2101] => Array
@@ -1407,7 +1377,7 @@ Array
             [time] => 5.00 pm
             [code] => AC2101
             [name] => ACCOUNTING RECOGNITION & MEASUREMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BU8101] => Array
@@ -1417,7 +1387,17 @@ Array
             [time] => 5.00 pm
             [code] => BU8101
             [name] => ACCOUNTING: A USER PERSPECTIVE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
+        )
+
+    [CB2106] => Array
+        (
+            [date] => 24 November 2020
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CB2106
+            [name] => INTRODUCTION TO MULTIDISCIPLINARY ENGINEERING
+            [duration] => 2 hr 30 min
         )
 
     [CE4042] => Array
@@ -1427,17 +1407,7 @@ Array
             [time] => 5.00 pm
             [code] => CE4042
             [name] => NEURAL NETWORK & DEEP LEARNING
-            [duration] => 2
-        )
-
-    [CH2106] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => CH2106
-            [name] => INTRODUCTION TO MULTIDISCIPLINARY ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr
         )
 
     [CM9081] => Array
@@ -1447,7 +1417,7 @@ Array
             [time] => 5.00 pm
             [code] => CM9081
             [name] => MEDICINAL CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ4042] => Array
@@ -1457,7 +1427,7 @@ Array
             [time] => 5.00 pm
             [code] => CZ4042
             [name] => NEURAL NETWORK & DEEP LEARNING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE8086] => Array
@@ -1467,7 +1437,7 @@ Array
             [time] => 5.00 pm
             [code] => EE8086
             [name] => ASTRONOMY - STARS, GALAXIES & COSMOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HC0201] => Array
@@ -1477,7 +1447,7 @@ Array
             [time] => 5.00 pm
             [code] => HC0201
             [name] => CHINESE LITERATURE IN SINGAPORE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HE2006] => Array
@@ -1487,7 +1457,7 @@ Array
             [time] => 5.00 pm
             [code] => HE2006
             [name] => INTERNATIONAL MONETARY ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP1000] => Array
@@ -1497,7 +1467,7 @@ Array
             [time] => 5.00 pm
             [code] => HP1000
             [name] => INTRODUCTION TO PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP8006] => Array
@@ -1507,7 +1477,17 @@ Array
             [time] => 5.00 pm
             [code] => HP8006
             [name] => PSYCHOLOGY OF CRISIS STRESS MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
+        )
+
+    [MH8301] => Array
+        (
+            [date] => 24 November 2020
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MH8301
+            [name] => MODERN CRYPTOGRAPHY: REAL-WORLD APPLICATIONS & IMPACT
+            [duration] => 2 hr
         )
 
     [MT4001] => Array
@@ -1517,7 +1497,7 @@ Array
             [time] => 5.00 pm
             [code] => MT4001
             [name] => SHIPPING LOGISTICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [RE1015] => Array
@@ -1527,7 +1507,7 @@ Array
             [time] => 5.00 pm
             [code] => RE1015
             [name] => CHEMICAL & BIO ENGINEERING FUNDAMENTALS & APPLICATIONS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [SU3001] => Array
@@ -1537,7 +1517,7 @@ Array
             [time] => 5.00 pm
             [code] => SU3001
             [name] => INTEGRATED URBAN MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC2401] => Array
@@ -1547,7 +1527,7 @@ Array
             [time] => 9.00 am
             [code] => AC2401
             [name] => ACCOUNTING INFORMATION SYSTEMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BA2202] => Array
@@ -1557,7 +1537,7 @@ Array
             [time] => 9.00 am
             [code] => BA2202
             [name] => MATHEMATICS OF FINANCE
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [BG2141] => Array
@@ -1567,7 +1547,7 @@ Array
             [time] => 9.00 am
             [code] => BG2141
             [name] => MECHANICS OF MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS2003] => Array
@@ -1577,7 +1557,7 @@ Array
             [time] => 9.00 am
             [code] => BS2003
             [name] => BIOCHEMISTRY II
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE2002] => Array
@@ -1587,7 +1567,7 @@ Array
             [time] => 9.00 am
             [code] => CE2002
             [name] => OBJECT ORIENTED DESIGN & PROGRAMMING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM4043] => Array
@@ -1597,7 +1577,7 @@ Array
             [time] => 9.00 am
             [code] => CM4043
             [name] => MOLECULAR MODELLING:PRINCIPLES & APPLICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CS4043] => Array
@@ -1607,7 +1587,7 @@ Array
             [time] => 9.00 am
             [code] => CS4043
             [name] => SPECIALISED JOURNALISM:SCIENCE & HEALTH REPORTING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ2002] => Array
@@ -1617,7 +1597,7 @@ Array
             [time] => 9.00 am
             [code] => CZ2002
             [name] => OBJECT ORIENTED DESIGN & PROGRAMMING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE2006] => Array
@@ -1627,7 +1607,7 @@ Array
             [time] => 9.00 am
             [code] => EE2006
             [name] => ENGINEERING MATHEMATICS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE4265] => Array
@@ -1637,7 +1617,7 @@ Array
             [time] => 9.00 am
             [code] => EE4265
             [name] => PROCESS CONTROL SYSTEMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EN3002] => Array
@@ -1647,7 +1627,7 @@ Array
             [time] => 9.00 am
             [code] => EN3002
             [name] => WASTEWATER ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HA1002] => Array
@@ -1657,7 +1637,7 @@ Array
             [time] => 9.00 am
             [code] => HA1002
             [name] => INTRODUCTION TO POLITICAL THEORY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE3003] => Array
@@ -1667,7 +1647,7 @@ Array
             [time] => 9.00 am
             [code] => HE3003
             [name] => THE CHINESE ECONOMY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2024] => Array
@@ -1677,7 +1657,7 @@ Array
             [time] => 9.00 am
             [code] => HL2024
             [name] => APPROACHES TO LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL4013] => Array
@@ -1687,7 +1667,7 @@ Array
             [time] => 9.00 am
             [code] => HL4013
             [name] => ADVANCED STUDIES IN LITERATURE & CULTURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP2500] => Array
@@ -1697,7 +1677,7 @@ Array
             [time] => 9.00 am
             [code] => HP2500
             [name] => PERSONALITY & INDIVIDUAL DIFFERENCES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS1002] => Array
@@ -1707,7 +1687,7 @@ Array
             [time] => 9.00 am
             [code] => HS1002
             [name] => SINGAPORE SOCIETY IN TRANSITION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM2006] => Array
@@ -1717,7 +1697,7 @@ Array
             [time] => 9.00 am
             [code] => IM2006
             [name] => ENGINEERING MATHEMATICS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4002] => Array
@@ -1727,7 +1707,7 @@ Array
             [time] => 9.00 am
             [code] => MA4002
             [name] => FLUID DYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MS4013] => Array
@@ -1737,7 +1717,7 @@ Array
             [time] => 9.00 am
             [code] => MS4013
             [name] => BIOMATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MT4002] => Array
@@ -1747,7 +1727,7 @@ Array
             [time] => 9.00 am
             [code] => MT4002
             [name] => ESSENTIALS OF PROJECT MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH1104] => Array
@@ -1757,7 +1737,7 @@ Array
             [time] => 9.00 am
             [code] => PH1104
             [name] => MECHANICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH3102] => Array
@@ -1767,7 +1747,7 @@ Array
             [time] => 9.00 am
             [code] => PH3102
             [name] => CONDENSED MATTER PHYSICS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH4402] => Array
@@ -1777,17 +1757,7 @@ Array
             [time] => 9.00 am
             [code] => PH4402
             [name] => CONDENSED MATTER PHYSICS II
-            [duration] => 2
-        )
-
-    [AB1501] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => AB1501
-            [name] => MARKETING
-            [duration] => 2.5
+            [duration] => 2 hr
         )
 
     [BG3103] => Array
@@ -1797,7 +1767,7 @@ Array
             [time] => 1.00 pm
             [code] => BG3103
             [name] => SIGNAL PROCESSING IN BIOSYSTEMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS3001] => Array
@@ -1807,7 +1777,7 @@ Array
             [time] => 1.00 pm
             [code] => BS3001
             [name] => NEUROBIOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CE1012] => Array
@@ -1817,7 +1787,7 @@ Array
             [time] => 1.00 pm
             [code] => CE1012
             [name] => ENGINEERING MATHEMATICS II
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM2031] => Array
@@ -1827,7 +1797,7 @@ Array
             [time] => 1.00 pm
             [code] => CM2031
             [name] => ORGANIC & BIOORGANIC CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV4110] => Array
@@ -1837,7 +1807,7 @@ Array
             [time] => 1.00 pm
             [code] => CV4110
             [name] => EXCAVATION & RETAINING WALLS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ1012] => Array
@@ -1847,7 +1817,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ1012
             [name] => ENGINEERING MATHEMATICS II
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE2003] => Array
@@ -1857,7 +1827,7 @@ Array
             [time] => 1.00 pm
             [code] => EE2003
             [name] => SEMICONDUCTOR FUNDAMENTALS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE3019] => Array
@@ -1867,7 +1837,7 @@ Array
             [time] => 1.00 pm
             [code] => EE3019
             [name] => INTEGRATED ELECTRONICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4717] => Array
@@ -1877,7 +1847,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4717
             [name] => WEB APPLICATION DESIGN
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HG1001] => Array
@@ -1887,7 +1857,7 @@ Array
             [time] => 1.00 pm
             [code] => HG1001
             [name] => MIND & MEANING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS3001] => Array
@@ -1897,7 +1867,7 @@ Array
             [time] => 1.00 pm
             [code] => HS3001
             [name] => CONTEMPORARY SOCIAL THEORY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4717] => Array
@@ -1907,7 +1877,7 @@ Array
             [time] => 1.00 pm
             [code] => IM4717
             [name] => WEB APPLICATION DESIGN
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA2003] => Array
@@ -1917,7 +1887,7 @@ Array
             [time] => 1.00 pm
             [code] => MA2003
             [name] => INTRODUCTION TO THERMO-FLUIDS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3703] => Array
@@ -1927,7 +1897,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3703
             [name] => FLIGHT DYNAMICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH2811] => Array
@@ -1937,7 +1907,7 @@ Array
             [time] => 1.00 pm
             [code] => MH2811
             [name] => MATHEMATICS II
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH3101] => Array
@@ -1947,7 +1917,7 @@ Array
             [time] => 1.00 pm
             [code] => MH3101
             [name] => COMPLEX ANALYSIS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BF2201] => Array
@@ -1957,7 +1927,7 @@ Array
             [time] => 5.00 pm
             [code] => BF2201
             [name] => INVESTMENTS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BG4215] => Array
@@ -1967,7 +1937,7 @@ Array
             [time] => 5.00 pm
             [code] => BG4215
             [name] => BIOMEDICAL NANOTECHNOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BU9201] => Array
@@ -1977,7 +1947,7 @@ Array
             [time] => 5.00 pm
             [code] => BU9201
             [name] => INVESTMENTS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE4045] => Array
@@ -1987,7 +1957,7 @@ Array
             [time] => 5.00 pm
             [code] => CE4045
             [name] => NATURAL LANGUAGE PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH4106] => Array
@@ -1997,7 +1967,7 @@ Array
             [time] => 5.00 pm
             [code] => CH4106
             [name] => FORMULATION OF ACTIVE PHARMACEUTICAL INGREDIENTS DOSAGE FORM
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM9101] => Array
@@ -2007,7 +1977,7 @@ Array
             [time] => 5.00 pm
             [code] => CM9101
             [name] => FOOD CHEMISTRY & NUTRITION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV4011] => Array
@@ -2017,7 +1987,7 @@ Array
             [time] => 5.00 pm
             [code] => CV4011
             [name] => PROJECT PLANNING & MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ4045] => Array
@@ -2027,7 +1997,7 @@ Array
             [time] => 5.00 pm
             [code] => CZ4045
             [name] => NATURAL LANGUAGE PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HA2023] => Array
@@ -2037,7 +2007,7 @@ Array
             [time] => 5.00 pm
             [code] => HA2023
             [name] => RESEARCH METHODOLOGY IN SOCIAL SCIENCES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HV8001] => Array
@@ -2047,7 +2017,7 @@ Array
             [time] => 5.00 pm
             [code] => HV8001
             [name] => INTRODUCTION TO ENVIRONMENTAL HUMANITIES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA4838] => Array
@@ -2057,7 +2027,7 @@ Array
             [time] => 5.00 pm
             [code] => MA4838
             [name] => NON-CONVENTIONAL MANUFACTURING PROCESSES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH1011] => Array
@@ -2067,7 +2037,7 @@ Array
             [time] => 5.00 pm
             [code] => PH1011
             [name] => PHYSICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH1012] => Array
@@ -2077,7 +2047,7 @@ Array
             [time] => 5.00 pm
             [code] => PH1012
             [name] => PHYSICS A
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC3103] => Array
@@ -2087,7 +2057,7 @@ Array
             [time] => 9.00 am
             [code] => AC3103
             [name] => ACCOUNTING ANALYSIS & EQUITY VALUATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BR2202] => Array
@@ -2097,7 +2067,7 @@ Array
             [time] => 9.00 am
             [code] => BR2202
             [name] => INSURANCE LAW & REGULATIONS
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [BS1003] => Array
@@ -2107,7 +2077,7 @@ Array
             [time] => 9.00 am
             [code] => BS1003
             [name] => ORGANIC CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CE2005] => Array
@@ -2117,7 +2087,7 @@ Array
             [time] => 9.00 am
             [code] => CE2005
             [name] => OPERATING SYSTEMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH4451] => Array
@@ -2127,7 +2097,7 @@ Array
             [time] => 9.00 am
             [code] => CH4451
             [name] => PROCESS ENGINEERING FOR GAS/LNG & PHARMACEUTICAL INDUSTRIES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM1031] => Array
@@ -2137,17 +2107,17 @@ Array
             [time] => 9.00 am
             [code] => CM1031
             [name] => BASIC ORGANIC CHEMISTRY WITH LABORATORY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
-    [CM4014] => Array
+    [CM4063] => Array
         (
             [date] => 26 November 2020
             [day] => Thursday
             [time] => 9.00 am
-            [code] => CM4014
+            [code] => CM4063
             [name] => NANOSCIENCE & NANOTECHNOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CS0204] => Array
@@ -2157,7 +2127,7 @@ Array
             [time] => 9.00 am
             [code] => CS0204
             [name] => BASIC MEDIA WRITING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ2005] => Array
@@ -2167,7 +2137,7 @@ Array
             [time] => 9.00 am
             [code] => CZ2005
             [name] => OPERATING SYSTEMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE2008] => Array
@@ -2177,7 +2147,7 @@ Array
             [time] => 9.00 am
             [code] => EE2008
             [name] => DATA STRUCTURES & ALGORITHMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE4340] => Array
@@ -2187,7 +2157,7 @@ Array
             [time] => 9.00 am
             [code] => EE4340
             [name] => VLSI SYSTEMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HC2001] => Array
@@ -2197,7 +2167,7 @@ Array
             [time] => 9.00 am
             [code] => HC2001
             [name] => DIRECTED READINGS OF LITERARY WORKS: PRE-QIN,HAN,WEI & JIN
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2008] => Array
@@ -2207,7 +2177,7 @@ Array
             [time] => 9.00 am
             [code] => HL2008
             [name] => SINGAPORE LITERATURE & CULTURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP2200] => Array
@@ -2217,7 +2187,7 @@ Array
             [time] => 9.00 am
             [code] => HP2200
             [name] => BIOLOGICAL PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS3002] => Array
@@ -2227,7 +2197,7 @@ Array
             [time] => 9.00 am
             [code] => HS3002
             [name] => UNDERSTANDING SOCIAL STATISTICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM1001] => Array
@@ -2237,7 +2207,7 @@ Array
             [time] => 9.00 am
             [code] => IM1001
             [name] => DATA STRUCTURES & ALGORITHMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3702] => Array
@@ -2247,7 +2217,7 @@ Array
             [time] => 9.00 am
             [code] => MA3702
             [name] => AIRCRAFT PROPULSION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA4856] => Array
@@ -2257,7 +2227,7 @@ Array
             [time] => 9.00 am
             [code] => MA4856
             [name] => NAVAL ARCHITECTURE & MARINE ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH3512] => Array
@@ -2267,7 +2237,7 @@ Array
             [time] => 9.00 am
             [code] => MH3512
             [name] => STOCHASTIC PROCESSES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS2015] => Array
@@ -2277,7 +2247,7 @@ Array
             [time] => 9.00 am
             [code] => MS2015
             [name] => MECHANICAL BEHAVIOUR OF MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MT2003] => Array
@@ -2287,7 +2257,7 @@ Array
             [time] => 9.00 am
             [code] => MT2003
             [name] => MARITIME TECHNOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AB1201] => Array
@@ -2297,7 +2267,7 @@ Array
             [time] => 1.00 pm
             [code] => AB1201
             [name] => FINANCIAL MANAGEMENT
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BC2402] => Array
@@ -2307,7 +2277,7 @@ Array
             [time] => 1.00 pm
             [code] => BC2402
             [name] => DESIGNING & DEVELOPING DATABASES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BF3201] => Array
@@ -2317,7 +2287,7 @@ Array
             [time] => 1.00 pm
             [code] => BF3201
             [name] => CORPORATE FINANCE & STRATEGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS4015] => Array
@@ -2327,7 +2297,7 @@ Array
             [time] => 1.00 pm
             [code] => BS4015
             [name] => PLANT BIOTECHNOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE1006] => Array
@@ -2337,7 +2307,17 @@ Array
             [time] => 1.00 pm
             [code] => CE1006
             [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 2
+            [duration] => 2 hr
+        )
+
+    [CE1106] => Array
+        (
+            [date] => 26 November 2020
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CE1106
+            [name] => COMPUTER ORGANISATION & ARCHITECTURE
+            [duration] => 2 hr
         )
 
     [CM4013] => Array
@@ -2347,7 +2327,7 @@ Array
             [time] => 1.00 pm
             [code] => CM4013
             [name] => CURRENT TOPICS IN ANALYTICAL CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM9001] => Array
@@ -2357,7 +2337,7 @@ Array
             [time] => 1.00 pm
             [code] => CM9001
             [name] => CONCEPTUAL CHEMISTRY WITH LABORATORY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV4116] => Array
@@ -2367,7 +2347,7 @@ Array
             [time] => 1.00 pm
             [code] => CV4116
             [name] => COASTAL ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CY1101] => Array
@@ -2377,7 +2357,7 @@ Array
             [time] => 1.00 pm
             [code] => CY1101
             [name] => PRINCIPLES OF MODERN CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ1006] => Array
@@ -2387,7 +2367,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ1006
             [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ1106] => Array
@@ -2397,7 +2377,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ1106
             [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ3002] => Array
@@ -2407,7 +2387,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ3002
             [name] => ADVANCED SOFTWARE ENGINEERING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3002] => Array
@@ -2417,7 +2397,7 @@ Array
             [time] => 1.00 pm
             [code] => EE3002
             [name] => MICROPROCESSORS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EN2001] => Array
@@ -2427,7 +2407,7 @@ Array
             [time] => 1.00 pm
             [code] => EN2001
             [name] => ENVIRONMENTAL ISSUES IN A CHANGING WORLD
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HA3025] => Array
@@ -2437,7 +2417,7 @@ Array
             [time] => 1.00 pm
             [code] => HA3025
             [name] => THE POLITICS & PRACTICE OF INTERNATIONAL DIPLOMACY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HC2004] => Array
@@ -2447,7 +2427,7 @@ Array
             [time] => 1.00 pm
             [code] => HC2004
             [name] => DIRECTED READINGS OF LITERARY WORKS: YUAN, MING & QING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE2005] => Array
@@ -2457,7 +2437,7 @@ Array
             [time] => 1.00 pm
             [code] => HE2005
             [name] => PRINCIPLES OF ECONOMETRICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS3007] => Array
@@ -2467,7 +2447,7 @@ Array
             [time] => 1.00 pm
             [code] => HS3007
             [name] => RELIGION & SOCIETY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM2002] => Array
@@ -2477,7 +2457,7 @@ Array
             [time] => 1.00 pm
             [code] => IM2002
             [name] => MICROPROCESSORS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA2005] => Array
@@ -2487,7 +2467,7 @@ Array
             [time] => 1.00 pm
             [code] => MA2005
             [name] => ENGINEERING GRAPHICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH3600] => Array
@@ -2497,7 +2477,7 @@ Array
             [time] => 1.00 pm
             [code] => MH3600
             [name] => KNOTS & SURFACES:INTRODUCTION TO TOPOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4014] => Array
@@ -2507,7 +2487,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4014
             [name] => NANOMATERIALS: FUNDAMENTALS & APPLICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BU8601] => Array
@@ -2517,7 +2497,7 @@ Array
             [time] => 5.00 pm
             [code] => BU8601
             [name] => FUNDAMENTALS OF MANAGEMENT
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CE4062] => Array
@@ -2527,7 +2507,7 @@ Array
             [time] => 5.00 pm
             [code] => CE4062
             [name] => COMPUTER SECURITY (SYSTEM SECURITY)
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM4017] => Array
@@ -2537,7 +2517,7 @@ Array
             [time] => 5.00 pm
             [code] => CM4017
             [name] => BIOMEDICAL IMAGING & SENSING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM4062] => Array
@@ -2547,7 +2527,7 @@ Array
             [time] => 5.00 pm
             [code] => CM4062
             [name] => POLYMER CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ4062] => Array
@@ -2557,7 +2537,7 @@ Array
             [time] => 5.00 pm
             [code] => CZ4062
             [name] => COMPUTER SECURITY (SYSTEM SECURITY)
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE8061] => Array
@@ -2567,7 +2547,7 @@ Array
             [time] => 5.00 pm
             [code] => EE8061
             [name] => INNOVATION & TECHNOLOGY MANAGEMENT
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EM9105] => Array
@@ -2577,7 +2557,7 @@ Array
             [time] => 5.00 pm
             [code] => EM9105
             [name] => ENERGY RESOURCES MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [ES8001] => Array
@@ -2587,7 +2567,7 @@ Array
             [time] => 5.00 pm
             [code] => ES8001
             [name] => NATURAL HAZARDS & SOCIETY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HE9091] => Array
@@ -2597,7 +2577,7 @@ Array
             [time] => 5.00 pm
             [code] => HE9091
             [name] => PRINCIPLES OF ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL8001] => Array
@@ -2607,7 +2587,7 @@ Array
             [time] => 5.00 pm
             [code] => HL8001
             [name] => MADNESS IN LITERATURE & FILM
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HT9301] => Array
@@ -2617,7 +2597,7 @@ Array
             [time] => 5.00 pm
             [code] => HT9301
             [name] => LINGUISTICS, CULTURE & TRANSLATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HY8002] => Array
@@ -2627,7 +2607,7 @@ Array
             [time] => 5.00 pm
             [code] => HY8002
             [name] => LOGIC & CRITICAL THINKING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA4803] => Array
@@ -2637,7 +2617,7 @@ Array
             [time] => 5.00 pm
             [code] => MA4803
             [name] => NOISE & VIBRATION CONTROL
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4825] => Array
@@ -2647,7 +2627,7 @@ Array
             [time] => 5.00 pm
             [code] => MA4825
             [name] => ROBOTICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA4842] => Array
@@ -2657,7 +2637,7 @@ Array
             [time] => 5.00 pm
             [code] => MA4842
             [name] => ENGINEERING METROLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MT4101] => Array
@@ -2667,7 +2647,7 @@ Array
             [time] => 5.00 pm
             [code] => MT4101
             [name] => INTERMODAL TRANSPORTATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH4607] => Array
@@ -2677,7 +2657,7 @@ Array
             [time] => 5.00 pm
             [code] => PH4607
             [name] => BIOMEDICAL IMAGING & SENSING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AAB20C] => Array
@@ -2687,7 +2667,7 @@ Array
             [time] => 9.00 am
             [code] => AAB20C
             [name] => ANIMAL EVOLUTION & DIVERSITY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC1104] => Array
@@ -2697,7 +2677,7 @@ Array
             [time] => 9.00 am
             [code] => AC1104
             [name] => ACCOUNTING II
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC3102] => Array
@@ -2707,7 +2687,7 @@ Array
             [time] => 9.00 am
             [code] => AC3102
             [name] => RISK REPORTING & ANALYSIS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BG2104] => Array
@@ -2717,7 +2697,7 @@ Array
             [time] => 9.00 am
             [code] => BG2104
             [name] => ELECTRONICS FOR BIOMEDICAL ENGINEERS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS3018] => Array
@@ -2727,7 +2707,7 @@ Array
             [time] => 9.00 am
             [code] => BS3018
             [name] => PLANT BIOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE4003] => Array
@@ -2737,7 +2717,7 @@ Array
             [time] => 9.00 am
             [code] => CE4003
             [name] => COMPUTER VISION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM3021] => Array
@@ -2747,7 +2727,7 @@ Array
             [time] => 9.00 am
             [code] => CM3021
             [name] => ORGANOMETALLIC CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CS4027] => Array
@@ -2757,7 +2737,7 @@ Array
             [time] => 9.00 am
             [code] => CS4027
             [name] => NARRATIVE FILM & TV:CONCEPTS & APPLICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CS4066] => Array
@@ -2767,7 +2747,7 @@ Array
             [time] => 9.00 am
             [code] => CS4066
             [name] => ISSUES IN PUBLIC RELATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV4102] => Array
@@ -2777,7 +2757,7 @@ Array
             [time] => 9.00 am
             [code] => CV4102
             [name] => ADVANCED STEEL DESIGN
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CY1601] => Array
@@ -2787,7 +2767,7 @@ Array
             [time] => 9.00 am
             [code] => CY1601
             [name] => MATHEMATICS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ2007] => Array
@@ -2797,7 +2777,7 @@ Array
             [time] => 9.00 am
             [code] => CZ2007
             [name] => INTRODUCTION TO DATABASES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ4003] => Array
@@ -2807,7 +2787,7 @@ Array
             [time] => 9.00 am
             [code] => CZ4003
             [name] => COMPUTER VISION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE1003] => Array
@@ -2817,7 +2797,7 @@ Array
             [time] => 9.00 am
             [code] => EE1003
             [name] => INTRODUCTION TO MATERIALS FOR ELECTRONICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3011] => Array
@@ -2827,7 +2807,7 @@ Array
             [time] => 9.00 am
             [code] => EE3011
             [name] => MODELLING & CONTROL
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4475] => Array
@@ -2837,7 +2817,7 @@ Array
             [time] => 9.00 am
             [code] => EE4475
             [name] => AUDIO SIGNAL PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4613] => Array
@@ -2847,7 +2827,7 @@ Array
             [time] => 9.00 am
             [code] => EE4613
             [name] => CMOS PROCESS & DEVICE SIMULATION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EN4105] => Array
@@ -2857,7 +2837,7 @@ Array
             [time] => 9.00 am
             [code] => EN4105
             [name] => INTEGRATED ENVIRONMENTAL MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HA1012] => Array
@@ -2867,7 +2847,7 @@ Array
             [time] => 9.00 am
             [code] => HA1012
             [name] => FUNDAMENTALS OF POLITICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE3007] => Array
@@ -2877,7 +2857,7 @@ Array
             [time] => 9.00 am
             [code] => HE3007
             [name] => FINANCIAL ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP3806] => Array
@@ -2887,7 +2867,7 @@ Array
             [time] => 9.00 am
             [code] => HP3806
             [name] => CONSUMER PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS2028] => Array
@@ -2897,7 +2877,7 @@ Array
             [time] => 9.00 am
             [code] => HS2028
             [name] => GRAYING SOCIETY: ISSUES & CHALLENGES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4475] => Array
@@ -2907,7 +2887,17 @@ Array
             [time] => 9.00 am
             [code] => IM4475
             [name] => AUDIO SIGNAL PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
+        )
+
+    [MA2011] => Array
+        (
+            [date] => 27 November 2020
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MA2011
+            [name] => MECHATRONICS SYSTEM INTERFACING
+            [duration] => 2 hr 30 min
         )
 
     [MA3700] => Array
@@ -2917,7 +2907,7 @@ Array
             [time] => 9.00 am
             [code] => MA3700
             [name] => AIRCRAFT STRUCTURES I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH1805] => Array
@@ -2927,7 +2917,7 @@ Array
             [time] => 9.00 am
             [code] => MH1805
             [name] => CALCULUS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4702] => Array
@@ -2937,7 +2927,7 @@ Array
             [time] => 9.00 am
             [code] => MH4702
             [name] => PROBABILISTIC METHODS IN OPERATIONS RESEARCH
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4621] => Array
@@ -2947,7 +2937,7 @@ Array
             [time] => 9.00 am
             [code] => MS4621
             [name] => POLYMER SCIENCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [PH3404] => Array
@@ -2957,7 +2947,7 @@ Array
             [time] => 9.00 am
             [code] => PH3404
             [name] => PHYSICS OF CLASSICAL & QUANTUM INFORMATION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [RE1011] => Array
@@ -2967,7 +2957,7 @@ Array
             [time] => 9.00 am
             [code] => RE1011
             [name] => MATHEMATICS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC2105] => Array
@@ -2977,7 +2967,7 @@ Array
             [time] => 2.30 pm
             [code] => AC2105
             [name] => ACCOUNTING FOR DECISION MAKING & CONTROL
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BF2101] => Array
@@ -2987,7 +2977,7 @@ Array
             [time] => 2.30 pm
             [code] => BF2101
             [name] => FINANCIAL STATEMENT ANALYSIS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BG4231] => Array
@@ -2997,7 +2987,7 @@ Array
             [time] => 2.30 pm
             [code] => BG4231
             [name] => ADVANCED BIOMATERIALS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS1008] => Array
@@ -3007,7 +2997,7 @@ Array
             [time] => 2.30 pm
             [code] => BS1008
             [name] => BIOSTATISTICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS3032] => Array
@@ -3017,7 +3007,7 @@ Array
             [time] => 2.30 pm
             [code] => BS3032
             [name] => ENVIRONMENTAL MICROBIOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE3006] => Array
@@ -3027,7 +3017,7 @@ Array
             [time] => 2.30 pm
             [code] => CE3006
             [name] => DIGITAL COMMUNICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH2010] => Array
@@ -3037,7 +3027,7 @@ Array
             [time] => 2.30 pm
             [code] => CH2010
             [name] => ENGINEERING STATISTICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM4044] => Array
@@ -3047,7 +3037,7 @@ Array
             [time] => 2.30 pm
             [code] => CM4044
             [name] => ARTIFICIAL INTELLIGENCE IN CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3014] => Array
@@ -3057,7 +3047,7 @@ Array
             [time] => 2.30 pm
             [code] => EE3014
             [name] => DIGITAL SIGNAL PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4503] => Array
@@ -3067,7 +3057,7 @@ Array
             [time] => 2.30 pm
             [code] => EE4503
             [name] => POWER ENGINEERING DESIGN
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EN2002] => Array
@@ -3077,7 +3067,7 @@ Array
             [time] => 2.30 pm
             [code] => EN2002
             [name] => ENVIRONMENTAL BIOLOGY & MICROBIOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HA3015] => Array
@@ -3087,7 +3077,7 @@ Array
             [time] => 2.30 pm
             [code] => HA3015
             [name] => MEDIA & POLITICS
-            [duration] => 1.5
+            [duration] => 1 hr 30 min
         )
 
     [HC3040] => Array
@@ -3097,7 +3087,7 @@ Array
             [time] => 2.30 pm
             [code] => HC3040
             [name] => CHINA'S REFORM & ECONOMIC DEVELOPMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE4010] => Array
@@ -3107,7 +3097,7 @@ Array
             [time] => 2.30 pm
             [code] => HE4010
             [name] => SINGAPORE ECONOMY IN A GLOBALIZED WORLD
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2022] => Array
@@ -3117,7 +3107,7 @@ Array
             [time] => 2.30 pm
             [code] => HL2022
             [name] => SOUTH ASIAN LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS1001] => Array
@@ -3127,7 +3117,7 @@ Array
             [time] => 2.30 pm
             [code] => HS1001
             [name] => PERSON & SOCIETY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM3001] => Array
@@ -3137,7 +3127,7 @@ Array
             [time] => 2.30 pm
             [code] => IM3001
             [name] => DIGITAL SIGNAL PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA2001] => Array
@@ -3147,7 +3137,7 @@ Array
             [time] => 2.30 pm
             [code] => MA2001
             [name] => MECHANICS OF MATERIALS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4811] => Array
@@ -3157,7 +3147,7 @@ Array
             [time] => 2.30 pm
             [code] => MA4811
             [name] => PSYCHROMETRY & AIR CONDITIONING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH2200] => Array
@@ -3167,7 +3157,7 @@ Array
             [time] => 2.30 pm
             [code] => MH2200
             [name] => GROUPS & SYMMETRIES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS2014] => Array
@@ -3177,7 +3167,7 @@ Array
             [time] => 2.30 pm
             [code] => MS2014
             [name] => MATERIALS STRUCTURE & DEFECTS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4651] => Array
@@ -3187,7 +3177,7 @@ Array
             [time] => 2.30 pm
             [code] => MS4651
             [name] => THIN FILM TECHNOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [PH1801] => Array
@@ -3197,7 +3187,7 @@ Array
             [time] => 2.30 pm
             [code] => PH1801
             [name] => FOUNDATIONS OF PHYSICS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AC3104] => Array
@@ -3207,7 +3197,7 @@ Array
             [time] => 9.00 am
             [code] => AC3104
             [name] => RISK MANAGEMENT & ADVANCED AUDITING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BF2206] => Array
@@ -3217,7 +3207,7 @@ Array
             [time] => 9.00 am
             [code] => BF2206
             [name] => WEALTH MANAGEMENT
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BS211S] => Array
@@ -3227,7 +3217,7 @@ Array
             [time] => 9.00 am
             [code] => BS211S
             [name] => EQUATIONS OF LIFE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CE2006] => Array
@@ -3237,7 +3227,7 @@ Array
             [time] => 9.00 am
             [code] => CE2006
             [name] => SOFTWARE ENGINEERING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH2103] => Array
@@ -3247,7 +3237,7 @@ Array
             [time] => 9.00 am
             [code] => CH2103
             [name] => FLUID SYSTEMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CV3013] => Array
@@ -3257,7 +3247,7 @@ Array
             [time] => 9.00 am
             [code] => CV3013
             [name] => FOUNDATION ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ2006] => Array
@@ -3267,7 +3257,7 @@ Array
             [time] => 9.00 am
             [code] => CZ2006
             [name] => SOFTWARE ENGINEERING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3012] => Array
@@ -3277,7 +3267,7 @@ Array
             [time] => 9.00 am
             [code] => EE3012
             [name] => COMMUNICATION PRINCIPLES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HC2030] => Array
@@ -3287,7 +3277,7 @@ Array
             [time] => 9.00 am
             [code] => HC2030
             [name] => PRE-QIN THOUGHT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE2010] => Array
@@ -3297,7 +3287,7 @@ Array
             [time] => 9.00 am
             [code] => HE2010
             [name] => DEVELOPMENT ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE2020] => Array
@@ -3307,7 +3297,7 @@ Array
             [time] => 9.00 am
             [code] => HE2020
             [name] => SURVEY METHODS & SAMPLING TECHNIQUES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2027] => Array
@@ -3317,7 +3307,7 @@ Array
             [time] => 9.00 am
             [code] => HL2027
             [name] => EARLY AMERICAN LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL4024] => Array
@@ -3327,7 +3317,7 @@ Array
             [time] => 9.00 am
             [code] => HL4024
             [name] => ADVANCED STUDIES IN CONTEMPORARY LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM3002] => Array
@@ -3337,7 +3327,7 @@ Array
             [time] => 9.00 am
             [code] => IM3002
             [name] => COMMUNICATION PRINCIPLES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH2810] => Array
@@ -3347,7 +3337,7 @@ Array
             [time] => 9.00 am
             [code] => MH2810
             [name] => MATHEMATICS A
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4320] => Array
@@ -3357,7 +3347,7 @@ Array
             [time] => 9.00 am
             [code] => MH4320
             [name] => COMPUTATIONAL ECONOMICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS2016] => Array
@@ -3367,7 +3357,7 @@ Array
             [time] => 9.00 am
             [code] => MS2016
             [name] => PHASE TRANSFORMATION & KINETICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [PH3403] => Array
@@ -3377,7 +3367,7 @@ Array
             [time] => 9.00 am
             [code] => PH3403
             [name] => COSMOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BE1401] => Array
@@ -3387,7 +3377,7 @@ Array
             [time] => 1.00 pm
             [code] => BE1401
             [name] => BUSINESS OPERATIONS & PROCESS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS1001] => Array
@@ -3397,7 +3387,7 @@ Array
             [time] => 1.00 pm
             [code] => BS1001
             [name] => INTRODUCTORY BIOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM2011] => Array
@@ -3407,7 +3397,7 @@ Array
             [time] => 1.00 pm
             [code] => CM2011
             [name] => ANALYTICAL CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CY1001] => Array
@@ -3417,7 +3407,7 @@ Array
             [time] => 1.00 pm
             [code] => CY1001
             [name] => INTRODUCTORY BIOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ3007] => Array
@@ -3427,7 +3417,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ3007
             [name] => COMPILER TECHNIQUES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE2010] => Array
@@ -3437,7 +3427,7 @@ Array
             [time] => 1.00 pm
             [code] => EE2010
             [name] => SIGNALS & SYSTEMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE4188] => Array
@@ -3447,7 +3437,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4188
             [name] => WIRELESS COMMUNICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4303] => Array
@@ -3457,7 +3447,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4303
             [name] => MIXED-SIGNAL IC DESIGN
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4530] => Array
@@ -3467,7 +3457,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4530
             [name] => POWER SYSTEM ANALYSIS & CONTROL
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EN3001] => Array
@@ -3477,7 +3467,7 @@ Array
             [time] => 1.00 pm
             [code] => EN3001
             [name] => SOLID & HAZARDOUS WASTE MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HA4006] => Array
@@ -3487,7 +3477,7 @@ Array
             [time] => 1.00 pm
             [code] => HA4006
             [name] => SPECIAL TOPIC IN PUBLIC ADMINISTRATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2026] => Array
@@ -3497,7 +3487,7 @@ Array
             [time] => 1.00 pm
             [code] => HL2026
             [name] => READING DRAMA
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP3703] => Array
@@ -3507,7 +3497,7 @@ Array
             [time] => 1.00 pm
             [code] => HP3703
             [name] => HEALTH PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS1003] => Array
@@ -3517,7 +3507,7 @@ Array
             [time] => 1.00 pm
             [code] => HS1003
             [name] => SOCIAL PROBLEMS IN A GLOBAL CONTEXT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS3054] => Array
@@ -3527,7 +3517,7 @@ Array
             [time] => 1.00 pm
             [code] => HS3054
             [name] => SOCIAL PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM2004] => Array
@@ -3537,7 +3527,7 @@ Array
             [time] => 1.00 pm
             [code] => IM2004
             [name] => SIGNALS & SYSTEMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4188] => Array
@@ -3547,7 +3537,7 @@ Array
             [time] => 1.00 pm
             [code] => IM4188
             [name] => WIRELESS COMMUNICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA2002] => Array
@@ -3557,7 +3547,7 @@ Array
             [time] => 1.00 pm
             [code] => MA2002
             [name] => THEORY OF MECHANISM
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3704] => Array
@@ -3567,7 +3557,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3704
             [name] => AIRCRAFT ELECTRICAL DEVICES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA4830] => Array
@@ -3577,7 +3567,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4830
             [name] => REALTIME SOFTWARE FOR MECHATRONIC SYSTEMS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH1300] => Array
@@ -3587,7 +3577,7 @@ Array
             [time] => 1.00 pm
             [code] => MH1300
             [name] => FOUNDATIONS OF MATHEMATICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH3210] => Array
@@ -3597,7 +3587,7 @@ Array
             [time] => 1.00 pm
             [code] => MH3210
             [name] => NUMBER THEORY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4012] => Array
@@ -3607,7 +3597,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4012
             [name] => QUALITY CONTROL
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MT4104] => Array
@@ -3617,17 +3607,7 @@ Array
             [time] => 1.00 pm
             [code] => MT4104
             [name] => INFORMATION TECHNOLOGY MANAGEMENT
-            [duration] => 2.5
-        )
-
-    [BU8501] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => BU8501
-            [name] => MARKETING FOR THE 21ST CENTURY
-            [duration] => 2
+            [duration] => 2 hr 30 min
         )
 
     [CE4031] => Array
@@ -3637,7 +3617,7 @@ Array
             [time] => 5.00 pm
             [code] => CE4031
             [name] => DATABASE SYSTEM PRINCIPLES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH4101] => Array
@@ -3647,7 +3627,7 @@ Array
             [time] => 5.00 pm
             [code] => CH4101
             [name] => CHEMICAL, BIOLOGICAL & PLANT SAFETY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CV2013] => Array
@@ -3657,7 +3637,7 @@ Array
             [time] => 5.00 pm
             [code] => CV2013
             [name] => ENGINEERING GEOLOGY & SOIL MECHANICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ4031] => Array
@@ -3667,7 +3647,7 @@ Array
             [time] => 5.00 pm
             [code] => CZ4031
             [name] => DATABASE SYSTEM PRINCIPLES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE8094] => Array
@@ -3677,7 +3657,7 @@ Array
             [time] => 5.00 pm
             [code] => EE8094
             [name] => IMPACT OF ELECTROMAGNETIC RADIATION ON HUMANS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EM9104] => Array
@@ -3687,7 +3667,7 @@ Array
             [time] => 5.00 pm
             [code] => EM9104
             [name] => AIR QUALITY MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE1003] => Array
@@ -3697,7 +3677,7 @@ Array
             [time] => 5.00 pm
             [code] => HE1003
             [name] => BASIC MATHEMATICS FOR ECONOMISTS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE2004] => Array
@@ -3707,7 +3687,7 @@ Array
             [time] => 5.00 pm
             [code] => HE2004
             [name] => INTRODUCTORY ECONOMETRICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE4002] => Array
@@ -3717,7 +3697,7 @@ Array
             [time] => 5.00 pm
             [code] => HE4002
             [name] => ADVANCED MACROECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP4102] => Array
@@ -3727,7 +3707,7 @@ Array
             [time] => 5.00 pm
             [code] => HP4102
             [name] => TRAUMA PSYCHOLOGY & CRISIS MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP8002] => Array
@@ -3737,7 +3717,7 @@ Array
             [time] => 5.00 pm
             [code] => HP8002
             [name] => WORKING IN THE 21ST CENTURY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4849] => Array
@@ -3747,7 +3727,7 @@ Array
             [time] => 5.00 pm
             [code] => MA4849
             [name] => OPERATIONS RESEARCH
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PS8001] => Array
@@ -3757,7 +3737,7 @@ Array
             [time] => 5.00 pm
             [code] => PS8001
             [name] => DEFENCE SCIENCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [RE1013] => Array
@@ -3767,7 +3747,7 @@ Array
             [time] => 5.00 pm
             [code] => RE1013
             [name] => MATERIALS & MANUFACTURING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [AB3601] => Array
@@ -3777,7 +3757,7 @@ Array
             [time] => 9.00 am
             [code] => AB3601
             [name] => STRATEGIC MANAGEMENT
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [AD1101] => Array
@@ -3787,7 +3767,7 @@ Array
             [time] => 9.00 am
             [code] => AD1101
             [name] => FINANCIAL ACCOUNTING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BG2111] => Array
@@ -3797,7 +3777,7 @@ Array
             [time] => 9.00 am
             [code] => BG2111
             [name] => COMPUTATIONAL METHODS IN BIOMEDICAL ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS2101] => Array
@@ -3807,7 +3787,7 @@ Array
             [time] => 9.00 am
             [code] => BS2101
             [name] => ANATOMY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS3004] => Array
@@ -3817,7 +3797,7 @@ Array
             [time] => 9.00 am
             [code] => BS3004
             [name] => CANCER BIOLOGY & THERAPY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM4012] => Array
@@ -3827,7 +3807,7 @@ Array
             [time] => 9.00 am
             [code] => CM4012
             [name] => STRUCTURAL DETERMINATION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CS2021] => Array
@@ -3837,7 +3817,7 @@ Array
             [time] => 9.00 am
             [code] => CS2021
             [name] => NEWS REPORTING & WRITING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV4107] => Array
@@ -3847,7 +3827,7 @@ Array
             [time] => 9.00 am
             [code] => CV4107
             [name] => ENGINEERING ECONOMICS & FINANCE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ2003] => Array
@@ -3857,7 +3837,7 @@ Array
             [time] => 9.00 am
             [code] => CZ2003
             [name] => COMPUTER GRAPHICS & VISUALISATION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE1002] => Array
@@ -3867,7 +3847,7 @@ Array
             [time] => 9.00 am
             [code] => EE1002
             [name] => PHYSICS FOUNDATION FOR ELECTRICAL & ELECTRONIC ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [EE3010] => Array
@@ -3877,7 +3857,7 @@ Array
             [time] => 9.00 am
             [code] => EE3010
             [name] => ELECTRICAL DEVICES & MACHINES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4268] => Array
@@ -3887,7 +3867,7 @@ Array
             [time] => 9.00 am
             [code] => EE4268
             [name] => ROBOTICS & AUTOMATION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4647] => Array
@@ -3897,7 +3877,7 @@ Array
             [time] => 9.00 am
             [code] => EE4647
             [name] => MICROELECTRONIC DEVICES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HA2003] => Array
@@ -3907,7 +3887,7 @@ Array
             [time] => 9.00 am
             [code] => HA2003
             [name] => POLITICS & GOVERNMENT IN SOUTHEAST ASIA
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HC2005] => Array
@@ -3917,7 +3897,7 @@ Array
             [time] => 9.00 am
             [code] => HC2005
             [name] => GENERAL HISTORY OF CHINA
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA2009] => Array
@@ -3927,7 +3907,7 @@ Array
             [time] => 9.00 am
             [code] => MA2009
             [name] => INTRODUCTION TO ELECTRICAL CIRCUITS & ELECTRONIC DEVICES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA8005] => Array
@@ -3937,7 +3917,7 @@ Array
             [time] => 9.00 am
             [code] => MA8005
             [name] => AIRCRAFT ELECTRICAL & ELECTRONICS CIRCUITS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH1200] => Array
@@ -3947,7 +3927,7 @@ Array
             [time] => 9.00 am
             [code] => MH1200
             [name] => LINEAR ALGEBRA I
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH3300] => Array
@@ -3957,7 +3937,7 @@ Array
             [time] => 9.00 am
             [code] => MH3300
             [name] => GRAPH THEORY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH3510] => Array
@@ -3967,7 +3947,7 @@ Array
             [time] => 9.00 am
             [code] => MH3510
             [name] => REGRESSION ANALYSIS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS1016] => Array
@@ -3977,7 +3957,7 @@ Array
             [time] => 9.00 am
             [code] => MS1016
             [name] => THERMODYNAMICS OF MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [PH3601] => Array
@@ -3987,7 +3967,7 @@ Array
             [time] => 9.00 am
             [code] => PH3601
             [name] => FABRICATION OF MICRO-& NANOELECTRONIC DEVICES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BF3203] => Array
@@ -3997,7 +3977,17 @@ Array
             [time] => 1.00 pm
             [code] => BF3203
             [name] => EQUITY SECURITIES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
+        )
+
+    [BG1131] => Array
+        (
+            [date] => 1 December 2020
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BG1131
+            [name] => MOLECULAR CELL BIOLOGY FOR BIOMEDICAL ENGINEERS
+            [duration] => 2 hr 30 min
         )
 
     [BS2002] => Array
@@ -4007,7 +3997,7 @@ Array
             [time] => 1.00 pm
             [code] => BS2002
             [name] => MICROBIOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS4014] => Array
@@ -4017,7 +4007,17 @@ Array
             [time] => 1.00 pm
             [code] => BS4014
             [name] => MOLECULAR BASIS OF DISEASES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
+        )
+
+    [CB1131] => Array
+        (
+            [date] => 1 December 2020
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CB1131
+            [name] => INTRODUCTION TO BIOMOLECULAR ENGINEERING
+            [duration] => 2 hr 30 min
         )
 
     [CE3005] => Array
@@ -4027,7 +4027,7 @@ Array
             [time] => 1.00 pm
             [code] => CE3005
             [name] => COMPUTER NETWORKS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH1131] => Array
@@ -4037,7 +4037,7 @@ Array
             [time] => 1.00 pm
             [code] => CH1131
             [name] => BIOMOLECULAR ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM2061] => Array
@@ -4047,7 +4047,7 @@ Array
             [time] => 1.00 pm
             [code] => CM2061
             [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 1
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV4101] => Array
@@ -4057,7 +4057,7 @@ Array
             [time] => 1.00 pm
             [code] => CV4101
             [name] => STRUCTURAL ANALYSIS III
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ3006] => Array
@@ -4067,7 +4067,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ3006
             [name] => NET CENTRIC COMPUTING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4758] => Array
@@ -4077,7 +4077,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4758
             [name] => INFORMATION SECURITY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HC2011] => Array
@@ -4087,7 +4087,7 @@ Array
             [time] => 1.00 pm
             [code] => HC2011
             [name] => TANG POETRY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL3014] => Array
@@ -4097,7 +4097,7 @@ Array
             [time] => 1.00 pm
             [code] => HL3014
             [name] => LATIN AMERICAN LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP3805] => Array
@@ -4107,7 +4107,7 @@ Array
             [time] => 1.00 pm
             [code] => HP3805
             [name] => MANAGING ORGANISATIONAL BEHAVIOR
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS2008] => Array
@@ -4117,7 +4117,7 @@ Array
             [time] => 1.00 pm
             [code] => HS2008
             [name] => SOCIAL CLASS & INEQUALITY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM3003] => Array
@@ -4127,7 +4127,7 @@ Array
             [time] => 1.00 pm
             [code] => IM3003
             [name] => INFORMATION SECURITY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA4705] => Array
@@ -4137,7 +4137,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4705
             [name] => AIRCRAFT NAVIGATION & FLIGHT COMPUTERS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4850] => Array
@@ -4147,7 +4147,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4850
             [name] => SUPPLY CHAIN & LOGISTICS MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH1811] => Array
@@ -4157,7 +4157,7 @@ Array
             [time] => 1.00 pm
             [code] => MH1811
             [name] => MATHEMATICS 2
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4300] => Array
@@ -4167,7 +4167,7 @@ Array
             [time] => 1.00 pm
             [code] => MH4300
             [name] => COMBINATORICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4650] => Array
@@ -4177,7 +4177,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4650
             [name] => FUNCTIONAL NANOSTRUCTURE MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [PH3501] => Array
@@ -4187,7 +4187,7 @@ Array
             [time] => 1.00 pm
             [code] => PH3501
             [name] => FLUID MECHANICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BU8201] => Array
@@ -4197,7 +4197,7 @@ Array
             [time] => 5.00 pm
             [code] => BU8201
             [name] => BUSINESS FINANCE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE4023] => Array
@@ -4207,7 +4207,7 @@ Array
             [time] => 5.00 pm
             [code] => CE4023
             [name] => ADVANCED COMPUTER NETWORKS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH3101] => Array
@@ -4217,7 +4217,7 @@ Array
             [time] => 5.00 pm
             [code] => CH3101
             [name] => PROCESS CONTROL & DYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CH3111] => Array
@@ -4227,7 +4227,7 @@ Array
             [time] => 5.00 pm
             [code] => CH3111
             [name] => PROCESS CONTROL & DYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM9083] => Array
@@ -4237,7 +4237,7 @@ Array
             [time] => 5.00 pm
             [code] => CM9083
             [name] => HETEROCYCLIC CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV2015] => Array
@@ -4247,7 +4247,7 @@ Array
             [time] => 5.00 pm
             [code] => CV2015
             [name] => HYDRAULICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ4023] => Array
@@ -4257,7 +4257,7 @@ Array
             [time] => 5.00 pm
             [code] => CZ4023
             [name] => ADVANCED COMPUTER NETWORKS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE8084] => Array
@@ -4267,7 +4267,7 @@ Array
             [time] => 5.00 pm
             [code] => EE8084
             [name] => CYBER SECURITY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [ES8005] => Array
@@ -4277,7 +4277,7 @@ Array
             [time] => 5.00 pm
             [code] => ES8005
             [name] => ENVIRONMENTAL EARTH SYSTEMS SCIENCE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HA3024] => Array
@@ -4287,7 +4287,7 @@ Array
             [time] => 5.00 pm
             [code] => HA3024
             [name] => CHINA'S RE-EMERGENCE IN WORLD POLITICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE2013] => Array
@@ -4297,7 +4297,7 @@ Array
             [time] => 5.00 pm
             [code] => HE2013
             [name] => INTERNATIONAL TRADE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE3002] => Array
@@ -4307,7 +4307,7 @@ Array
             [time] => 5.00 pm
             [code] => HE3002
             [name] => GAME THEORY & APPLICATIONS TO SOCIAL SCIENCES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE4017] => Array
@@ -4317,7 +4317,7 @@ Array
             [time] => 5.00 pm
             [code] => HE4017
             [name] => MONETARY ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL0201] => Array
@@ -4327,7 +4327,7 @@ Array
             [time] => 5.00 pm
             [code] => HL0201
             [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HP0201] => Array
@@ -4337,7 +4337,7 @@ Array
             [time] => 5.00 pm
             [code] => HP0201
             [name] => EMPLOYMENT RELATIONS FOR WORK & CAREERS IN SINGAPORE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP4103] => Array
@@ -4347,7 +4347,7 @@ Array
             [time] => 5.00 pm
             [code] => HP4103
             [name] => THE FORENSIC PSYCHOLOGY OF CRIME, TERRORISM & DISASTERS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS3015] => Array
@@ -4357,7 +4357,7 @@ Array
             [time] => 5.00 pm
             [code] => HS3015
             [name] => DEVELOPMENT & SOCIAL CHANGE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3001] => Array
@@ -4367,7 +4367,7 @@ Array
             [time] => 5.00 pm
             [code] => MA3001
             [name] => MACHINE ELEMENT DESIGN
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MT1003] => Array
@@ -4377,7 +4377,7 @@ Array
             [time] => 5.00 pm
             [code] => MT1003
             [name] => TRADE PRACTICE & INCOTERMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BF3214] => Array
@@ -4387,7 +4387,7 @@ Array
             [time] => 9.00 am
             [code] => BF3214
             [name] => COMMODITIES TRADING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BG3104] => Array
@@ -4397,7 +4397,7 @@ Array
             [time] => 9.00 am
             [code] => BG3104
             [name] => BIOMEDICAL IMAGING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BR3208] => Array
@@ -4407,7 +4407,7 @@ Array
             [time] => 9.00 am
             [code] => BR3208
             [name] => OPERATIONAL RISK MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS3003] => Array
@@ -4417,7 +4417,7 @@ Array
             [time] => 9.00 am
             [code] => BS3003
             [name] => DEVELOPMENTAL BIOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE4022] => Array
@@ -4427,7 +4427,7 @@ Array
             [time] => 9.00 am
             [code] => CE4022
             [name] => PERSONAL MOBILE NETWORKS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CM3062] => Array
@@ -4437,7 +4437,7 @@ Array
             [time] => 9.00 am
             [code] => CM3062
             [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 4
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CS4020] => Array
@@ -4447,7 +4447,7 @@ Array
             [time] => 9.00 am
             [code] => CS4020
             [name] => FEATURE WRITING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV3015] => Array
@@ -4457,7 +4457,7 @@ Array
             [time] => 9.00 am
             [code] => CV3015
             [name] => ENVIRONMENTAL ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ4022] => Array
@@ -4467,7 +4467,7 @@ Array
             [time] => 9.00 am
             [code] => CZ4022
             [name] => PERSONAL MOBILE NETWORKS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4532] => Array
@@ -4477,7 +4477,7 @@ Array
             [time] => 9.00 am
             [code] => EE4532
             [name] => POWER ELECTRONICS & DRIVES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4761] => Array
@@ -4487,7 +4487,7 @@ Array
             [time] => 9.00 am
             [code] => EE4761
             [name] => COMPUTER NETWORKING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HE2011] => Array
@@ -4497,7 +4497,7 @@ Array
             [time] => 9.00 am
             [code] => HE2011
             [name] => LABOUR ECONOMICS & LABOUR RELATIONS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE4001] => Array
@@ -4507,7 +4507,7 @@ Array
             [time] => 9.00 am
             [code] => HE4001
             [name] => ADVANCED MICROECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL2042] => Array
@@ -4517,7 +4517,7 @@ Array
             [time] => 9.00 am
             [code] => HL2042
             [name] => CHILDREN'S LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP3802] => Array
@@ -4527,7 +4527,7 @@ Array
             [time] => 9.00 am
             [code] => HP3802
             [name] => PERSONNEL PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS2019] => Array
@@ -4537,7 +4537,7 @@ Array
             [time] => 9.00 am
             [code] => HS2019
             [name] => SOCIOLOGY OF SCIENCE & TECHNOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4761] => Array
@@ -4547,7 +4547,7 @@ Array
             [time] => 9.00 am
             [code] => IM4761
             [name] => COMPUTER NETWORKING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA3004] => Array
@@ -4557,7 +4557,7 @@ Array
             [time] => 9.00 am
             [code] => MA3004
             [name] => MATHEMATICAL METHODS IN ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3701] => Array
@@ -4567,7 +4567,7 @@ Array
             [time] => 9.00 am
             [code] => MA3701
             [name] => AERODYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH4311] => Array
@@ -4577,7 +4577,7 @@ Array
             [time] => 9.00 am
             [code] => MH4311
             [name] => CRYPTOGRAPHY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4513] => Array
@@ -4587,7 +4587,7 @@ Array
             [time] => 9.00 am
             [code] => MH4513
             [name] => SURVIVAL ANALYSIS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS2018] => Array
@@ -4597,7 +4597,7 @@ Array
             [time] => 9.00 am
             [code] => MS2018
             [name] => ELECTRONICS & MAGNETIC PROPERTIES OF MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4620] => Array
@@ -4607,7 +4607,7 @@ Array
             [time] => 9.00 am
             [code] => MS4620
             [name] => POLYMER TECHNOLOGY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MT1001] => Array
@@ -4617,7 +4617,7 @@ Array
             [time] => 9.00 am
             [code] => MT1001
             [name] => MATHEMATICS I FOR MARITIME STUDIES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [PH2104] => Array
@@ -4627,7 +4627,7 @@ Array
             [time] => 9.00 am
             [code] => PH2104
             [name] => ANALYTICAL MECHANICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [RE1014] => Array
@@ -4637,7 +4637,7 @@ Array
             [time] => 9.00 am
             [code] => RE1014
             [name] => ELECTRONIC & INFORMATION ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS3024] => Array
@@ -4647,7 +4647,7 @@ Array
             [time] => 1.00 pm
             [code] => BS3024
             [name] => EVOLUTION IN HEALTH & DISEASE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CH2109] => Array
@@ -4657,7 +4657,7 @@ Array
             [time] => 1.00 pm
             [code] => CH2109
             [name] => DECISION TOOLS FOR ENGINEERING BUSINESS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM1021] => Array
@@ -4667,7 +4667,7 @@ Array
             [time] => 1.00 pm
             [code] => CM1021
             [name] => BASIC INORGANIC CHEMISTRY WITH LABORATORY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CV2011] => Array
@@ -4677,7 +4677,7 @@ Array
             [time] => 1.00 pm
             [code] => CV2011
             [name] => STRUCTURAL ANALYSIS I
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CZ3003] => Array
@@ -4687,7 +4687,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ3003
             [name] => SOFTWARE SYSTEMS ANALYSIS & DESIGN
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3017] => Array
@@ -4697,7 +4697,7 @@ Array
             [time] => 1.00 pm
             [code] => EE3017
             [name] => COMPUTER COMMUNICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4491] => Array
@@ -4707,7 +4707,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4491
             [name] => PROBABILITY THEORY & APPLICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HC2054] => Array
@@ -4717,7 +4717,7 @@ Array
             [time] => 1.00 pm
             [code] => HC2054
             [name] => UNDERSTANDING CLASSICAL CHINESE TEXTS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE3011] => Array
@@ -4727,7 +4727,7 @@ Array
             [time] => 1.00 pm
             [code] => HE3011
             [name] => COST-BENEFIT ANALYSIS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL4023] => Array
@@ -4737,7 +4737,7 @@ Array
             [time] => 1.00 pm
             [code] => HL4023
             [name] => ADVANCED STUDIES IN AMERICAN LITERATURE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP4104] => Array
@@ -4747,7 +4747,7 @@ Array
             [time] => 1.00 pm
             [code] => HP4104
             [name] => EVIDENCE-BASED PRACTICE IN CLINICAL PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HS2013] => Array
@@ -4757,7 +4757,7 @@ Array
             [time] => 1.00 pm
             [code] => HS2013
             [name] => MIGRATION & MULTICULTURALISM
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM2003] => Array
@@ -4767,7 +4767,7 @@ Array
             [time] => 1.00 pm
             [code] => IM2003
             [name] => COMPUTER COMMUNICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA2006] => Array
@@ -4777,7 +4777,7 @@ Array
             [time] => 1.00 pm
             [code] => MA2006
             [name] => ENGINEERING MATHEMATICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3003] => Array
@@ -4787,7 +4787,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3003
             [name] => HEAT TRANSFER
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA3010] => Array
@@ -4797,7 +4797,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3010
             [name] => THERMODYNAMICS & HEAT TRANSFER
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4702] => Array
@@ -4807,7 +4807,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4702
             [name] => AIRCRAFT STRUCTURES II
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4804] => Array
@@ -4817,7 +4817,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4804
             [name] => OPTIMIZATION THEORY & APPLICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA4832] => Array
@@ -4827,7 +4827,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4832
             [name] => MICROPROCESSOR SYSTEMS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH1812] => Array
@@ -4837,7 +4837,7 @@ Array
             [time] => 1.00 pm
             [code] => MH1812
             [name] => DISCRETE MATHEMATICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4700] => Array
@@ -4847,7 +4847,7 @@ Array
             [time] => 1.00 pm
             [code] => MH4700
             [name] => NUMERICAL ANALYSIS II
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS3014] => Array
@@ -4857,7 +4857,7 @@ Array
             [time] => 1.00 pm
             [code] => MS3014
             [name] => ANALYSIS OF MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BF2216] => Array
@@ -4867,7 +4867,7 @@ Array
             [time] => 9.00 am
             [code] => BF2216
             [name] => TRADE INCOTERMS & SHIP CHARTERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BR3204] => Array
@@ -4877,7 +4877,7 @@ Array
             [time] => 9.00 am
             [code] => BR3204
             [name] => PROPERTY & LIABILITY INSURANCE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS2015] => Array
@@ -4887,7 +4887,7 @@ Array
             [time] => 9.00 am
             [code] => BS2015
             [name] => VIROLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS4017] => Array
@@ -4897,7 +4897,7 @@ Array
             [time] => 9.00 am
             [code] => BS4017
             [name] => HIGH-THROUGHPUT BIOINFORMATICS
-            [duration] => 3
+            [duration] => 3 hr
         )
 
     [CE4032] => Array
@@ -4907,7 +4907,7 @@ Array
             [time] => 9.00 am
             [code] => CE4032
             [name] => DATA ANALYTICS & MINING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH3103] => Array
@@ -4917,7 +4917,7 @@ Array
             [time] => 9.00 am
             [code] => CH3103
             [name] => CHEMICAL THERMODYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CM3031] => Array
@@ -4927,7 +4927,7 @@ Array
             [time] => 9.00 am
             [code] => CM3031
             [name] => ORGANIC REACTION MECHANISMS & SYNTHESIS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ4032] => Array
@@ -4937,7 +4937,7 @@ Array
             [time] => 9.00 am
             [code] => CZ4032
             [name] => DATA ANALYTICS & MINING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3018] => Array
@@ -4947,7 +4947,7 @@ Array
             [time] => 9.00 am
             [code] => EE3018
             [name] => INTRODUCTION TO PHOTONICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4476] => Array
@@ -4957,7 +4957,7 @@ Array
             [time] => 9.00 am
             [code] => EE4476
             [name] => IMAGE PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HE3016] => Array
@@ -4967,7 +4967,7 @@ Array
             [time] => 9.00 am
             [code] => HE3016
             [name] => PRINCIPLES OF MATHEMATICS FINANCE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HE4015] => Array
@@ -4977,7 +4977,7 @@ Array
             [time] => 9.00 am
             [code] => HE4015
             [name] => PERSONNEL ECONOMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HL4038] => Array
@@ -4987,7 +4987,7 @@ Array
             [time] => 9.00 am
             [code] => HL4038
             [name] => ADVANCED STUDIES IN POSTCOLONIAL LITERATURE
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HP3204] => Array
@@ -4997,7 +4997,7 @@ Array
             [time] => 9.00 am
             [code] => HP3204
             [name] => AN APE'S GUIDE TO HUMAN LANGUAGE
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4476] => Array
@@ -5007,7 +5007,7 @@ Array
             [time] => 9.00 am
             [code] => IM4476
             [name] => IMAGE PROCESSING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA1001] => Array
@@ -5017,7 +5017,7 @@ Array
             [time] => 9.00 am
             [code] => MA1001
             [name] => DYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA2004] => Array
@@ -5027,7 +5027,7 @@ Array
             [time] => 9.00 am
             [code] => MA2004
             [name] => MANUFACTURING PROCESSES
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4704] => Array
@@ -5037,7 +5037,7 @@ Array
             [time] => 9.00 am
             [code] => MA4704
             [name] => AEROELASTICITY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MH2500] => Array
@@ -5047,7 +5047,7 @@ Array
             [time] => 9.00 am
             [code] => MH2500
             [name] => PROBABILITY & INTRODUCTION TO STATISTICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH4701] => Array
@@ -5057,7 +5057,7 @@ Array
             [time] => 9.00 am
             [code] => MH4701
             [name] => MATHEMATICAL PROGRAMMING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS1013] => Array
@@ -5067,7 +5067,7 @@ Array
             [time] => 9.00 am
             [code] => MS1013
             [name] => MATERIALS CHEMISTRY I
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4640] => Array
@@ -5077,7 +5077,7 @@ Array
             [time] => 9.00 am
             [code] => MS4640
             [name] => ADVANCED ANALYSIS OF MATERIALS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [PH3602] => Array
@@ -5087,7 +5087,7 @@ Array
             [time] => 9.00 am
             [code] => PH3602
             [name] => PHOTONICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BG3105] => Array
@@ -5097,7 +5097,7 @@ Array
             [time] => 1.00 pm
             [code] => BG3105
             [name] => BIOMEDICAL INSTRUMENTATION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [BS3023] => Array
@@ -5107,7 +5107,7 @@ Array
             [time] => 1.00 pm
             [code] => BS3023
             [name] => REGULATORY CONTROL OF HEALTHCARE PRODUCTS & MEDICAL DEVICES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [BU8301] => Array
@@ -5117,7 +5117,7 @@ Array
             [time] => 1.00 pm
             [code] => BU8301
             [name] => FUNDAMENTALS OF BUSINESS LAW
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [CE1011] => Array
@@ -5127,7 +5127,7 @@ Array
             [time] => 1.00 pm
             [code] => CE1011
             [name] => ENGINEERING MATHEMATICS I
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CH9203] => Array
@@ -5137,17 +5137,17 @@ Array
             [time] => 1.00 pm
             [code] => CH9203
             [name] => FOOD PROCESS ENGINEERING
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
-    [CM4016] => Array
+    [CM4053] => Array
         (
             [date] => 3 December 2020
             [day] => Thursday
             [time] => 1.00 pm
-            [code] => CM4016
+            [code] => CM4053
             [name] => PHARMACEUTICAL CHEMISTRY
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [CZ1011] => Array
@@ -5157,7 +5157,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ1011
             [name] => ENGINEERING MATHEMATICS I
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE3015] => Array
@@ -5167,7 +5167,7 @@ Array
             [time] => 1.00 pm
             [code] => EE3015
             [name] => POWER SYSTEMS & CONVERSION
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4413] => Array
@@ -5177,7 +5177,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4413
             [name] => DSP SYSTEM DESIGN
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [EE4838] => Array
@@ -5187,7 +5187,7 @@ Array
             [time] => 1.00 pm
             [code] => EE4838
             [name] => LASER ENGINEERING & APPLICATIONS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [HL2041] => Array
@@ -5197,7 +5197,7 @@ Array
             [time] => 1.00 pm
             [code] => HL2041
             [name] => ASIAN HISTORICAL FICTION
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP3101] => Array
@@ -5207,7 +5207,7 @@ Array
             [time] => 1.00 pm
             [code] => HP3101
             [name] => APPLIED STATISTICAL METHODS FOR PSYCHOLOGICAL RESEARCH
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [HP4105] => Array
@@ -5217,7 +5217,7 @@ Array
             [time] => 1.00 pm
             [code] => HP4105
             [name] => CORRECTIONAL PSYCHOLOGY
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [IM4413] => Array
@@ -5227,7 +5227,7 @@ Array
             [time] => 1.00 pm
             [code] => IM4413
             [name] => DSP SYSTEM DESIGN
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MA3006] => Array
@@ -5237,7 +5237,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3006
             [name] => FLUID MECHANICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA4814] => Array
@@ -5247,7 +5247,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4814
             [name] => COMPUTATIONAL FLUID DYNAMICS
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
     [MA9004] => Array
@@ -5257,7 +5257,7 @@ Array
             [time] => 1.00 pm
             [code] => MA9004
             [name] => SYSTEMS THINKING & SYSTEMS ENGINEERING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH1100] => Array
@@ -5267,7 +5267,7 @@ Array
             [time] => 1.00 pm
             [code] => MH1100
             [name] => CALCULUS I
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH2801] => Array
@@ -5277,7 +5277,7 @@ Array
             [time] => 1.00 pm
             [code] => MH2801
             [name] => COMPLEX METHODS FOR THE SCIENCES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MH2814] => Array
@@ -5287,7 +5287,7 @@ Array
             [time] => 1.00 pm
             [code] => MH2814
             [name] => PROBABILITY & STATISTICS
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS2012] => Array
@@ -5297,7 +5297,7 @@ Array
             [time] => 1.00 pm
             [code] => MS2012
             [name] => INTRODUCTION TO MANUFACTURING PROCESSES
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [MS4631] => Array
@@ -5307,7 +5307,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4631
             [name] => CORROSION ENGINEERING
-            [duration] => 2
+            [duration] => 2 hr
         )
 
     [RE8011] => Array
@@ -5317,7 +5317,7 @@ Array
             [time] => 1.00 pm
             [code] => RE8011
             [name] => FUNDAMENTALS OF MANAGEMENT
-            [duration] => 2.5
+            [duration] => 2 hr 30 min
         )
 
 )
