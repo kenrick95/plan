@@ -120,46 +120,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HA2009] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HA2009
-            [name] => THE MAKING OF E-GOVERNMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [HE1002] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HE1002
-            [name] => MACROECONOMIC PRINCIPLES
-            [duration] => 2 hr 30 min
-        )
-
-    [HL1001] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HL1001
-            [name] => INTRODUCTION TO THE STUDY OF LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HT9102] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HT9102
-            [name] => LANGUAGE FOUNDATION FOR TRANSLATION
-            [duration] => 2 hr 30 min
-        )
-
     [IM1004] => Array
         (
             [date] => 20 November 2020
@@ -380,46 +340,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HC3003] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HC3003
-            [name] => SOUTHEAST ASIAN CHINESE
-            [duration] => 2 hr 30 min
-        )
-
-    [HL2002] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HL2002
-            [name] => RENAISSANCE LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HP3901] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HP3901
-            [name] => CULTURAL PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [HP8003] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HP8003
-            [name] => ARE YOU OKAY? MENTAL HEALTH IN SINGAPORE
-            [duration] => 2 hr
-        )
-
     [IM2007] => Array
         (
             [date] => 20 November 2020
@@ -610,16 +530,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HA1001] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HA1001
-            [name] => INTRODUCTION TO INTERNATIONAL RELATIONS & FOREIGN POLICY
-            [duration] => 2 hr 30 min
-        )
-
     [HC1002] => Array
         (
             [date] => 23 November 2020
@@ -627,46 +537,6 @@ Array
             [time] => 9.00 am
             [code] => HC1002
             [name] => INTRODUCTION TO CHINESE LANGUAGE
-            [duration] => 2 hr 30 min
-        )
-
-    [HC3043] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HC3043
-            [name] => CHINESE ECOLOGICAL THOUGHTS & PHILOSOPHY
-            [duration] => 2 hr 30 min
-        )
-
-    [HE3001] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HE3001
-            [name] => MATHEMATICAL ECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HS2009] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HS2009
-            [name] => SOCIOLOGY OF THE LIFE COURSE
-            [duration] => 2 hr 30 min
-        )
-
-    [HS4015] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HS4015
-            [name] => SOCIOLOGY OF REPRODUCTION
             [duration] => 2 hr 30 min
         )
 
@@ -740,16 +610,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [BR2201] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => BR2201
-            [name] => RISK MODELLING
-            [duration] => 3 hr
-        )
-
     [BS2001] => Array
         (
             [date] => 23 November 2020
@@ -810,36 +670,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA2017] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HA2017
-            [name] => FOREIGN POLICY ANALYSIS
-            [duration] => 2 hr 30 min
-        )
-
-    [HE2007] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HE2007
-            [name] => MONEY & BANKING
-            [duration] => 2 hr 30 min
-        )
-
-    [HE3013] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HE3013
-            [name] => URBAN ECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
     [HL2004] => Array
         (
             [date] => 23 November 2020
@@ -847,26 +677,6 @@ Array
             [time] => 1.00 pm
             [code] => HL2004
             [name] => SENSIBILITY & ROMANTICISM
-            [duration] => 2 hr 30 min
-        )
-
-    [HP1100] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HP1100
-            [name] => FUNDAMENTALS OF SOCIAL SCIENCE RESEARCH
-            [duration] => 2 hr 30 min
-        )
-
-    [HT9101] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HT9101
-            [name] => TRANSLATION: HISTORY, THEORIES & PRINCIPLES
             [duration] => 2 hr 30 min
         )
 
@@ -1090,36 +900,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA2015] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HA2015
-            [name] => CHINA IN AFRICA
-            [duration] => 2 hr 30 min
-        )
-
-    [HE1001] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HE1001
-            [name] => MICROECONOMIC PRINCIPLES
-            [duration] => 2 hr 30 min
-        )
-
-    [HE4020] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HE4020
-            [name] => ECONOMETRIC TIME SERIES ANALYSIS
-            [duration] => 2 hr 30 min
-        )
-
     [MA2701] => Array
         (
             [date] => 24 November 2020
@@ -1230,16 +1010,6 @@ Array
             [duration] => 2 hr
         )
 
-    [CS2400] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CS2400
-            [name] => FOUNDATION OF INFORMATION ANALYTICS
-            [duration] => 2 hr
-        )
-
     [CV1011] => Array
         (
             [date] => 24 November 2020
@@ -1278,46 +1048,6 @@ Array
             [code] => EE4646
             [name] => VLSI TECHNOLOGY
             [duration] => 2 hr
-        )
-
-    [HC1001] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HC1001
-            [name] => INTRODUCTION TO THE STUDY OF LITERATURE & CULTURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HL1002] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HL1002
-            [name] => SURVEY OF ENGLISH LITERATURE 1
-            [duration] => 2 hr 30 min
-        )
-
-    [HP8005] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HP8005
-            [name] => INTRODUCTION TO HUMAN RESOURCE MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [HS2001] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HS2001
-            [name] => CLASSICAL SOCIAL THEORY
-            [duration] => 2 hr 30 min
         )
 
     [MA4001] => Array
@@ -1440,16 +1170,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HC0201] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HC0201
-            [name] => CHINESE LITERATURE IN SINGAPORE
-            [duration] => 2 hr
-        )
-
     [HE2006] => Array
         (
             [date] => 24 November 2020
@@ -1457,26 +1177,6 @@ Array
             [time] => 5.00 pm
             [code] => HE2006
             [name] => INTERNATIONAL MONETARY ECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HP1000] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HP1000
-            [name] => INTRODUCTION TO PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [HP8006] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HP8006
-            [name] => PSYCHOLOGY OF CRISIS STRESS MANAGEMENT
             [duration] => 2 hr 30 min
         )
 
@@ -1630,36 +1330,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA1002] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HA1002
-            [name] => INTRODUCTION TO POLITICAL THEORY
-            [duration] => 2 hr 30 min
-        )
-
-    [HE3003] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HE3003
-            [name] => THE CHINESE ECONOMY
-            [duration] => 2 hr 30 min
-        )
-
-    [HL2024] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HL2024
-            [name] => APPROACHES TO LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
     [HL4013] => Array
         (
             [date] => 25 November 2020
@@ -1667,26 +1337,6 @@ Array
             [time] => 9.00 am
             [code] => HL4013
             [name] => ADVANCED STUDIES IN LITERATURE & CULTURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HP2500] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HP2500
-            [name] => PERSONALITY & INDIVIDUAL DIFFERENCES
-            [duration] => 2 hr 30 min
-        )
-
-    [HS1002] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HS1002
-            [name] => SINGAPORE SOCIETY IN TRANSITION
             [duration] => 2 hr 30 min
         )
 
@@ -1850,26 +1500,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HG1001] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HG1001
-            [name] => MIND & MEANING
-            [duration] => 2 hr 30 min
-        )
-
-    [HS3001] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HS3001
-            [name] => CONTEMPORARY SOCIAL THEORY
-            [duration] => 2 hr 30 min
-        )
-
     [IM4717] => Array
         (
             [date] => 25 November 2020
@@ -2000,26 +1630,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HA2023] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HA2023
-            [name] => RESEARCH METHODOLOGY IN SOCIAL SCIENCES
-            [duration] => 2 hr 30 min
-        )
-
-    [HV8001] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HV8001
-            [name] => INTRODUCTION TO ENVIRONMENTAL HUMANITIES
-            [duration] => 2 hr
-        )
-
     [MA4838] => Array
         (
             [date] => 25 November 2020
@@ -2120,16 +1730,6 @@ Array
             [duration] => 2 hr
         )
 
-    [CS0204] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CS0204
-            [name] => BASIC MEDIA WRITING
-            [duration] => 2 hr
-        )
-
     [CZ2005] => Array
         (
             [date] => 26 November 2020
@@ -2158,36 +1758,6 @@ Array
             [code] => EE4340
             [name] => VLSI SYSTEMS
             [duration] => 2 hr
-        )
-
-    [HC2001] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HC2001
-            [name] => DIRECTED READINGS OF LITERARY WORKS: PRE-QIN,HAN,WEI & JIN
-            [duration] => 2 hr 30 min
-        )
-
-    [HL2008] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HL2008
-            [name] => SINGAPORE LITERATURE & CULTURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HP2200] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HP2200
-            [name] => BIOLOGICAL PSYCHOLOGY
-            [duration] => 2 hr 30 min
         )
 
     [HS3002] => Array
@@ -2410,46 +1980,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA3025] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HA3025
-            [name] => THE POLITICS & PRACTICE OF INTERNATIONAL DIPLOMACY
-            [duration] => 2 hr 30 min
-        )
-
-    [HC2004] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HC2004
-            [name] => DIRECTED READINGS OF LITERARY WORKS: YUAN, MING & QING
-            [duration] => 2 hr 30 min
-        )
-
-    [HE2005] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HE2005
-            [name] => PRINCIPLES OF ECONOMETRICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HS3007] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HS3007
-            [name] => RELIGION & SOCIETY
-            [duration] => 2 hr 30 min
-        )
-
     [IM2002] => Array
         (
             [date] => 26 November 2020
@@ -2568,36 +2098,6 @@ Array
             [code] => ES8001
             [name] => NATURAL HAZARDS & SOCIETY
             [duration] => 2 hr
-        )
-
-    [HE9091] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => HE9091
-            [name] => PRINCIPLES OF ECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HL8001] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => HL8001
-            [name] => MADNESS IN LITERATURE & FILM
-            [duration] => 2 hr
-        )
-
-    [HT9301] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => HT9301
-            [name] => LINGUISTICS, CULTURE & TRANSLATION
-            [duration] => 2 hr 30 min
         )
 
     [HY8002] => Array
@@ -2730,26 +2230,6 @@ Array
             [duration] => 2 hr
         )
 
-    [CS4027] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CS4027
-            [name] => NARRATIVE FILM & TV:CONCEPTS & APPLICATIONS
-            [duration] => 2 hr
-        )
-
-    [CS4066] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CS4066
-            [name] => ISSUES IN PUBLIC RELATIONS
-            [duration] => 2 hr
-        )
-
     [CV4102] => Array
         (
             [date] => 27 November 2020
@@ -2837,46 +2317,6 @@ Array
             [time] => 9.00 am
             [code] => EN4105
             [name] => INTEGRATED ENVIRONMENTAL MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [HA1012] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HA1012
-            [name] => FUNDAMENTALS OF POLITICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HE3007] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HE3007
-            [name] => FINANCIAL ECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HP3806] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HP3806
-            [name] => CONSUMER PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [HS2028] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => HS2028
-            [name] => GRAYING SOCIETY: ISSUES & CHALLENGES
             [duration] => 2 hr 30 min
         )
 
@@ -3070,36 +2510,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA3015] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HA3015
-            [name] => MEDIA & POLITICS
-            [duration] => 1 hr 30 min
-        )
-
-    [HC3040] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HC3040
-            [name] => CHINA'S REFORM & ECONOMIC DEVELOPMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [HE4010] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HE4010
-            [name] => SINGAPORE ECONOMY IN A GLOBALIZED WORLD
-            [duration] => 2 hr 30 min
-        )
-
     [HL2022] => Array
         (
             [date] => 27 November 2020
@@ -3107,16 +2517,6 @@ Array
             [time] => 2.30 pm
             [code] => HL2022
             [name] => SOUTH ASIAN LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HS1001] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HS1001
-            [name] => PERSON & SOCIETY
             [duration] => 2 hr 30 min
         )
 
@@ -3270,36 +2670,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HC2030] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HC2030
-            [name] => PRE-QIN THOUGHT
-            [duration] => 2 hr 30 min
-        )
-
-    [HE2010] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HE2010
-            [name] => DEVELOPMENT ECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HE2020] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HE2020
-            [name] => SURVEY METHODS & SAMPLING TECHNIQUES
-            [duration] => 2 hr 30 min
-        )
-
     [HL2027] => Array
         (
             [date] => 30 November 2020
@@ -3307,16 +2677,6 @@ Array
             [time] => 9.00 am
             [code] => HL2027
             [name] => EARLY AMERICAN LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HL4024] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => HL4024
-            [name] => ADVANCED STUDIES IN CONTEMPORARY LITERATURE
             [duration] => 2 hr 30 min
         )
 
@@ -3470,56 +2830,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA4006] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HA4006
-            [name] => SPECIAL TOPIC IN PUBLIC ADMINISTRATION
-            [duration] => 2 hr 30 min
-        )
-
-    [HL2026] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HL2026
-            [name] => READING DRAMA
-            [duration] => 2 hr 30 min
-        )
-
-    [HP3703] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HP3703
-            [name] => HEALTH PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [HS1003] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HS1003
-            [name] => SOCIAL PROBLEMS IN A GLOBAL CONTEXT
-            [duration] => 2 hr 30 min
-        )
-
-    [HS3054] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HS3054
-            [name] => SOCIAL PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
     [IM2004] => Array
         (
             [date] => 30 November 2020
@@ -3670,16 +2980,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HE1003] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => HE1003
-            [name] => BASIC MATHEMATICS FOR ECONOMISTS
-            [duration] => 2 hr 30 min
-        )
-
     [HE2004] => Array
         (
             [date] => 30 November 2020
@@ -3687,36 +2987,6 @@ Array
             [time] => 5.00 pm
             [code] => HE2004
             [name] => INTRODUCTORY ECONOMETRICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HE4002] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => HE4002
-            [name] => ADVANCED MACROECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HP4102] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => HP4102
-            [name] => TRAUMA PSYCHOLOGY & CRISIS MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [HP8002] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => HP8002
-            [name] => WORKING IN THE 21ST CENTURY
             [duration] => 2 hr 30 min
         )
 
@@ -3758,16 +3028,6 @@ Array
             [code] => AB3601
             [name] => STRATEGIC MANAGEMENT
             [duration] => 2 hr
-        )
-
-    [AD1101] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => AD1101
-            [name] => FINANCIAL ACCOUNTING
-            [duration] => 2 hr 30 min
         )
 
     [BG2111] => Array
@@ -3878,16 +3138,6 @@ Array
             [code] => EE4647
             [name] => MICROELECTRONIC DEVICES
             [duration] => 2 hr
-        )
-
-    [HA2003] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HA2003
-            [name] => POLITICS & GOVERNMENT IN SOUTHEAST ASIA
-            [duration] => 2 hr 30 min
         )
 
     [HC2005] => Array
@@ -4080,16 +3330,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HC2011] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HC2011
-            [name] => TANG POETRY
-            [duration] => 2 hr 30 min
-        )
-
     [HL3014] => Array
         (
             [date] => 1 December 2020
@@ -4097,26 +3337,6 @@ Array
             [time] => 1.00 pm
             [code] => HL3014
             [name] => LATIN AMERICAN LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HP3805] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HP3805
-            [name] => MANAGING ORGANISATIONAL BEHAVIOR
-            [duration] => 2 hr 30 min
-        )
-
-    [HS2008] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HS2008
-            [name] => SOCIAL CLASS & INEQUALITY
             [duration] => 2 hr 30 min
         )
 
@@ -4280,36 +3500,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HA3024] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HA3024
-            [name] => CHINA'S RE-EMERGENCE IN WORLD POLITICS
-            [duration] => 2 hr 30 min
-        )
-
-    [HE2013] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HE2013
-            [name] => INTERNATIONAL TRADE
-            [duration] => 2 hr 30 min
-        )
-
-    [HE3002] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HE3002
-            [name] => GAME THEORY & APPLICATIONS TO SOCIAL SCIENCES
-            [duration] => 2 hr 30 min
-        )
-
     [HE4017] => Array
         (
             [date] => 1 December 2020
@@ -4328,36 +3518,6 @@ Array
             [code] => HL0201
             [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
             [duration] => 2 hr
-        )
-
-    [HP0201] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HP0201
-            [name] => EMPLOYMENT RELATIONS FOR WORK & CAREERS IN SINGAPORE
-            [duration] => 2 hr 30 min
-        )
-
-    [HP4103] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HP4103
-            [name] => THE FORENSIC PSYCHOLOGY OF CRIME, TERRORISM & DISASTERS
-            [duration] => 2 hr 30 min
-        )
-
-    [HS3015] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => HS3015
-            [name] => DEVELOPMENT & SOCIAL CHANGE
-            [duration] => 2 hr 30 min
         )
 
     [MA3001] => Array
@@ -4440,16 +3600,6 @@ Array
             [duration] => 2 hr
         )
 
-    [CS4020] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => CS4020
-            [name] => FEATURE WRITING
-            [duration] => 2 hr
-        )
-
     [CV3015] => Array
         (
             [date] => 2 December 2020
@@ -4490,26 +3640,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HE2011] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HE2011
-            [name] => LABOUR ECONOMICS & LABOUR RELATIONS
-            [duration] => 2 hr 30 min
-        )
-
-    [HE4001] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HE4001
-            [name] => ADVANCED MICROECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
     [HL2042] => Array
         (
             [date] => 2 December 2020
@@ -4517,26 +3647,6 @@ Array
             [time] => 9.00 am
             [code] => HL2042
             [name] => CHILDREN'S LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HP3802] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HP3802
-            [name] => PERSONNEL PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [HS2019] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => HS2019
-            [name] => SOCIOLOGY OF SCIENCE & TECHNOLOGY
             [duration] => 2 hr 30 min
         )
 
@@ -4710,16 +3820,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HC2054] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HC2054
-            [name] => UNDERSTANDING CLASSICAL CHINESE TEXTS
-            [duration] => 2 hr 30 min
-        )
-
     [HE3011] => Array
         (
             [date] => 2 December 2020
@@ -4737,26 +3837,6 @@ Array
             [time] => 1.00 pm
             [code] => HL4023
             [name] => ADVANCED STUDIES IN AMERICAN LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HP4104] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HP4104
-            [name] => EVIDENCE-BASED PRACTICE IN CLINICAL PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [HS2013] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HS2013
-            [name] => MIGRATION & MULTICULTURALISM
             [duration] => 2 hr 30 min
         )
 
@@ -4960,26 +4040,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HE3016] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HE3016
-            [name] => PRINCIPLES OF MATHEMATICS FINANCE
-            [duration] => 2 hr 30 min
-        )
-
-    [HE4015] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HE4015
-            [name] => PERSONNEL ECONOMICS
-            [duration] => 2 hr 30 min
-        )
-
     [HL4038] => Array
         (
             [date] => 3 December 2020
@@ -4987,16 +4047,6 @@ Array
             [time] => 9.00 am
             [code] => HL4038
             [name] => ADVANCED STUDIES IN POSTCOLONIAL LITERATURE
-            [duration] => 2 hr
-        )
-
-    [HP3204] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HP3204
-            [name] => AN APE'S GUIDE TO HUMAN LANGUAGE
             [duration] => 2 hr 30 min
         )
 
@@ -5110,16 +4160,6 @@ Array
             [duration] => 2 hr
         )
 
-    [BU8301] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => BU8301
-            [name] => FUNDAMENTALS OF BUSINESS LAW
-            [duration] => 2 hr 30 min
-        )
-
     [CE1011] => Array
         (
             [date] => 3 December 2020
@@ -5188,36 +4228,6 @@ Array
             [code] => EE4838
             [name] => LASER ENGINEERING & APPLICATIONS
             [duration] => 2 hr
-        )
-
-    [HL2041] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HL2041
-            [name] => ASIAN HISTORICAL FICTION
-            [duration] => 2 hr 30 min
-        )
-
-    [HP3101] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HP3101
-            [name] => APPLIED STATISTICAL METHODS FOR PSYCHOLOGICAL RESEARCH
-            [duration] => 2 hr 30 min
-        )
-
-    [HP4105] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HP4105
-            [name] => CORRECTIONAL PSYCHOLOGY
-            [duration] => 2 hr 30 min
         )
 
     [IM4413] => Array
