@@ -1,25 +1,5 @@
 Array
 (
-    [AAL28A] => Array
-        (
-            [date] => 19 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => AAL28A
-            [name] => SINGAPORE STUDIES
-            [duration] => 2 hr 30 min
-        )
-
-    [AGQ28B] => Array
-        (
-            [date] => 19 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => AGQ28B
-            [name] => EVERYDAY SCIENCE IN FOODS
-            [duration] => 2 hr 30 min
-        )
-
     [AC1103] => Array
         (
             [date] => 20 November 2020
@@ -77,27 +57,7 @@ Array
             [time] => 9.00 am
             [code] => CE2004
             [name] => CIRCUITS & SIGNAL ANALYSIS
-            [duration] => 2 hr
-        )
-
-    [CH2140] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CH2140
-            [name] => CHEMICAL ENGINEERING UNIT OPERATIONS I
-            [duration] => 2 hr 30 min
-        )
-
-    [CH2141] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CH2141
-            [name] => CHEMICAL ENGINEERING UNIT OPERATIONS I
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [EE2004] => Array
@@ -107,7 +67,7 @@ Array
             [time] => 9.00 am
             [code] => EE2004
             [name] => DIGITAL ELECTRONICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE4903] => Array
@@ -127,7 +87,7 @@ Array
             [time] => 9.00 am
             [code] => IM1004
             [name] => DIGITAL ELECTRONICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [MA1002] => Array
@@ -137,7 +97,7 @@ Array
             [time] => 9.00 am
             [code] => MA1002
             [name] => FUNDAMENTAL ENGINEERING MATERIALS
-            [duration] => 2 hr
+            [duration] => 0 hr 30 min
         )
 
     [MH4200] => Array
@@ -167,7 +127,7 @@ Array
             [time] => 9.00 am
             [code] => MS1015
             [name] => MATERIALS SCIENCE
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MT2002] => Array
@@ -187,7 +147,7 @@ Array
             [time] => 9.00 am
             [code] => PH1105
             [name] => OPTICS, VIBRATIONS & WAVES
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [AC2301] => Array
@@ -230,16 +190,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [CE1005] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => CE1005
-            [name] => DIGITAL LOGIC
-            [duration] => 2 hr
-        )
-
     [CE1105] => Array
         (
             [date] => 20 November 2020
@@ -277,16 +227,6 @@ Array
             [time] => 2.30 pm
             [code] => CV3014
             [name] => TRANSPORTATION ENGINEERING
-            [duration] => 2 hr 30 min
-        )
-
-    [CZ1005] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => CZ1005
-            [name] => DIGITAL LOGIC
             [duration] => 2 hr
         )
 
@@ -317,7 +257,7 @@ Array
             [time] => 2.30 pm
             [code] => EE2007
             [name] => ENGINEERING MATHEMATICS II
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE4341] => Array
@@ -347,7 +287,7 @@ Array
             [time] => 2.30 pm
             [code] => IM2007
             [name] => ENGINEERING MATHEMATICS II
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [IM4483] => Array
@@ -360,36 +300,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MA3005] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MA3005
-            [name] => CONTROL THEORY
-            [duration] => 2 hr 30 min
-        )
-
-    [MA3705] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MA3705
-            [name] => AEROSPACE CONTROL THEORY
-            [duration] => 2 hr 30 min
-        )
-
-    [MS3011] => Array
-        (
-            [date] => 20 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MS3011
-            [name] => METALLIC & CERAMIC MATERIALS
-            [duration] => 2 hr
-        )
-
     [MS4613] => Array
         (
             [date] => 20 November 2020
@@ -397,7 +307,7 @@ Array
             [time] => 2.30 pm
             [code] => MS4613
             [name] => WEARABLE SENSORS FOR HEALTHCARE
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [PH3101] => Array
@@ -407,7 +317,7 @@ Array
             [time] => 2.30 pm
             [code] => PH3101
             [name] => QUANTUM MECHANICS II
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH4408] => Array
@@ -417,7 +327,7 @@ Array
             [time] => 2.30 pm
             [code] => PH4408
             [name] => NUCLEAR PHYSICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [BA3203] => Array
@@ -497,7 +407,7 @@ Array
             [time] => 9.00 am
             [code] => CY1308
             [name] => PHYSICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ2004] => Array
@@ -550,16 +460,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MA2007] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => MA2007
-            [name] => THERMODYNAMICS
-            [duration] => 2 hr 30 min
-        )
-
     [MH1810] => Array
         (
             [date] => 23 November 2020
@@ -597,7 +497,7 @@ Array
             [time] => 1.00 pm
             [code] => BF2209
             [name] => DERIVATIVE SECURITIES
-            [duration] => 2 hr
+            [duration] => 2 hr 30 min
         )
 
     [BG2131] => Array
@@ -610,6 +510,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [BR2201] => Array
+        (
+            [date] => 23 November 2020
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => BR2201
+            [name] => RISK MODELLING
+            [duration] => 3 hr
+        )
+
     [BS2001] => Array
         (
             [date] => 23 November 2020
@@ -617,16 +527,6 @@ Array
             [time] => 1.00 pm
             [code] => BS2001
             [name] => PHYSIOLOGY
-            [duration] => 2 hr
-        )
-
-    [BS4016] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => BS4016
-            [name] => ADVANCED VIROLOGY
             [duration] => 2 hr
         )
 
@@ -647,7 +547,7 @@ Array
             [time] => 1.00 pm
             [code] => CV3011
             [name] => REINFORCED CONCRETE DESIGN
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ3005] => Array
@@ -667,7 +567,7 @@ Array
             [time] => 1.00 pm
             [code] => EE2001
             [name] => CIRCUIT ANALYSIS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HL2004] => Array
@@ -677,7 +577,7 @@ Array
             [time] => 1.00 pm
             [code] => HL2004
             [name] => SENSIBILITY & ROMANTICISM
-            [duration] => 2 hr 30 min
+            [duration] => 3 hr
         )
 
     [MA3002] => Array
@@ -687,7 +587,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3002
             [name] => SOLID MECHANICS & VIBRATION
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA4881] => Array
@@ -697,7 +597,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4881
             [name] => AIR TRAFFIC MANAGEMENT
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MS4610] => Array
@@ -707,7 +607,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4610
             [name] => ADVANCED BIOMATERIALS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MT4003] => Array
@@ -717,17 +617,7 @@ Array
             [time] => 1.00 pm
             [code] => MT4003
             [name] => MARITIME STRATEGY
-            [duration] => 2 hr 30 min
-        )
-
-    [PH2103] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => PH2103
-            [name] => THERMAL PHYSICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH4403] => Array
@@ -737,7 +627,7 @@ Array
             [time] => 1.00 pm
             [code] => PH4403
             [name] => SURFACES & INTERFACES
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [AC2302] => Array
@@ -747,16 +637,6 @@ Array
             [time] => 5.00 pm
             [code] => AC2302
             [name] => COMPANY LAW & CORPORATE GOVERNANCE
-            [duration] => 2 hr 30 min
-        )
-
-    [BU8644] => Array
-        (
-            [date] => 23 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => BU8644
-            [name] => SMARTER BRAIN? THE SCIENCE OF DECISION MAKING
             [duration] => 2 hr 30 min
         )
 
@@ -777,7 +657,7 @@ Array
             [time] => 5.00 pm
             [code] => CM8002
             [name] => FORENSIC SCIENCE
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [CM8022] => Array
@@ -787,7 +667,7 @@ Array
             [time] => 5.00 pm
             [code] => CM8022
             [name] => APPLICATIONS OF FORENSIC SCIENCE
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [CZ4016] => Array
@@ -847,7 +727,7 @@ Array
             [time] => 9.00 am
             [code] => BS4010
             [name] => SYNTHETIC BIOLOGY
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [CE2001] => Array
@@ -877,7 +757,7 @@ Array
             [time] => 9.00 am
             [code] => EE2002
             [name] => ANALOG ELECTRONICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE4266] => Array
@@ -890,26 +770,6 @@ Array
             [duration] => 2 hr
         )
 
-    [EN3003] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => EN3003
-            [name] => ENVIRONMENTAL TRANSPORT PROCESSES
-            [duration] => 2 hr 30 min
-        )
-
-    [MA2701] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => MA2701
-            [name] => FLIGHT PERFORMANCE
-            [duration] => 2 hr 30 min
-        )
-
     [MH1802] => Array
         (
             [date] => 24 November 2020
@@ -920,16 +780,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MH4510] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => MH4510
-            [name] => STATISTICAL LEARNING & DATA MINING
-            [duration] => 2 hr
-        )
-
     [MS3012] => Array
         (
             [date] => 24 November 2020
@@ -937,17 +787,7 @@ Array
             [time] => 9.00 am
             [code] => MS3012
             [name] => MICRO/NANOELECTRONIC MATERIALS PROCESSING
-            [duration] => 2 hr
-        )
-
-    [AAQ10A] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => AAQ10A
-            [name] => PRINCIPLES OF NUTRITION
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [BG4341] => Array
@@ -957,7 +797,7 @@ Array
             [time] => 1.00 pm
             [code] => BG4341
             [name] => FUNDAMENTALS OF INTELLECTUAL PROPERTY IN BIOMEDICAL ENGINEER
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [BS3027] => Array
@@ -987,7 +827,7 @@ Array
             [time] => 1.00 pm
             [code] => CH4341
             [name] => FUNDAMENTALS OF INTELLECTUAL PROPERTY IN CHEMICAL ENG
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [CH9201] => Array
@@ -997,7 +837,7 @@ Array
             [time] => 1.00 pm
             [code] => CH9201
             [name] => FOOD CHEMISTRY
-            [duration] => 3 hr
+            [duration] => 2 hr
         )
 
     [CM3011] => Array
@@ -1017,17 +857,7 @@ Array
             [time] => 1.00 pm
             [code] => CV1011
             [name] => MECHANICS OF MATERIALS
-            [duration] => 2 hr 30 min
-        )
-
-    [CV4120] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CV4120
-            [name] => ADVANCED REINFORCED CONCRETE DESIGN
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE3001] => Array
@@ -1037,37 +867,7 @@ Array
             [time] => 1.00 pm
             [code] => EE3001
             [name] => ENGINEERING ELECTROMAGNETICS
-            [duration] => 2 hr 30 min
-        )
-
-    [EE4646] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => EE4646
-            [name] => VLSI TECHNOLOGY
             [duration] => 2 hr
-        )
-
-    [MA4001] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => MA4001
-            [name] => ENGINEERING DESIGN
-            [duration] => 2 hr 30 min
-        )
-
-    [MA4011] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => MA4011
-            [name] => ENGINEERING PRODUCT DESIGN
-            [duration] => 2 hr 30 min
         )
 
     [MH2100] => Array
@@ -1087,7 +887,7 @@ Array
             [time] => 1.00 pm
             [code] => MS2013
             [name] => POLYMERS & COMPOSITES
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MS4660] => Array
@@ -1097,7 +897,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4660
             [name] => FUNDAMENTALS OF INTELLECTUAL PROPERTY IN MATLS SCI & ENG
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [AC2101] => Array
@@ -1107,16 +907,6 @@ Array
             [time] => 5.00 pm
             [code] => AC2101
             [name] => ACCOUNTING RECOGNITION & MEASUREMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [BU8101] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => BU8101
-            [name] => ACCOUNTING: A USER PERSPECTIVE
             [duration] => 2 hr 30 min
         )
 
@@ -1197,17 +987,7 @@ Array
             [time] => 5.00 pm
             [code] => MT4001
             [name] => SHIPPING LOGISTICS
-            [duration] => 2 hr 30 min
-        )
-
-    [RE1015] => Array
-        (
-            [date] => 24 November 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => RE1015
-            [name] => CHEMICAL & BIO ENGINEERING FUNDAMENTALS & APPLICATIONS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [SU3001] => Array
@@ -1217,7 +997,7 @@ Array
             [time] => 5.00 pm
             [code] => SU3001
             [name] => INTEGRATED URBAN MANAGEMENT
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [AC2401] => Array
@@ -1307,7 +1087,17 @@ Array
             [time] => 9.00 am
             [code] => EE2006
             [name] => ENGINEERING MATHEMATICS I
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
+        )
+
+    [EE3019] => Array
+        (
+            [date] => 25 November 2020
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => EE3019
+            [name] => INTEGRATED ELECTRONICS
+            [duration] => 2 hr
         )
 
     [EE4265] => Array
@@ -1318,16 +1108,6 @@ Array
             [code] => EE4265
             [name] => PROCESS CONTROL SYSTEMS
             [duration] => 2 hr
-        )
-
-    [EN3002] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => EN3002
-            [name] => WASTEWATER ENGINEERING
-            [duration] => 2 hr 30 min
         )
 
     [HL4013] => Array
@@ -1347,17 +1127,7 @@ Array
             [time] => 9.00 am
             [code] => IM2006
             [name] => ENGINEERING MATHEMATICS I
-            [duration] => 2 hr 30 min
-        )
-
-    [MA4002] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => MA4002
-            [name] => FLUID DYNAMICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [MS4013] => Array
@@ -1367,7 +1137,7 @@ Array
             [time] => 9.00 am
             [code] => MS4013
             [name] => BIOMATERIALS
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [MT4002] => Array
@@ -1387,17 +1157,7 @@ Array
             [time] => 9.00 am
             [code] => PH1104
             [name] => MECHANICS
-            [duration] => 2 hr 30 min
-        )
-
-    [PH3102] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => PH3102
-            [name] => CONDENSED MATTER PHYSICS I
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH4402] => Array
@@ -1410,6 +1170,16 @@ Array
             [duration] => 2 hr
         )
 
+    [AAE18C] => Array
+        (
+            [date] => 25 November 2020
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => AAE18C
+            [name] => EXPLORING THE GRAMMAR OF ENGLISH
+            [duration] => 2 hr 30 min
+        )
+
     [BG3103] => Array
         (
             [date] => 25 November 2020
@@ -1417,7 +1187,7 @@ Array
             [time] => 1.00 pm
             [code] => BG3103
             [name] => SIGNAL PROCESSING IN BIOSYSTEMS
-            [duration] => 2 hr
+            [duration] => 2 hr 30 min
         )
 
     [BS3001] => Array
@@ -1440,6 +1210,16 @@ Array
             [duration] => 2 hr
         )
 
+    [CE1104] => Array
+        (
+            [date] => 25 November 2020
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CE1104
+            [name] => LINEAR ALGEBRA FOR COMPUTING
+            [duration] => 2 hr
+        )
+
     [CM2031] => Array
         (
             [date] => 25 November 2020
@@ -1448,16 +1228,6 @@ Array
             [code] => CM2031
             [name] => ORGANIC & BIOORGANIC CHEMISTRY
             [duration] => 2 hr
-        )
-
-    [CV4110] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => CV4110
-            [name] => EXCAVATION & RETAINING WALLS
-            [duration] => 2 hr 30 min
         )
 
     [CZ1012] => Array
@@ -1470,6 +1240,16 @@ Array
             [duration] => 2 hr
         )
 
+    [CZ1104] => Array
+        (
+            [date] => 25 November 2020
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CZ1104
+            [name] => LINEAR ALGEBRA FOR COMPUTING
+            [duration] => 2 hr
+        )
+
     [EE2003] => Array
         (
             [date] => 25 November 2020
@@ -1477,16 +1257,6 @@ Array
             [time] => 1.00 pm
             [code] => EE2003
             [name] => SEMICONDUCTOR FUNDAMENTALS
-            [duration] => 2 hr 30 min
-        )
-
-    [EE3019] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => EE3019
-            [name] => INTEGRATED ELECTRONICS
             [duration] => 2 hr
         )
 
@@ -1517,17 +1287,7 @@ Array
             [time] => 1.00 pm
             [code] => MA2003
             [name] => INTRODUCTION TO THERMO-FLUIDS
-            [duration] => 2 hr 30 min
-        )
-
-    [MA3703] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => MA3703
-            [name] => FLIGHT DYNAMICS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MH2811] => Array
@@ -1550,16 +1310,6 @@ Array
             [duration] => 2 hr
         )
 
-    [BF2201] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => BF2201
-            [name] => INVESTMENTS
-            [duration] => 2 hr
-        )
-
     [BG4215] => Array
         (
             [date] => 25 November 2020
@@ -1577,7 +1327,7 @@ Array
             [time] => 5.00 pm
             [code] => BU9201
             [name] => INVESTMENTS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CE4045] => Array
@@ -1617,7 +1367,7 @@ Array
             [time] => 5.00 pm
             [code] => CV4011
             [name] => PROJECT PLANNING & MANAGEMENT
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ4045] => Array
@@ -1630,16 +1380,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MA4838] => Array
-        (
-            [date] => 25 November 2020
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => MA4838
-            [name] => NON-CONVENTIONAL MANUFACTURING PROCESSES
-            [duration] => 2 hr 30 min
-        )
-
     [PH1011] => Array
         (
             [date] => 25 November 2020
@@ -1647,7 +1387,7 @@ Array
             [time] => 5.00 pm
             [code] => PH1011
             [name] => PHYSICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH1012] => Array
@@ -1657,7 +1397,7 @@ Array
             [time] => 5.00 pm
             [code] => PH1012
             [name] => PHYSICS A
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [AC3103] => Array
@@ -1680,16 +1420,6 @@ Array
             [duration] => 3 hr
         )
 
-    [BS1003] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => BS1003
-            [name] => ORGANIC CHEMISTRY
-            [duration] => 2 hr
-        )
-
     [CE2005] => Array
         (
             [date] => 26 November 2020
@@ -1710,16 +1440,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [CM1031] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => CM1031
-            [name] => BASIC ORGANIC CHEMISTRY WITH LABORATORY
-            [duration] => 2 hr
-        )
-
     [CM4063] => Array
         (
             [date] => 26 November 2020
@@ -1727,7 +1447,7 @@ Array
             [time] => 9.00 am
             [code] => CM4063
             [name] => NANOSCIENCE & NANOTECHNOLOGY
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [CZ2005] => Array
@@ -1747,7 +1467,7 @@ Array
             [time] => 9.00 am
             [code] => EE2008
             [name] => DATA STRUCTURES & ALGORITHMS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE4340] => Array
@@ -1777,27 +1497,7 @@ Array
             [time] => 9.00 am
             [code] => IM1001
             [name] => DATA STRUCTURES & ALGORITHMS
-            [duration] => 2 hr 30 min
-        )
-
-    [MA3702] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => MA3702
-            [name] => AIRCRAFT PROPULSION
             [duration] => 2 hr
-        )
-
-    [MA4856] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => MA4856
-            [name] => NAVAL ARCHITECTURE & MARINE ENGINEERING
-            [duration] => 2 hr 30 min
         )
 
     [MH3512] => Array
@@ -1817,7 +1517,7 @@ Array
             [time] => 9.00 am
             [code] => MS2015
             [name] => MECHANICAL BEHAVIOUR OF MATERIALS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MT2003] => Array
@@ -1837,17 +1537,7 @@ Array
             [time] => 1.00 pm
             [code] => AB1201
             [name] => FINANCIAL MANAGEMENT
-            [duration] => 2 hr
-        )
-
-    [BC2402] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => BC2402
-            [name] => DESIGNING & DEVELOPING DATABASES
-            [duration] => 2 hr
+            [duration] => 2 hr 30 min
         )
 
     [BF3201] => Array
@@ -1857,7 +1547,7 @@ Array
             [time] => 1.00 pm
             [code] => BF3201
             [name] => CORPORATE FINANCE & STRATEGY
-            [duration] => 2 hr
+            [duration] => 2 hr 30 min
         )
 
     [BS4015] => Array
@@ -1868,16 +1558,6 @@ Array
             [code] => BS4015
             [name] => PLANT BIOTECHNOLOGY
             [duration] => 2 hr 30 min
-        )
-
-    [CE1006] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => CE1006
-            [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 2 hr
         )
 
     [CE1106] => Array
@@ -1930,16 +1610,6 @@ Array
             [duration] => 2 hr
         )
 
-    [CZ1006] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => CZ1006
-            [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 2 hr
-        )
-
     [CZ1106] => Array
         (
             [date] => 26 November 2020
@@ -1967,7 +1637,7 @@ Array
             [time] => 1.00 pm
             [code] => EE3002
             [name] => MICROPROCESSORS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EN2001] => Array
@@ -1987,7 +1657,7 @@ Array
             [time] => 1.00 pm
             [code] => IM2002
             [name] => MICROPROCESSORS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [MA2005] => Array
@@ -1997,7 +1667,7 @@ Array
             [time] => 1.00 pm
             [code] => MA2005
             [name] => ENGINEERING GRAPHICS
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MH3600] => Array
@@ -2017,17 +1687,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4014
             [name] => NANOMATERIALS: FUNDAMENTALS & APPLICATIONS
-            [duration] => 2 hr
-        )
-
-    [BU8601] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => BU8601
-            [name] => FUNDAMENTALS OF MANAGEMENT
-            [duration] => 2 hr
+            [duration] => 2 hr 15 min
         )
 
     [CE4062] => Array
@@ -2047,7 +1707,7 @@ Array
             [time] => 5.00 pm
             [code] => CM4017
             [name] => BIOMEDICAL IMAGING & SENSING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CM4062] => Array
@@ -2080,26 +1740,6 @@ Array
             [duration] => 2 hr
         )
 
-    [EM9105] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => EM9105
-            [name] => ENERGY RESOURCES MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [ES8001] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => ES8001
-            [name] => NATURAL HAZARDS & SOCIETY
-            [duration] => 2 hr
-        )
-
     [HY8002] => Array
         (
             [date] => 26 November 2020
@@ -2117,17 +1757,7 @@ Array
             [time] => 5.00 pm
             [code] => MA4803
             [name] => NOISE & VIBRATION CONTROL
-            [duration] => 2 hr 30 min
-        )
-
-    [MA4825] => Array
-        (
-            [date] => 26 November 2020
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => MA4825
-            [name] => ROBOTICS
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [MA4842] => Array
@@ -2137,7 +1767,7 @@ Array
             [time] => 5.00 pm
             [code] => MA4842
             [name] => ENGINEERING METROLOGY
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MT4101] => Array
@@ -2147,7 +1777,7 @@ Array
             [time] => 5.00 pm
             [code] => MT4101
             [name] => INTERMODAL TRANSPORTATION
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH4607] => Array
@@ -2157,7 +1787,7 @@ Array
             [time] => 5.00 pm
             [code] => PH4607
             [name] => BIOMEDICAL IMAGING & SENSING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [AAB20C] => Array
@@ -2240,16 +1870,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [CY1601] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => CY1601
-            [name] => MATHEMATICS I
-            [duration] => 2 hr 30 min
-        )
-
     [CZ2007] => Array
         (
             [date] => 27 November 2020
@@ -2310,16 +1930,6 @@ Array
             [duration] => 2 hr
         )
 
-    [EN4105] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => EN4105
-            [name] => INTEGRATED ENVIRONMENTAL MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
     [IM4475] => Array
         (
             [date] => 27 November 2020
@@ -2337,27 +1947,7 @@ Array
             [time] => 9.00 am
             [code] => MA2011
             [name] => MECHATRONICS SYSTEM INTERFACING
-            [duration] => 2 hr 30 min
-        )
-
-    [MA3700] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => MA3700
-            [name] => AIRCRAFT STRUCTURES I
-            [duration] => 2 hr 30 min
-        )
-
-    [MH1805] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => MH1805
-            [name] => CALCULUS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MH4702] => Array
@@ -2377,7 +1967,7 @@ Array
             [time] => 9.00 am
             [code] => MS4621
             [name] => POLYMER SCIENCE
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [PH3404] => Array
@@ -2390,16 +1980,6 @@ Array
             [duration] => 2 hr
         )
 
-    [RE1011] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => RE1011
-            [name] => MATHEMATICS I
-            [duration] => 2 hr 30 min
-        )
-
     [AC2105] => Array
         (
             [date] => 27 November 2020
@@ -2410,16 +1990,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [BF2101] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => BF2101
-            [name] => FINANCIAL STATEMENT ANALYSIS
-            [duration] => 2 hr 30 min
-        )
-
     [BG4231] => Array
         (
             [date] => 27 November 2020
@@ -2427,7 +1997,7 @@ Array
             [time] => 2.30 pm
             [code] => BG4231
             [name] => ADVANCED BIOMATERIALS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [BS1008] => Array
@@ -2460,16 +2030,6 @@ Array
             [duration] => 2 hr
         )
 
-    [CH2010] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => CH2010
-            [name] => ENGINEERING STATISTICS
-            [duration] => 2 hr 30 min
-        )
-
     [CM4044] => Array
         (
             [date] => 27 November 2020
@@ -2500,16 +2060,6 @@ Array
             [duration] => 2 hr
         )
 
-    [EN2002] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => EN2002
-            [name] => ENVIRONMENTAL BIOLOGY & MICROBIOLOGY
-            [duration] => 2 hr 30 min
-        )
-
     [HL2022] => Array
         (
             [date] => 27 November 2020
@@ -2530,16 +2080,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MA2001] => Array
-        (
-            [date] => 27 November 2020
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => MA2001
-            [name] => MECHANICS OF MATERIALS
-            [duration] => 2 hr 30 min
-        )
-
     [MA4811] => Array
         (
             [date] => 27 November 2020
@@ -2547,7 +2087,7 @@ Array
             [time] => 2.30 pm
             [code] => MA4811
             [name] => PSYCHROMETRY & AIR CONDITIONING
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MH2200] => Array
@@ -2567,7 +2107,7 @@ Array
             [time] => 2.30 pm
             [code] => MS2014
             [name] => MATERIALS STRUCTURE & DEFECTS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MS4651] => Array
@@ -2577,7 +2117,7 @@ Array
             [time] => 2.30 pm
             [code] => MS4651
             [name] => THIN FILM TECHNOLOGY
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [PH1801] => Array
@@ -2587,7 +2127,7 @@ Array
             [time] => 2.30 pm
             [code] => PH1801
             [name] => FOUNDATIONS OF PHYSICS I
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [AC3104] => Array
@@ -2647,7 +2187,7 @@ Array
             [time] => 9.00 am
             [code] => CV3013
             [name] => FOUNDATION ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ2006] => Array
@@ -2677,7 +2217,7 @@ Array
             [time] => 9.00 am
             [code] => HL2027
             [name] => EARLY AMERICAN LITERATURE
-            [duration] => 2 hr 30 min
+            [duration] => 3 hr
         )
 
     [IM3002] => Array
@@ -2717,7 +2257,7 @@ Array
             [time] => 9.00 am
             [code] => MS2016
             [name] => PHASE TRANSFORMATION & KINETICS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [PH3403] => Array
@@ -2727,17 +2267,7 @@ Array
             [time] => 9.00 am
             [code] => PH3403
             [name] => COSMOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [BE1401] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => BE1401
-            [name] => BUSINESS OPERATIONS & PROCESS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [BS1001] => Array
@@ -2787,7 +2317,7 @@ Array
             [time] => 1.00 pm
             [code] => EE2010
             [name] => SIGNALS & SYSTEMS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE4188] => Array
@@ -2837,16 +2367,6 @@ Array
             [time] => 1.00 pm
             [code] => IM2004
             [name] => SIGNALS & SYSTEMS
-            [duration] => 2 hr 30 min
-        )
-
-    [IM4188] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => IM4188
-            [name] => WIRELESS COMMUNICATIONS
             [duration] => 2 hr
         )
 
@@ -2857,7 +2377,7 @@ Array
             [time] => 1.00 pm
             [code] => MA2002
             [name] => THEORY OF MECHANISM
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA3704] => Array
@@ -2867,7 +2387,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3704
             [name] => AIRCRAFT ELECTRICAL DEVICES
-            [duration] => 2 hr
+            [duration] => 2 hr 15 min
         )
 
     [MA4830] => Array
@@ -2877,7 +2397,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4830
             [name] => REALTIME SOFTWARE FOR MECHATRONIC SYSTEMS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MH1300] => Array
@@ -2887,16 +2407,6 @@ Array
             [time] => 1.00 pm
             [code] => MH1300
             [name] => FOUNDATIONS OF MATHEMATICS
-            [duration] => 2 hr
-        )
-
-    [MH3210] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => MH3210
-            [name] => NUMBER THEORY
             [duration] => 2 hr
         )
 
@@ -2917,7 +2427,7 @@ Array
             [time] => 1.00 pm
             [code] => MT4104
             [name] => INFORMATION TECHNOLOGY MANAGEMENT
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CE4031] => Array
@@ -2937,7 +2447,7 @@ Array
             [time] => 5.00 pm
             [code] => CH4101
             [name] => CHEMICAL, BIOLOGICAL & PLANT SAFETY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CV2013] => Array
@@ -2947,7 +2457,7 @@ Array
             [time] => 5.00 pm
             [code] => CV2013
             [name] => ENGINEERING GEOLOGY & SOIL MECHANICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ4031] => Array
@@ -2970,16 +2480,6 @@ Array
             [duration] => 2 hr
         )
 
-    [EM9104] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => EM9104
-            [name] => AIR QUALITY MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
     [HE2004] => Array
         (
             [date] => 30 November 2020
@@ -2987,16 +2487,6 @@ Array
             [time] => 5.00 pm
             [code] => HE2004
             [name] => INTRODUCTORY ECONOMETRICS
-            [duration] => 2 hr 30 min
-        )
-
-    [MA4849] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => MA4849
-            [name] => OPERATIONS RESEARCH
             [duration] => 2 hr 30 min
         )
 
@@ -3008,36 +2498,6 @@ Array
             [code] => PS8001
             [name] => DEFENCE SCIENCE
             [duration] => 2 hr
-        )
-
-    [RE1013] => Array
-        (
-            [date] => 30 November 2020
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => RE1013
-            [name] => MATERIALS & MANUFACTURING
-            [duration] => 2 hr 30 min
-        )
-
-    [AB3601] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => AB3601
-            [name] => STRATEGIC MANAGEMENT
-            [duration] => 2 hr
-        )
-
-    [BG2111] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => BG2111
-            [name] => COMPUTATIONAL METHODS IN BIOMEDICAL ENGINEERING
-            [duration] => 2 hr 30 min
         )
 
     [BS2101] => Array
@@ -3057,16 +2517,6 @@ Array
             [time] => 9.00 am
             [code] => BS3004
             [name] => CANCER BIOLOGY & THERAPY
-            [duration] => 2 hr 30 min
-        )
-
-    [CM4012] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => CM4012
-            [name] => STRUCTURAL DETERMINATION
             [duration] => 2 hr
         )
 
@@ -3078,16 +2528,6 @@ Array
             [code] => CS2021
             [name] => NEWS REPORTING & WRITING
             [duration] => 2 hr
-        )
-
-    [CV4107] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => CV4107
-            [name] => ENGINEERING ECONOMICS & FINANCE
-            [duration] => 2 hr 30 min
         )
 
     [CZ2003] => Array
@@ -3107,7 +2547,7 @@ Array
             [time] => 9.00 am
             [code] => EE1002
             [name] => PHYSICS FOUNDATION FOR ELECTRICAL & ELECTRONIC ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE3010] => Array
@@ -3157,7 +2597,7 @@ Array
             [time] => 9.00 am
             [code] => MA2009
             [name] => INTRODUCTION TO ELECTRICAL CIRCUITS & ELECTRONIC DEVICES
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA8005] => Array
@@ -3167,7 +2607,7 @@ Array
             [time] => 9.00 am
             [code] => MA8005
             [name] => AIRCRAFT ELECTRICAL & ELECTRONICS CIRCUITS
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MH1200] => Array
@@ -3207,7 +2647,7 @@ Array
             [time] => 9.00 am
             [code] => MS1016
             [name] => THERMODYNAMICS OF MATERIALS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [PH3601] => Array
@@ -3217,7 +2657,7 @@ Array
             [time] => 9.00 am
             [code] => PH3601
             [name] => FABRICATION OF MICRO-& NANOELECTRONIC DEVICES
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [BF3203] => Array
@@ -3290,16 +2730,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [CM2061] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CM2061
-            [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 1
-            [duration] => 2 hr
-        )
-
     [CV4101] => Array
         (
             [date] => 1 December 2020
@@ -3307,7 +2737,7 @@ Array
             [time] => 1.00 pm
             [code] => CV4101
             [name] => STRUCTURAL ANALYSIS III
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ3006] => Array
@@ -3357,7 +2787,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4705
             [name] => AIRCRAFT NAVIGATION & FLIGHT COMPUTERS
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA4850] => Array
@@ -3367,7 +2797,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4850
             [name] => SUPPLY CHAIN & LOGISTICS MANAGEMENT
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr 45 min
         )
 
     [MH1811] => Array
@@ -3390,26 +2820,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MS4650] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => MS4650
-            [name] => FUNCTIONAL NANOSTRUCTURE MATERIALS
-            [duration] => 2 hr
-        )
-
-    [PH3501] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => PH3501
-            [name] => FLUID MECHANICS
-            [duration] => 2 hr 30 min
-        )
-
     [BU8201] => Array
         (
             [date] => 1 December 2020
@@ -3417,7 +2827,7 @@ Array
             [time] => 5.00 pm
             [code] => BU8201
             [name] => BUSINESS FINANCE
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CE4023] => Array
@@ -3450,16 +2860,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [CM9083] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => CM9083
-            [name] => HETEROCYCLIC CHEMISTRY
-            [duration] => 2 hr
-        )
-
     [CV2015] => Array
         (
             [date] => 1 December 2020
@@ -3490,16 +2890,6 @@ Array
             [duration] => 2 hr
         )
 
-    [ES8005] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => ES8005
-            [name] => ENVIRONMENTAL EARTH SYSTEMS SCIENCE
-            [duration] => 2 hr
-        )
-
     [HE4017] => Array
         (
             [date] => 1 December 2020
@@ -3507,7 +2897,7 @@ Array
             [time] => 5.00 pm
             [code] => HE4017
             [name] => MONETARY ECONOMICS
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [HL0201] => Array
@@ -3517,17 +2907,7 @@ Array
             [time] => 5.00 pm
             [code] => HL0201
             [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
-            [duration] => 2 hr
-        )
-
-    [MA3001] => Array
-        (
-            [date] => 1 December 2020
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => MA3001
-            [name] => MACHINE ELEMENT DESIGN
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr 20 min
         )
 
     [MT1003] => Array
@@ -3538,16 +2918,6 @@ Array
             [code] => MT1003
             [name] => TRADE PRACTICE & INCOTERMS
             [duration] => 2 hr 30 min
-        )
-
-    [BF3214] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => BF3214
-            [name] => COMMODITIES TRADING
-            [duration] => 2 hr
         )
 
     [BG3104] => Array
@@ -3607,7 +2977,7 @@ Array
             [time] => 9.00 am
             [code] => CV3015
             [name] => ENVIRONMENTAL ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ4022] => Array
@@ -3647,7 +3017,7 @@ Array
             [time] => 9.00 am
             [code] => HL2042
             [name] => CHILDREN'S LITERATURE
-            [duration] => 2 hr 30 min
+            [duration] => 3 hr
         )
 
     [IM4761] => Array
@@ -3667,17 +3037,7 @@ Array
             [time] => 9.00 am
             [code] => MA3004
             [name] => MATHEMATICAL METHODS IN ENGINEERING
-            [duration] => 2 hr 30 min
-        )
-
-    [MA3701] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => MA3701
-            [name] => AERODYNAMICS
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MH4311] => Array
@@ -3717,7 +3077,7 @@ Array
             [time] => 9.00 am
             [code] => MS4620
             [name] => POLYMER TECHNOLOGY
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MT1001] => Array
@@ -3787,7 +3147,7 @@ Array
             [time] => 1.00 pm
             [code] => CV2011
             [name] => STRUCTURAL ANALYSIS I
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ3003] => Array
@@ -3820,16 +3180,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HE3011] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HE3011
-            [name] => COST-BENEFIT ANALYSIS
-            [duration] => 2 hr 30 min
-        )
-
     [HL4023] => Array
         (
             [date] => 2 December 2020
@@ -3837,7 +3187,7 @@ Array
             [time] => 1.00 pm
             [code] => HL4023
             [name] => ADVANCED STUDIES IN AMERICAN LITERATURE
-            [duration] => 2 hr 30 min
+            [duration] => 3 hr
         )
 
     [IM2003] => Array
@@ -3850,16 +3200,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MA2006] => Array
-        (
-            [date] => 2 December 2020
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => MA2006
-            [name] => ENGINEERING MATHEMATICS
-            [duration] => 2 hr 30 min
-        )
-
     [MA3003] => Array
         (
             [date] => 2 December 2020
@@ -3867,7 +3207,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3003
             [name] => HEAT TRANSFER
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA3010] => Array
@@ -3877,7 +3217,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3010
             [name] => THERMODYNAMICS & HEAT TRANSFER
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA4702] => Array
@@ -3887,7 +3227,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4702
             [name] => AIRCRAFT STRUCTURES II
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA4804] => Array
@@ -3897,7 +3237,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4804
             [name] => OPTIMIZATION THEORY & APPLICATIONS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MA4832] => Array
@@ -3907,7 +3247,7 @@ Array
             [time] => 1.00 pm
             [code] => MA4832
             [name] => MICROPROCESSOR SYSTEMS
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MH1812] => Array
@@ -3957,16 +3297,6 @@ Array
             [time] => 9.00 am
             [code] => BR3204
             [name] => PROPERTY & LIABILITY INSURANCE
-            [duration] => 2 hr 30 min
-        )
-
-    [BS2015] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => BS2015
-            [name] => VIROLOGY
             [duration] => 2 hr 30 min
         )
 
@@ -4067,17 +3397,7 @@ Array
             [time] => 9.00 am
             [code] => MA1001
             [name] => DYNAMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [MA2004] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => MA2004
-            [name] => MANUFACTURING PROCESSES
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MA4704] => Array
@@ -4087,7 +3407,7 @@ Array
             [time] => 9.00 am
             [code] => MA4704
             [name] => AEROELASTICITY
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [MH2500] => Array
@@ -4127,7 +3447,7 @@ Array
             [time] => 9.00 am
             [code] => MS4640
             [name] => ADVANCED ANALYSIS OF MATERIALS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [PH3602] => Array
@@ -4137,7 +3457,7 @@ Array
             [time] => 9.00 am
             [code] => PH3602
             [name] => PHOTONICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [BG3105] => Array
@@ -4247,27 +3567,7 @@ Array
             [time] => 1.00 pm
             [code] => MA3006
             [name] => FLUID MECHANICS
-            [duration] => 2 hr 30 min
-        )
-
-    [MA4814] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => MA4814
-            [name] => COMPUTATIONAL FLUID DYNAMICS
-            [duration] => 2 hr 30 min
-        )
-
-    [MA9004] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => MA9004
-            [name] => SYSTEMS THINKING & SYSTEMS ENGINEERING
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MH1100] => Array
@@ -4307,7 +3607,7 @@ Array
             [time] => 1.00 pm
             [code] => MS2012
             [name] => INTRODUCTION TO MANUFACTURING PROCESSES
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [MS4631] => Array
@@ -4318,16 +3618,6 @@ Array
             [code] => MS4631
             [name] => CORROSION ENGINEERING
             [duration] => 2 hr
-        )
-
-    [RE8011] => Array
-        (
-            [date] => 3 December 2020
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => RE8011
-            [name] => FUNDAMENTALS OF MANAGEMENT
-            [duration] => 2 hr 30 min
         )
 
 )
