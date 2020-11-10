@@ -60,7 +60,7 @@ require("back_end/config.php");
                 <h1 id="jumbo_title">plan* <small>NTU Course Planner</small></h1>
                 <form role="form" id="course_form">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Enter course codes:</label>
+                        <label for="exampleInputEmail1">Enter course codes (year <?= $year ?> semester <?= $semester ?>):</label>
                         <div class="row">
                         <div class="col-sm-10">
                         <input type="text" name="courses" id="input_courses" placeholder="Enter course code" class="form-control">
