@@ -1,20 +1,24 @@
 <?php
 require("back_end/config.php");
 ?><!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
         <title>plan* - NTU Course Planner</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="plan* returns you only the possible combination of the courses, so that you don't need to manually do trial-and-error at STARS Planner anymore. Just choose one, input at STARS Planner, and may the force be with you during the STARS Wars.">
         <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <![endif]-->
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/jquery-ui.min.css">
-        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
-        <link rel="stylesheet" href="css/jquery.tag-it.css">
+        <link rel="preload" href="fonts/glyphicons-halflings-regular.woff" as="font" type="font/woff2" crossorigin>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/sweet-alert.css">
+
+        <link rel="stylesheet" href="css/jquery-ui.min.css" media="print" onload="this.media='all'; this.onload=null;">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css" media="print" onload="this.media='all'; this.onload=null;">
+        <link rel="stylesheet" href="css/jquery.tag-it.css" media="print" onload="this.media='all'; this.onload=null;">
+        <link rel="stylesheet" href="css/sweet-alert.css" media="print" onload="this.media='all'; this.onload=null;">
+
         <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
         <link rel="stylesheet" href="css/style.css">
         <script>
@@ -28,6 +32,16 @@ require("back_end/config.php");
         ga('send', 'pageview');
 
         </script>
+
+        <script defer src="js/jquery-1.12.4.min.js"></script>
+        <script defer src="js/jquery-migrate-1.4.1.min.js"></script>
+        <script defer src="js/jquery-ui.min.js"></script>
+        <script defer src="js/jquery.tag-it.min.js"></script>
+        <script defer src="js/bootstrap.min.js"></script>
+        <script defer src="js/sweet-alert.min.js"></script>
+        <script defer src="js/ics.js"></script>
+        <script defer src="js/FileSaver.min.js"></script>
+        <script defer src="js/engine.js"></script>
     </head>
     <body>
         <div id="overlay">
@@ -60,7 +74,7 @@ require("back_end/config.php");
                 <h1 id="jumbo_title">plan* <small>NTU Course Planner</small></h1>
                 <form role="form" id="course_form">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Enter course codes (year <?= $year ?> semester <?= $semester ?>):</label>
+                        <label for="courses">Enter course codes (year <?= $year ?> semester <?= $semester ?>):</label>
                         <div class="row">
                         <div class="col-sm-10">
                         <input type="text" name="courses" id="input_courses" placeholder="Enter course code" class="form-control">
@@ -311,15 +325,5 @@ require("back_end/config.php");
                 </div>
             </div>
         </div>
-
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/jquery-migrate-1.4.1.min.js"></script>
-        <script src="js/jquery-ui.min.js"></script>
-        <script src="js/jquery.tag-it.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/sweet-alert.min.js"></script>
-        <script src="js/ics.js"></script>
-        <script src="js/FileSaver.min.js"></script>
-        <script src="js/engine.js"></script>
     </body>
 </html>
