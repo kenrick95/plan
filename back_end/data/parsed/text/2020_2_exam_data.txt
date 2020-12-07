@@ -860,16 +860,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [EG0001] => Array
-        (
-            [date] => 26 April 2021
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => EG0001
-            [name] => ENGINEERS & SOCIETY
-            [duration] => 2 hr 30 min
-        )
-
     [MT0002] => Array
         (
             [date] => 26 April 2021
@@ -1360,14 +1350,14 @@ Array
             [duration] => 2 hr
         )
 
-    [HP8005] => Array
+    [HP2100] => Array
         (
             [date] => 27 April 2021
             [day] => Tuesday
             [time] => 5.00 pm
-            [code] => HP8005
-            [name] => INTRODUCTION TO HUMAN RESOURCE MANAGEMENT
-            [duration] => 2 hr
+            [code] => HP2100
+            [name] => RESEARCH DESIGN & DATA ANALYSIS IN PSYCHOLOGY
+            [duration] => 2 hr 30 min
         )
 
     [HT9301] => Array
@@ -1388,6 +1378,16 @@ Array
             [code] => HY8002
             [name] => LOGIC & CRITICAL THINKING
             [duration] => 2 hr
+        )
+
+    [MA4843] => Array
+        (
+            [date] => 27 April 2021
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MA4843
+            [name] => MANAGEMENT OF PRODUCT DEVELOPMENT
+            [duration] => 2 hr 30 min
         )
 
     [MA4845] => Array
@@ -1607,7 +1607,7 @@ Array
             [time] => 1.00 pm
             [code] => BS2010
             [name] => BIOIMAGING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CE1104] => Array
@@ -1898,16 +1898,6 @@ Array
             [code] => HQ8010
             [name] => INTRODUCTION TO GENDER & DIVERSITY
             [duration] => 2 hr
-        )
-
-    [HT9101] => Array
-        (
-            [date] => 28 April 2021
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HT9101
-            [name] => TRANSLATION: HISTORY, THEORIES & PRINCIPLES
-            [duration] => 2 hr 30 min
         )
 
     [MA4829] => Array
@@ -2637,6 +2627,16 @@ Array
             [time] => 9.00 am
             [code] => HL1006
             [name] => INTRODUCTION TO AMERICAN LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HP1000] => Array
+        (
+            [date] => 30 April 2021
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HP1000
+            [name] => INTRODUCTION TO PSYCHOLOGY
             [duration] => 2 hr 30 min
         )
 
@@ -3990,14 +3990,14 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HP2400] => Array
+    [HP8005] => Array
         (
             [date] => 4 May 2021
             [day] => Tuesday
             [time] => 5.00 pm
-            [code] => HP2400
-            [name] => SOCIAL PSYCHOLOGY
-            [duration] => 2 hr 30 min
+            [code] => HP8005
+            [name] => INTRODUCTION TO HUMAN RESOURCE MANAGEMENT
+            [duration] => 2 hr
         )
 
     [HT9102] => Array
@@ -4247,16 +4247,6 @@ Array
             [time] => 9.00 am
             [code] => MA2002
             [name] => THEORY OF MECHANISM
-            [duration] => 2 hr 30 min
-        )
-
-    [MA4843] => Array
-        (
-            [date] => 5 May 2021
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => MA4843
-            [name] => MANAGEMENT OF PRODUCT DEVELOPMENT
             [duration] => 2 hr 30 min
         )
 
@@ -4580,16 +4570,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HP1000] => Array
-        (
-            [date] => 5 May 2021
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HP1000
-            [name] => INTRODUCTION TO PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
     [HP4104] => Array
         (
             [date] => 5 May 2021
@@ -4880,13 +4860,13 @@ Array
             [duration] => 2 hr
         )
 
-    [HP2100] => Array
+    [HP2400] => Array
         (
             [date] => 6 May 2021
             [day] => Thursday
             [time] => 1.00 pm
-            [code] => HP2100
-            [name] => RESEARCH DESIGN & DATA ANALYSIS IN PSYCHOLOGY
+            [code] => HP2400
+            [name] => SOCIAL PSYCHOLOGY
             [duration] => 2 hr 30 min
         )
 
