@@ -380,13 +380,13 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA2017] => Array
+    [HE4013] => Array
         (
             [date] => 19 November 2021
             [day] => Friday
             [time] => 2.30 pm
-            [code] => HA2017
-            [name] => FOREIGN POLICY ANALYSIS
+            [code] => HE4013
+            [name] => EXPERIMENTAL ECONOMICS
             [duration] => 2 hr 30 min
         )
 
@@ -1000,13 +1000,13 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA3025] => Array
+    [HA2017] => Array
         (
             [date] => 23 November 2021
             [day] => Tuesday
             [time] => 9.00 am
-            [code] => HA3025
-            [name] => THE POLITICS & PRACTICE OF INTERNATIONAL DIPLOMACY
+            [code] => HA2017
+            [name] => FOREIGN POLICY ANALYSIS
             [duration] => 2 hr 30 min
         )
 
@@ -1720,16 +1720,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HS3001] => Array
-        (
-            [date] => 24 November 2021
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => HS3001
-            [name] => CONTEMPORARY SOCIAL THEORY
-            [duration] => 2 hr 30 min
-        )
-
     [IM4717] => Array
         (
             [date] => 24 November 2021
@@ -1956,7 +1946,7 @@ Array
             [day] => Thursday
             [time] => 9.00 am
             [code] => BS3027
-            [name] => SPECTROSCOPIC METHODS IN BIOMEDICAL STRUCTURAL BIOLOGY
+            [name] => LIGHT & BIOMOLECULE BEHAVIOR IN HEALTH & DISEASE
             [duration] => 2 hr 30 min
         )
 
@@ -2207,7 +2197,7 @@ Array
             [time] => 1.00 pm
             [code] => BS4015
             [name] => PLANT BIOTECHNOLOGY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CM9001] => Array
@@ -2680,6 +2670,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [HL4033] => Array
+        (
+            [date] => 26 November 2021
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HL4033
+            [name] => MAJOR AUTHOR STUDY: JAMES JOYCE
+            [duration] => 2 hr 30 min
+        )
+
     [HP3204] => Array
         (
             [date] => 26 November 2021
@@ -3137,6 +3137,16 @@ Array
             [time] => 1.00 pm
             [code] => BG4231
             [name] => ADVANCED BIOMATERIALS
+            [duration] => 2 hr 30 min
+        )
+
+    [BR2208] => Array
+        (
+            [date] => 29 November 2021
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => BR2208
+            [name] => FOUNDATION OF RISK MANAGEMENT
             [duration] => 2 hr 30 min
         )
 
@@ -4090,6 +4100,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [BR2207] => Array
+        (
+            [date] => 1 December 2021
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => BR2207
+            [name] => QUANTITATIVE ANALYSIS
+            [duration] => 2 hr 30 min
+        )
+
     [BS2024] => Array
         (
             [date] => 1 December 2021
@@ -4308,16 +4328,6 @@ Array
             [code] => PH2104
             [name] => ANALYTICAL MECHANICS
             [duration] => 2 hr
-        )
-
-    [PH3501] => Array
-        (
-            [date] => 1 December 2021
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => PH3501
-            [name] => FLUID MECHANICS
-            [duration] => 2 hr 30 min
         )
 
     [BF3201] => Array
@@ -4587,16 +4597,6 @@ Array
             [time] => 5.00 pm
             [code] => HP8005
             [name] => INTRODUCTION TO HUMAN RESOURCE MANAGEMENT
-            [duration] => 2 hr
-        )
-
-    [HV8001] => Array
-        (
-            [date] => 1 December 2021
-            [day] => Wednesday
-            [time] => 5.00 pm
-            [code] => HV8001
-            [name] => INTRODUCTION TO ENVIRONMENTAL HUMANITIES
             [duration] => 2 hr
         )
 
@@ -4908,6 +4908,16 @@ Array
             [code] => EE4476
             [name] => IMAGE PROCESSING
             [duration] => 2 hr
+        )
+
+    [HL3042] => Array
+        (
+            [date] => 2 December 2021
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => HL3042
+            [name] => GOTHIC LITERATURE
+            [duration] => 2 hr 30 min
         )
 
     [HL4023] => Array
