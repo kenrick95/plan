@@ -600,6 +600,16 @@ Array
             [duration] => 2 hr
         )
 
+    [MH4931] => Array
+        (
+            [date] => 22 November 2021
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MH4931
+            [name] => SPECIAL TOPICS IN APPLIED MATHEMATICS
+            [duration] => 2 hr
+        )
+
     [BA2203] => Array
         (
             [date] => 22 November 2021
@@ -1568,16 +1578,6 @@ Array
             [code] => MA3006
             [name] => FLUID MECHANICS
             [duration] => 2 hr 30 min
-        )
-
-    [MH4931] => Array
-        (
-            [date] => 24 November 2021
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => MH4931
-            [name] => SPECIAL TOPICS IN APPLIED MATHEMATICS
-            [duration] => 2 hr
         )
 
     [MS4013] => Array
@@ -4390,13 +4390,13 @@ Array
             [duration] => 2 hr
         )
 
-    [HL3012] => Array
+    [HL3024] => Array
         (
             [date] => 1 December 2021
             [day] => Wednesday
             [time] => 1.00 pm
-            [code] => HL3012
-            [name] => THE DISCOURSE OF LOVE
+            [code] => HL3024
+            [name] => CONTEMPORARY WOMEN'S WRITING
             [duration] => 2 hr 30 min
         )
 
