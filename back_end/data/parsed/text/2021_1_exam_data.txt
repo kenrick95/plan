@@ -2216,7 +2216,7 @@ Array
             [day] => Thursday
             [time] => 1.00 pm
             [code] => CY1101
-            [name] => PRINCIPLES OF MODERN CHEMISTRY
+            [name] => MOLECULE
             [duration] => 2 hr
         )
 
@@ -2880,16 +2880,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HS2009] => Array
-        (
-            [date] => 26 November 2021
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HS2009
-            [name] => SOCIOLOGY OF THE LIFE COURSE
-            [duration] => 2 hr 30 min
-        )
-
     [IM3001] => Array
         (
             [date] => 26 November 2021
@@ -3206,7 +3196,7 @@ Array
             [day] => Monday
             [time] => 1.00 pm
             [code] => CY1001
-            [name] => INTRODUCTORY BIOLOGY
+            [name] => CELL
             [duration] => 2 hr
         )
 
@@ -3257,16 +3247,6 @@ Array
             [time] => 1.00 pm
             [code] => HC2030
             [name] => PRE-QIN THOUGHT
-            [duration] => 2 hr 30 min
-        )
-
-    [HL3006] => Array
-        (
-            [date] => 29 November 2021
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HL3006
-            [name] => MODERN DRAMA
             [duration] => 2 hr 30 min
         )
 
@@ -4600,6 +4580,16 @@ Array
             [duration] => 2 hr
         )
 
+    [HQ8010] => Array
+        (
+            [date] => 1 December 2021
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HQ8010
+            [name] => INTRODUCTION TO GENDER & DIVERSITY
+            [duration] => 2 hr
+        )
+
     [MH2811] => Array
         (
             [date] => 1 December 2021
@@ -4657,7 +4647,7 @@ Array
             [time] => 9.00 am
             [code] => CH4101
             [name] => CHEMICAL, BIOLOGICAL & PLANT SAFETY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CM3031] => Array
