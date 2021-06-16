@@ -3250,16 +3250,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HP1100] => Array
-        (
-            [date] => 29 November 2021
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HP1100
-            [name] => FUNDAMENTALS OF SOCIAL SCIENCE RESEARCH
-            [duration] => 2 hr 30 min
-        )
-
     [HS2022] => Array
         (
             [date] => 29 November 2021
@@ -3496,7 +3486,7 @@ Array
             [day] => Tuesday
             [time] => 9.00 am
             [code] => AC3103
-            [name] => ACCOUNTING ANALYSIS & EQUITY VALUATION
+            [name] => ACCOUNTING ANALYSIS & VALUATION
             [duration] => 2 hr 30 min
         )
 
@@ -3506,6 +3496,16 @@ Array
             [day] => Tuesday
             [time] => 9.00 am
             [code] => AD1101
+            [name] => FINANCIAL ACCOUNTING
+            [duration] => 2 hr 30 min
+        )
+
+    [AD1102] => Array
+        (
+            [date] => 30 November 2021
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => AD1102
             [name] => FINANCIAL ACCOUNTING
             [duration] => 2 hr 30 min
         )
@@ -4217,6 +4217,16 @@ Array
             [time] => 9.00 am
             [code] => HE3013
             [name] => URBAN ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HP1100] => Array
+        (
+            [date] => 1 December 2021
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HP1100
+            [name] => FUNDAMENTALS OF SOCIAL SCIENCE RESEARCH
             [duration] => 2 hr 30 min
         )
 
