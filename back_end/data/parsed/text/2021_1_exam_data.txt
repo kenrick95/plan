@@ -2250,16 +2250,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA2023] => Array
-        (
-            [date] => 25 November 2021
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HA2023
-            [name] => RESEARCH METHODOLOGY IN SOCIAL SCIENCES
-            [duration] => 2 hr 30 min
-        )
-
     [HE2005] => Array
         (
             [date] => 25 November 2021
@@ -4440,16 +4430,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [MA4830] => Array
-        (
-            [date] => 1 December 2021
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => MA4830
-            [name] => REALTIME SOFTWARE FOR MECHATRONIC SYSTEMS
-            [duration] => 2 hr
-        )
-
     [MA9004] => Array
         (
             [date] => 1 December 2021
@@ -4597,6 +4577,16 @@ Array
             [time] => 5.00 pm
             [code] => HQ8010
             [name] => INTRODUCTION TO GENDER & DIVERSITY
+            [duration] => 2 hr
+        )
+
+    [MA4830] => Array
+        (
+            [date] => 1 December 2021
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => MA4830
+            [name] => REALTIME SOFTWARE FOR MECHATRONIC SYSTEMS
             [duration] => 2 hr
         )
 
