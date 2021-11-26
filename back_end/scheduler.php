@@ -247,9 +247,9 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
 
     # duration * 2 -> how many slots
     for ($i = 0; $i < $duration * 2; $i++) {
-        if (count($temp_timetable[$day][$time_keys[$index]]) > 0) {
+        if ($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) > 0) {
             # In case there are 2 courses at that slot already!
-            if (count($temp_timetable[$day][$time_keys[$index]]) >= 2 || $temp_timetable[$day][$time_keys[$index]] === true) return true;
+            if ($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) >= 2) return true;
 
             $remarks = remarks_to_weeks($detail["remarks"]);
             $clash_detail = $temp_timetable[$day][$time_keys[$index]][0];
@@ -294,7 +294,8 @@ function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
     # duration * 2 -> how many slots
     for ($i = 0; $i < $duration * 2; $i++) {
         # To skip if there is two same courses, same type, in the same slot -> e.g. BU8401 FOM
-        if (count($temp_timetable[$day][$time_keys[$index]]) > 0 && $temp_timetable[$day][$time_keys[$index]][0]["id"] === $course_id) break;
+        if (($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) > 0) 
+            && $temp_timetable[$day][$time_keys[$index]][0]["id"] === $course_id) break;
         else array_push($temp_timetable[$day][$time_keys[$index]], $data);
 
         $index++;
@@ -383,5 +384,3 @@ function remarks_to_weeks ($remarks) {
 
     return $ret;
 }
-
-?>
