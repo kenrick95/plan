@@ -1,0 +1,4493 @@
+Array
+(
+    [AAE28D] => Array
+        (
+            [date] => 21 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => AAE28D
+            [name] => LANGUAGE ACQUISITION & DEVELOPMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [AAQ10A] => Array
+        (
+            [date] => 21 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => AAQ10A
+            [name] => PRINCIPLES OF NUTRITION
+            [duration] => 2 hr 30 min
+        )
+
+    [AAE18D] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => AAE18D
+            [name] => EXPLORING THE WORDS & SOUNDS OF ENGLISH
+            [duration] => 2 hr 30 min
+        )
+
+    [AC1103] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => AC1103
+            [name] => ACCOUNTING I
+            [duration] => 2 hr 30 min
+        )
+
+    [BA2204] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BA2204
+            [name] => MODELS
+            [duration] => 3 hr
+        )
+
+    [BF3204] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BF3204
+            [name] => FINANCIAL MODELLING
+            [duration] => 2 hr
+        )
+
+    [BS2105] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BS2105
+            [name] => EMPEROR'S CANON OF INTERNAL MEDICINE
+            [duration] => 2 hr 30 min
+        )
+
+    [BS3013] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BS3013
+            [name] => DRUG DISCOVERY & DEVELOPMENT BIOTECHNOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [CE2006] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CE2006
+            [name] => SOFTWARE ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [CE4015] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CE4015
+            [name] => SIMULATION & MODELLING
+            [duration] => 2 hr
+        )
+
+    [CH3141] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CH3141
+            [name] => UNIT OPERATIONS: FLUID-SOLID SEPARATION
+            [duration] => 2 hr
+        )
+
+    [CM3021] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CM3021
+            [name] => ORGANOMETALLIC CHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [CV2012] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CV2012
+            [name] => STRUCTURAL ANALYSIS II
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ2006] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CZ2006
+            [name] => SOFTWARE ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [CZ4015] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CZ4015
+            [name] => SIMULATION & MODELLING
+            [duration] => 2 hr
+        )
+
+    [EE2008] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE2008
+            [name] => DATA STRUCTURES & ALGORITHMS
+            [duration] => 2 hr 30 min
+        )
+
+    [HA1011] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HA1011
+            [name] => POLITICS OF SINGAPORE
+            [duration] => 2 hr 30 min
+        )
+
+    [HC3002] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HC3002
+            [name] => HISTORY OF CHINESE THOUGHT
+            [duration] => 2 hr 30 min
+        )
+
+    [IM1001] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => IM1001
+            [name] => DATA STRUCTURES & ALGORITHMS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4002] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MA4002
+            [name] => FLUID DYNAMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MH4100] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MH4100
+            [name] => REAL ANALYSIS II
+            [duration] => 2 hr
+        )
+
+    [MS4014] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MS4014
+            [name] => NANOMATERIALS: FUNDAMENTALS & APPLICATIONS
+            [duration] => 2 hr
+        )
+
+    [AD1101] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => AD1101
+            [name] => FINANCIAL ACCOUNTING
+            [duration] => 2 hr 30 min
+        )
+
+    [AD1102] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => AD1102
+            [name] => FINANCIAL ACCOUNTING
+            [duration] => 2 hr 30 min
+        )
+
+    [BS2004] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BS2004
+            [name] => MOLECULAR & CELL BIOLOGY II
+            [duration] => 2 hr 30 min
+        )
+
+    [CH5220] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CH5220
+            [name] => FOOD STANDARD - FOOD SAFETY & RISK ASSESSMENT
+            [duration] => 2 hr
+        )
+
+    [CZ3002] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CZ3002
+            [name] => ADVANCED SOFTWARE ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [EE4155] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => EE4155
+            [name] => WIRELESS COMMUNICATIONS & MOBILE NETWORKS
+            [duration] => 2 hr
+        )
+
+    [EE4304] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => EE4304
+            [name] => RADIO FREQUENCY INTEGRATED SYSTEM DESIGN
+            [duration] => 2 hr
+        )
+
+    [EE4504] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => EE4504
+            [name] => DESIGN OF CLEAN ENERGY SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [EM5101] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => EM5101
+            [name] => ENVIRONMENTAL QUALITY
+            [duration] => 2 hr 30 min
+        )
+
+    [HH2027] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HH2027
+            [name] => BLOOD, GERMS, & SICK BODIES: BIOMEDICINE IN HISTORY
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2006] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HL2006
+            [name] => MODERNISM
+            [duration] => 2 hr 30 min
+        )
+
+    [HP2100] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HP2100
+            [name] => RESEARCH DESIGN & DATA ANALYSIS IN PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [MA2006] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MA2006
+            [name] => ENGINEERING MATHEMATICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4880] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MA4880
+            [name] => AIRPORT OPERATIONS & SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [MH3700] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MH3700
+            [name] => NUMERICAL ANALYSIS I
+            [duration] => 2 hr
+        )
+
+    [MS1016] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MS1016
+            [name] => THERMODYNAMICS OF MATERIALS
+            [duration] => 2 hr
+        )
+
+    [PH4608] => Array
+        (
+            [date] => 22 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => PH4608
+            [name] => PLASMONICS & METAMATERIALS
+            [duration] => 2 hr
+        )
+
+    [AC1104] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => AC1104
+            [name] => ACCOUNTING II
+            [duration] => 2 hr 30 min
+        )
+
+    [BF2209] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => BF2209
+            [name] => DERIVATIVE SECURITIES
+            [duration] => 2 hr 30 min
+        )
+
+    [BG2110] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => BG2110
+            [name] => BIOELECTRICITY
+            [duration] => 2 hr
+        )
+
+    [BS3025] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => BS3025
+            [name] => NUCLEAR MAGNETIC RESONANCE IN STRUCTURAL BIOLOGY
+            [duration] => 3 hr
+        )
+
+    [CE2003] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => CE2003
+            [name] => DIGITAL SYSTEMS DESIGN
+            [duration] => 2 hr
+        )
+
+    [CV3016] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => CV3016
+            [name] => CONSTRUCTION TECHNOLOGY & PROCESSES
+            [duration] => 2 hr 30 min
+        )
+
+    [EE4718] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => EE4718
+            [name] => ENTERPRISE NETWORK DESIGN
+            [duration] => 2 hr
+        )
+
+    [HE4004] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => HE4004
+            [name] => BEHAVIORAL ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HL4018] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => HL4018
+            [name] => ADVANCED STUDIES IN ROMANTICISM
+            [duration] => 2 hr 30 min
+        )
+
+    [HP1000] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => HP1000
+            [name] => INTRODUCTION TO PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [IM4718] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => IM4718
+            [name] => ENTERPRISE NETWORK DESIGN
+            [duration] => 2 hr
+        )
+
+    [MA2011] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MA2011
+            [name] => MECHATRONICS SYSTEM INTERFACING
+            [duration] => 2 hr 30 min
+        )
+
+    [MA2700] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MA2700
+            [name] => AEROSPACE MATERIALS & MANUFACTURING PROCESSES
+            [duration] => 2 hr 30 min
+        )
+
+    [MH1101] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MH1101
+            [name] => CALCULUS II
+            [duration] => 2 hr
+        )
+
+    [MH1811] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MH1811
+            [name] => MATHEMATICS 2
+            [duration] => 2 hr
+        )
+
+    [MH4110] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MH4110
+            [name] => PARTIAL DIFFERENTIAL EQUATIONS
+            [duration] => 2 hr
+        )
+
+    [MS2015] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MS2015
+            [name] => MECHANICAL BEHAVIOUR OF MATERIALS
+            [duration] => 1 hr 30 min
+        )
+
+    [AC2105] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => AC2105
+            [name] => ACCOUNTING FOR DECISION MAKING & CONTROL
+            [duration] => 2 hr 30 min
+        )
+
+    [BA2201] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => BA2201
+            [name] => ACTUARIAL ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [BS1005] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => BS1005
+            [name] => BIOCHEMISTRY I
+            [duration] => 2 hr
+        )
+
+    [BS3106] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => BS3106
+            [name] => SEASONAL FEBRILE DISEASES
+            [duration] => 2 hr 30 min
+        )
+
+    [CM1051] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => CM1051
+            [name] => BASIC BIOLOGY & BIOCHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [CZ3005] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => CZ3005
+            [name] => ARTIFICIAL INTELLIGENCE
+            [duration] => 2 hr
+        )
+
+    [EE2003] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => EE2003
+            [name] => SEMICONDUCTOR FUNDAMENTALS
+            [duration] => 2 hr 30 min
+        )
+
+    [HP4104] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => HP4104
+            [name] => EVIDENCE-BASED PRACTICE IN CLINICAL PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [MA3006] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MA3006
+            [name] => FLUID MECHANICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MH3100] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MH3100
+            [name] => REAL ANALYSIS I
+            [duration] => 2 hr
+        )
+
+    [MS1012] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MS1012
+            [name] => MATERIALS PHYSICS
+            [duration] => 2 hr
+        )
+
+    [MS4603] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MS4603
+            [name] => MICROELECTRONICS PROCESS INTEGRATION
+            [duration] => 2 hr
+        )
+
+    [AB3601] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => AB3601
+            [name] => STRATEGIC MANAGEMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [CE4041] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CE4041
+            [name] => MACHINE LEARNING
+            [duration] => 2 hr
+        )
+
+    [CE9010] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CE9010
+            [name] => INTRODUCTION TO DATA ANALYSIS
+            [duration] => 2 hr
+        )
+
+    [CH2112] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CH2112
+            [name] => CHEMICAL REACTION ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [CH3102] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CH3102
+            [name] => CHEMICAL REACTION ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [CM4063] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CM4063
+            [name] => NANOSCIENCE & NANOTECHNOLOGY
+            [duration] => 2 hr
+        )
+
+    [CV1012] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CV1012
+            [name] => FLUID MECHANICS
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ4041] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => CZ4041
+            [name] => MACHINE LEARNING
+            [duration] => 2 hr
+        )
+
+    [HA2024] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => HA2024
+            [name] => STATISTICAL ANALYSIS FOR PUBLIC AFFAIRS I
+            [duration] => 2 hr 30 min
+        )
+
+    [HE2001] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => HE2001
+            [name] => INTERMEDIATE MICROECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HE2015] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => HE2015
+            [name] => MACROECONOMIC ISSUES & POLICIES IN CONTEMPORARY CHINA
+            [duration] => 2 hr 30 min
+        )
+
+    [HH1004] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => HH1004
+            [name] => SCIENCE & TECHNOLOGY IN HISTORICAL PERSPECTIVE
+            [duration] => 2 hr 30 min
+        )
+
+    [HP4106] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => HP4106
+            [name] => MENTAL HEALTH IN THE COMMUNITY
+            [duration] => 2 hr 30 min
+        )
+
+    [HT5102] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => HT5102
+            [name] => LANGUAGE FOUNDATION FOR TRANSLATION
+            [duration] => 2 hr 30 min
+        )
+
+    [HY5002] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => HY5002
+            [name] => LOGIC & CRITICAL THINKING
+            [duration] => 2 hr
+        )
+
+    [MA4853] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => MA4853
+            [name] => MANUFACTURING SYSTEMS
+            [duration] => 2 hr 30 min
+        )
+
+    [MH4514] => Array
+        (
+            [date] => 25 April 2022
+            [day] => Monday
+            [time] => 5.00 pm
+            [code] => MH4514
+            [name] => FINANCIAL MATHEMATICS
+            [duration] => 2 hr
+        )
+
+    [AC2401] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => AC2401
+            [name] => ACCOUNTING INFORMATION SYSTEMS
+            [duration] => 2 hr 30 min
+        )
+
+    [BS2012] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => BS2012
+            [name] => GENETICS & GENOMICS
+            [duration] => 2 hr
+        )
+
+    [CE4013] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => CE4013
+            [name] => DISTRIBUTED SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [CM3041] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => CM3041
+            [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 2
+            [duration] => 2 hr
+        )
+
+    [CS2400] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => CS2400
+            [name] => FOUNDATION OF INFORMATION ANALYTICS
+            [duration] => 2 hr
+        )
+
+    [CZ4013] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => CZ4013
+            [name] => DISTRIBUTED SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [EE3012] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => EE3012
+            [name] => COMMUNICATION PRINCIPLES
+            [duration] => 2 hr
+        )
+
+    [EE3015] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => EE3015
+            [name] => POWER SYSTEMS & CONVERSION
+            [duration] => 2 hr
+        )
+
+    [EE4208] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => EE4208
+            [name] => INTELLIGENT SYSTEMS DESIGN
+            [duration] => 2 hr
+        )
+
+    [EN2003] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => EN2003
+            [name] => WATER SUPPLY ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [HA2003] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => HA2003
+            [name] => POLITICS & GOVERNMENT IN SOUTHEAST ASIA
+            [duration] => 2 hr 30 min
+        )
+
+    [HL0201] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => HL0201
+            [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
+            [duration] => 2 hr
+        )
+
+    [HP2300] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => HP2300
+            [name] => DEVELOPMENTAL PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [IM3002] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => IM3002
+            [name] => COMMUNICATION PRINCIPLES
+            [duration] => 2 hr
+        )
+
+    [MA1001] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MA1001
+            [name] => DYNAMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MH4500] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MH4500
+            [name] => TIME SERIES ANALYSIS
+            [duration] => 2 hr
+        )
+
+    [MS3014] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MS3014
+            [name] => ANALYSIS OF MATERIALS
+            [duration] => 2 hr
+        )
+
+    [MT4102] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => MT4102
+            [name] => DISTRIBUTION & WAREHOUSING
+            [duration] => 2 hr 30 min
+        )
+
+    [BA3203] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BA3203
+            [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
+            [duration] => 3 hr
+        )
+
+    [BF2206] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BF2206
+            [name] => WEALTH MANAGEMENT
+            [duration] => 2 hr
+        )
+
+    [BG4309] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BG4309
+            [name] => DRUG DELIVERY & TISSUE ENGINEERING
+            [duration] => 1 hr 30 min
+        )
+
+    [BR2205] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BR2205
+            [name] => INSURANCE PRACTICE
+            [duration] => 2 hr 30 min
+        )
+
+    [BS3104] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BS3104
+            [name] => PATHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [CE3005] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CE3005
+            [name] => COMPUTER NETWORKS
+            [duration] => 2 hr
+        )
+
+    [CH4223] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CH4223
+            [name] => PETROLEUM REFINING
+            [duration] => 2 hr
+        )
+
+    [CH5202] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CH5202
+            [name] => FOOD PHYSICS
+            [duration] => 3 hr
+        )
+
+    [CY1602] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CY1602
+            [name] => MATHEMATICS II
+            [duration] => 2 hr
+        )
+
+    [CZ3006] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CZ3006
+            [name] => NET CENTRIC COMPUTING
+            [duration] => 2 hr
+        )
+
+    [EE2010] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => EE2010
+            [name] => SIGNALS & SYSTEMS
+            [duration] => 2 hr 30 min
+        )
+
+    [EE3019] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => EE3019
+            [name] => INTEGRATED ELECTRONICS
+            [duration] => 2 hr
+        )
+
+    [ES2303] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => ES2303
+            [name] => INTRODUCTION TO ECOLOGY
+            [duration] => 2 hr
+        )
+
+    [HC2011] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => HC2011
+            [name] => TANG POETRY
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2015] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => HL2015
+            [name] => WAR IN LITERATURE & FILM
+            [duration] => 2 hr 30 min
+        )
+
+    [HS2002] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => HS2002
+            [name] => DOING SOCIAL RESEARCH
+            [duration] => 2 hr 30 min
+        )
+
+    [HS3002] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => HS3002
+            [name] => UNDERSTANDING SOCIAL STATISTICS
+            [duration] => 2 hr 30 min
+        )
+
+    [IM2004] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => IM2004
+            [name] => SIGNALS & SYSTEMS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA2003] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MA2003
+            [name] => INTRODUCTION TO THERMO-FLUIDS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA3001] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MA3001
+            [name] => MACHINE ELEMENT DESIGN
+            [duration] => 2 hr 30 min
+        )
+
+    [MH1803] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MH1803
+            [name] => CALCULUS FOR PHYSICS
+            [duration] => 2 hr
+        )
+
+    [MH1804] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MH1804
+            [name] => MATHEMATICS FOR CHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [MH3200] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MH3200
+            [name] => ABSTRACT ALGEBRA I
+            [duration] => 2 hr
+        )
+
+    [MS4612] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MS4612
+            [name] => DRUG DELIVERY & TISSUE ENGINEERING
+            [duration] => 1 hr 30 min
+        )
+
+    [PH4601] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => PH4601
+            [name] => PHYSICS OF SEMICONDUCTOR & SPINTRONICS DEVICES
+            [duration] => 2 hr
+        )
+
+    [BC2410] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => BC2410
+            [name] => PRESCRIPTIVE ANALYTICS: FROM DATA TO DECISION
+            [duration] => 2 hr 30 min
+        )
+
+    [CB1103] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CB1103
+            [name] => ORGANIC CHEMISTRY FOR ENGINEERS
+            [duration] => 2 hr
+        )
+
+    [CE4046] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CE4046
+            [name] => INTELLIGENT AGENTS
+            [duration] => 2 hr
+        )
+
+    [CH2102] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CH2102
+            [name] => ORGANIC CHEMISTRY & SPECTROPHOTOMETRY
+            [duration] => 2 hr
+        )
+
+    [CM5091] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CM5091
+            [name] => INDUSTRIAL & ENVIRONMENTAL CHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [CV2014] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CV2014
+            [name] => GEOTECHNICAL ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [CV4113] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CV4113
+            [name] => HIGHWAY ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ4046] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => CZ4046
+            [name] => INTELLIGENT AGENTS
+            [duration] => 2 hr
+        )
+
+    [EE5092] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => EE5092
+            [name] => DIGITAL LIFESTYLE
+            [duration] => 2 hr
+        )
+
+    [HE4010] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HE4010
+            [name] => SINGAPORE ECONOMY IN A GLOBALIZED WORLD
+            [duration] => 2 hr 30 min
+        )
+
+    [HE5092] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HE5092
+            [name] => ECONOMIC THEORY
+            [duration] => 2 hr 30 min
+        )
+
+    [HL1005] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HL1005
+            [name] => INTRODUCTION TO SINGAPORE LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2027] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HL2027
+            [name] => EARLY AMERICAN LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL3041] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HL3041
+            [name] => GLOBAL CITIES IN WORLD LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HQ5010] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HQ5010
+            [name] => INTRODUCTION TO GENDER & DIVERSITY
+            [duration] => 2 hr
+        )
+
+    [HS2003] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => HS2003
+            [name] => ECONOMY & SOCIETY
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4829] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MA4829
+            [name] => MACHINE INTELLIGENCE
+            [duration] => 2 hr
+        )
+
+    [MA4845] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MA4845
+            [name] => ADDITIVE MANUFACTURING IN INDUSTRY 4.0
+            [duration] => 2 hr
+        )
+
+    [MH1820] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MH1820
+            [name] => INTRODUCTION TO PROBABILITY & STATISTICAL METHODS
+            [duration] => 2 hr 30 min
+        )
+
+    [MH4517] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MH4517
+            [name] => DATA APPLICATIONS IN NATURAL SCIENCES
+            [duration] => 2 hr
+        )
+
+    [AB1301] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => AB1301
+            [name] => BUSINESS LAW
+            [duration] => 2 hr 30 min
+        )
+
+    [BS1007] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => BS1007
+            [name] => MOLECULAR & CELL BIOLOGY I
+            [duration] => 2 hr
+        )
+
+    [CV1011] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CV1011
+            [name] => MECHANICS OF MATERIALS
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ2007] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CZ2007
+            [name] => INTRODUCTION TO DATABASES
+            [duration] => 2 hr
+        )
+
+    [EE2002] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => EE2002
+            [name] => ANALOG ELECTRONICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HC2003] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HC2003
+            [name] => LITERATURE OF TANG & SONG
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2029] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HL2029
+            [name] => AMERICAN MODERNISM
+            [duration] => 2 hr 30 min
+        )
+
+    [HP2600] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HP2600
+            [name] => COGNITIVE PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [MH1301] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MH1301
+            [name] => DISCRETE MATHEMATICS
+            [duration] => 2 hr
+        )
+
+    [MH3701] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MH3701
+            [name] => BASIC OPTIMIZATION
+            [duration] => 2 hr
+        )
+
+    [MS2016] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MS2016
+            [name] => PHASE TRANSFORMATION & KINETICS
+            [duration] => 2 hr
+        )
+
+    [MS4661] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MS4661
+            [name] => APPLICATN OF PATENTS & REGISTERED DESIGN IN ENG RELATED IND
+            [duration] => 2 hr
+        )
+
+    [AAB20D] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => AAB20D
+            [name] => ECOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [AC2301] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => AC2301
+            [name] => PRINCIPLES OF TAXATION
+            [duration] => 2 hr 30 min
+        )
+
+    [AGQ28B] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => AGQ28B
+            [name] => EVERYDAY SCIENCE IN FOODS
+            [duration] => 2 hr 30 min
+        )
+
+    [BA3204] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BA3204
+            [name] => ACTUARIAL MANAGEMENT
+            [duration] => 3 hr
+        )
+
+    [BG4313] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BG4313
+            [name] => GLOBAL MEDICAL DEVICE REGULATORY OVERVIEW
+            [duration] => 2 hr
+        )
+
+    [BL5305] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BL5305
+            [name] => ADVANCED TAXATION
+            [duration] => 2 hr 30 min
+        )
+
+    [CE1104] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CE1104
+            [name] => LINEAR ALGEBRA FOR COMPUTING
+            [duration] => 2 hr
+        )
+
+    [CH5200] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CH5200
+            [name] => FOOD MICROBIOLOGY
+            [duration] => 3 hr
+        )
+
+    [CS2021] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CS2021
+            [name] => NEWS REPORTING & WRITING
+            [duration] => 2 hr
+        )
+
+    [CV4111] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CV4111
+            [name] => GROUND ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ1104] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CZ1104
+            [name] => LINEAR ALGEBRA FOR COMPUTING
+            [duration] => 2 hr
+        )
+
+    [CZ3007] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CZ3007
+            [name] => COMPILER TECHNIQUES
+            [duration] => 2 hr
+        )
+
+    [EE2104] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => EE2104
+            [name] => DIGITAL ELECTRONICS
+            [duration] => 2 hr
+        )
+
+    [HE2013] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HE2013
+            [name] => INTERNATIONAL TRADE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2032] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HL2032
+            [name] => AFRICAN LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL4009] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HL4009
+            [name] => POPULAR LITERATURE & CULTURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HP3802] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HP3802
+            [name] => PERSONNEL PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [HS2004] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HS2004
+            [name] => CULTURE, SELF & IDENTITY
+            [duration] => 2 hr 30 min
+        )
+
+    [MA2001] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA2001
+            [name] => MECHANICS OF MATERIALS
+            [duration] => 2 hr 30 min
+        )
+
+    [MS4013] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MS4013
+            [name] => BIOMATERIALS
+            [duration] => 2 hr
+        )
+
+    [PH1106] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => PH1106
+            [name] => ELECTRICITY & MAGNETISM
+            [duration] => 2 hr
+        )
+
+    [SC1004] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => SC1004
+            [name] => LINEAR ALGEBRA FOR COMPUTING
+            [duration] => 2 hr
+        )
+
+    [BF3207] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => BF3207
+            [name] => ALTERNATIVE INVESTMENTS
+            [duration] => 2 hr
+        )
+
+    [BU5241] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => BU5241
+            [name] => FINANCIAL WELLBEING
+            [duration] => 2 hr
+        )
+
+    [CE4034] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CE4034
+            [name] => INFORMATION RETRIEVAL
+            [duration] => 2 hr
+        )
+
+    [CH1104] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CH1104
+            [name] => MATERIALS & ENERGY BALANCES
+            [duration] => 2 hr
+        )
+
+    [CM5003] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CM5003
+            [name] => FROM ALCHEMY TO CHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [CM5004] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CM5004
+            [name] => FROM ALCHEMY TO CHEMISTRY (TEAM PROJECT)
+            [duration] => 2 hr
+        )
+
+    [CM5102] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CM5102
+            [name] => FOOD ANALYSIS & SAFETY
+            [duration] => 2 hr
+        )
+
+    [CZ4034] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CZ4034
+            [name] => INFORMATION RETRIEVAL
+            [duration] => 2 hr
+        )
+
+    [EE4534] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => EE4534
+            [name] => MODERN DISTRIBUTION SYSTEMS WITH RENEWABLE RESOURCES
+            [duration] => 2 hr
+        )
+
+    [EM5107] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => EM5107
+            [name] => ENVIRONMENTAL HEALTH & SAFETY MANAGEMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [HE2011] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HE2011
+            [name] => LABOUR ECONOMICS & LABOUR RELATIONS
+            [duration] => 2 hr 30 min
+        )
+
+    [HE4011] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HE4011
+            [name] => CURRENT TOPICS IN ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HL1003] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HL1003
+            [name] => SURVEY OF ENGLISH LITERATURE II
+            [duration] => 2 hr 30 min
+        )
+
+    [HL5001] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HL5001
+            [name] => MADNESS IN LITERATURE & FILM
+            [duration] => 2 hr
+        )
+
+    [HP5006] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HP5006
+            [name] => PSYCHOLOGY OF CRISIS STRESS MANAGEMENT
+            [duration] => 2 hr
+        )
+
+    [HS2019] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HS2019
+            [name] => SOCIOLOGY OF SCIENCE & TECHNOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [HS3007] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HS3007
+            [name] => RELIGION & SOCIETY
+            [duration] => 2 hr 30 min
+        )
+
+    [HS4039] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HS4039
+            [name] => MEDICAL SOCIOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [MA0303] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => MA0303
+            [name] => HUMAN RESOURCE MANAGEMENT
+            [duration] => 2 hr
+        )
+
+    [PH1011] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => PH1011
+            [name] => PHYSICS
+            [duration] => 2 hr 30 min
+        )
+
+    [PH1012] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => PH1012
+            [name] => PHYSICS A
+            [duration] => 2 hr 30 min
+        )
+
+    [AB1201] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => AB1201
+            [name] => FINANCIAL MANAGEMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [BS2010] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => BS2010
+            [name] => BIOIMAGING
+            [duration] => 2 hr 30 min
+        )
+
+    [CE4001] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CE4001
+            [name] => VIRTUAL & AUGMENTED REALITY
+            [duration] => 2 hr
+        )
+
+    [CH2104] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CH2104
+            [name] => HEAT & MASS TRANSFER IN CHEMICAL & BIOLOGICAL SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [CH2114] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CH2114
+            [name] => HEAT & MASS TRANSFER IN CHEMICAL & BIOLOGICAL SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [CM2062] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CM2062
+            [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 2
+            [duration] => 2 hr
+        )
+
+    [CZ4001] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CZ4001
+            [name] => VIRTUAL & AUGMENTED REALITY
+            [duration] => 2 hr
+        )
+
+    [EE2005] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EE2005
+            [name] => ELECTRICAL DEVICES & MACHINES
+            [duration] => 2 hr
+        )
+
+    [EE3010] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EE3010
+            [name] => ELECTRICAL DEVICES & MACHINES
+            [duration] => 2 hr
+        )
+
+    [EN4102] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EN4102
+            [name] => MEMBRANE WATER RECLAMATION TECHNOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [HC1051] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HC1051
+            [name] => MODERN CHINESE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2030] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HL2030
+            [name] => POST 1945 AMERICAN LITERATURE & CULTURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL3007] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HL3007
+            [name] => POSTCOLONIAL LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HP2400] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HP2400
+            [name] => SOCIAL PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [HS3018] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HS3018
+            [name] => SOCIOLOGY OF GENDER
+            [duration] => 2 hr 30 min
+        )
+
+    [MA3002] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MA3002
+            [name] => SOLID MECHANICS & VIBRATION
+            [duration] => 2 hr 30 min
+        )
+
+    [MH3400] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MH3400
+            [name] => ALGORITHMS FOR THE REAL WORLD
+            [duration] => 2 hr
+        )
+
+    [MS4012] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MS4012
+            [name] => QUALITY CONTROL
+            [duration] => 2 hr
+        )
+
+    [MT3006] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MT3006
+            [name] => SHIP CHARTERING
+            [duration] => 2 hr 30 min
+        )
+
+    [PH4404] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => PH4404
+            [name] => NANOSCALE PHYSICS
+            [duration] => 2 hr
+        )
+
+    [AC2302] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => AC2302
+            [name] => COMPANY LAW & CORPORATE GOVERNANCE
+            [duration] => 2 hr 30 min
+        )
+
+    [BR2211] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => BR2211
+            [name] => FINANCIAL & RISK ANALYTICS I
+            [duration] => 2 hr 30 min
+        )
+
+    [CE1106] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CE1106
+            [name] => COMPUTER ORGANISATION & ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [CE3001] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CE3001
+            [name] => ADVANCED COMPUTER ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [CM4011] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CM4011
+            [name] => ADVANCED ANALYTICAL CHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [CZ1106] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CZ1106
+            [name] => COMPUTER ORGANISATION & ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [CZ3001] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CZ3001
+            [name] => ADVANCED COMPUTER ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [EE1102] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => EE1102
+            [name] => PHYSICS FOUNDATION FOR ELECTRICAL & ELECTRONIC ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [EN2002] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => EN2002
+            [name] => ENVIRONMENTAL BIOLOGY & MICROBIOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [HA2009] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => HA2009
+            [name] => THE MAKING OF E-GOVERNMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [HC4035] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => HC4035
+            [name] => WESTERN INFLUENCES ON MODERN CHINESE THOUGHT
+            [duration] => 2 hr 30 min
+        )
+
+    [HL3037] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => HL3037
+            [name] => THE ENVIRONMENT & CULTURAL PRODUCTION
+            [duration] => 2 hr 30 min
+        )
+
+    [MA2005] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => MA2005
+            [name] => ENGINEERING GRAPHICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4837] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => MA4837
+            [name] => NET SHAPE MANUFACTURING
+            [duration] => 2 hr 30 min
+        )
+
+    [MS1018] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => MS1018
+            [name] => PROPERTIES OF MATERIALS
+            [duration] => 2 hr
+        )
+
+    [MS4650] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => MS4650
+            [name] => FUNCTIONAL NANOSTRUCTURE MATERIALS
+            [duration] => 2 hr
+        )
+
+    [PH2102] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => PH2102
+            [name] => ELECTROMAGNETISM
+            [duration] => 2 hr
+        )
+
+    [SC1006] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => SC1006
+            [name] => COMPUTER ORGANISATION & ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [BF2202] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => BF2202
+            [name] => MATHEMATICAL METHODS FOR FINANCE
+            [duration] => 2 hr 30 min
+        )
+
+    [BF3212] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => BF3212
+            [name] => TRADE, STRUCTURED & SUPPLY CHAIN FINANCE
+            [duration] => 2 hr 30 min
+        )
+
+    [BU5201] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => BU5201
+            [name] => BUSINESS FINANCE
+            [duration] => 2 hr
+        )
+
+    [CE4067] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CE4067
+            [name] => SOFTWARE SECURITY
+            [duration] => 2 hr
+        )
+
+    [CH4213] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CH4213
+            [name] => PHARMACOKINETICS & BIOPHARMACEUTICS
+            [duration] => 2 hr
+        )
+
+    [CM5031] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CM5031
+            [name] => ANALYTICAL & MANUFACTURING TECHNIQUES IN PHARMA INDUSTRY
+            [duration] => 2 hr
+        )
+
+    [CV1013] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CV1013
+            [name] => CIVIL ENGINEERING MATERIALS
+            [duration] => 2 hr 30 min
+        )
+
+    [CV4119] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CV4119
+            [name] => ADVANCED PREFABRICATION & PRECAST CONSTRUCTION
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ4067] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CZ4067
+            [name] => SOFTWARE SECURITY
+            [duration] => 2 hr
+        )
+
+    [EE4001] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => EE4001
+            [name] => SOFTWARE ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [ES5007] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => ES5007
+            [name] => CLIMATE & CLIMATE CHANGE
+            [duration] => 2 hr
+        )
+
+    [HE5091] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => HE5091
+            [name] => PRINCIPLES OF ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HL4030] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => HL4030
+            [name] => SCOTTISH LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [IM2001] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => IM2001
+            [name] => SOFTWARE ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [MA4854] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => MA4854
+            [name] => QUALITY ASSURANCE & MANAGEMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4872] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => MA4872
+            [name] => AIRCRAFT RELIABILITY & MAINTAINABILITY
+            [duration] => 2 hr 30 min
+        )
+
+    [MH4501] => Array
+        (
+            [date] => 28 April 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => MH4501
+            [name] => MULTIVARIATE ANALYSIS
+            [duration] => 2 hr
+        )
+
+    [BA3205] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BA3205
+            [name] => ACTUARIAL COMPUTING
+            [duration] => 3 hr
+        )
+
+    [BF3201] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BF3201
+            [name] => CORPORATE FINANCE & STRATEGY
+            [duration] => 2 hr
+        )
+
+    [BS3028] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BS3028
+            [name] => NATURAL PRODUCTS IN MEDICINAL CHEMISTRY
+            [duration] => 2 hr 30 min
+        )
+
+    [CE2100] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CE2100
+            [name] => PROBABILITY & STATISTICS FOR COMPUTING
+            [duration] => 2 hr
+        )
+
+    [CH3103] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CH3103
+            [name] => CHEMICAL THERMODYNAMICS
+            [duration] => 2 hr
+        )
+
+    [CM1041] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CM1041
+            [name] => BASIC PHYSICAL CHEMISTRY WITH LABORATORY
+            [duration] => 2 hr
+        )
+
+    [CM4042] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CM4042
+            [name] => CHEMICAL KINETICS & DYNAMICS
+            [duration] => 2 hr
+        )
+
+    [CZ2100] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CZ2100
+            [name] => PROBABILITY & STATISTICS FOR COMPUTING
+            [duration] => 2 hr
+        )
+
+    [EE3014] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE3014
+            [name] => DIGITAL SIGNAL PROCESSING
+            [duration] => 2 hr
+        )
+
+    [EE4285] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE4285
+            [name] => COMPUTATIONAL INTELLIGENCE
+            [duration] => 2 hr
+        )
+
+    [EE4343] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE4343
+            [name] => RADIO FREQUENCY CIRCUITS
+            [duration] => 2 hr
+        )
+
+    [EE4533] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE4533
+            [name] => POWER APPARATUS & SYSTEM PROTECTION
+            [duration] => 2 hr
+        )
+
+    [EN0002] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EN0002
+            [name] => ENVIRONMENTAL ISSUES & SUSTAINABILITY
+            [duration] => 2 hr 30 min
+        )
+
+    [EN3004] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EN3004
+            [name] => AIR POLLUTION CONTROL ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [HA1003] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HA1003
+            [name] => INTRODUCTION TO PUBLIC ADMINISTRATION & POLICY
+            [duration] => 2 hr 30 min
+        )
+
+    [HE3014] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HE3014
+            [name] => ECONOMICS OF CORPORATE FINANCE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL1002] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HL1002
+            [name] => SURVEY OF ENGLISH LITERATURE 1
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2021] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HL2021
+            [name] => LITERATURE OF EMPIRE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL4034] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HL4034
+            [name] => BRITISH ASIAN LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HP1100] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HP1100
+            [name] => FUNDAMENTALS OF SOCIAL SCIENCE RESEARCH
+            [duration] => 2 hr 30 min
+        )
+
+    [IM3001] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => IM3001
+            [name] => DIGITAL SIGNAL PROCESSING
+            [duration] => 2 hr
+        )
+
+    [MA2007] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MA2007
+            [name] => THERMODYNAMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4813] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MA4813
+            [name] => BUILDING SERVICES ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [MH3600] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MH3600
+            [name] => KNOTS & SURFACES:INTRODUCTION TO TOPOLOGY
+            [duration] => 2 hr
+        )
+
+    [MS4630] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MS4630
+            [name] => PHOTOVOLTAIC DEVICES & ENERGY STORAGE
+            [duration] => 2 hr
+        )
+
+    [MT4003] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MT4003
+            [name] => MARITIME STRATEGY
+            [duration] => 2 hr 30 min
+        )
+
+    [PH3201] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => PH3201
+            [name] => STATISTICAL MECHANICS I
+            [duration] => 2 hr
+        )
+
+    [BF2216] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BF2216
+            [name] => TRADE INCOTERMS & SHIP CHARTERING
+            [duration] => 2 hr 30 min
+        )
+
+    [BG2209] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BG2209
+            [name] => MECHANICS FOR BIOENGINEERS
+            [duration] => 2 hr
+        )
+
+    [BH3301] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BH3301
+            [name] => EMPLOYMENT LAW
+            [duration] => 2 hr 30 min
+        )
+
+    [BR3209] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BR3209
+            [name] => COMPUTING FOR RISK MANAGEMENT & INSURANCE PRACTICES
+            [duration] => 2 hr 30 min
+        )
+
+    [BS2021] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BS2021
+            [name] => RNA STRUCTURES & RNA BASED DRUG DEVELOPMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [CV2019] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CV2019
+            [name] => MATRIX ALGEBRA & COMPUTATIONAL METHODS
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ3003] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CZ3003
+            [name] => SOFTWARE SYSTEMS ANALYSIS & DESIGN
+            [duration] => 2 hr
+        )
+
+    [HC2040] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HC2040
+            [name] => UNDERSTANDING CHINA
+            [duration] => 2 hr 30 min
+        )
+
+    [HC3001] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HC3001
+            [name] => MODERN CHINESE LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HE3003] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HE3003
+            [name] => THE CHINESE ECONOMY
+            [duration] => 2 hr 30 min
+        )
+
+    [HP4105] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HP4105
+            [name] => CORRECTIONAL PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [HS2014] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HS2014
+            [name] => THE CHANGING FAMILY
+            [duration] => 2 hr 30 min
+        )
+
+    [HT5301] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HT5301
+            [name] => LINGUISTICS, CULTURE & TRANSLATION
+            [duration] => 2 hr 30 min
+        )
+
+    [IM1002] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => IM1002
+            [name] => ANALOG ELECTRONICS
+            [duration] => 2 hr
+        )
+
+    [MA3004] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MA3004
+            [name] => MATHEMATICAL METHODS IN ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [MH2811] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MH2811
+            [name] => MATHEMATICS II
+            [duration] => 1 hr 30 min
+        )
+
+    [MS4662] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MS4662
+            [name] => APPRECIATING IP IN RESEARCH & DEVELOPMENT
+            [duration] => 2 hr
+        )
+
+    [PS0002] => Array
+        (
+            [date] => 29 April 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => PS0002
+            [name] => INTRODUCTION TO DATA SCIENCE & ARTIFICIAL INTELLIGENCE
+            [duration] => 2 hr
+        )
+
+    [AC3102] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => AC3102
+            [name] => RISK REPORTING & ANALYSIS
+            [duration] => 2 hr 30 min
+        )
+
+    [BS4018] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => BS4018
+            [name] => BIOLOGY OF AGING & NEURODEGENERATION
+            [duration] => 2 hr 30 min
+        )
+
+    [CE2101] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CE2101
+            [name] => ALGORITHM DESIGN & ANALYSIS
+            [duration] => 2 hr
+        )
+
+    [CM3061] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CM3061
+            [name] => CHEMISTRY & BIOLOGICAL CHEMISTRY LABORATORY 3
+            [duration] => 2 hr
+        )
+
+    [CV2020] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CV2020
+            [name] => WATER RESOURCES ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ2101] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CZ2101
+            [name] => ALGORITHM DESIGN & ANALYSIS
+            [duration] => 2 hr
+        )
+
+    [EE3017] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => EE3017
+            [name] => COMPUTER COMMUNICATIONS
+            [duration] => 2 hr
+        )
+
+    [HC4042] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HC4042
+            [name] => CHINA & GLOBALISATION
+            [duration] => 2 hr 30 min
+        )
+
+    [HE2002] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HE2002
+            [name] => INTERMEDIATE MACROECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HE3005] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HE3005
+            [name] => ENVIRONMENTAL ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HL4039] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HL4039
+            [name] => ADVANCED STUDIES IN CHILDREN'S LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [IM2003] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => IM2003
+            [name] => COMPUTER COMMUNICATIONS
+            [duration] => 2 hr
+        )
+
+    [MA3005] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MA3005
+            [name] => CONTROL THEORY
+            [duration] => 2 hr 30 min
+        )
+
+    [MA3705] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MA3705
+            [name] => AEROSPACE CONTROL THEORY
+            [duration] => 2 hr 30 min
+        )
+
+    [MH4601] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MH4601
+            [name] => DIFFERENTIAL GEOMETRY
+            [duration] => 2 hr
+        )
+
+    [MS2018] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MS2018
+            [name] => ELECTRONICS & MAGNETIC PROPERTIES OF MATERIALS
+            [duration] => 2 hr
+        )
+
+    [MS4611] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => MS4611
+            [name] => BIOMEDICAL DEVICES
+            [duration] => 2 hr
+        )
+
+    [PH1802] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => PH1802
+            [name] => FOUNDATIONS OF PHYSICS II
+            [duration] => 2 hr
+        )
+
+    [PH4605] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => PH4605
+            [name] => MEDICAL PHYSICS FOR RADIOTHERAPY
+            [duration] => 2 hr
+        )
+
+    [AC2104] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => AC2104
+            [name] => ASSURANCE & AUDITING
+            [duration] => 2 hr 30 min
+        )
+
+    [BS2104] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BS2104
+            [name] => BIOMEDICAL PHARMACOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [BS3008] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BS3008
+            [name] => COMPUTER AIDED DRUG DISCOVERY
+            [duration] => 2 hr 30 min
+        )
+
+    [CE1105] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CE1105
+            [name] => DIGITAL LOGIC
+            [duration] => 2 hr
+        )
+
+    [CH5204] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CH5204
+            [name] => QUALITY SYSTEMS OPERATIONS
+            [duration] => 2 hr
+        )
+
+    [CZ1105] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CZ1105
+            [name] => DIGITAL LOGIC
+            [duration] => 2 hr
+        )
+
+    [EE2006] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => EE2006
+            [name] => ENGINEERING MATHEMATICS I
+            [duration] => 2 hr 30 min
+        )
+
+    [EE4455] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => EE4455
+            [name] => EMBEDDED SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [HA2005] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HA2005
+            [name] => CONTEMPORARY POLITICAL THEORY
+            [duration] => 2 hr 30 min
+        )
+
+    [HC2010] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HC2010
+            [name] => CLASSICAL CHINESE FICTION
+            [duration] => 2 hr 30 min
+        )
+
+    [HL3034] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HL3034
+            [name] => IRISH WRITING: MODERNISM TO THE CONTEMPORARY
+            [duration] => 2 hr 30 min
+        )
+
+    [HS2023] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HS2023
+            [name] => ENVIRONMENTAL SOCIOLOGY
+            [duration] => 2 hr 30 min
+        )
+
+    [IM2006] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => IM2006
+            [name] => ENGINEERING MATHEMATICS I
+            [duration] => 2 hr 30 min
+        )
+
+    [IM4756] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => IM4756
+            [name] => COMPUTER ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [MA2009] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA2009
+            [name] => INTRODUCTION TO ELECTRICAL CIRCUITS & ELECTRONIC DEVICES
+            [duration] => 2 hr 30 min
+        )
+
+    [MA5705] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA5705
+            [name] => AIRCRAFT ELECTRICAL & ELECTRONICS CIRCUITS
+            [duration] => 2 hr 30 min
+        )
+
+    [MH1403] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MH1403
+            [name] => ALGORITHMS & COMPUTING
+            [duration] => 2 hr
+        )
+
+    [MH1810] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MH1810
+            [name] => MATHEMATICS 1
+            [duration] => 2 hr
+        )
+
+    [MH3500] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MH3500
+            [name] => STATISTICS
+            [duration] => 2 hr
+        )
+
+    [MS2014] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MS2014
+            [name] => MATERIALS STRUCTURE & DEFECTS
+            [duration] => 1 hr 30 min
+        )
+
+    [MT2004] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MT2004
+            [name] => MATHEMATICS II FOR MARITIME STUDIES
+            [duration] => 2 hr 30 min
+        )
+
+    [PH2301] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => PH2301
+            [name] => PHYSICAL OPTICS
+            [duration] => 2 hr
+        )
+
+    [RE1018] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => RE1018
+            [name] => INTRODUCTORY THERMAL SCIENCES, ELECTRICITY & MAGNETISM
+            [duration] => 2 hr 30 min
+        )
+
+    [SC1005] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => SC1005
+            [name] => DIGITAL LOGIC
+            [duration] => 2 hr
+        )
+
+    [BF3203] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => BF3203
+            [name] => EQUITY SECURITIES
+            [duration] => 2 hr 30 min
+        )
+
+    [CB1117] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CB1117
+            [name] => ENGINEERING MATHEMATICS
+            [duration] => 2 hr
+        )
+
+    [CE4071] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CE4071
+            [name] => NETWORK SCIENCE
+            [duration] => 2 hr
+        )
+
+    [CM4061] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CM4061
+            [name] => MATERIALS CHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [CV3012] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CV3012
+            [name] => STEEL DESIGN
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ4071] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => CZ4071
+            [name] => NETWORK SCIENCE
+            [duration] => 2 hr
+        )
+
+    [EE4614] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => EE4614
+            [name] => DEVICE PARAMETER EXTRACTION & LAYOUT IMPLEMENTATION
+            [duration] => 2 hr
+        )
+
+    [EE4791] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => EE4791
+            [name] => DATABASE SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [EE5093] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => EE5093
+            [name] => ENERGY DEVICES FOR SUSTAINABLE URBAN ENVIRONMENT
+            [duration] => 2 hr
+        )
+
+    [HC2014] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HC2014
+            [name] => CHINESE THEATRE & PERFORMANCE
+            [duration] => 2 hr 30 min
+        )
+
+    [HL2028] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HL2028
+            [name] => NINETEENTH CENTURY AMERICAN LITERATURE & CULTURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HP5003] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HP5003
+            [name] => ARE YOU OKAY? MENTAL HEALTH IN SINGAPORE
+            [duration] => 2 hr
+        )
+
+    [IM4791] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => IM4791
+            [name] => DATABASE SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [MA4808] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => MA4808
+            [name] => MARINE CONTROL SYSTEMS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4831] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => MA4831
+            [name] => COMPUTER-AIDED ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [MA5105] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => MA5105
+            [name] => ENGINEERING MANAGEMENT ANALYSIS
+            [duration] => 2 hr
+        )
+
+    [PH4409] => Array
+        (
+            [date] => 4 May 2022
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => PH4409
+            [name] => QUANTUM ELECTRONICS
+            [duration] => 2 hr
+        )
+
+    [AC3103] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => AC3103
+            [name] => ACCOUNTING ANALYSIS & VALUATION
+            [duration] => 2 hr 30 min
+        )
+
+    [BG2104] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => BG2104
+            [name] => ELECTRONICS FOR BIOMEDICAL ENGINEERS
+            [duration] => 2 hr
+        )
+
+    [BS0005] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => BS0005
+            [name] => ONE HEALTH
+            [duration] => 2 hr 30 min
+        )
+
+    [CE4123] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CE4123
+            [name] => BIG DATA MANAGEMENT
+            [duration] => 2 hr
+        )
+
+    [CM3011] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => CM3011
+            [name] => CHEMICAL SPECTROSCOPY & APPLICATIONS
+            [duration] => 2 hr
+        )
+
+    [EE3001] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EE3001
+            [name] => ENGINEERING ELECTROMAGNETICS
+            [duration] => 2 hr 30 min
+        )
+
+    [EE4109] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EE4109
+            [name] => WIRELESS SYSTEM DESIGN
+            [duration] => 2 hr
+        )
+
+    [EE4530] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EE4530
+            [name] => POWER SYSTEM ANALYSIS & CONTROL
+            [duration] => 2 hr
+        )
+
+    [EE4645] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EE4645
+            [name] => MICROFABRICATION ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [EN4104] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => EN4104
+            [name] => ENVIRONMENTAL HYDRAULICS
+            [duration] => 2 hr 30 min
+        )
+
+    [HA2004] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HA2004
+            [name] => THEORIES IN INTERNATIONAL RELATIONS
+            [duration] => 2 hr 30 min
+        )
+
+    [HE3007] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HE3007
+            [name] => FINANCIAL ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [IM4455] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => IM4455
+            [name] => EMBEDDED SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [MA2004] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MA2004
+            [name] => MANUFACTURING PROCESSES
+            [duration] => 2 hr 30 min
+        )
+
+    [MH4310] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MH4310
+            [name] => CODING THEORY
+            [duration] => 2 hr
+        )
+
+    [MS1014] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MS1014
+            [name] => MATERIALS CHEMISTRY II
+            [duration] => 1 hr 30 min
+        )
+
+    [MT1004] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => MT1004
+            [name] => INTRODUCTION TO METEOROLOGY & OCEANOGRAPHY
+            [duration] => 2 hr 30 min
+        )
+
+    [PH2101] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => PH2101
+            [name] => QUANTUM MECHANICS 1
+            [duration] => 2 hr
+        )
+
+    [SC4023] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => SC4023
+            [name] => BIG DATA MANAGEMENT
+            [duration] => 2 hr
+        )
+
+    [BF2207] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => BF2207
+            [name] => INTERNATIONAL FINANCE
+            [duration] => 2 hr
+        )
+
+    [BS4019] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => BS4019
+            [name] => DISCOVERY & DEVELOPMENT OF THERAPEUTIC ANTIBODIES
+            [duration] => 2 hr
+        )
+
+    [CE3103] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CE3103
+            [name] => EMBEDDED PROGRAMMING
+            [duration] => 2 hr
+        )
+
+    [CM2041] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CM2041
+            [name] => PHYSICAL & BIOPHYSICAL CHEMISTRY 1
+            [duration] => 2 hr
+        )
+
+    [CS0205] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CS0205
+            [name] => BASIC MEDIA WRITING
+            [duration] => 2 hr
+        )
+
+    [CV0001] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CV0001
+            [name] => CIVIL ENGINEERING & SUSTAINABLE BUILT ENVIRONMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [EE2001] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => EE2001
+            [name] => CIRCUIT ANALYSIS
+            [duration] => 2 hr 30 min
+        )
+
+    [EE2007] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => EE2007
+            [name] => ENGINEERING MATHEMATICS II
+            [duration] => 2 hr 30 min
+        )
+
+    [EE4756] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => EE4756
+            [name] => COMPUTER ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [HE2006] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => HE2006
+            [name] => INTERNATIONAL MONETARY ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+    [IM2007] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => IM2007
+            [name] => ENGINEERING MATHEMATICS II
+            [duration] => 2 hr 30 min
+        )
+
+    [MA1002] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => MA1002
+            [name] => FUNDAMENTAL ENGINEERING MATERIALS
+            [duration] => 2 hr
+        )
+
+    [MA3003] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => MA3003
+            [name] => HEAT TRANSFER
+            [duration] => 2 hr 30 min
+        )
+
+    [MH3511] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => MH3511
+            [name] => DATA ANALYSIS WITH COMPUTER
+            [duration] => 2 hr
+        )
+
+    [AC2101] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => AC2101
+            [name] => ACCOUNTING RECOGNITION & MEASUREMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [CE4062] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CE4062
+            [name] => COMPUTER SECURITY (SYSTEM SECURITY)
+            [duration] => 2 hr
+        )
+
+    [CM4033] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CM4033
+            [name] => METAL MEDIATED REACTIONS
+            [duration] => 2 hr
+        )
+
+    [CZ4062] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => CZ4062
+            [name] => COMPUTER SECURITY (SYSTEM SECURITY)
+            [duration] => 2 hr
+        )
+
+    [EE4273] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => EE4273
+            [name] => DIGITAL CONTROL SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [EE4344] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => EE4344
+            [name] => ANALYSIS & DESIGN OF INTEGRATED CIRCUITS
+            [duration] => 2 hr
+        )
+
+    [EE5087] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => EE5087
+            [name] => LIVING WITH MATHEMATICS
+            [duration] => 2 hr
+        )
+
+    [HA2011] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => HA2011
+            [name] => COST-BENEFIT ANALYSIS IN PUBLIC POLICY
+            [duration] => 2 hr 30 min
+        )
+
+    [HE3021] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => HE3021
+            [name] => INTERMEDIATE ECONOMETRICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4807] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => MA4807
+            [name] => MARINE STRUCTURAL INTEGRITY
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4843] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => MA4843
+            [name] => MANAGEMENT OF PRODUCT DEVELOPMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4871] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => MA4871
+            [name] => NON-DESTRUCTIVE TESTING
+            [duration] => 2 hr 30 min
+        )
+
+    [MT4103] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => MT4103
+            [name] => PORT PLANNING & OPERATIONS
+            [duration] => 2 hr 30 min
+        )
+
+    [PH1801] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => PH1801
+            [name] => FOUNDATIONS OF PHYSICS I
+            [duration] => 2 hr
+        )
+
+    [SU2001] => Array
+        (
+            [date] => 5 May 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => SU2001
+            [name] => URBAN PLANNING & DESIGN
+            [duration] => 2 hr 30 min
+        )
+
+    [AC3104] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => AC3104
+            [name] => RISK MANAGEMENT & ADVANCED AUDITING
+            [duration] => 2 hr 30 min
+        )
+
+    [BS1006] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BS1006
+            [name] => PRINCIPLES OF GENETICS
+            [duration] => 2 hr
+        )
+
+    [CE2002] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CE2002
+            [name] => OBJECT ORIENTED DESIGN & PROGRAMMING
+            [duration] => 2 hr
+        )
+
+    [CE4055] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CE4055
+            [name] => CYBER PHYSICAL SYSTEM SECURITY
+            [duration] => 2 hr
+        )
+
+    [CM3031] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CM3031
+            [name] => ORGANIC REACTION MECHANISMS & SYNTHESIS
+            [duration] => 2 hr
+        )
+
+    [CV2011] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CV2011
+            [name] => STRUCTURAL ANALYSIS I
+            [duration] => 2 hr 30 min
+        )
+
+    [CZ2002] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CZ2002
+            [name] => OBJECT ORIENTED DESIGN & PROGRAMMING
+            [duration] => 2 hr
+        )
+
+    [CZ4055] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CZ4055
+            [name] => CYBER PHYSICAL SYSTEM SECURITY
+            [duration] => 2 hr
+        )
+
+    [EE3011] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE3011
+            [name] => MODELLING & CONTROL
+            [duration] => 2 hr
+        )
+
+    [EE3013] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE3013
+            [name] => SEMICONDUCTOR DEVICES & PROCESSING
+            [duration] => 2 hr
+        )
+
+    [EE4497] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE4497
+            [name] => PATTERN RECOGNITION & MACHINE LEARNING
+            [duration] => 2 hr
+        )
+
+    [EE4694] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE4694
+            [name] => IC RELIABILITY & FAILURE ANALYSIS
+            [duration] => 2 hr
+        )
+
+    [EE4904] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => EE4904
+            [name] => BIOMEDICAL INSTRUMENTATION
+            [duration] => 2 hr
+        )
+
+    [HE3023] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HE3023
+            [name] => ECONOMETRIC ANALYSIS OF FINANCIAL DATA
+            [duration] => 2 hr 30 min
+        )
+
+    [MA2002] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MA2002
+            [name] => THEORY OF MECHANISM
+            [duration] => 2 hr 30 min
+        )
+
+    [MH1201] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MH1201
+            [name] => LINEAR ALGEBRA II
+            [duration] => 2 hr
+        )
+
+    [MS3012] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MS3012
+            [name] => MICRO/NANOELECTRONIC MATERIALS PROCESSING
+            [duration] => 2 hr
+        )
+
+    [PH4603] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => PH4603
+            [name] => SOFT CONDENSED MATTER PHYSICS
+            [duration] => 2 hr
+        )
+
+    [BR2204] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BR2204
+            [name] => INTRODUCTION TO FINANCIAL RISK MANAGEMENT
+            [duration] => 2 hr 30 min
+        )
+
+    [BS4205] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => BS4205
+            [name] => GMP & STERILISATION FOR MEDICAL DEVICES
+            [duration] => 2 hr
+        )
+
+    [CE3007] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CE3007
+            [name] => DIGITAL SIGNAL PROCESSING
+            [duration] => 2 hr
+        )
+
+    [CH3104] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CH3104
+            [name] => BIOCHEMICAL ENGINEERING
+            [duration] => 2 hr
+        )
+
+    [CM2031] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CM2031
+            [name] => ORGANIC & BIOORGANIC CHEMISTRY
+            [duration] => 2 hr
+        )
+
+    [CM4031] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => CM4031
+            [name] => ASYMMETRIC SYNTHESIS
+            [duration] => 2 hr
+        )
+
+    [EE1003] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => EE1003
+            [name] => INTRODUCTION TO MATERIALS FOR ELECTRONICS
+            [duration] => 2 hr
+        )
+
+    [EE3002] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => EE3002
+            [name] => MICROPROCESSORS
+            [duration] => 2 hr 30 min
+        )
+
+    [EN3003] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => EN3003
+            [name] => ENVIRONMENTAL TRANSPORT PROCESSES
+            [duration] => 2 hr 30 min
+        )
+
+    [HE2020] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HE2020
+            [name] => SURVEY METHODS & SAMPLING TECHNIQUES
+            [duration] => 2 hr 30 min
+        )
+
+    [HE4003] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => HE4003
+            [name] => ADVANCED INTERNATIONAL FINANCE
+            [duration] => 2 hr 30 min
+        )
+
+    [IM1003] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => IM1003
+            [name] => OBJECT-ORIENTED PROGRAMMING
+            [duration] => 2 hr
+        )
+
+    [IM2002] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => IM2002
+            [name] => MICROPROCESSORS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4846] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MA4846
+            [name] => PRODUCT DESIGN ENGINEERING
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4870] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MA4870
+            [name] => MECHANICS OF COMPOSITE MATERIALS
+            [duration] => 2 hr 30 min
+        )
+
+    [MH1812] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MH1812
+            [name] => DISCRETE MATHEMATICS
+            [duration] => 2 hr
+        )
+
+    [MH4512] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MH4512
+            [name] => CLINICAL TRIALS
+            [duration] => 2 hr
+        )
+
+    [MS2013] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MS2013
+            [name] => INTRODUCTION TO POLYMER SCIENCE
+            [duration] => 2 hr
+        )
+
+    [MS4622] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MS4622
+            [name] => COMPOSITE MATERIALS
+            [duration] => 1 hr 30 min
+        )
+
+    [MT2005] => Array
+        (
+            [date] => 6 May 2022
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MT2005
+            [name] => PORT ECONOMICS
+            [duration] => 2 hr 30 min
+        )
+
+)

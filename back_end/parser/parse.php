@@ -4,6 +4,10 @@ require("../config.php");
 
 $raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . ".html");
 
+$raw_data = explode("</head>", $raw_data)[1];
+$raw_data = "<html>".$raw_data;
+// $raw_data = str_replace("<body>", "<BODY>", $raw_data);
+
 $raw_data = str_replace("<HR SIZE=2>", "", $raw_data);
 $raw_data = str_replace("<HR>", "", $raw_data);
 $raw_data = str_replace("<hr>", "", $raw_data);
