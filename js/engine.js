@@ -417,7 +417,7 @@ $(document).ready(function ($) {
             },
             error: function() {
                 ga('send', 'event', 'form', 'result', 'server_error');
-                swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "warning");
+                swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "error");
                 $("#overlay").hide();
                 $("#course_form #submit").removeAttr("disabled");
             },
@@ -436,7 +436,7 @@ $(document).ready(function ($) {
                     res = JSON.parse(d);
                 } catch(e) {
                     ga('send', 'event', 'form', 'result', 'server_error');
-                    swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "warning");
+                    swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
@@ -451,10 +451,14 @@ $(document).ready(function ($) {
                 ga('send', 'event', 'form', 'result', 'result_length', len);
                 if (!res.validation_result) {
                     ga('send', 'event', 'form', 'result', 'not_found_invalid');
-                    swal("We're sorry.", "Invalid input were given. Please refresh the page to try again.", "warning");
+                    swal("We're sorry.", "Invalid input were given. Please refresh the page to try again.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
+                }
+                if (res.too_many_results) {
+                    ga('send', 'event', 'form', 'result', 'too_many_results');
+                    swal("Results overflow!", "Too many possible arrangement found. Results are capped at 10,000 possiblities. This also means that you probably do not need this tool to choose your schedule", "warning");
                 }
                 if (!res.exam_schedule_validation.ok) {
                     var conflict_msg = "";
@@ -462,14 +466,14 @@ $(document).ready(function ($) {
                       conflict_msg += res.exam_schedule_validation.conflict[i][0] + " and " + res.exam_schedule_validation.conflict[i][1] + "\n";
                     }
                     ga('send', 'event', 'form', 'result', 'not_found_exam');
-                    swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule of the following have clashed:\n " + conflict_msg + "\nPlease try selecting another course.", "warning");
+                    swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule of the following have clashed:\n " + conflict_msg + "\nPlease try selecting another course.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
                 if (len === 0) {
                     ga('send', 'event', 'form', 'result', 'not_found_impossible');
-                    swal("We're sorry.", "There is no possible arrangement found for the given courses. Please try selecting another course.", "warning");
+                    swal("We're sorry.", "There is no possible arrangement found for the given courses. Please try selecting another course.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;

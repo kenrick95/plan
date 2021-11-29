@@ -23,6 +23,7 @@ $timetable = array(
     );
 
 $all_timetable = array();
+$too_many_solutions = FALSE;
 
 /* ---------------------------------------------------------------------------------------------- */
 
@@ -65,6 +66,7 @@ if (isset($input_courses)) {
     # Generate all possible timetables
     generate_timetable($input_courses, $timetable);
     $result["timetable"] = $all_timetable;
+    $result["too_many_results"] = $too_many_solutions;
 
     echo json_encode($result);
 }
@@ -169,8 +171,14 @@ function get_exam_details ($course_id, $database_exam) {
 # Generate ALL POSSIBLE timetables!
 $temp_timetable = $timetable;
 function generate_timetable ($input_courses, $temp_timetable) {
-    global $database_course, $all_timetable;
+    global $database_course, $all_timetable, $too_many_solutions;
     $original_timetable = $temp_timetable;
+
+    # Too many solutions found
+    if (count($all_timetable) >= 10000) {
+        $too_many_solutions = TRUE;
+        return;
+    }
 
     # One solution is found
     if (count($input_courses) == 0) {
