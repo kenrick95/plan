@@ -1440,16 +1440,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [MA4829] => Array
-        (
-            [date] => 26 April 2022
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => MA4829
-            [name] => MACHINE INTELLIGENCE
-            [duration] => 2 hr
-        )
-
     [MA4845] => Array
         (
             [date] => 26 April 2022
@@ -1458,6 +1448,16 @@ Array
             [code] => MA4845
             [name] => ADDITIVE MANUFACTURING IN INDUSTRY 4.0
             [duration] => 2 hr
+        )
+
+    [MA4846] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MA4846
+            [name] => PRODUCT DESIGN ENGINEERING
+            [duration] => 2 hr 30 min
         )
 
     [MH1820] => Array
@@ -4420,14 +4420,14 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [MA4846] => Array
+    [MA4829] => Array
         (
             [date] => 6 May 2022
             [day] => Friday
             [time] => 2.30 pm
-            [code] => MA4846
-            [name] => PRODUCT DESIGN ENGINEERING
-            [duration] => 2 hr 30 min
+            [code] => MA4829
+            [name] => MACHINE INTELLIGENCE
+            [duration] => 2 hr
         )
 
     [MA4870] => Array
