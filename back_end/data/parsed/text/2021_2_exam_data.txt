@@ -1440,16 +1440,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [MA4829] => Array
-        (
-            [date] => 26 April 2022
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => MA4829
-            [name] => MACHINE INTELLIGENCE
-            [duration] => 2 hr
-        )
-
     [MA4845] => Array
         (
             [date] => 26 April 2022
@@ -1458,6 +1448,16 @@ Array
             [code] => MA4845
             [name] => ADDITIVE MANUFACTURING IN INDUSTRY 4.0
             [duration] => 2 hr
+        )
+
+    [MA4846] => Array
+        (
+            [date] => 26 April 2022
+            [day] => Tuesday
+            [time] => 5.00 pm
+            [code] => MA4846
+            [name] => PRODUCT DESIGN ENGINEERING
+            [duration] => 2 hr 30 min
         )
 
     [MH1820] => Array
@@ -1810,6 +1810,16 @@ Array
             [duration] => 2 hr
         )
 
+    [PH1802] => Array
+        (
+            [date] => 27 April 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => PH1802
+            [name] => FOUNDATIONS OF PHYSICS II
+            [duration] => 2 hr
+        )
+
     [SC1004] => Array
         (
             [date] => 27 April 2022
@@ -1980,13 +1990,13 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HS3007] => Array
+    [HS3004] => Array
         (
             [date] => 27 April 2022
             [day] => Wednesday
             [time] => 5.00 pm
-            [code] => HS3007
-            [name] => RELIGION & SOCIETY
+            [code] => HS3004
+            [name] => CITIES & URBAN LIFE
             [duration] => 2 hr 30 min
         )
 
@@ -2320,13 +2330,13 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HA2009] => Array
+    [HA3014] => Array
         (
             [date] => 28 April 2022
             [day] => Thursday
             [time] => 1.00 pm
-            [code] => HA2009
-            [name] => THE MAKING OF E-GOVERNMENT
+            [code] => HA3014
+            [name] => SINGAPORE'S FOREIGN POLICY
             [duration] => 2 hr 30 min
         )
 
@@ -3197,16 +3207,6 @@ Array
             [time] => 9.00 am
             [code] => MS4611
             [name] => BIOMEDICAL DEVICES
-            [duration] => 2 hr
-        )
-
-    [PH1802] => Array
-        (
-            [date] => 4 May 2022
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => PH1802
-            [name] => FOUNDATIONS OF PHYSICS II
             [duration] => 2 hr
         )
 
@@ -4420,14 +4420,14 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [MA4846] => Array
+    [MA4829] => Array
         (
             [date] => 6 May 2022
             [day] => Friday
             [time] => 2.30 pm
-            [code] => MA4846
-            [name] => PRODUCT DESIGN ENGINEERING
-            [duration] => 2 hr 30 min
+            [code] => MA4829
+            [name] => MACHINE INTELLIGENCE
+            [duration] => 2 hr
         )
 
     [MA4870] => Array
