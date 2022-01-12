@@ -112,9 +112,9 @@ require("back_end/config.php");
                         </ul>
                     </nav>
 
-                    <div id="calendar_buttons" class="row">
+                    <div class="row">
                         <div class="col-xs-12 text-center">
-                            <button type="button" class="btn btn-info" data-placement="right" data-toggle="tooltip" title="Download calendar for the shown timetable and import it to Google Calendar/iCalendar!">
+                            <button id="generate-calendar" type="button" class="btn btn-info" data-placement="right" data-toggle="tooltip" title="Download calendar for the shown timetable and import it to Google Calendar/iCalendar!">
                                 <span class="glyphicon glyphicon-calendar"></span>
                                 Generate Calendar!
                             </button>

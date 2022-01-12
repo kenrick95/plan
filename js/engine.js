@@ -2,9 +2,9 @@
 /*global jQuery, $, swal, ga */
 $(document).ready(function ($) {
     var ACADEMIC_START_DATE = new Date('January 10, 2022 00:00:00 GMT+0800'); // CHANGE THIS EVERY SEMESTER
-    var ACADEMIC_END_DATE = new Date('April 15, 2021 23:59:59 GMT+0800'); // CHANGE THIS EVERY SEMESTER
-    var ACADEMIC_RECESS_START_DATE = new Date('February 28, 2021 00:00:00 GMT+0800');
-    var ACADEMIC_RECESS_END_DATE = new Date('March 4, 2021 23:59:59 GMT+0800');
+    var ACADEMIC_END_DATE = new Date('April 15, 2022 23:59:59 GMT+0800'); // CHANGE THIS EVERY SEMESTER
+    var ACADEMIC_RECESS_START_DATE = new Date('February 28, 2022 00:00:00 GMT+0800');
+    var ACADEMIC_RECESS_END_DATE = new Date('March 4, 2022 23:59:59 GMT+0800');
 
     Date.prototype.addDays = function (dayNum) {
         var date = new Date(this.valueOf());
@@ -20,7 +20,7 @@ $(document).ready(function ($) {
 
 
     var cache = {}, all_table = [], cur_idx, full_result, all_indices = [];
-    $('#calendar_buttons button').tooltip();
+    $('#generate-calendar').tooltip();
     $("#course_form #submit").removeAttr("disabled");
     if (!!window.localStorage) {
         if (!localStorage.getItem("not_first_visit")) {
@@ -373,7 +373,7 @@ $(document).ready(function ($) {
         return cal;
     }
 
-    $('#calendar_buttons button').click(function () {
+    $('#generate-calendar').click(function () {
         var parsedTimetable = parseTimetable();
         var calendarEvents = generateTimetableCalendarEvents(parsedTimetable);
 
