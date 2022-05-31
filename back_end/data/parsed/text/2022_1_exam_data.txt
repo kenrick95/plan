@@ -1150,6 +1150,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [CE3006] => Array
+        (
+            [date] => 22 November 2022
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CE3006
+            [name] => DIGITAL COMMUNICATIONS
+            [duration] => 2 hr
+        )
+
     [CH5201] => Array
         (
             [date] => 22 November 2022
@@ -4186,6 +4196,16 @@ Array
             [day] => Wednesday
             [time] => 1.00 pm
             [code] => BF3201
+            [name] => CORPORATE FINANCE & STRATEGY
+            [duration] => 2 hr 30 min
+        )
+
+    [BF3215] => Array
+        (
+            [date] => 30 November 2022
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BF3215
             [name] => CORPORATE FINANCE & STRATEGY
             [duration] => 2 hr 30 min
         )
