@@ -1,5 +1,15 @@
 Array
 (
+    [BS2011] => Array
+        (
+            [date] => 29 September 2022
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => BS2011
+            [name] => EQUATIONS OF LIFE
+            [duration] => 2 hr
+        )
+
     [AAL28A] => Array
         (
             [date] => 17 November 2022
@@ -397,16 +407,6 @@ Array
             [time] => 9.00 am
             [code] => CE4042
             [name] => NEURAL NETWORK & DEEP LEARNING
-            [duration] => 2 hr
-        )
-
-    [CM4063] => Array
-        (
-            [date] => 19 November 2022
-            [day] => Saturday
-            [time] => 9.00 am
-            [code] => CM4063
-            [name] => NANOSCIENCE & NANOTECHNOLOGY
             [duration] => 2 hr
         )
 
@@ -2237,6 +2237,16 @@ Array
             [time] => 1.00 pm
             [code] => CE3001
             [name] => ADVANCED COMPUTER ARCHITECTURE
+            [duration] => 2 hr
+        )
+
+    [CM5000] => Array
+        (
+            [date] => 24 November 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CM5000
+            [name] => CONCEPTUAL CHEMISTRY WITH LABORATORY
             [duration] => 2 hr
         )
 
@@ -4306,7 +4316,7 @@ Array
             [day] => Wednesday
             [time] => 1.00 pm
             [code] => MA4842
-            [name] => ENGINEERING METROLOGY & MATERIALS CHARACTERIZATION
+            [name] => ENGINEERING METROLOGY
             [duration] => 2 hr 30 min
         )
 
@@ -4647,6 +4657,16 @@ Array
             [time] => 1.00 pm
             [code] => CH2103
             [name] => FLUID SYSTEMS
+            [duration] => 2 hr
+        )
+
+    [CZ3003] => Array
+        (
+            [date] => 1 December 2022
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => CZ3003
+            [name] => SOFTWARE SYSTEMS ANALYSIS & DESIGN
             [duration] => 2 hr
         )
 
