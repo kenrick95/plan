@@ -1700,16 +1700,6 @@ Array
             [duration] => 3 hr
         )
 
-    [BL5305] => Array
-        (
-            [date] => 26 April 2023
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => BL5305
-            [name] => ADVANCED TAXATION
-            [duration] => 2 hr 30 min
-        )
-
     [BS3025] => Array
         (
             [date] => 26 April 2023
@@ -4288,6 +4278,16 @@ Array
             [code] => SC2002
             [name] => OBJECT ORIENTED DESIGN & PROGRAMMING
             [duration] => 2 hr
+        )
+
+    [BL5305] => Array
+        (
+            [date] => 4 May 2023
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => BL5305
+            [name] => ADVANCED TAXATION
+            [duration] => 2 hr 30 min
         )
 
     [BS4205] => Array
