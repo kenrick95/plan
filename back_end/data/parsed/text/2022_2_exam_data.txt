@@ -1,13 +1,43 @@
 Array
 (
-    [AAB20D] => Array
+    [BS1102] => Array
         (
-            [date] => 27 April 2022
-            [day] => Wednesday
+            [date] => 28 February 2023
+            [day] => Tuesday
             [time] => 9.00 am
-            [code] => AAB20D
-            [name] => ECOLOGY
+            [code] => BS1102
+            [name] => TCM IN ANCIENT CHINESE
             [duration] => 2 hr 30 min
+        )
+
+    [BS2106] => Array
+        (
+            [date] => 28 February 2023
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => BS2106
+            [name] => TCM FORMULARY
+            [duration] => 2 hr 30 min
+        )
+
+    [BS3102] => Array
+        (
+            [date] => 28 February 2023
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => BS3102
+            [name] => SYNOPSIS OF THE GOLDEN CHAMBER
+            [duration] => 2 hr 30 min
+        )
+
+    [BS2011] => Array
+        (
+            [date] => 2 March 2023
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => BS2011
+            [name] => EQUATIONS OF LIFE
+            [duration] => 2 hr
         )
 
     [AAQ20E] => Array
@@ -38,16 +68,6 @@ Array
             [code] => AC2401
             [name] => ACCOUNTING INFORMATION SYSTEMS
             [duration] => 2 hr 30 min
-        )
-
-    [BA3204] => Array
-        (
-            [date] => 21 April 2023
-            [day] => Friday
-            [time] => 9.00 am
-            [code] => BA3204
-            [name] => ACTUARIAL MANAGEMENT
-            [duration] => 3 hr
         )
 
     [BF3204] => Array
@@ -117,7 +137,7 @@ Array
             [time] => 9.00 am
             [code] => CV3016
             [name] => CONSTRUCTION TECHNOLOGY & PROCESSES
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ2006] => Array
@@ -167,7 +187,7 @@ Array
             [time] => 9.00 am
             [code] => HS2004
             [name] => CULTURE, SELF & IDENTITY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [MA3001] => Array
@@ -257,16 +277,6 @@ Array
             [time] => 2.30 pm
             [code] => CH5220
             [name] => FOOD STANDARD - FOOD SAFETY & RISK ASSESSMENT
-            [duration] => 2 hr
-        )
-
-    [CM3021] => Array
-        (
-            [date] => 21 April 2023
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => CM3021
-            [name] => ORGANOMETALLIC CHEMISTRY
             [duration] => 2 hr
         )
 
@@ -377,6 +387,16 @@ Array
             [time] => 2.30 pm
             [code] => MT4102
             [name] => DISTRIBUTION & WAREHOUSING
+            [duration] => 2 hr
+        )
+
+    [PH4601] => Array
+        (
+            [date] => 21 April 2023
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => PH4601
+            [name] => PHYSICS OF SEMICONDUCTOR & DEVICES
             [duration] => 2 hr 30 min
         )
 
@@ -460,6 +480,16 @@ Array
             [duration] => 2 hr
         )
 
+    [CV3011] => Array
+        (
+            [date] => 24 April 2023
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => CV3011
+            [name] => REINFORCED CONCRETE DESIGN
+            [duration] => 2 hr
+        )
+
     [CV3012] => Array
         (
             [date] => 24 April 2023
@@ -467,7 +497,17 @@ Array
             [time] => 9.00 am
             [code] => CV3012
             [name] => STEEL DESIGN
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
+        )
+
+    [CV3014] => Array
+        (
+            [date] => 24 April 2023
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => CV3014
+            [name] => TRANSPORTATION ENGINEERING
+            [duration] => 2 hr
         )
 
     [EE2101] => Array
@@ -567,7 +607,7 @@ Array
             [time] => 9.00 am
             [code] => MS1014
             [name] => MATERIALS CHEMISTRY II
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [MS4630] => Array
@@ -687,6 +727,16 @@ Array
             [time] => 1.00 pm
             [code] => MA3006
             [name] => FLUID MECHANICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA3701] => Array
+        (
+            [date] => 24 April 2023
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MA3701
+            [name] => AERODYNAMICS
             [duration] => 2 hr 30 min
         )
 
@@ -847,7 +897,7 @@ Array
             [time] => 5.00 pm
             [code] => HL0201
             [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
-            [duration] => 2 hr
+            [duration] => 2 hr 15 min
         )
 
     [HL1003] => Array
@@ -867,7 +917,7 @@ Array
             [time] => 5.00 pm
             [code] => HL5002
             [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
-            [duration] => 2 hr
+            [duration] => 2 hr 15 min
         )
 
     [MA2007] => Array
@@ -897,7 +947,7 @@ Array
             [time] => 5.00 pm
             [code] => MT4103
             [name] => PORT PLANNING & OPERATIONS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [SC4000] => Array
@@ -937,7 +987,7 @@ Array
             [time] => 9.00 am
             [code] => CE4172
             [name] => INTERNET OF THINGS: TINY MACHINE LEARNING
-            [duration] => 1 hr 30 min
+            [duration] => 1 hr
         )
 
     [CS2400] => Array
@@ -957,7 +1007,7 @@ Array
             [time] => 9.00 am
             [code] => CV2014
             [name] => GEOTECHNICAL ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE2102] => Array
@@ -967,7 +1017,7 @@ Array
             [time] => 9.00 am
             [code] => EE2102
             [name] => ANALOG ELECTRONICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE4904] => Array
@@ -977,16 +1027,6 @@ Array
             [time] => 9.00 am
             [code] => EE4904
             [name] => BIOMEDICAL INSTRUMENTATION
-            [duration] => 2 hr
-        )
-
-    [ET5214] => Array
-        (
-            [date] => 25 April 2023
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => ET5214
-            [name] => FINANCING ENTREPRENEURIAL VENTURES
             [duration] => 2 hr
         )
 
@@ -1128,16 +1168,6 @@ Array
             [code] => BA3203
             [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
             [duration] => 3 hr
-        )
-
-    [BF2228] => Array
-        (
-            [date] => 25 April 2023
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BF2228
-            [name] => SUSTAINABLE FINANCE
-            [duration] => 2 hr 30 min
         )
 
     [BG4313] => Array
@@ -1310,6 +1340,16 @@ Array
             [duration] => 2 hr
         )
 
+    [PH2102] => Array
+        (
+            [date] => 25 April 2023
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => PH2102
+            [name] => ELECTROMAGNETISM
+            [duration] => 2 hr 30 min
+        )
+
     [PH3406] => Array
         (
             [date] => 25 April 2023
@@ -1397,7 +1437,7 @@ Array
             [time] => 5.00 pm
             [code] => EN3003
             [name] => ENVIRONMENTAL TRANSPORT PROCESSES
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HE4010] => Array
@@ -1507,7 +1547,7 @@ Array
             [time] => 5.00 pm
             [code] => MT2004
             [name] => MATHEMATICS II FOR MARITIME STUDIES
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [SC4021] => Array
@@ -1567,7 +1607,7 @@ Array
             [time] => 9.00 am
             [code] => CV2011
             [name] => STRUCTURAL ANALYSIS I
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EE3019] => Array
@@ -1600,6 +1640,26 @@ Array
             [duration] => 2 hr
         )
 
+    [ES5004] => Array
+        (
+            [date] => 26 April 2023
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => ES5004
+            [name] => THE URBAN ENVIRONMENT: ISSUES, ASSESSMENT, & MANAGEMENT
+            [duration] => 2 hr
+        )
+
+    [ET5214] => Array
+        (
+            [date] => 26 April 2023
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => ET5214
+            [name] => FINANCING ENTREPRENEURIAL VENTURES
+            [duration] => 2 hr
+        )
+
     [HC3001] => Array
         (
             [date] => 26 April 2023
@@ -1607,6 +1667,16 @@ Array
             [time] => 9.00 am
             [code] => HC3001
             [name] => MODERN CHINESE LITERATURE
+            [duration] => 2 hr 30 min
+        )
+
+    [HE3111] => Array
+        (
+            [date] => 26 April 2023
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HE3111
+            [name] => MONETARY ECONOMICS
             [duration] => 2 hr 30 min
         )
 
@@ -1737,16 +1807,6 @@ Array
             [time] => 1.00 pm
             [code] => CV4120
             [name] => ADVANCED REINFORCED CONCRETE DESIGN
-            [duration] => 2 hr 30 min
-        )
-
-    [CZ1104] => Array
-        (
-            [date] => 26 April 2023
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => CZ1104
-            [name] => LINEAR ALGEBRA FOR COMPUTING
             [duration] => 2 hr
         )
 
@@ -1797,6 +1857,16 @@ Array
             [time] => 1.00 pm
             [code] => MA2006
             [name] => ENGINEERING MATHEMATICS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA3010] => Array
+        (
+            [date] => 26 April 2023
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA3010
+            [name] => THERMODYNAMICS & HEAT TRANSFER
             [duration] => 2 hr 30 min
         )
 
@@ -1947,7 +2017,7 @@ Array
             [time] => 5.00 pm
             [code] => EM5107
             [name] => ENVIRONMENTAL HEALTH & SAFETY MANAGEMENT
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HA1003] => Array
@@ -2058,6 +2128,16 @@ Array
             [code] => SC2207
             [name] => INTRODUCTION TO DATABASES
             [duration] => 2 hr
+        )
+
+    [AAB20D] => Array
+        (
+            [date] => 27 April 2023
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => AAB20D
+            [name] => ECOLOGY
+            [duration] => 2 hr 30 min
         )
 
     [AB1201] => Array
@@ -2216,7 +2296,7 @@ Array
             [day] => Thursday
             [time] => 9.00 am
             [code] => IE4497
-            [name] => PATTERN RECOGNITION & MACHINE LEARNING
+            [name] => PATTERN RECOGNITION & DEEP LEARNING
             [duration] => 2 hr
         )
 
@@ -2267,7 +2347,7 @@ Array
             [time] => 9.00 am
             [code] => MT2005
             [name] => PORT ECONOMICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH4404] => Array
@@ -2347,7 +2427,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ1106
             [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 1 hr 30 min
+            [duration] => 1 hr
         )
 
     [CZ3001] => Array
@@ -2377,7 +2457,7 @@ Array
             [time] => 1.00 pm
             [code] => EN3004
             [name] => AIR POLLUTION CONTROL ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HC2040] => Array
@@ -2387,16 +2467,6 @@ Array
             [time] => 1.00 pm
             [code] => HC2040
             [name] => UNDERSTANDING CHINA
-            [duration] => 2 hr 30 min
-        )
-
-    [HE2013] => Array
-        (
-            [date] => 27 April 2023
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HE2013
-            [name] => INTERNATIONAL TRADE
             [duration] => 2 hr 30 min
         )
 
@@ -2447,7 +2517,7 @@ Array
             [time] => 1.00 pm
             [code] => MS1018
             [name] => PROPERTIES OF MATERIALS
-            [duration] => 2 hr
+            [duration] => 1 hr 30 min
         )
 
     [PH2101] => Array
@@ -2467,7 +2537,7 @@ Array
             [time] => 1.00 pm
             [code] => SC1006
             [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 1 hr 30 min
+            [duration] => 1 hr
         )
 
     [SC3050] => Array
@@ -2497,7 +2567,7 @@ Array
             [time] => 5.00 pm
             [code] => BU5201
             [name] => BUSINESS FINANCE
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CE4067] => Array
@@ -2520,16 +2590,6 @@ Array
             [duration] => 2 hr
         )
 
-    [CM5031] => Array
-        (
-            [date] => 27 April 2023
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => CM5031
-            [name] => ANALYTICAL & MANUFACTURING TECHNIQUES IN PHARMA INDUSTRY
-            [duration] => 2 hr
-        )
-
     [CV2012] => Array
         (
             [date] => 27 April 2023
@@ -2537,7 +2597,7 @@ Array
             [time] => 5.00 pm
             [code] => CV2012
             [name] => STRUCTURAL ANALYSIS II
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ4067] => Array
@@ -2617,7 +2677,7 @@ Array
             [time] => 5.00 pm
             [code] => MT4003
             [name] => MARITIME STRATEGY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH4409] => Array
@@ -2630,14 +2690,14 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [SC4012] => Array
+    [BA3201] => Array
         (
-            [date] => 27 April 2023
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => SC4012
-            [name] => SOFTWARE SECURITY
-            [duration] => 2 hr
+            [date] => 28 April 2023
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BA3201
+            [name] => LIFE CONTINGENCIES & DEMOGRAPHY
+            [duration] => 3 hr
         )
 
     [BF3201] => Array
@@ -2717,7 +2777,7 @@ Array
             [time] => 9.00 am
             [code] => CV2020
             [name] => WATER RESOURCES ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ4046] => Array
@@ -2827,6 +2887,16 @@ Array
             [time] => 9.00 am
             [code] => MA2001
             [name] => MECHANICS OF MATERIALS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4705] => Array
+        (
+            [date] => 28 April 2023
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => MA4705
+            [name] => AIRCRAFT NAVIGATION & FLIGHT COMPUTERS
             [duration] => 2 hr 30 min
         )
 
@@ -2957,7 +3027,7 @@ Array
             [time] => 2.30 pm
             [code] => CV4113
             [name] => HIGHWAY ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EM5101] => Array
@@ -2967,7 +3037,7 @@ Array
             [time] => 2.30 pm
             [code] => EM5101
             [name] => ENVIRONMENTAL QUALITY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HE3003] => Array
@@ -3080,16 +3150,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [CE2101] => Array
-        (
-            [date] => 2 May 2023
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => CE2101
-            [name] => ALGORITHM DESIGN & ANALYSIS
-            [duration] => 2 hr
-        )
-
     [CV1013] => Array
         (
             [date] => 2 May 2023
@@ -3097,7 +3157,7 @@ Array
             [time] => 9.00 am
             [code] => CV1013
             [name] => CIVIL ENGINEERING MATERIALS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CV5101] => Array
@@ -3107,7 +3167,7 @@ Array
             [time] => 9.00 am
             [code] => CV5101
             [name] => CIVIL ENGINEERING & SUSTAINABLE BUILT ENVIRONMENT
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ2101] => Array
@@ -3137,7 +3197,7 @@ Array
             [time] => 9.00 am
             [code] => EM5109
             [name] => ENVIRONMENTAL ISSUES & SUSTAINABILITY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HC1051] => Array
@@ -3277,7 +3337,7 @@ Array
             [time] => 9.00 am
             [code] => MT0003
             [name] => PROFESSIONALS & SOCIETY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH4605] => Array
@@ -3337,7 +3397,7 @@ Array
             [time] => 1.00 pm
             [code] => CZ1105
             [name] => DIGITAL LOGIC
-            [duration] => 1 hr 30 min
+            [duration] => 1 hr
         )
 
     [EE4533] => Array
@@ -3357,7 +3417,7 @@ Array
             [time] => 1.00 pm
             [code] => EN2003
             [name] => WATER SUPPLY ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HE3033] => Array
@@ -3387,16 +3447,6 @@ Array
             [time] => 1.00 pm
             [code] => HS2013
             [name] => MIGRATION & MULTICULTURALISM
-            [duration] => 2 hr 30 min
-        )
-
-    [HT5301] => Array
-        (
-            [date] => 2 May 2023
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => HT5301
-            [name] => LINGUISTICS, CULTURE & TRANSLATION
             [duration] => 2 hr 30 min
         )
 
@@ -3477,17 +3527,7 @@ Array
             [time] => 1.00 pm
             [code] => SC1005
             [name] => DIGITAL LOGIC
-            [duration] => 1 hr 30 min
-        )
-
-    [BF2225] => Array
-        (
-            [date] => 2 May 2023
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => BF2225
-            [name] => RELATIONSHIP MANAGEMENT
-            [duration] => 2 hr 30 min
+            [duration] => 1 hr
         )
 
     [BU5241] => Array
@@ -3557,7 +3597,7 @@ Array
             [time] => 5.00 pm
             [code] => EN2002
             [name] => ENVIRONMENTAL BIOLOGY & MICROBIOLOGY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HA1011] => Array
@@ -3627,7 +3667,7 @@ Array
             [time] => 5.00 pm
             [code] => MT1004
             [name] => INTRODUCTION TO METEOROLOGY & OCEANOGRAPHY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH3404] => Array
@@ -3637,16 +3677,6 @@ Array
             [time] => 5.00 pm
             [code] => PH3404
             [name] => PHYSICS OF CLASSICAL & QUANTUM INFORMATION
-            [duration] => 2 hr
-        )
-
-    [SC4015] => Array
-        (
-            [date] => 2 May 2023
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => SC4015
-            [name] => CYBER PHYSICAL SYSTEM SECURITY
             [duration] => 2 hr
         )
 
@@ -3707,7 +3737,7 @@ Array
             [time] => 9.00 am
             [code] => CV2019
             [name] => MATRIX ALGEBRA & COMPUTATIONAL METHODS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ4013] => Array
@@ -3987,7 +4017,7 @@ Array
             [time] => 5.00 pm
             [code] => EN4104
             [name] => ENVIRONMENTAL HYDRAULICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HA2011] => Array
@@ -4077,7 +4107,7 @@ Array
             [time] => 5.00 pm
             [code] => MT3006
             [name] => SHIP CHARTERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [BC2410] => Array
@@ -4127,7 +4157,7 @@ Array
             [time] => 9.00 am
             [code] => BS2025
             [name] => ONE HEALTH
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CM3011] => Array
@@ -4147,7 +4177,7 @@ Array
             [time] => 9.00 am
             [code] => CV1011
             [name] => MECHANICS OF MATERIALS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [CZ2002] => Array
@@ -4188,6 +4218,16 @@ Array
             [code] => EE4344
             [name] => ANALYSIS & DESIGN OF INTEGRATED CIRCUITS
             [duration] => 2 hr
+        )
+
+    [HE3010] => Array
+        (
+            [date] => 4 May 2023
+            [day] => Thursday
+            [time] => 9.00 am
+            [code] => HE3010
+            [name] => MONEY & BANKING
+            [duration] => 2 hr 30 min
         )
 
     [HS2029] => Array
@@ -4327,7 +4367,7 @@ Array
             [time] => 1.00 pm
             [code] => CV4111
             [name] => GROUND ENGINEERING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [EN4102] => Array
@@ -4337,7 +4377,7 @@ Array
             [time] => 1.00 pm
             [code] => EN4102
             [name] => MEMBRANE WATER RECLAMATION TECHNOLOGY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HP4105] => Array
@@ -4487,7 +4527,7 @@ Array
             [time] => 5.00 pm
             [code] => SU2001
             [name] => URBAN PLANNING & DESIGN
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
 )
