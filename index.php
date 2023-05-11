@@ -7,6 +7,8 @@ require("back_end/config.php");
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="plan* returns you only the possible combination of the courses, so that you don't need to manually do trial-and-error at STARS Planner anymore. Just choose one, input at STARS Planner, and may the force be with you during the STARS Wars.">
+        <link rel="canonical" href="https://plan.kenrick95.org/">
+
         <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <![endif]-->
@@ -21,17 +23,14 @@ require("back_end/config.php");
 
         <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
         <link rel="stylesheet" href="css/style.css">
+        
         <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-57413916-1', 'auto');
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview');
-
+        document.addEventListener('visibilitychange',function(e){if(document.visibilityState!=='hidden'){return}if(goatcounter.filter()){return}navigator.sendBeacon(goatcounter.url({event:true,path:function(p){return 'unload-'+p}}))});
         </script>
+        <script data-goatcounter="https://plan-kenrick95.goatcounter.com/count" async src="js/gc.js"></script>
+        <noscript>
+        <img src="https://plan-kenrick95.goatcounter.com/count?p=/">
+        </noscript>
 
         <script defer src="js/jquery-1.12.4.min.js"></script>
         <script defer src="js/jquery-migrate-1.4.1.min.js"></script>
@@ -64,7 +63,7 @@ require("back_end/config.php");
                             <li><a class="pointer" data-toggle="modal" data-target="#about_modal">About</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="pointer" href="https://github.com/kenrick95/plan">GitHub</a></li>
+                            <li><a class="pointer" href="https://github.com/kenrick95/plan" data-goatcounter-click="github-repo">GitHub</a></li>
                         </ul>
                     </div>
                 </div>
@@ -145,11 +144,11 @@ require("back_end/config.php");
             </div>
 
             <footer>
-            If you encounter any issue or outdated data, please report it at <a href="https://github.com/kenrick95/plan">GitHub repo</a>.
+            If you encounter any issue or outdated data, please report it at <a href="https://github.com/kenrick95/plan" data-goatcounter-click="github-repo">GitHub repo</a>.
 
             <br />
 
-            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edwin-candinegara" target="_blank">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank">Kenrick</a>
+            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edwin-candinegara" target="_blank" data-goatcounter-click="github-edwin">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank" data-goatcounter-click="github-kenrick">Kenrick</a>
             </footer>
         </div>
 
@@ -167,16 +166,10 @@ require("back_end/config.php");
                             <b>plan*</b> returns you only <b>the possible combination of the courses</b>, so that you don't need to manually do trial-and-error at STARS Planner anymore. Just choose one, input at STARS Planner, and may the force be with you during the STARS Wars.
                         </p>
                         <p>
-                            This application was made during exam period of Semester 1, A.Y. 2014-15, by <a href="https://www.linkedin.com/pub/edwin-candinegara/94/45b/19b" target="_blank">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank">Kenrick</a>.
+                            This application was made during exam period of Semester 1, A.Y. 2014-15, by <a href="https://github.com/edwin-candinegara" target="_blank" data-goatcounter-click="github-edwin">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank" data-goatcounter-click="github-kenrick">Kenrick</a>.
                         </p>
                         <p>
                             <b>Note:</b> Class schedule and exam schedule data is crawled from NTU public server that does not require login for the data access. We do not claim any intellectual property over this data.
-                        </p>
-                        <h3>
-                            Data Protection – Google Analytics Statement
-                        </h3>
-                        <p>
-                            This website uses Google Analytics, a web analytics service provided by Google, Inc. (“Google”). Google Analytics uses “cookies”, which are text files placed on your computer, to help the website analyze how users use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States . Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google’s behalf. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this website. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.
                         </p>
                     </div>
                     <div class="modal-footer">

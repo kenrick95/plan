@@ -388,7 +388,13 @@ $(document).ready(function ($) {
         e.preventDefault();
         var data = $("#input_courses").val(),
             major = $("#course_major").val();
-        ga('send', 'event', 'form', 'submit', 'course_form');
+        
+        if (window.goatcounter) {
+            window.goatcounter.count({
+                event: true,
+                path: 'form-submit',
+            })
+        }
 
         data = data.toUpperCase();
         $("#course_form #submit").prop('disabled', true);
@@ -411,12 +417,22 @@ $(document).ready(function ($) {
                 }
                 splitted = data.split(',');
                 for (i = 0; i < splitted.length; i++) {
-                    ga('send', 'event', 'form', 'submit_course', splitted[i]);
+                    if (window.goatcounter) {
+                        window.goatcounter.count({
+                            event: true,
+                            path: 'form-submit-content-' + splitted[i],
+                        })
+                    }
                 }
                 $("#overlay").fadeIn();
             },
             error: function() {
-                ga('send', 'event', 'form', 'result', 'server_error');
+                if (window.goatcounter) {
+                    window.goatcounter.count({
+                        event: true,
+                        path: 'form-result-error',
+                    })
+                }
                 swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "error");
                 $("#overlay").hide();
                 $("#course_form #submit").removeAttr("disabled");
@@ -435,7 +451,12 @@ $(document).ready(function ($) {
                 try {
                     res = JSON.parse(d);
                 } catch(e) {
-                    ga('send', 'event', 'form', 'result', 'server_error');
+                    if (window.goatcounter) {
+                        window.goatcounter.count({
+                            event: true,
+                            path: 'form-result-error',
+                        })
+                    }
                     swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
@@ -448,16 +469,31 @@ $(document).ready(function ($) {
 
                 $("#target").html("");
                 len = res.timetable.length;
-                ga('send', 'event', 'form', 'result', 'result_length', len);
+                if (window.goatcounter) {
+                    window.goatcounter.count({
+                        event: true,
+                        path: 'form-result-length-' + len,
+                    })
+                }
                 if (!res.validation_result) {
-                    ga('send', 'event', 'form', 'result', 'not_found_invalid');
+                    if (window.goatcounter) {
+                        window.goatcounter.count({
+                            event: true,
+                            path: 'form-result-invalid',
+                        })
+                    }
                     swal("We're sorry.", "Invalid input were given. Please refresh the page to try again.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
                 if (res.too_many_results) {
-                    ga('send', 'event', 'form', 'result', 'too_many_results');
+                    if (window.goatcounter) {
+                        window.goatcounter.count({
+                            event: true,
+                            path: 'form-result-too_many',
+                        })
+                    }
                     swal("Results overflow!", "Too many possible arrangement found. Results are capped at 10,000 possiblities. This also means that you probably do not need this tool to choose your schedule", "warning");
                 }
                 if (!res.exam_schedule_validation.ok) {
@@ -465,14 +501,24 @@ $(document).ready(function ($) {
                     for (i = 0; i < res.exam_schedule_validation.conflict.length; i++) {
                       conflict_msg += res.exam_schedule_validation.conflict[i][0] + " and " + res.exam_schedule_validation.conflict[i][1] + "\n";
                     }
-                    ga('send', 'event', 'form', 'result', 'not_found_exam');
+                    if (window.goatcounter) {
+                        window.goatcounter.count({
+                            event: true,
+                            path: 'form-result-not_found_exam',
+                        })
+                    }
                     swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule of the following have clashed:\n " + conflict_msg + "\nPlease try selecting another course.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
                     return;
                 }
                 if (len === 0) {
-                    ga('send', 'event', 'form', 'result', 'not_found_impossible');
+                    if (window.goatcounter) {
+                        window.goatcounter.count({
+                            event: true,
+                            path: 'form-result-not_found_impossible',
+                        })
+                    }
                     swal("We're sorry.", "There is no possible arrangement found for the given courses. Please try selecting another course.", "error");
                     $("#overlay").hide();
                     $("#course_form #submit").removeAttr("disabled");
@@ -666,7 +712,4 @@ $(document).ready(function ($) {
             }
         });
     });
-
-    // Google Analytics
-    ga('send', 'event', 'page', 'view', 'view');
 });
