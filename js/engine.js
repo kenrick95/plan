@@ -393,6 +393,7 @@ $(document).ready(function ($) {
             window.goatcounter.count({
                 event: true,
                 path: 'form-submit',
+                title: '',
             })
         }
 
@@ -421,6 +422,7 @@ $(document).ready(function ($) {
                         window.goatcounter.count({
                             event: true,
                             path: 'form-submit-content-' + splitted[i],
+                            title: '',
                         })
                     }
                 }
@@ -431,6 +433,7 @@ $(document).ready(function ($) {
                     window.goatcounter.count({
                         event: true,
                         path: 'form-result-error',
+                        title: 'error-error',
                     })
                 }
                 swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "error");
@@ -455,6 +458,7 @@ $(document).ready(function ($) {
                         window.goatcounter.count({
                             event: true,
                             path: 'form-result-error',
+                            title: 'success-error',
                         })
                     }
                     swal("We're sorry.", "Server has returned an error. Please try again with different queries.", "error");
@@ -472,7 +476,8 @@ $(document).ready(function ($) {
                 if (window.goatcounter) {
                     window.goatcounter.count({
                         event: true,
-                        path: 'form-result-length-' + len,
+                        path: 'form-result-length',
+                        title: len,
                     })
                 }
                 if (!res.validation_result) {
@@ -480,6 +485,7 @@ $(document).ready(function ($) {
                         window.goatcounter.count({
                             event: true,
                             path: 'form-result-invalid',
+                            title: '',
                         })
                     }
                     swal("We're sorry.", "Invalid input were given. Please refresh the page to try again.", "error");
@@ -492,6 +498,7 @@ $(document).ready(function ($) {
                         window.goatcounter.count({
                             event: true,
                             path: 'form-result-too_many',
+                            title: '',
                         })
                     }
                     swal("Results overflow!", "Too many possible arrangement found. Results are capped at 10,000 possiblities. This also means that you probably do not need this tool to choose your schedule", "warning");
@@ -505,6 +512,7 @@ $(document).ready(function ($) {
                         window.goatcounter.count({
                             event: true,
                             path: 'form-result-not_found_exam',
+                            title: '',
                         })
                     }
                     swal("We're sorry.", "There is no possible arrangement found for the given courses because exam schedule of the following have clashed:\n " + conflict_msg + "\nPlease try selecting another course.", "error");
@@ -517,6 +525,7 @@ $(document).ready(function ($) {
                         window.goatcounter.count({
                             event: true,
                             path: 'form-result-not_found_impossible',
+                            title: '',
                         })
                     }
                     swal("We're sorry.", "There is no possible arrangement found for the given courses. Please try selecting another course.", "error");
