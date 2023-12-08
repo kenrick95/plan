@@ -31,6 +31,7 @@ This assumes you have a clone of the repository locally.
    - Select the year/semester's option, open browser console, navigate to network tab
    - Click Next
    - Inspect the value of `plan_no` sent at the page request
+   - This can be found in one of the .htmls. it is now called p_plan_no
 5. Click "Get + parse"
 6. Wait till all done
    - If anything goes wrong, please file an issue.
