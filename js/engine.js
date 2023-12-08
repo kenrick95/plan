@@ -1,10 +1,10 @@
 /*jslint browser: true, sloppy: true, plusplus: true, continue: true */
 /*global jQuery, $, swal, ga */
 $(document).ready(function ($) {
-    var ACADEMIC_START_DATE = new Date('14 August 2023 00:00:00 GMT+0800'); // CHANGE THIS EVERY SEMESTER
-    var ACADEMIC_END_DATE = new Date('17 November 2023 23:59:59 GMT+0800'); // CHANGE THIS EVERY SEMESTER
-    var ACADEMIC_RECESS_START_DATE = new Date('2 October 2023 00:00:00 GMT+0800');
-    var ACADEMIC_RECESS_END_DATE = new Date('6 October 2023 23:59:59 GMT+0800');
+    var ACADEMIC_START_DATE = new Date('15 January 2024 00:00:00 GMT+0800'); // CHANGE THIS EVERY SEMESTER
+    var ACADEMIC_END_DATE = new Date('19 April 2024 23:59:59 GMT+0800'); // CHANGE THIS EVERY SEMESTER
+    var ACADEMIC_RECESS_START_DATE = new Date('4 March 2023 00:00:00 GMT+0800');
+    var ACADEMIC_RECESS_END_DATE = new Date('8 March 2023 23:59:59 GMT+0800');
 
     Date.prototype.addDays = function (dayNum) {
         var date = new Date(this.valueOf());
