@@ -26,12 +26,10 @@ This assumes you have a clone of the repository locally.
   ```
 2. Open browser and navigate to `http://localhost:8000/back_end/`
 3. Input the year and semester
-4. Input the plan_no. Plan_no is a bit tricky, as you need to inspect the value of `plan_no` from this NTU's page: https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.MainSubmit
+4. Input the plan_no. Plan_no is a bit tricky, as you need to inspect the value of `p_plan_no` from this NTU's page: https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.Main
    - Select "General Access", click Next
-   - Select the year/semester's option, open browser console, navigate to network tab
-   - Click Next
-   - Inspect the value of `plan_no` sent at the page request
-   - This can be found in one of the .htmls. it is now called p_plan_no.
+   - Open browser console.
+   - Inspect the HTML, find the radio button for the year/semester's option. Use the value in the attribute "value". As an example: `<input type="radio" name="p_plan_no" value="123">` (means the "plan_no" is "123)
 5. Click "Get + parse"
 6. Wait till all done
    - If anything goes wrong, please file an issue.
