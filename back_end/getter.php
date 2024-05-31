@@ -7,7 +7,7 @@ function httpRequest($url, $post="") {
 
     $ch = curl_init();
     //Change the user agent below suitably
-    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0');
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0');
     curl_setopt($ch, CURLOPT_URL, ($url));
     curl_setopt( $ch, CURLOPT_ENCODING, "UTF-8" );
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
