@@ -8,14 +8,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: up9cloud/action-rsync@v1.4
+      - uses: actions/checkout@v2
+      - uses: up9cloud/action-rsync@v1.3
         env:
-          HOST: ${{secrets.DEPLOY_HOST}}
+          HOST: 185.232.14.23
           KEY: ${{secrets.DEPLOY_SSH_KEY}}
-          TARGET: ${{secrets.DEPLOY_TARGET}}
+          TARGET: /home/u339727842/public_html/plan
           MODE: push
           VERBOSE: true
-          PORT: ${{secrets.DEPLOY_PORT}}
-          USER: ${{secrets.DEPLOY_USER}}
+          PORT: 65002
+          USER: u339727842
           ARGS: -avz --exclude-from=.gitignore --exclude=/.git/ --exclude=/.github/

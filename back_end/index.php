@@ -1,2 +1,2 @@
 <?php
-header("Location: ./ui/");
+header("Location:./ui/");
