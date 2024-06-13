@@ -280,13 +280,13 @@ Array
             [duration] => 2 hr
         )
 
-    [HA2024] => Array
+    [HA2014] => Array
         (
             [date] => 22 November 2024
             [day] => Friday
             [time] => 2.30 pm
-            [code] => HA2024
-            [name] => STATISTICAL ANALYSIS FOR PUBLIC AFFAIRS I
+            [code] => HA2014
+            [name] => PUBLIC ORGANIZATION THEORY
             [duration] => 2 hr 30 min
         )
 
@@ -337,6 +337,16 @@ Array
             [time] => 2.30 pm
             [code] => MA2001
             [name] => MECHANICS OF MATERIALS
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4884] => Array
+        (
+            [date] => 22 November 2024
+            [day] => Friday
+            [time] => 2.30 pm
+            [code] => MA4884
+            [name] => SYSTEMS THINKING & SYSTEMS ENGINEERING
             [duration] => 2 hr 30 min
         )
 
@@ -1180,6 +1190,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [HP3501] => Array
+        (
+            [date] => 26 November 2024
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => HP3501
+            [name] => HUMAN MOTIVATION
+            [duration] => 2 hr 30 min
+        )
+
     [IE3014] => Array
         (
             [date] => 26 November 2024
@@ -1807,7 +1827,7 @@ Array
             [time] => 1.00 pm
             [code] => CE1106
             [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 1 hr 30 min
+            [duration] => 1 hr
         )
 
     [CS0204] => Array
@@ -2090,16 +2110,6 @@ Array
             [duration] => 2 hr
         )
 
-    [HA3024] => Array
-        (
-            [date] => 28 November 2024
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => HA3024
-            [name] => CHINA'S RE-EMERGENCE IN WORLD POLITICS
-            [duration] => 2 hr
-        )
-
     [HC2001] => Array
         (
             [date] => 28 November 2024
@@ -2370,6 +2380,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [HP4106] => Array
+        (
+            [date] => 28 November 2024
+            [day] => Thursday
+            [time] => 1.00 pm
+            [code] => HP4106
+            [name] => MENTAL HEALTH IN THE COMMUNITY
+            [duration] => 2 hr 30 min
+        )
+
     [HS2028] => Array
         (
             [date] => 28 November 2024
@@ -2510,13 +2530,13 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HE3111] => Array
+    [HE3112] => Array
         (
             [date] => 28 November 2024
             [day] => Thursday
             [time] => 5.00 pm
-            [code] => HE3111
-            [name] => MONETARY ECONOMICS
+            [code] => HE3112
+            [name] => FINANCIAL ACCOUNTING FOR ECONOMISTS
             [duration] => 2 hr 30 min
         )
 
@@ -3807,16 +3827,6 @@ Array
             [time] => 5.00 pm
             [code] => CV3017
             [name] => URBAN WATER CIRCULARITY
-            [duration] => 2 hr
-        )
-
-    [EE5086] => Array
-        (
-            [date] => 3 December 2024
-            [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => EE5086
-            [name] => ASTRONOMY - STARS, GALAXIES & COSMOLOGY
             [duration] => 2 hr
         )
 
