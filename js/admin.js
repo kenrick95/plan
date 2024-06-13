@@ -9,7 +9,7 @@ $(document).ready(function ($) {
         $("#target").append("[" + timestamp.toISOString() + "] ");
         if (load_id !== undefined) {
             $("#target").append(msg);
-            $("#target").append("<img id=\"" + load_id + "-load\" src=\"../css/images/loading.gif\" width=\"16\"><br> ");
+            $("#target").append("<img id=\"" + load_id + "-load\" src=\"/css/images/loading.gif\" width=\"16\"><br> ");
         } else {
             $("#target").append(msg + "<br>");
         }
@@ -25,7 +25,7 @@ $(document).ready(function ($) {
         $("#select_form #submit").prop('disabled', true);
         $.ajax({
             type: "POST",
-            url: "getter.php",
+            url: "/back_end/getter.php",
             data: {
                 year: year,
                 semester: semester,
@@ -49,7 +49,7 @@ $(document).ready(function ($) {
                     // Parse course data
                     $.ajax({
                         type: "POST",
-                        url: "parser/parse.php",
+                        url: "/back_end/parser/parse.php",
                         data: {
                             year: year,
                             semester: semester
@@ -75,7 +75,7 @@ $(document).ready(function ($) {
                     // Parse exam data
                     $.ajax({
                         type: "POST",
-                        url: "parser/parse_exam.php",
+                        url: "/back_end/parser/parse_exam.php",
                         data: {
                             year: year,
                             semester: semester
