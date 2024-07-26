@@ -100,33 +100,33 @@ Array
             [duration] => 2 hr
         )
 
-    [EE4303] => Array
+    [EE4323] => Array
         (
             [date] => 22 November 2024
             [day] => Friday
             [time] => 9.00 am
-            [code] => EE4303
+            [code] => EE4323
             [name] => MIXED-SIGNAL IC DESIGN
             [duration] => 2 hr
         )
 
-    [EE4503] => Array
+    [EE4523] => Array
         (
             [date] => 22 November 2024
             [day] => Friday
             [time] => 9.00 am
-            [code] => EE4503
+            [code] => EE4523
             [name] => POWER ENGINEERING DESIGN
             [duration] => 2 hr
         )
 
-    [HL3017] => Array
+    [HL3012] => Array
         (
             [date] => 22 November 2024
             [day] => Friday
             [time] => 9.00 am
-            [code] => HL3017
-            [name] => THE RISE OF THE NOVEL
+            [code] => HL3012
+            [name] => THE DISCOURSE OF LOVE
             [duration] => 2 hr 30 min
         )
 
@@ -210,6 +210,16 @@ Array
             [duration] => 2 hr
         )
 
+    [SS5601] => Array
+        (
+            [date] => 22 November 2024
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => SS5601
+            [name] => HUMAN ANATOMY & PHYSIOLOGY
+            [duration] => 2 hr 30 min
+        )
+
     [AC2301] => Array
         (
             [date] => 22 November 2024
@@ -278,16 +288,6 @@ Array
             [code] => EN3006
             [name] => ENERGY RESOURCES ENGINEERING
             [duration] => 2 hr
-        )
-
-    [HA2014] => Array
-        (
-            [date] => 22 November 2024
-            [day] => Friday
-            [time] => 2.30 pm
-            [code] => HA2014
-            [name] => PUBLIC ORGANIZATION THEORY
-            [duration] => 2 hr 30 min
         )
 
     [HL2022] => Array
@@ -870,6 +870,16 @@ Array
             [duration] => 2 hr
         )
 
+    [CV2012] => Array
+        (
+            [date] => 25 November 2024
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => CV2012
+            [name] => STRUCTURAL ANALYSIS II
+            [duration] => 2 hr
+        )
+
     [CZ3005] => Array
         (
             [date] => 25 November 2024
@@ -900,6 +910,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [HS2028] => Array
+        (
+            [date] => 25 November 2024
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => HS2028
+            [name] => GRAYING SOCIETY: ISSUES & CHALLENGES
+            [duration] => 2 hr 30 min
+        )
+
     [MH4320] => Array
         (
             [date] => 25 November 2024
@@ -917,6 +937,16 @@ Array
             [time] => 1.00 pm
             [code] => MS4660
             [name] => FUNDAMENTALS OF INTELLECTUAL PROPERTY IN MATLS SCI & ENG
+            [duration] => 2 hr
+        )
+
+    [MT2004] => Array
+        (
+            [date] => 25 November 2024
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MT2004
+            [name] => MATHEMATICS II FOR MARITIME STUDIES
             [duration] => 2 hr
         )
 
@@ -960,6 +990,16 @@ Array
             [duration] => 2 hr
         )
 
+    [SS5606] => Array
+        (
+            [date] => 25 November 2024
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => SS5606
+            [name] => FOUNDATIONS OF MOTOR BEHAVIOUR
+            [duration] => 2 hr 30 min
+        )
+
     [AC1104] => Array
         (
             [date] => 25 November 2024
@@ -988,16 +1028,6 @@ Array
             [code] => BG4231
             [name] => ADVANCED BIOMATERIALS
             [duration] => 2 hr
-        )
-
-    [BR2211] => Array
-        (
-            [date] => 25 November 2024
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => BR2211
-            [name] => FINANCIAL & RISK ANALYTICS I
-            [duration] => 2 hr 30 min
         )
 
     [BS1001] => Array
@@ -1190,16 +1220,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HP3501] => Array
-        (
-            [date] => 26 November 2024
-            [day] => Tuesday
-            [time] => 9.00 am
-            [code] => HP3501
-            [name] => HUMAN MOTIVATION
-            [duration] => 2 hr 30 min
-        )
-
     [IE3014] => Array
         (
             [date] => 26 November 2024
@@ -1260,36 +1280,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [BR3208] => Array
-        (
-            [date] => 26 November 2024
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BR3208
-            [name] => OPERATIONAL RISK MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [BR3211] => Array
-        (
-            [date] => 26 November 2024
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BR3211
-            [name] => OPERATIONAL RISK & RESILIENCY
-            [duration] => 2 hr 30 min
-        )
-
-    [BS3037] => Array
-        (
-            [date] => 26 November 2024
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BS3037
-            [name] => VIROLOGY
-            [duration] => 2 hr 30 min
-        )
-
     [CH5201] => Array
         (
             [date] => 26 November 2024
@@ -1307,6 +1297,16 @@ Array
             [time] => 1.00 pm
             [code] => CV2011
             [name] => STRUCTURAL ANALYSIS I
+            [duration] => 2 hr
+        )
+
+    [CV3012] => Array
+        (
+            [date] => 26 November 2024
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CV3012
+            [name] => STEEL DESIGN
             [duration] => 2 hr
         )
 
@@ -1430,13 +1430,13 @@ Array
             [duration] => 2 hr
         )
 
-    [BR2205] => Array
+    [SS5607] => Array
         (
             [date] => 26 November 2024
             [day] => Tuesday
-            [time] => 5.00 pm
-            [code] => BR2205
-            [name] => INSURANCE PRACTICE
+            [time] => 1.00 pm
+            [code] => SS5607
+            [name] => INTRODUCTION TO SPORT BIOMECHANICS
             [duration] => 2 hr 30 min
         )
 
@@ -1510,13 +1510,13 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HL2026] => Array
+    [HL2042] => Array
         (
             [date] => 26 November 2024
             [day] => Tuesday
             [time] => 5.00 pm
-            [code] => HL2026
-            [name] => READING DRAMA
+            [code] => HL2042
+            [name] => CHILDREN'S LITERATURE
             [duration] => 2 hr 30 min
         )
 
@@ -2030,6 +2030,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [MH4521] => Array
+        (
+            [date] => 27 November 2024
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => MH4521
+            [name] => REINFORCEMENT LEARNING
+            [duration] => 2 hr
+        )
+
     [PH1011] => Array
         (
             [date] => 27 November 2024
@@ -2370,16 +2380,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HP4102] => Array
-        (
-            [date] => 28 November 2024
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HP4102
-            [name] => TRAUMA PSYCHOLOGY & CRISIS MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
     [HP4106] => Array
         (
             [date] => 28 November 2024
@@ -2387,16 +2387,6 @@ Array
             [time] => 1.00 pm
             [code] => HP4106
             [name] => MENTAL HEALTH IN THE COMMUNITY
-            [duration] => 2 hr 30 min
-        )
-
-    [HS2028] => Array
-        (
-            [date] => 28 November 2024
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => HS2028
-            [name] => GRAYING SOCIETY: ISSUES & CHALLENGES
             [duration] => 2 hr 30 min
         )
 
@@ -2467,16 +2457,6 @@ Array
             [time] => 5.00 pm
             [code] => BG2131
             [name] => BIOMATERIALS
-            [duration] => 2 hr
-        )
-
-    [BU5202] => Array
-        (
-            [date] => 28 November 2024
-            [day] => Thursday
-            [time] => 5.00 pm
-            [code] => BU5202
-            [name] => INVESTMENTS
             [duration] => 2 hr
         )
 
@@ -3097,7 +3077,7 @@ Array
             [time] => 9.00 am
             [code] => HP3303
             [name] => GEROPSYCHOLOGY
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [MA3003] => Array
@@ -3280,26 +3260,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HP3703] => Array
-        (
-            [date] => 2 December 2024
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => HP3703
-            [name] => HEALTH PSYCHOLOGY
-            [duration] => 2 hr 30 min
-        )
-
-    [IE4717] => Array
-        (
-            [date] => 2 December 2024
-            [day] => Monday
-            [time] => 1.00 pm
-            [code] => IE4717
-            [name] => WEB APPLICATION DESIGN
-            [duration] => 2 hr
-        )
-
     [MA2009] => Array
         (
             [date] => 2 December 2024
@@ -3450,26 +3410,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [HL4028] => Array
-        (
-            [date] => 2 December 2024
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => HL4028
-            [name] => SCIENCE & LITERATURE
-            [duration] => 2 hr 30 min
-        )
-
-    [HS4022] => Array
-        (
-            [date] => 2 December 2024
-            [day] => Monday
-            [time] => 5.00 pm
-            [code] => HS4022
-            [name] => SOCIOLOGY OF ISLAM IN THE MALAY WORLD
-            [duration] => 2 hr 30 min
-        )
-
     [MA4881] => Array
         (
             [date] => 2 December 2024
@@ -3528,6 +3468,16 @@ Array
             [code] => AB3602
             [name] => STRATEGIC MANAGEMENT
             [duration] => 2 hr 30 min
+        )
+
+    [BA3203] => Array
+        (
+            [date] => 3 December 2024
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => BA3203
+            [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
+            [duration] => 3 hr
         )
 
     [BS2028] => Array
@@ -3870,16 +3820,6 @@ Array
             [duration] => 2 hr
         )
 
-    [BR2209] => Array
-        (
-            [date] => 4 December 2024
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => BR2209
-            [name] => INSURANCE PRACTICE
-            [duration] => 2 hr 30 min
-        )
-
     [BS2101] => Array
         (
             [date] => 4 December 2024
@@ -3950,16 +3890,6 @@ Array
             [duration] => 2 hr
         )
 
-    [EE4613] => Array
-        (
-            [date] => 4 December 2024
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => EE4613
-            [name] => CMOS PROCESS & DEVICE SIMULATION
-            [duration] => 2 hr
-        )
-
     [HL4033] => Array
         (
             [date] => 4 December 2024
@@ -3967,6 +3897,16 @@ Array
             [time] => 9.00 am
             [code] => HL4033
             [name] => MAJOR AUTHOR STUDY: JAMES JOYCE
+            [duration] => 2 hr 30 min
+        )
+
+    [HP4104] => Array
+        (
+            [date] => 4 December 2024
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => HP4104
+            [name] => EVIDENCE-BASED PRACTICE IN CLINICAL PSYCHOLOGY
             [duration] => 2 hr 30 min
         )
 
@@ -4097,7 +4037,7 @@ Array
             [time] => 1.00 pm
             [code] => HL0201
             [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HL5002] => Array
@@ -4107,7 +4047,17 @@ Array
             [time] => 1.00 pm
             [code] => HL5002
             [name] => IMAGES OF SINGAPORE: LITERATURE, FILM & CULTURE
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
+        )
+
+    [HN5010] => Array
+        (
+            [date] => 4 December 2024
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => HN5010
+            [name] => SINGAPORE: IMAGINING THE NEXT 50 YEARS
+            [duration] => 2 hr
         )
 
     [IE4476] => Array
@@ -4157,6 +4107,16 @@ Array
             [time] => 1.00 pm
             [code] => MA4012
             [name] => MECHATRONICS ENGINEERING DESIGN
+            [duration] => 2 hr 30 min
+        )
+
+    [MA4013] => Array
+        (
+            [date] => 4 December 2024
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => MA4013
+            [name] => MANUFACTURING ENGINEERING DESIGN
             [duration] => 2 hr 30 min
         )
 
@@ -4328,16 +4288,6 @@ Array
             [code] => MS1013
             [name] => MATERIALS CHEMISTRY I
             [duration] => 2 hr
-        )
-
-    [BR2210] => Array
-        (
-            [date] => 5 December 2024
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => BR2210
-            [name] => FINANCIAL RISK MANAGEMENT
-            [duration] => 2 hr 30 min
         )
 
     [CM3062] => Array
