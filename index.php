@@ -148,7 +148,7 @@ require("back_end/config.php");
 
             <br />
 
-            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edwin-candinegara" target="_blank" data-goatcounter-click="github-edwin">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank" data-goatcounter-click="github-kenrick">Kenrick</a>
+            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edocsss" target="_blank" data-goatcounter-click="github-edwin">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank" data-goatcounter-click="github-kenrick">Kenrick</a>
             </footer>
         </div>
 
@@ -166,7 +166,7 @@ require("back_end/config.php");
                             <b>plan*</b> returns you only <b>the possible combination of the courses</b>, so that you don't need to manually do trial-and-error at STARS Planner anymore. Just choose one, input at STARS Planner, and may the force be with you during the STARS Wars.
                         </p>
                         <p>
-                            This application was made during exam period of Semester 1, A.Y. 2014-15, by <a href="https://github.com/edwin-candinegara" target="_blank" data-goatcounter-click="github-edwin">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank" data-goatcounter-click="github-kenrick">Kenrick</a>.
+                            This application was made during exam period of Semester 1, A.Y. 2014-15, by <a href="https://github.com/edocsss" target="_blank" data-goatcounter-click="github-edwin">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank" data-goatcounter-click="github-kenrick">Kenrick</a>.
                         </p>
                         <p>
                             <b>Note:</b> Class schedule and exam schedule data is crawled from NTU public server that does not require login for the data access. We do not claim any intellectual property over this data.

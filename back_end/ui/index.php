@@ -78,7 +78,7 @@ require("../config.php");
             </div>
 
             <footer>
-            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edwin-candinegara" target="_blank">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank">Kenrick</a>
+            &copy; <?php echo date("Y"); ?> <a href="https://github.com/edocsss" target="_blank">Edwin Candinegara</a> &amp; <a href="https://kenrick95.org" target="_blank">Kenrick</a>
             </footer>
         </div>
 
