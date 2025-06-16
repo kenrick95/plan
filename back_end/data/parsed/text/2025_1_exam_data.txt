@@ -810,6 +810,16 @@ Array
             [duration] => 2 hr
         )
 
+    [MH4932] => Array
+        (
+            [date] => 24 November 2025
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => MH4932
+            [name] => SPECIAL TOPICS IN STATISTICS
+            [duration] => 2 hr
+        )
+
     [MS4610] => Array
         (
             [date] => 24 November 2025
@@ -1990,16 +2000,6 @@ Array
             [duration] => 2 hr
         )
 
-    [MS3011] => Array
-        (
-            [date] => 27 November 2025
-            [day] => Thursday
-            [time] => 9.00 am
-            [code] => MS3011
-            [name] => METALS & CERAMICS
-            [duration] => 2 hr
-        )
-
     [PH2104] => Array
         (
             [date] => 27 November 2025
@@ -2956,7 +2956,7 @@ Array
             [day] => Monday
             [time] => 1.00 pm
             [code] => EE3018
-            [name] => INTRODUCTION TO PHOTONICS
+            [name] => INTRODUCTION TO PHOTONICS TECHNOLOGIES
             [duration] => 2 hr
         )
 
@@ -3788,6 +3788,16 @@ Array
             [code] => PH2103
             [name] => THERMAL PHYSICS
             [duration] => 2 hr 30 min
+        )
+
+    [SC2203] => Array
+        (
+            [date] => 3 December 2025
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => SC2203
+            [name] => AUTOMATA, COMPUTABILITY & COMPLEXITY
+            [duration] => 2 hr
         )
 
     [BF3201] => Array
