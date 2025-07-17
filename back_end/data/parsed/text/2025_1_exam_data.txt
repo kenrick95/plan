@@ -40,6 +40,26 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [BA3203] => Array
+        (
+            [date] => 21 November 2025
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BA3203
+            [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
+            [duration] => 3 hr
+        )
+
+    [BG2103] => Array
+        (
+            [date] => 21 November 2025
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => BG2103
+            [name] => SIGNAL PROCESSING IN BIOSYSTEMS
+            [duration] => 2 hr
+        )
+
     [BS4015] => Array
         (
             [date] => 21 November 2025
@@ -47,6 +67,16 @@ Array
             [time] => 9.00 am
             [code] => BS4015
             [name] => PLANT BIOTECHNOLOGY
+            [duration] => 2 hr
+        )
+
+    [CH2114] => Array
+        (
+            [date] => 21 November 2025
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => CH2114
+            [name] => HEAT & MASS TRANSFER IN CHEMICAL & BIOLOGICAL SYSTEMS
             [duration] => 2 hr
         )
 
@@ -327,7 +357,7 @@ Array
             [time] => 2.30 pm
             [code] => SC1005
             [name] => DIGITAL LOGIC
-            [duration] => 1 hr
+            [duration] => 1 hr 30 min
         )
 
     [AC1103] => Array
@@ -1070,6 +1100,16 @@ Array
             [duration] => 2 hr
         )
 
+    [CB1103] => Array
+        (
+            [date] => 25 November 2025
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => CB1103
+            [name] => ORGANIC CHEMISTRY FOR ENGINEERS
+            [duration] => 2 hr
+        )
+
     [CS0204] => Array
         (
             [date] => 25 November 2025
@@ -1180,16 +1220,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [CH5201] => Array
-        (
-            [date] => 25 November 2025
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => CH5201
-            [name] => FOOD CHEMISTRY
-            [duration] => 3 hr
-        )
-
     [CV1012] => Array
         (
             [date] => 25 November 2025
@@ -1197,6 +1227,16 @@ Array
             [time] => 1.00 pm
             [code] => CV1012
             [name] => FLUID MECHANICS
+            [duration] => 2 hr
+        )
+
+    [CV2012] => Array
+        (
+            [date] => 25 November 2025
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CV2012
+            [name] => STRUCTURAL ANALYSIS II
             [duration] => 2 hr
         )
 
@@ -1298,6 +1338,16 @@ Array
             [code] => MS4013
             [name] => BIOMATERIALS
             [duration] => 1 hr
+        )
+
+    [MT2004] => Array
+        (
+            [date] => 25 November 2025
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MT2004
+            [name] => MATHEMATICS II FOR MARITIME STUDIES
+            [duration] => 2 hr
         )
 
     [SC3061] => Array
@@ -1870,6 +1920,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [PH3411] => Array
+        (
+            [date] => 26 November 2025
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => PH3411
+            [name] => MATERIALS FOR SUSTAINABLE ENERGY
+            [duration] => 2 hr
+        )
+
     [SC4040] => Array
         (
             [date] => 26 November 2025
@@ -2440,6 +2500,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [HP3807] => Array
+        (
+            [date] => 28 November 2025
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => HP3807
+            [name] => OCCUPATIONAL HEALTH PSYCHOLOGY
+            [duration] => 2 hr 30 min
+        )
+
     [MA2701] => Array
         (
             [date] => 28 November 2025
@@ -2928,6 +2998,16 @@ Array
             [code] => CH3104
             [name] => BIOCHEMICAL ENGINEERING
             [duration] => 2 hr
+        )
+
+    [CH5201] => Array
+        (
+            [date] => 1 December 2025
+            [day] => Monday
+            [time] => 1.00 pm
+            [code] => CH5201
+            [name] => FOOD CHEMISTRY
+            [duration] => 3 hr
         )
 
     [CM3031] => Array
