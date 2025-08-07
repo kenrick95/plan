@@ -245,28 +245,21 @@ function check_clash($course_id, $index_no, $detail, $temp_timetable) {
     $day = $detail["day"];
 
     $time_keys = array_keys($temp_timetable[$day]);
-    $idx = array_search($start_time, $time_keys);
-
-    // Calculate end time for this session
     $end_time = calculate_end_time($start_time, $duration);
 
     $new_weeks = remarks_to_weeks($detail["remarks"]);
 
-    // Check all time slots in the timetable that overlap with this session
     foreach ($time_keys as $time) {
-        // Skip times outside our session range
         if ($time < $start_time || $time >= $end_time) continue;
 
         $slot = $temp_timetable[$day][$time];
-        
-        // Blocked free-time slot
+
         if ($slot === true) return true;
-        
+
         if (is_array($slot) && count($slot) > 0) {
             foreach ($slot as $existing) {
                 $exist_weeks = remarks_to_weeks($existing["remarks"]);
-                
-                // Check week overlap
+
                 $overlap = false;
                 for ($w = 0; $w < 13; $w++) {
                     if ($new_weeks[$w] && $exist_weeks[$w]) {
@@ -274,15 +267,12 @@ function check_clash($course_id, $index_no, $detail, $temp_timetable) {
                         break;
                     }
                 }
-                
+
                 if ($overlap) {
-                    // Only allow same course if it's the same session type (e.g. both lectures)
                     if ($existing["id"] === $course_id) {
-                        if ($existing["type"] !== $detail["type"]) {
-                            return true;
-                        }
+                        continue; // allow same-course overlap
                     } else {
-                        return true;
+                        return true; // clash with other course
                     }
                 }
             }
@@ -291,6 +281,7 @@ function check_clash($course_id, $index_no, $detail, $temp_timetable) {
 
     return false;
 }
+
 
 # Assign course for each index detail one by one
 function assign_course($course_id, $index_no, $detail, $temp_timetable) {
