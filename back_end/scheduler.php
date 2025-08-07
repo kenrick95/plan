@@ -243,36 +243,40 @@ function generate_timetable ($input_courses, $temp_timetable) {
 # Check whether there is a clash
 function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
     $start_time = $detail["time"]["start"];
-    $end_time = $detail["time"]["end"];
-    $duration = $detail["time"]["duration"];
-    $day = $detail["day"];
-    $week = $detail["flag"];
-
-    // $week = remarks_to_weeks($detail["remarks"]);
+    $duration   = $detail["time"]["duration"];
+    $day        = $detail["day"];
 
     $time_keys = array_keys($temp_timetable[$day]);
-    $index = array_search($start_time, $time_keys); # Iterator for each time slot in the temp_timetable
+    $idx       = array_search($start_time, $time_keys);
 
     # duration * 2 -> how many slots
-    for ($i = 0; $i < $duration * 2; $i++) {
-        if ($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) > 0) {
-            # In case there are 2 courses at that slot already!
-            if ($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) >= 2) return true;
+    for ($i = 0; $i < $duration * 2; $i++, $idx++) {
+        $slot = $temp_timetable[$day][$time_keys[$idx]];
 
-            $remarks = remarks_to_weeks($detail["remarks"]);
-            $clash_detail = $temp_timetable[$day][$time_keys[$index]][0];
-            $clash_remarks = remarks_to_weeks($clash_detail["remarks"]);
+        # immediate clash if it's a blocked/free-time slot
+        if ($slot === true) {
+            return true;
+        }
 
-            if ($course_id !== $clash_detail["id"]) {
-                for ($j = 0; $j < 13; $j++) {
-                    if ($remarks[$j] && $clash_remarks[$j]) {
+        # if there are any courses in this slot, check each one
+        if (is_array($slot) && count($slot) > 0) {
+            $new_weeks = remarks_to_weeks($detail["remarks"]);
+
+            foreach ($slot as $existing) {
+                # skip same‐course entries (lecture vs tutorial)
+                if ($existing["id"] === $course_id) {
+                    continue;
+                }
+
+                $exist_weeks = remarks_to_weeks($existing["remarks"]);
+                # week-by-week overlap
+                for ($w = 0; $w < 13; $w++) {
+                    if ($new_weeks[$w] && $exist_weeks[$w]) {
                         return true;
                     }
                 }
             }
         }
-
-        $index++;
     }
 
     return false;
