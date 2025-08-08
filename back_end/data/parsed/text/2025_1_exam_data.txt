@@ -1326,7 +1326,7 @@ Array
             [day] => Tuesday
             [time] => 1.00 pm
             [code] => MH2500
-            [name] => PROBABILITY & INTRODUCTION TO STATISTICS
+            [name] => PROBABILITY
             [duration] => 2 hr
         )
 
@@ -1848,6 +1848,16 @@ Array
             [code] => CZ4016
             [name] => ADVANCED TOPICS IN ALGORITHMS
             [duration] => 2 hr
+        )
+
+    [HA3094] => Array
+        (
+            [date] => 26 November 2025
+            [day] => Wednesday
+            [time] => 5.00 pm
+            [code] => HA3094
+            [name] => INTERNATIONAL RELATIONS OF NORTHEAST ASIA
+            [duration] => 2 hr 30 min
         )
 
     [HH1004] => Array
