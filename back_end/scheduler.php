@@ -239,40 +239,44 @@ function generate_timetable ($input_courses, $temp_timetable) {
     }
 }
 
-
-# Check whether there is a clash
-function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
+function check_clash($course_id, $index_no, $detail, $temp_timetable) {
     $start_time = $detail["time"]["start"];
-    $end_time = $detail["time"]["end"];
     $duration = $detail["time"]["duration"];
     $day = $detail["day"];
-    $week = $detail["flag"];
-
-    // $week = remarks_to_weeks($detail["remarks"]);
 
     $time_keys = array_keys($temp_timetable[$day]);
-    $index = array_search($start_time, $time_keys); # Iterator for each time slot in the temp_timetable
+    $end_time = calculate_end_time($start_time, $duration);
 
-    # duration * 2 -> how many slots
-    for ($i = 0; $i < $duration * 2; $i++) {
-        if ($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) > 0) {
-            # In case there are 2 courses at that slot already!
-            if ($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) >= 2) return true;
+    $new_weeks = remarks_to_weeks($detail["remarks"]);
 
-            $remarks = remarks_to_weeks($detail["remarks"]);
-            $clash_detail = $temp_timetable[$day][$time_keys[$index]][0];
-            $clash_remarks = remarks_to_weeks($clash_detail["remarks"]);
+    foreach ($time_keys as $time) {
+        if ($time < $start_time || $time >= $end_time) continue;
 
-            if ($course_id !== $clash_detail["id"]) {
-                for ($j = 0; $j < 13; $j++) {
-                    if ($remarks[$j] && $clash_remarks[$j]) {
-                        return true;
+        $slot = $temp_timetable[$day][$time];
+
+        if ($slot === true) return true;
+
+        if (is_array($slot) && count($slot) > 0) {
+            foreach ($slot as $existing) {
+                $exist_weeks = remarks_to_weeks($existing["remarks"]);
+
+                $overlap = false;
+                for ($w = 0; $w < 13; $w++) {
+                    if ($new_weeks[$w] && $exist_weeks[$w]) {
+                        $overlap = true;
+                        break;
+                    }
+                }
+
+                if ($overlap) {
+                    if ($existing["id"] === $course_id) {
+                        continue; // allow same-course overlap
+                    } else {
+                        return true; // clash with other course
                     }
                 }
             }
         }
-
-        $index++;
     }
 
     return false;
@@ -280,36 +284,41 @@ function check_clash ($course_id, $index_no, $detail, $temp_timetable) {
 
 
 # Assign course for each index detail one by one
-function assign_course ($course_id, $index_no, $detail, $temp_timetable) {
+function assign_course($course_id, $index_no, $detail, $temp_timetable) {
     $data = array(
-                "id" => $course_id,
-                "index" => $index_no,
-                "flag" => $detail["flag"],
-                "type" => $detail["type"],
-                "location" => $detail["location"],
-                "group" => $detail["group"],
-                "remarks" => $detail["remarks"]
-            );
+        "id" => $course_id,
+        "index" => $index_no,
+        "flag" => $detail["flag"],
+        "type" => $detail["type"],
+        "location" => $detail["location"],
+        "group" => $detail["group"],
+        "remarks" => $detail["remarks"]
+    );
 
     $start_time = $detail["time"]["start"];
-    $end_time = $detail["time"]["end"];
     $duration = $detail["time"]["duration"];
     $day = $detail["day"];
+    $end_time = calculate_end_time($start_time, $duration);
 
     $time_keys = array_keys($temp_timetable[$day]);
-    $index = array_search($start_time, $time_keys);
 
-    # duration * 2 -> how many slots
-    for ($i = 0; $i < $duration * 2; $i++) {
-        # To skip if there is two same courses, same type, in the same slot -> e.g. BU8401 FOM
-        if (($temp_timetable[$day][$time_keys[$index]] === true || count($temp_timetable[$day][$time_keys[$index]]) > 0) 
-            && $temp_timetable[$day][$time_keys[$index]][0]["id"] === $course_id) break;
-        else array_push($temp_timetable[$day][$time_keys[$index]], $data);
-
-        $index++;
+    foreach ($time_keys as $time) {
+        // Add to all slots within the session duration
+        if ($time >= $start_time && $time < $end_time) {
+            $temp_timetable[$day][$time][] = $data;
+        }
     }
 
     return $temp_timetable;
+}
+
+// Helper function to calculate end time
+function calculate_end_time($start_time, $duration) {
+    $start_minutes = (int)substr($start_time, 0, 2) * 60 + (int)substr($start_time, 2, 2);
+    $end_minutes = $start_minutes + $duration * 60;
+    $end_hour = floor($end_minutes / 60);
+    $end_minute = $end_minutes % 60;
+    return sprintf('%02d%02d', $end_hour, $end_minute);
 }
 
 /* ---------------------------------------------------------------------------------------------- */
