@@ -241,11 +241,11 @@ function generate_timetable ($input_courses, $temp_timetable) {
 
 function check_clash($course_id, $index_no, $detail, $temp_timetable) {
     $start_time = $detail["time"]["start"];
+    $end_time = $detail["time"]["end"];
     $duration = $detail["time"]["duration"];
     $day = $detail["day"];
 
     $time_keys = array_keys($temp_timetable[$day]);
-    $end_time = calculate_end_time($start_time, $duration);
 
     $new_weeks = remarks_to_weeks($detail["remarks"]);
 
@@ -296,9 +296,9 @@ function assign_course($course_id, $index_no, $detail, $temp_timetable) {
     );
 
     $start_time = $detail["time"]["start"];
+    $end_time = $detail["time"]["end"];
     $duration = $detail["time"]["duration"];
     $day = $detail["day"];
-    $end_time = calculate_end_time($start_time, $duration);
 
     $time_keys = array_keys($temp_timetable[$day]);
 
@@ -310,15 +310,6 @@ function assign_course($course_id, $index_no, $detail, $temp_timetable) {
     }
 
     return $temp_timetable;
-}
-
-// Helper function to calculate end time
-function calculate_end_time($start_time, $duration) {
-    $start_minutes = (int)substr($start_time, 0, 2) * 60 + (int)substr($start_time, 2, 2);
-    $end_minutes = $start_minutes + $duration * 60;
-    $end_hour = floor($end_minutes / 60);
-    $end_minute = $end_minutes % 60;
-    return sprintf('%02d%02d', $end_hour, $end_minute);
 }
 
 /* ---------------------------------------------------------------------------------------------- */
