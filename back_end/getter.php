@@ -41,6 +41,25 @@ function httpRequest($url, $post="") {
 
     return $xml;
 }
+function fetchPlanNo($year, $semester) {
+    $target = sprintf("AY%d-%02d SEM %d", $year, ($year + 1) % 100, $semester);
+    $html = httpRequest(
+        "https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.MainSubmit",
+        "p_opt=1&p_type=UE&bOption=Next"
+    );
+    // Match: value="NNN" /> ... AY2026-27 SEM 1
+    if (!preg_match_all('/name="p_plan_no"\s+value="(\d+)"\s*\/>([^<]*)/i', $html, $matches)) {
+        throw new Exception("Could not parse p_plan_no options from exam timetable page");
+    }
+    foreach ($matches[1] as $i => $value) {
+        $label = strtoupper(trim($matches[2][$i]));
+        if ($label === strtoupper($target)) {
+            return $value;
+        }
+    }
+    throw new Exception("Could not find p_plan_no for '$target'. Available options: " . implode(", ", array_map('trim', $matches[2])));
+}
+
 try {
     if (empty($_REQUEST['year'])) {
         throw new Exception("Year is empty");
@@ -48,12 +67,14 @@ try {
     if (empty($_REQUEST['semester'])) {
         throw new Exception("Semester is empty");
     }
-    if (empty($_REQUEST['plan_no'])) {
-        throw new Exception("plan_no is empty. Get it manually from https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.main");
-    }
     $year = $_REQUEST['year'];
     $semester = $_REQUEST['semester'];
-    $plan_no = $_REQUEST['plan_no'];
+    $plan_no = !empty($_REQUEST['plan_no']) && is_numeric($_REQUEST['plan_no']) ? $_REQUEST['plan_no'] : fetchPlanNo($year, $semester);
+
+
+    if (empty($plan_no)) {
+        throw new Exception("Plan number is empty");
+    }
 
     ### Course data
     $request['r_search_type'] = 'F';

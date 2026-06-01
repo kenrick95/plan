@@ -58,8 +58,8 @@ require("../config.php");
                 <div class="form-group">
                     <label for="semester" class="col-sm-2 control-label">Plan_no</label>
                     <div class="col-sm-10">
-                        <input type="number" class="form-control" id="plan_no" placeholder="Plan_no" required>
-                        Get <code>plan_no</code> manually <a href="https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.main">here</a>
+                        <input type="number" class="form-control" id="plan_no" placeholder="Plan_no">
+                        Optional. Will be used if specified. It will attempt to parse and fetch <code>plan_no</code> from <a href="https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.main">here</a> but sometimes it could fail. If it fails, you can specify the correct <code>plan_no</code> from that page
                     </div>
                 </div>
                 <div class="form-group">
