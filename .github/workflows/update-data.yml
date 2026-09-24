@@ -1,0 +1,50 @@
+name: Update NTU data
+
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - name: Install PHP extensions
+        run: sudo apt-get update && sudo apt-get install -y php-cli php-curl php-xml
+      - name: Fetch, parse, and validate
+        run: python3 scripts/update_data.py
+      - name: Commit updated data
+        id: commit
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add academic-calendar.json back_end/config.php back_end/data/raw back_end/data/parsed js/engine.js
+          git commit -m 'chore: refresh NTU timetable data'
+          git push
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+      # A push made with GITHUB_TOKEN does not start the push-triggered deploy workflow.
+      - name: Deploy updated data
+        if: steps.commit.outputs.changed == 'true'
+        uses: up9cloud/action-rsync@e032bd158d5e7d4b3e46fd3263178276fe0126d5 # v1.4
+        env:
+          HOST: ${{secrets.DEPLOY_HOST}}
+          KEY: ${{secrets.DEPLOY_SSH_KEY}}
+          TARGET: ${{secrets.DEPLOY_TARGET}}
+          MODE: push
+          VERBOSE: true
+          PORT: ${{secrets.DEPLOY_PORT}}
+          USER: ${{secrets.DEPLOY_USER}}
+          ARGS: -avz --exclude-from=.gitignore --exclude=/.git/ --exclude=/.github/
