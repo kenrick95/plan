@@ -20,16 +20,6 @@ Array
             [duration] => 3 hr
         )
 
-    [BF3204] => Array
-        (
-            [date] => 23 November 2026
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => BF3204
-            [name] => FINANCIAL MODELLING
-            [duration] => 2 hr
-        )
-
     [BF3218] => Array
         (
             [date] => 23 November 2026
@@ -98,6 +88,16 @@ Array
             [code] => MH1810
             [name] => MATHEMATICS 1
             [duration] => 2 hr
+        )
+
+    [MS4014] => Array
+        (
+            [date] => 23 November 2026
+            [day] => Monday
+            [time] => 9.00 am
+            [code] => MS4014
+            [name] => NANOMATERIALS: FUNDAMENTALS & APPLICATIONS
+            [duration] => 1 hr 30 min
         )
 
     [SC2104] => Array
@@ -410,6 +410,16 @@ Array
             [duration] => 2 hr
         )
 
+    [AB1211] => Array
+        (
+            [date] => 24 November 2026
+            [day] => Tuesday
+            [time] => 9.00 am
+            [code] => AB1211
+            [name] => APPLIED BUSINESS MATHEMATICS
+            [duration] => 2 hr
+        )
+
     [AC3102] => Array
         (
             [date] => 24 November 2026
@@ -510,26 +520,6 @@ Array
             [duration] => 2 hr
         )
 
-    [BF3207] => Array
-        (
-            [date] => 24 November 2026
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BF3207
-            [name] => ALTERNATIVE INVESTMENTS
-            [duration] => 2 hr
-        )
-
-    [BF3219] => Array
-        (
-            [date] => 24 November 2026
-            [day] => Tuesday
-            [time] => 1.00 pm
-            [code] => BF3219
-            [name] => ALTERNATIVE INVESTMENTS
-            [duration] => 2 hr
-        )
-
     [BS4015] => Array
         (
             [date] => 24 November 2026
@@ -537,6 +527,16 @@ Array
             [time] => 1.00 pm
             [code] => BS4015
             [name] => PLANT BIOTECHNOLOGY
+            [duration] => 2 hr
+        )
+
+    [CV2012] => Array
+        (
+            [date] => 24 November 2026
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => CV2012
+            [name] => STRUCTURAL ANALYSIS II
             [duration] => 2 hr
         )
 
@@ -637,6 +637,16 @@ Array
             [time] => 1.00 pm
             [code] => MT2002
             [name] => SHIPPING ECONOMICS
+            [duration] => 2 hr
+        )
+
+    [MT2004] => Array
+        (
+            [date] => 24 November 2026
+            [day] => Tuesday
+            [time] => 1.00 pm
+            [code] => MT2004
+            [name] => MATHEMATICS II FOR MARITIME STUDIES
             [duration] => 2 hr
         )
 
@@ -820,16 +830,6 @@ Array
             [duration] => 3 hr
         )
 
-    [BF3203] => Array
-        (
-            [date] => 25 November 2026
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => BF3203
-            [name] => EQUITY SECURITIES
-            [duration] => 2 hr 30 min
-        )
-
     [BF3217] => Array
         (
             [date] => 25 November 2026
@@ -848,6 +848,16 @@ Array
             [code] => BS2003
             [name] => BIOCHEMISTRY II
             [duration] => 2 hr 30 min
+        )
+
+    [CB1117] => Array
+        (
+            [date] => 25 November 2026
+            [day] => Wednesday
+            [time] => 9.00 am
+            [code] => CB1117
+            [name] => ENGINEERING MATHEMATICS
+            [duration] => 2 hr
         )
 
     [CM2021] => Array
@@ -970,6 +980,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [BA3203] => Array
+        (
+            [date] => 25 November 2026
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => BA3203
+            [name] => ACTUARIAL ASPECTS OF ASSET VALUATION
+            [duration] => 3 hr
+        )
+
     [BG2142] => Array
         (
             [date] => 25 November 2026
@@ -997,6 +1017,16 @@ Array
             [time] => 1.00 pm
             [code] => BS3027
             [name] => LIGHT & BIOMOLECULE BEHAVIOR IN HEALTH & DISEASE
+            [duration] => 2 hr
+        )
+
+    [CH2123] => Array
+        (
+            [date] => 25 November 2026
+            [day] => Wednesday
+            [time] => 1.00 pm
+            [code] => CH2123
+            [name] => CHEMICAL THERMODYNAMICS
             [duration] => 2 hr
         )
 
@@ -1127,7 +1157,7 @@ Array
             [time] => 1.00 pm
             [code] => MS4610
             [name] => ADVANCED BIOMATERIALS
-            [duration] => 2 hr
+            [duration] => 1 hr
         )
 
     [PH3601] => Array
@@ -1207,7 +1237,7 @@ Array
             [time] => 5.00 pm
             [code] => HE3125
             [name] => ECONOMICS OF MENTAL HEALTH & WELL-BEING
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [PH1011] => Array
@@ -1500,16 +1530,6 @@ Array
             [duration] => 1 hr
         )
 
-    [SC1006] => Array
-        (
-            [date] => 26 November 2026
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => SC1006
-            [name] => COMPUTER ORGANISATION & ARCHITECTURE
-            [duration] => 1 hr
-        )
-
     [SC3000] => Array
         (
             [date] => 26 November 2026
@@ -1517,6 +1537,16 @@ Array
             [time] => 1.00 pm
             [code] => SC3000
             [name] => ARTIFICIAL INTELLIGENCE
+            [duration] => 2 hr
+        )
+
+    [BF2230] => Array
+        (
+            [date] => 26 November 2026
+            [day] => Thursday
+            [time] => 5.00 pm
+            [code] => BF2230
+            [name] => MODERN BANKING
             [duration] => 2 hr
         )
 
@@ -1760,6 +1790,16 @@ Array
             [duration] => 2 hr 30 min
         )
 
+    [SC3271] => Array
+        (
+            [date] => 27 November 2026
+            [day] => Friday
+            [time] => 9.00 am
+            [code] => SC3271
+            [name] => LOGIC, PROOF, & THE FOUNDATIONS OF CALCULUS
+            [duration] => 2 hr
+        )
+
     [AC3104] => Array
         (
             [date] => 27 November 2026
@@ -1930,16 +1970,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [BF2216] => Array
-        (
-            [date] => 28 November 2026
-            [day] => Saturday
-            [time] => 9.00 am
-            [code] => BF2216
-            [name] => TRADE INCOTERMS & SHIP CHARTERING
-            [duration] => 2 hr 30 min
-        )
-
     [BF2226] => Array
         (
             [date] => 28 November 2026
@@ -2020,16 +2050,6 @@ Array
             [duration] => 2 hr
         )
 
-    [BF2209] => Array
-        (
-            [date] => 28 November 2026
-            [day] => Saturday
-            [time] => 1.00 pm
-            [code] => BF2209
-            [name] => DERIVATIVE SECURITIES
-            [duration] => 2 hr 30 min
-        )
-
     [BF2221] => Array
         (
             [date] => 28 November 2026
@@ -2067,7 +2087,7 @@ Array
             [time] => 1.00 pm
             [code] => HE3027
             [name] => HOUSING ECONOMICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HP3901] => Array
@@ -2148,26 +2168,6 @@ Array
             [code] => BG3104
             [name] => BIOMEDICAL IMAGING
             [duration] => 2 hr
-        )
-
-    [BR3208] => Array
-        (
-            [date] => 30 November 2026
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => BR3208
-            [name] => OPERATIONAL RISK MANAGEMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [BR3211] => Array
-        (
-            [date] => 30 November 2026
-            [day] => Monday
-            [time] => 9.00 am
-            [code] => BR3211
-            [name] => OPERATIONAL RISK & RESILIENCY
-            [duration] => 2 hr 30 min
         )
 
     [BS2024] => Array
@@ -2410,13 +2410,13 @@ Array
             [duration] => 2 hr
         )
 
-    [HH3016] => Array
+    [HH1004] => Array
         (
             [date] => 30 November 2026
             [day] => Monday
             [time] => 1.00 pm
-            [code] => HH3016
-            [name] => HISTORY OF MADNESS
+            [code] => HH1004
+            [name] => SCIENCE & TECHNOLOGY IN HISTORICAL PERSPECTIVE
             [duration] => 2 hr 30 min
         )
 
@@ -2747,7 +2747,7 @@ Array
             [time] => 9.00 am
             [code] => HE4140
             [name] => EXPERIMENTAL ECONOMICS
-            [duration] => 2 hr 30 min
+            [duration] => 2 hr
         )
 
     [HL3037] => Array
@@ -3110,16 +3110,6 @@ Array
             [duration] => 2 hr 30 min
         )
 
-    [BF3201] => Array
-        (
-            [date] => 2 December 2026
-            [day] => Wednesday
-            [time] => 9.00 am
-            [code] => BF3201
-            [name] => CORPORATE FINANCE & STRATEGY
-            [duration] => 2 hr 30 min
-        )
-
     [BF3215] => Array
         (
             [date] => 2 December 2026
@@ -3287,16 +3277,6 @@ Array
             [time] => 1.00 pm
             [code] => AC2101
             [name] => ACCOUNTING RECOGNITION & MEASUREMENT
-            [duration] => 2 hr 30 min
-        )
-
-    [BF3202] => Array
-        (
-            [date] => 2 December 2026
-            [day] => Wednesday
-            [time] => 1.00 pm
-            [code] => BF3202
-            [name] => FIXED INCOME SECURITIES
             [duration] => 2 hr 30 min
         )
 
@@ -3727,16 +3707,6 @@ Array
             [time] => 9.00 am
             [code] => MT1001
             [name] => MATHEMATICS I FOR MARITIME STUDIES
-            [duration] => 2 hr
-        )
-
-    [BF2201] => Array
-        (
-            [date] => 3 December 2026
-            [day] => Thursday
-            [time] => 1.00 pm
-            [code] => BF2201
-            [name] => INVESTMENTS
             [duration] => 2 hr
         )
 
