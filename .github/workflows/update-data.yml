@@ -21,7 +21,7 @@ jobs:
       - name: Install PHP extensions
         run: sudo apt-get update && sudo apt-get install -y php-cli php-curl php-xml
       - name: Fetch, parse, and validate
-        run: python3 scripts/update_data.py
+        run: php scripts/update_data.php
       - name: Commit updated data
         id: commit
         run: |

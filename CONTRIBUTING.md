@@ -15,7 +15,7 @@ This assumes you have a clone of the repository locally.
 
 ### Refresh the current semester
 
-Run **Update NTU data** from GitHub Actions. It also runs weekly to capture changes to the published course and exam schedules. Locally, with PHP CLI, curl and XML extensions installed, run `python3 scripts/update_data.py`.
+Run **Update NTU data** from GitHub Actions. It also runs weekly to capture changes to the published course and exam schedules. Locally, with PHP CLI, curl and XML extensions installed, run `php scripts/update_data.php`.
 
 ### Manual fallback
 
