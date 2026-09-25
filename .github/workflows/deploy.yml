@@ -20,13 +20,11 @@ jobs:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           persist-credentials: false
-      - uses: up9cloud/action-rsync@e032bd158d5e7d4b3e46fd3263178276fe0126d5 # v1.4
+      - name: Deploy via SSH and rsync
+        run: bash scripts/deploy.sh
         env:
-          HOST: ${{secrets.DEPLOY_HOST}}
-          KEY: ${{secrets.DEPLOY_SSH_KEY}}
-          TARGET: ${{secrets.DEPLOY_TARGET}}
-          MODE: push
-          VERBOSE: true
-          PORT: ${{secrets.DEPLOY_PORT}}
-          USER: ${{secrets.DEPLOY_USER}}
-          ARGS: -avz --exclude-from=.gitignore --exclude=/.git/ --exclude=/.github/
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_TARGET: ${{ secrets.DEPLOY_TARGET }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
