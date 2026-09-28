@@ -26,9 +26,11 @@ jobs:
         id: commit
         run: |
           if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo 'No timetable data changes; skipping commit and deploy.'
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          echo 'Timetable data changed; committing and deploying.'
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add academic-calendar.json back_end/config.php back_end/data/raw back_end/data/parsed js/engine.js
