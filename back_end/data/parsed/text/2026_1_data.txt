@@ -67736,6 +67736,988 @@ Array
 
         )
 
+    [CM1001] => Array
+        (
+            [name] => FOUNDATIONS OF CHEMISTRY I*~
+            [au] =>  4.0 AU
+            [index] => Array
+                (
+                    [0] => Array
+                        (
+                            [index_number] => 59001
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T1
+                                            [day] => MON
+                                            [time] => Array
+                                                (
+                                                    [full] => 1030-1120
+                                                    [start] => 1030
+                                                    [end] => 1120
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA7
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1330-1620
+                                                    [start] => 1330
+                                                    [end] => 1620
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk2,4,6,8,10
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [index_number] => 59002
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T4
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+14
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA8
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1330-1620
+                                                    [start] => 1330
+                                                    [end] => 1620
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [index_number] => 59003
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T5
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA5
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1220
+                                                    [start] => 0930
+                                                    [end] => 1220
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk2,4,6,8,10
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [index_number] => 59004
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T6
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+14
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA4
+                                            [day] => MON
+                                            [time] => Array
+                                                (
+                                                    [full] => 1330-1620
+                                                    [start] => 1330
+                                                    [end] => 1620
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [index_number] => 59005
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T6
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+14
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA5
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1220
+                                                    [start] => 0930
+                                                    [end] => 1220
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk2,4,6,8,10
+                                        )
+
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [index_number] => 59006
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T6
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+14
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA6
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1220
+                                                    [start] => 0930
+                                                    [end] => 1220
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [index_number] => 59007
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T7
+                                            [day] => WED
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA4
+                                            [day] => MON
+                                            [time] => Array
+                                                (
+                                                    [full] => 1330-1620
+                                                    [start] => 1330
+                                                    [end] => 1620
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [index_number] => 59008
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T8
+                                            [day] => WED
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA2
+                                            [day] => MON
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1220
+                                                    [start] => 0930
+                                                    [end] => 1220
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                    [8] => Array
+                        (
+                            [index_number] => 59009
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T8
+                                            [day] => WED
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA7
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1330-1620
+                                                    [start] => 1330
+                                                    [end] => 1620
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk2,4,6,8,10
+                                        )
+
+                                )
+
+                        )
+
+                    [9] => Array
+                        (
+                            [index_number] => 59010
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T8
+                                            [day] => WED
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA8
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 1330-1620
+                                                    [start] => 1330
+                                                    [end] => 1620
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                    [10] => Array
+                        (
+                            [index_number] => 59011
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T2
+                                            [day] => MON
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1520
+                                                    [start] => 1430
+                                                    [end] => 1520
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA6
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1220
+                                                    [start] => 0930
+                                                    [end] => 1220
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                    [11] => Array
+                        (
+                            [index_number] => 59012
+                            [details] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => FRI
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => LT2A
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [type] => LEC/STUDIO
+                                            [group] => LE
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1430-1620
+                                                    [start] => 1430
+                                                    [end] => 1620
+                                                    [duration] => 1.8333333333333
+                                                )
+
+                                            [location] => LKC-LT
+                                            [flag] => 0
+                                            [remarks] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T3
+                                            [day] => TUE
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => SPMS-TR+13
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [type] => LAB
+                                            [group] => LA2
+                                            [day] => MON
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1220
+                                                    [start] => 0930
+                                                    [end] => 1220
+                                                    [duration] => 2.8333333333333
+                                                )
+
+                                            [location] => CBC LAB
+                                            [flag] => 2
+                                            [remarks] => Teaching Wk3,5,7,9,11
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
     [CM2011] => Array
         (
             [name] => ANALYTICAL CHEMISTRY*~
