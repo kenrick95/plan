@@ -173761,7 +173761,25 @@ Array
 
                                             [location] => LT13
                                             [flag] => 0
-                                            [remarks] => 
+                                            [remarks] => Teaching Wk1-12
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T1
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 0930-1020
+                                                    [start] => 0930
+                                                    [end] => 1020
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => TRX44
+                                            [flag] => 0
+                                            [remarks] => Teaching Wk13
                                         )
 
                                 )
@@ -173806,7 +173824,25 @@ Array
 
                                             [location] => LT13
                                             [flag] => 0
-                                            [remarks] => 
+                                            [remarks] => Teaching Wk1-12
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [type] => TUT
+                                            [group] => T2
+                                            [day] => THU
+                                            [time] => Array
+                                                (
+                                                    [full] => 1030-1120
+                                                    [start] => 1030
+                                                    [end] => 1120
+                                                    [duration] => 0.83333333333333
+                                                )
+
+                                            [location] => TRX44
+                                            [flag] => 0
+                                            [remarks] => Teaching Wk13
                                         )
 
                                 )
