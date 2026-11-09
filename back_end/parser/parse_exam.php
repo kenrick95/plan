@@ -1,84 +1,70 @@
 <?php
 require("../config.php");
 
-function str_lreplace($search, $replace, $subject)
-{
-    $pos = strrpos($subject, $search);
-
-    if($pos !== false)
-    {
-        $subject = substr_replace($subject, $replace, $pos, strlen($search));
-    }
-
-    return $subject;
-}
-$raw_data = file_get_contents("../data/raw/". $year . "_" . $semester . "_exam.html");
-
-$raw_data = explode("<center>", $raw_data)[1];
-$raw_data = explode("</center>", $raw_data)[0];
-$raw_data = "<center>" . $raw_data . "</center>";
-
-$raw_data = str_replace("<BR>", "", $raw_data);
-$raw_data = str_replace("<br>", "", $raw_data);
-$raw_data = str_replace("&nbsp;", "", $raw_data);
-
-$raw_data = str_replace("<table border=1 width=800 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
-$raw_data = str_replace("<table border=1 width=600 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
-$raw_data = str_replace("<table width=800 cellspacing=0 cellpadding=1>", "<table>", $raw_data);
-$raw_data = str_replace("<table border=1 width=100% cellspacing=0 cellpadding=1>", "<table>", $raw_data);
-
-$raw_data = str_replace("<td align=left width=5% valign=top>", "<td>", $raw_data);
-$raw_data = str_replace("<td align=left width=10% valign=top>", "<td>", $raw_data);
-$raw_data = str_replace("<td align=left width=20% valign=top>", "<td>", $raw_data);
-$raw_data = str_replace("<td align=left width=40% valign=top>", "<td>", $raw_data);
-$raw_data = str_replace("<td align=center width=20% valign=top>", "<td>", $raw_data);
-$raw_data = str_replace("<td align=left width=25% valign=top>", "<td>", $raw_data);
-
-$raw_data = str_replace("bgcolor=#99CCFF", "", $raw_data);
-$raw_data = str_replace("bgcolor=#FFFFFF", "", $raw_data);
-$raw_data = str_replace("colspan=2", "", $raw_data);
-$raw_data = str_replace("colspan=7", "", $raw_data);
-
-$raw_data = str_replace("<tr", "<TR", $raw_data);
-$raw_data = str_replace("</tr", "</TR", $raw_data);
-$raw_data = str_lreplace("</table>", "</TR></TR></table>", $raw_data);
-$raw_data = trim($raw_data);
-$raw_data = preg_replace("/ +/", " ", $raw_data);
-$raw_data = preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $raw_data);
-
-// file_put_contents('test.txt', print_r($raw_data, true));
-$data =  new SimpleXMLElement($raw_data);
-
-# whew, finished cleaning data, now parse it!
-$super_data = array();
-$course_list = array();
-
-$table_length = count($data->table);
-$table_inner_length = count($data->table[$table_length - 1]->TR);
-
-foreach ($data->table[$table_length - 1]->TR[$table_inner_length - 1]->TR as $entry) {
-    $exam_date = trim((string) $entry->td[0]);
-    $exam_day = trim((string) $entry->td[1]);
-    $exam_time = trim((string) $entry->td[2]);
-    $exam_code = trim((string) $entry->td[3]);
-    $exam_name = trim((string) $entry->td[4]);
-    $exam_duration = trim((string) $entry->td[5]);
-    if (!empty($exam_code)) {
-        $super_data[$exam_code] = array("date" => $exam_date,
-            "day" => $exam_day,
-            "time" => $exam_time,
-            "code" => $exam_code,
-            "name" => $exam_name,
-            "duration" => $exam_duration);
-
-        array_push($course_list, array(
-            "code" => $exam_code,
-            "name" => $exam_name));
-    }
+$path = "../data/raw/{$year}_{$semester}_exam.html";
+$raw_data = file_get_contents($path);
+if ($raw_data === false || trim($raw_data) === '') {
+    throw new RuntimeException("Exam HTML is missing or empty: $path");
 }
 
-file_put_contents("../data/parsed/text/". $year . "_" . $semester . "_exam_data.txt", print_r($super_data, true));
-file_put_contents("../data/parsed/json/". $year . "_" . $semester . "_exam_data.json", json_encode($super_data));
+// NTU publishes HTML, including older pages with unclosed header rows.
+// Let the HTML parser repair those instead of inserting XML closing tags.
+$previous = libxml_use_internal_errors(true);
+libxml_clear_errors();
+$document = new DOMDocument();
+$loaded = $document->loadHTML($raw_data, LIBXML_NONET);
+$issues = libxml_get_errors();
+libxml_clear_errors();
+libxml_use_internal_errors($previous);
+if (!$loaded) {
+    $messages = array_map(function ($issue) {
+        return "line {$issue->line}: " . trim($issue->message);
+    }, array_slice($issues, 0, 5));
+    throw new RuntimeException("Could not parse exam HTML ($path): " . implode('; ', $messages));
+}
 
+$xpath = new DOMXPath($document);
+$super_data = [];
+foreach ($xpath->query('//tr') as $row) {
+    $cells = $xpath->query('./td', $row);
+    if ($cells->length < 6) {
+        continue;
+    }
+    $values = [];
+    foreach ($cells as $cell) {
+        $values[] = trim(preg_replace('/ +/', ' ', str_replace("\xc2\xa0", '', $cell->textContent)));
+    }
+    // Skip headings and informational tables; venues may add a seventh column.
+    if (!preg_match('/^\d{1,2} [A-Za-z]+ \d{4}$/', $values[0])) {
+        continue;
+    }
+    // * and + describe open/restricted-book exams, not part of the course code.
+    $code = rtrim($values[3], "*+ \t\n\r");
+    if ($code === '') {
+        throw new RuntimeException("Empty exam course code in $path for {$values[0]}");
+    }
+    $super_data[$code] = [
+        'date' => $values[0],
+        'day' => $values[1],
+        'time' => $values[2],
+        'code' => $code,
+        'name' => $values[4],
+        'duration' => $values[5],
+    ];
+}
+if (count($super_data) === 0) {
+    throw new RuntimeException("No exam rows found in $path (" . strlen($raw_data) . " bytes); expected date, day, time, course, title, duration columns");
+}
+if (PHP_SAPI === 'cli') {
+    fwrite(STDERR, "Parsed " . count($super_data) . " exam courses from $path (" . strlen($raw_data) . " bytes)\n");
+}
+
+$json = json_encode($super_data, JSON_THROW_ON_ERROR);
+foreach (['text' => print_r($super_data, true), 'json' => $json] as $format => $contents) {
+    $extension = $format === 'text' ? 'txt' : 'json';
+    $output = "../data/parsed/$format/{$year}_{$semester}_exam_data.$extension";
+    if (file_put_contents($output, $contents) === false) {
+        throw new RuntimeException("Could not write parsed exam data: $output");
+    }
+}
 echo "OK";
-?>
