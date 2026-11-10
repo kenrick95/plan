@@ -17,6 +17,10 @@ This assumes you have a clone of the repository locally.
 
 Run **Update NTU data** from GitHub Actions. It also runs weekly to capture changes to the published course and exam schedules. Locally, with PHP CLI, curl and XML extensions installed, run `php scripts/update_data.php`.
 
+The update log includes each subprocess's exit code, duration, stdout/stderr, and HTTP response status and size. Failed Actions updates retain an `update-data-diagnostics-<run>-<attempt>` artifact for seven days containing subprocess logs and raw HTML. Locally, set `PLAN_DIAGNOSTICS_DIR` to a directory to save subprocess logs.
+
+Run `php scripts/tests/parse_exam.php` for offline regression checks of the old and venue-inclusive exam HTML formats, book-status markers, and invalid responses.
+
 ### Manual fallback
 
 1. Serve the project locally:

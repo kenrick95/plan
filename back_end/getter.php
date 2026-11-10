@@ -6,6 +6,11 @@ function httpRequest($url, $post="") {
     global $settings;
 
     $ch = curl_init();
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 15);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 45);
+    if (PHP_SAPI === 'cli') {
+        fwrite(STDERR, "HTTP " . (empty($post) ? 'GET' : 'POST') . " $url\n");
+    }
     //Change the user agent below suitably
     curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0');
     curl_setopt($ch, CURLOPT_URL, ($url));
@@ -33,11 +38,18 @@ function httpRequest($url, $post="") {
 
     $xml = curl_exec($ch);
 
-    if (!$xml) {
-        throw new Exception("Error getting data from server ($url): " . curl_error($ch));
-    }
-
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $elapsed = curl_getinfo($ch, CURLINFO_TOTAL_TIME);
+    $error = curl_error($ch);
+    $errno = curl_errno($ch);
     curl_close($ch);
+    $details = "HTTP $status, curl=$errno, elapsed={$elapsed}s, bytes=" . ($xml === false ? 0 : strlen($xml));
+    if (PHP_SAPI === 'cli') {
+        fwrite(STDERR, "$url: $details\n");
+    }
+    if ($xml === false || $xml === '' || $status < 200 || $status >= 300) {
+        throw new RuntimeException("Error getting data from server ($url): $details; $error");
+    }
 
     return $xml;
 }
@@ -76,6 +88,10 @@ try {
         throw new Exception("Plan number is empty");
     }
 
+    if (PHP_SAPI === 'cli') {
+        fwrite(STDERR, "Selected exam plan $plan_no for $year semester $semester\n");
+    }
+
     ### Course data
     $request['r_search_type'] = 'F';
     $request['boption'] = 'Search';
@@ -85,7 +101,10 @@ try {
     $request['staff_access'] = 'false';
 
     $response = httpRequest("https://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1", $request);
-    file_put_contents("data/raw/". $year . "_" . $semester . ".html", $response);
+    $path = "data/raw/{$year}_{$semester}.html";
+    if (file_put_contents($path, $response) === false) {
+        throw new RuntimeException("Could not write course HTML: $path");
+    }
 
 
     ### Exam data
@@ -104,9 +123,16 @@ try {
 
     $response = httpRequest("https://wis.ntu.edu.sg/webexe/owa/exam_timetable_und.get_detail", $request);
 
-    file_put_contents("data/raw/". $year . "_" . $semester . "_exam.html", $response);
+    $path = "data/raw/{$year}_{$semester}_exam.html";
+    if (file_put_contents($path, $response) === false) {
+        throw new RuntimeException("Could not write exam HTML: $path");
+    }
 
     echo "OK";
-} catch (Exception $e) {
+} catch (Throwable $e) {
+    if (PHP_SAPI === 'cli') {
+        fwrite(STDERR, get_class($e) . ": " . $e->getMessage() . "\n");
+        exit(1);
+    }
     die ($e->getMessage());
 }
